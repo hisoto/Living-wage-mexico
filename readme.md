@@ -80,16 +80,22 @@ Anker Methodology, which consists of several steps:
 
 2.  **Estimating the cost of food**: The cost of food is estimated using
     the ENIGH to identify the cost of a representative food basket for a
-    reference quintile of the income distribution, which is determined
-    by modifying the methodology used by ECLAC for the estimation of
+    reference quintile of the income distribution, which is selected by
+    modifying the methodology used by ECLAC for the estimation of
     poverty lines. The reference household is defined as a household
     with two adults and two children that comply with living adequacy
-    criteria, a common family structure in Mexico and that is aligned
-    with the objectives set in the National Development Plan of the
-    federal government. The cost of the food basket is calculated using
-    the prices of food items reported in the ENIGH data at the national,
+    criteria. The size and composition of the reference household
+    reflect a common family structure in Mexico and that is aligned with
+    the objectives set in the National Development Plan of the federal
+    government. The cost of the food basket is calculated using the
+    prices of food items reported in the ENIGH data at the national,
     state, urban and rural levels plus a 20% extra considering the cost
     of waste(5%) and of food diversity (15%).
+
+The selection of the reference quintile is based on a set of
+
+![Food basket cost by state and urban/rural
+areas](graphs/indicadores_bienestar.png)
 
 3.  **Estimating the cost of housing**: The cost of housing is estimated
     using the ENIGH data with a quantile regression approach to estimate
