@@ -416,7 +416,7 @@ rm(resultados_urbano,
 
 # Se cargan los valores estimados de una vivienda digna
 
-canasta_vivienda <- fread("finaldata/vivienda/70_prob_cv_excel.csv") %>%
+canasta_vivienda <- fread("finaldata/vivienda/canasta_vivienda.csv") %>%
   mutate(
     pred = pred / 4,
     # Entre cuatro para el valor individual

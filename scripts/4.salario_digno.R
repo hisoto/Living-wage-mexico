@@ -20,7 +20,7 @@ nanv <- fread("finaldata/nanv/1.canasta_nanv.csv") %>%
   mutate(ambito = ifelse(rural == 1, "Rural", "Urbano")) %>%
   select(nom_ent, ambito, NANV)
 
-vivienda <- fread("finaldata/vivienda/70_prob_cv_excel.csv") %>%
+vivienda <- fread("finaldata/vivienda/canasta_vivienda.csv") %>%
   mutate(
     vivienda_mensual = pred / 3,
     nom_ent = case_when(
