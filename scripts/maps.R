@@ -126,7 +126,7 @@ sd_rural <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
   labs(title = "Rural", fill = "") +
   scale_fill_manual(values = etiquetas) +
   theme_void() +
-  theme(legend.position = "none",
+  theme(legend.position = c(0.2,0.2),
         text = element_text(family = "Noto Sans"),
         legend.key.size = unit(0.4, "cm"),
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5))

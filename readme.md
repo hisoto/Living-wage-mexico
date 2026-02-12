@@ -158,11 +158,20 @@ estimates and their implications for policy and labor market dynamics in
 Mexico.
 
 The following map shows the preliminary results of the living wage
-estimation for the 32 states of Mexico, disaggregated by urban and rural
-areas. The living wage estimates are expressed in Mexican pesos per
-month in August 2024 prices. At the national level the living wage is
-estimated at 17,091.64 pesos per month for rural areas and 20,010.68
-pesos per month for urban areas.
+estimation for the urban areas of the 32 states of Mexico. The living
+wage estimates are expressed in Mexican pesos per month in August 2024
+prices. At the national level the living wage is estimated at 20,010.68
+pesos per month, while at the state level, the living wage estimates
+range from 15,554.44 pesos per month in Tlaxcala to 27,719.53 pesos per
+month in Baja California.
 
 ![Living wage estimates by state and urban/rural
-areas](graphs/maps/mapa_wage_combined.png)
+areas](graphs/maps/mapa_wage_urbano.png)
+
+In contrast, the living wage estimates for rural areas at the nationa
+level is estimated at 17,091.64 pesos per month, while at the state
+level, the living wage estimates range from 13,115.46 pesos per month in
+Tlaxcala to 24,107.59 pesos per month in Ciudad de México.
+
+![Living wage estimates by state and urban/rural
+areas](graphs/maps/mapa_wage_rural.png)
