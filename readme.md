@@ -7,18 +7,20 @@
 
 The purpose of this repository is to present the methodology and code
 for the subnational living wage estimation in Mexico. This project was
-directed by me, in my position as the Labor Economics Analysis
-Coordinator, and in collaboration with my partners at the Economic
-Analysis Directorate of the National Minimum Wage Commission (CONASAMI)
-in Mexico. This project aims to provide a comprehensive and transparent
-approach to estimating living wages across different regions of Mexico,
-taking into account national and international standards for quality of
-life. It’s purpose is the serve as a reference in minimum wage, salary
-and contractual negotiations. This work is currently under review by
-different institutions in Mexico, like the National Institute of
-Statistics and Geography ([INEGI](https://www.inegi.org.mx/)), but a
-preliminary version of the final results can be found in the [September
-monthly
+directed by [me](https://hisoto.github.io/), in my position as the Labor
+Economics Analysis Coordinator, and in collaboration with my partners at
+the [Economic Analysis
+Directorate](https://www.gob.mx/conasami/estructuras/damyr) of the
+National Minimum Wage Commission
+([CONASAMI](https://www.gob.mx/conasami)) in Mexico. This project aims
+to provide a comprehensive and transparent approach to estimating living
+wages across different regions of Mexico, taking into account national
+and international standards for quality of life. It’s purpose is the
+serve as a reference in minimum wage, salary and contractual
+negotiations. This work is currently under review by different
+institutions in Mexico, like the National Institute of Statistics and
+Geography ([INEGI](https://www.inegi.org.mx/)), but a preliminary
+version of the final results can be found in the [September monthly
 report](https://www.gob.mx/cms/uploads/attachment/file/1024349/Informe_Septiembre_2025.pdf)
 of CONASAMI.
 
