@@ -258,9 +258,12 @@ g.alimento <- ggplot(tabla.percentil.indicadores) +
   theme_conasami()  +
   theme(
     legend.position = "bottom",
-    plot.title = element_text(hjust = 0.5, size = 18),
-    axis.title = element_text(size = 20),
-    legend.text = element_text(size = 16)
+    plot.title = element_text(hjust = 0.5, size = 18, color = "white"),
+    axis.title = element_text(size = 20, color = "white"),
+    legend.text = element_text(size = 16, color = "white"),
+    legend.title = element_text(color = "white"),
+    plot.caption = element_text(color = "white"),
+    axis.text = element_text(color = "white")
   )
 
 ggsave(
