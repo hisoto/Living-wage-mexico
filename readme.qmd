@@ -1,6 +1,8 @@
 ---
-title: "readme"
-format: html
+title: "README"
+format:
+  html: default
+  gfm: default
 ---
 
 # Subnational Living Wage Estimation in Mexico
