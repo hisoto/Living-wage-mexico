@@ -16,23 +16,26 @@ taking into account national and international standards for quality of
 life. It’s purpose is the serve as a reference in minimum wage, salary
 and contractual negotiations. This work is currently under review by
 different institutions in Mexico, like the National Institute of
-Statistics and Geography (INEGI), but a preliminary version of the final
-results can be found in the [September monthly
+Statistics and Geography ([INEGI](https://www.inegi.org.mx/)), but a
+preliminary version of the final results can be found in the [September
+monthly
 report](https://www.gob.mx/cms/uploads/attachment/file/1024349/Informe_Septiembre_2025.pdf)
 of CONASAMI.
 
 It is based on the Anker Methodology, which is a widely used approach
-for calculating living wages. Particularly, on the subnational
-estimation made in Brazil, but in consideration of the differences of
-the Mexican context, the main data sources, and the institutional
-constraints we faced, it has been modified to include the framework
-developed by the Economic Commission for Latin America and the Caribbean
-(ECLAC) for the estimation of the cost of poverty lines. The code is
-written in R and Stata, it is organized into several scripts and one
-Do-file that correspond to different components of the living wage;
-food, housing and non-food-non-housing (NFNH) costs. The repository also
-includes a script for the final estimation of the living wage, which
-combines the results from the previous scripts.
+for calculating living wages. Particularly, on the [subnational
+estimation](https://www.ankerresearchinstitute.org/anker-program-subnational#brazil)
+made in Brazil, but in consideration of the differences of the Mexican
+context, the main data sources, and the institutional constraints we
+faced, it has been modified to include the framework developed by the
+Economic Commission for Latin America and the Caribbean (ECLAC) for the
+estimation of the cost of [poverty
+lines](https://www.cepal.org/en/publications/44920-income-poverty-measurement-updated-methodology-and-results).
+The code is written in R and Stata, it is organized into several scripts
+and one Do-file that correspond to different components of the living
+wage; food, housing and non-food-non-housing (NFNH) costs. The
+repository also includes a script for the final estimation of the living
+wage, which combines the results from the previous scripts.
 
 ## Data sources
 
@@ -53,6 +56,9 @@ The repository is organized into the following folders and files:
 
 - `data/`: This folder contains the raw data used for the analysis,
   including microdata from national surveys and other relevant datasets.
+  **NOTE:** Due the size of the ENIGH microdata, it is not included in
+  the repository, but it can be accessed through the INEGI
+  [website](https://www.inegi.org.mx/programas/enigh/nc/2024/#microdatos).
 - `scripts/`: This folder contains the R and Stata scripts for the
   different components of the living wage estimation, as well as the
   final estimation script.
