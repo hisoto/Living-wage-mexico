@@ -162,8 +162,12 @@ for (ambito in c(0, 1)) {
               linewidth = 1) +
     labs(title = "", x = "Probabilidad acumulada del Gasto Corriente", y = "Alquiler per cápita") +
     theme_conasami() +
-    theme(plot.title = element_text(hjust = 0.5),
-          axis.title.x = element_text(size = 10))
+    theme(
+      plot.title = element_text(hjust = 0.5, color = "white"),
+      axis.title = element_text(size = 10, color = "white"),
+      text = element_text(family = "Noto Sans", color = "white"),
+      axis.text = element_text(color = "white")
+        )
   
   ggsave(
     filename = paste0(

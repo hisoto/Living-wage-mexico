@@ -52,7 +52,7 @@ the living wage, such as food, housing, and non-food-non-housing costs.
 
 ## Repository Structure
 
-The repository is organized into the following folders and files:
+The repository is organized into the following folders:
 
 - `data/`: This folder contains the raw data used for the analysis,
   including microdata from national surveys and other relevant datasets.
@@ -90,12 +90,27 @@ Anker Methodology, which consists of several steps:
     government. The cost of the food basket is calculated using the
     prices of food items reported in the ENIGH data at the national,
     state, urban and rural levels plus a 20% extra considering the cost
-    of waste(5%) and of food diversity (15%).
+    of waste (5%) and of food diversity (15%).
 
 The selection of the reference quintile is based on a set of
+*Indicadores de Bienestar* developed to identify households with
+adequate conditions in the dimensions of housing, food, basic services,
+and education. The percentile of the distribution of current per capita
+income to which each household belongs was then identified by ordering
+households from lowest to highest and calculating the proportion of
+households that meet the *Indicador de Bienestar* for each percentile.
+When graphing the income distribution against the calculated average,
+the indicators that showed a clear positive relationship with current
+income were selected. In other words, priority was given to those with
+low incidence in the left tail and high incidence in the right tail of
+the distribution.
 
-![Food basket cost by state and urban/rural
-areas](graphs/indicadores_bienestar.png)
+The next graphs shows the indicator for the food dimension. In this
+particular case, the indicator *Sin falta de alimentos* tracks the
+percentage of households in each percentile that reported having
+experience a lack of food.
+
+![Food wellbeing indicators](graphs/indicadores_alimentarios.png)
 
 3.  **Estimating the cost of housing**: The cost of housing is estimated
     using the ENIGH data with a quantile regression approach to estimate
@@ -110,14 +125,21 @@ areas](graphs/indicadores_bienestar.png)
 
 4.  **Estimating the cost of non-food-non-housing (NFNH) expenses**: The
     cost of NFNH expenses is estimated using the results of the housing
-    cost. Using ENIGH we plot the relationship between the housing
-    expenditure and the total expenditure probability distribution and
-    we select the percentile that corresponds to the one selected for
-    the housing cost estimation. This approach is based on the
-    assumption that the NFNH expenses are correlated with housing
-    expenses, which is a common assumption in living wage estimation
-    methodologies. The cost of NFNH expenses is estimated at the
-    national, state, urban and rural levels.
+    cost. Using ENIGH, we plot the relationship between housing
+    expenditure and the total expenditure probability distribution, and
+    we select the percentile that corresponds to the one chosen for the
+    housing cost estimation. The average expenditure of the next five
+    percentiles above the selected cutoff is then calculated and used as
+    the benchmark for NFNH expenses. The next graph shows the plot for
+    urban areas at the national level.
+
+![Relation between total expenses probability distribution and housing
+expenses](graphs/relacion/nacional/urbano_nacional.png)
+
+This approach is based on the assumption that the NFNH expenses are
+correlated with housing expenses, which is a sensible assumption in
+living wage estimation methodologies. The cost of NFNH expenses is
+estimated at the national, state, urban and rural levels.
 
 5.  **Calculating the living wage**: The living wage is calculated by
     summing the costs of food, housing, and NFNH expenses for the
@@ -128,18 +150,6 @@ state and urban/rural areas, and two for the national level, one for
 urban and one for rural areas.
 
 ## Results
-
-``` r
-pacman:::p_load(
-    data.table,
-    tidyverse,
-    dplyr
-)
-
-living_wage <- fread("salario_digno.csv")
-
-glimpse(living_wage)
-```
 
     Rows: 66
     Columns: 11
