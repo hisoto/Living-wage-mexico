@@ -113,7 +113,7 @@ sd_urbano <- ggplot(data = salario_digno %>% filter(ambito == "Urbano")) +
   scale_fill_manual(values = etiquetas) +
   theme_void() +
   theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans"),
+        text = element_text(family = "Noto Sans", color = "white"),
         legend.key.size = unit(0.4, "cm"),
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
 
@@ -127,7 +127,7 @@ sd_rural <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
   scale_fill_manual(values = etiquetas) +
   theme_void() +
   theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans"),
+        text = element_text(family = "Noto Sans", color = "white"),
         legend.key.size = unit(0.4, "cm"),
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
 
