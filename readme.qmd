@@ -1,7 +1,6 @@
 ---
 title: "README"
 format:
-  html: default
   gfm: default
 ---
 
