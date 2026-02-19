@@ -119,7 +119,18 @@ sd_urbano <- ggplot(data = salario_digno %>% filter(ambito == "Urbano")) +
 
 sd_urbano
 
+sd_urbano_black <- ggplot(data = salario_digno %>% filter(ambito == "Urbano")) +
+  geom_sf(aes(fill = valores), color = "black") +
+  labs(title = "Urbano", fill = "") +
+  scale_fill_manual(values = etiquetas) +
+  theme_void() +
+  theme(legend.position = c(0.2,0.2),
+        text = element_text(family = "Noto Sans", color = "black"),
+        legend.key.size = unit(0.4, "cm"),
+        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
+
 ggsave("graphs/maps/mapa_wage_urbano.png", sd_urbano, dpi = 300)
+ggsave("graphs/maps/mapa_wage_urbano_black.png", sd_urbano_black, dpi = 300)
 
 sd_rural <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
   geom_sf(aes(fill = valores), color = "black") +
@@ -133,7 +144,18 @@ sd_rural <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
 
 sd_rural
 
+sd_rural_black <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
+  geom_sf(aes(fill = valores), color = "black") +
+  labs(title = "Rural", fill = "") +
+  scale_fill_manual(values = etiquetas) +
+  theme_void() +
+  theme(legend.position = c(0.2,0.2),
+        text = element_text(family = "Noto Sans", color = "black"),
+        legend.key.size = unit(0.4, "cm"),
+        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
+
 ggsave("graphs/maps/mapa_wage_rural.png", sd_rural, dpi = 300)
+ggsave("graphs/maps/mapa_wage_rural_black.png", sd_rural_black, dpi = 300)
 
 combined <- sd_urbano +  
   sd_rural + 
