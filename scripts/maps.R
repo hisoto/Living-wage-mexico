@@ -149,7 +149,7 @@ sd_rural_black <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
   labs(title = "Rural", fill = "") +
   scale_fill_manual(values = etiquetas) +
   theme_void() +
-  theme(legend.position = c(0.2,0.2),
+  theme(legend.position = "None",
         text = element_text(family = "Noto Sans", color = "black"),
         legend.key.size = unit(0.4, "cm"),
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
@@ -157,8 +157,8 @@ sd_rural_black <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
 ggsave("graphs/maps/mapa_wage_rural.png", sd_rural, dpi = 300)
 ggsave("graphs/maps/mapa_wage_rural_black.png", sd_rural_black, dpi = 300)
 
-combined <- sd_urbano +  
-  sd_rural + 
+combined <- sd_urbano_black +  
+  sd_rural_black + 
   plot_layout(ncol = 2) +
   plot_annotation(
     title = "") + 
