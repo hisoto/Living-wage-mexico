@@ -1,2 +1,12 @@
 data/
 *.dta
+referencias/ 
+presentaciones/ 
+CLAUDE.md
+.claude/ 
+.vscode/
+documentos/
+
+# Canasta de vivienda en R (en desarrollo, aún no versionada)
+scripts/2.canasta_vivienda.R
+finaldata/vivienda/canasta_vivienda_stata.csv
