@@ -40,17 +40,17 @@ if (!require(pacman))
 library(pacman)
 
 p_load(
-  "tidyverse",
-  "stringr",
-  "survey",
-  "srvyr",
-  "data.table",
-  "foreign",
-  "extrafont",
-  "scam",
-  "statar",
-  "Hmisc",
-  "haven"
+  tidyverse,
+  stringr,
+  survey,
+  srvyr,
+  data.table,
+  foreign,
+  extrafont,
+  scam,
+  statar,
+  Hmisc,
+  haven
 )
 
 source("scripts/theme_conasami.R")
@@ -59,7 +59,7 @@ source("scripts/theme_conasami.R")
 
 concentrado <- read_dta("data/enigh2024_ns_concentradohogar_dta/concentradohogar.dta") # Base que contiene los indicadores de la ENIGH
 
-concentrado <- concentrado %>%
+concentrado <- concentrado |>
   mutate(
     rural = ifelse(substr(folioviv, 3, 3) == "6", 1, 0),
     # Identificamos rural
@@ -103,30 +103,30 @@ concentrado <- concentrado %>%
     # Identificamos el gasto en vivienda y el corriente total por persona
     viv_p = viv / tot_integ,
     gasto_mon_p = gasto_mon / tot_integ
-  ) %>%
+  ) |>
   # Eliminamos a todos los hogares que no reportaran gasto
   filter(viv != 0)
 #_______________________________________________________________________________
 
 # Quitamos los outliers por entidad
 
-concentrado <- concentrado %>%
-  arrange(gasto_mon) %>%
-  group_by(nom_ent, rural) %>%
-  mutate(percentil = xtile(gasto_mon, n = 100, wt = factor))  %>%
-  filter(percentil >= 5 & percentil <= 95) %>%
-  ungroup() %>%
-  group_by(nom_ent) %>%
+concentrado <- concentrado |>
+  arrange(gasto_mon) |>
+  group_by(nom_ent, rural) |>
+  mutate(percentil = xtile(gasto_mon, n = 100, wt = factor))  |>
+  filter(percentil >= 5 & percentil <= 95) |>
+  ungroup() |>
+  group_by(nom_ent) |>
   mutate(
     gasto_cum = wtd.rank(gasto_mon, factor) / sum(factor),
     gasto_p_cum = wtd.rank(gasto_mon_p, factor) / sum(factor)
-  ) %>%
-  filter(!is.na(gasto_cum), !is.na(viv_p), !is.na(gasto_p_cum)) %>%
-  ungroup() %>%
+  ) |>
+  filter(!is.na(gasto_cum), !is.na(viv_p), !is.na(gasto_p_cum)) |>
+  ungroup() |>
   mutate(
     gasto_cum_na = wtd.rank(gasto_mon, factor) / sum(factor),
     gasto_p_cum_na = wtd.rank(gasto_mon_p, factor) / sum(factor)
-  ) %>%
+  ) |>
   filter(!is.na(gasto_p_cum_na), !is.na(gasto_cum_na))
 
 #_______________________________________________________________________________
@@ -138,15 +138,15 @@ for (ambito in c(0, 1)) {
   cat("Procesando:", ambito, "\n")
   
   # Se filtran los datos
-  datos_ambito <- concentrado %>%
-    filter(rural == ambito) %>%
+  datos_ambito <- concentrado |>
+    filter(rural == ambito) |>
     arrange(gasto_p_cum_na)
   
   # Se crea el modelo con la paqueteria scam
   modelo_ambito <- scam(viv_p ~ s(gasto_p_cum_na, bs = "mpi"), data = datos_ambito)
   
   # Se generan las predicciones
-  datos_ambito <- datos_ambito %>%
+  datos_ambito <- datos_ambito |>
     mutate(pred = predict.scam(modelo_ambito))
   
   ggplot(datos_ambito) +
@@ -260,19 +260,19 @@ entidades <- c(
 
 resultados_urbano <- list()
 
-entidades_urbano <- concentrado %>%
+entidades_urbano <- concentrado |>
   filter(rural == 0)
 
 for (ent in entidades) {
   cat("Procesando:", ent, "\n")
   
-  datos_ent <- entidades_urbano %>%
-    filter(nom_ent == ent) %>%
+  datos_ent <- entidades_urbano |>
+    filter(nom_ent == ent) |>
     arrange(gasto_p_cum)
   
   modelo_ent <- scam(viv_p ~ s(gasto_p_cum, bs = "mpi"), data = datos_ent)
   
-  datos_ent <- datos_ent %>%
+  datos_ent <- datos_ent |>
     mutate(pred = predict.scam(modelo_ent))
   
   
@@ -334,19 +334,19 @@ rm(modelo_ent, datos_ent)
 
 resultados_rural <- list()
 
-entidades_rural <- concentrado %>%
+entidades_rural <- concentrado |>
   filter(rural == 1)
 
 for (ent in entidades) {
   cat("Procesando:", ent, "\n")
   
-  datos_ent <- entidades_rural %>%
-    filter(nom_ent == ent) %>%
+  datos_ent <- entidades_rural |>
+    filter(nom_ent == ent) |>
     arrange(gasto_p_cum)
   
   modelo_ent <- scam(viv_p ~ s(gasto_p_cum, bs = "mpi"), data = datos_ent)
   
-  datos_ent <- datos_ent %>%
+  datos_ent <- datos_ent |>
     mutate(pred = predict.scam(modelo_ent))
   
   ggplot(datos_ent) +
@@ -420,7 +420,7 @@ rm(resultados_urbano,
 
 # Se cargan los valores estimados de una vivienda digna
 
-canasta_vivienda <- fread("finaldata/vivienda/canasta_vivienda.csv") %>%
+canasta_vivienda <- fread("finaldata/vivienda/canasta_vivienda.csv") |>
   mutate(
     pred = pred / 4,
     # Entre cuatro para el valor individual
@@ -496,29 +496,29 @@ safe_f_inv <- function(numeric_value, state, is_rural) {
 
 # Se aplica la función
 
-canasta_vivienda <- canasta_vivienda %>%
-  rowwise() %>%
-  mutate(inverse_result = safe_f_inv(pred, nom_ent, rural)) %>%
+canasta_vivienda <- canasta_vivienda |>
+  rowwise() |>
+  mutate(inverse_result = safe_f_inv(pred, nom_ent, rural)) |>
   ungroup()
 
 #_______________________________________________________________________________
 
 # Entidades
 
-concentrado <- concentrado %>% # pegamos los resultados anteriores a concentrado
-  left_join(canasta_vivienda %>%
+concentrado <- concentrado |> # pegamos los resultados anteriores a concentrado
+  left_join(canasta_vivienda |>
               select(nom_ent, rural, inverse_result),
             by = c("nom_ent", "rural"))
 
 # Se hace una lista anidada de concentrado por entidad y ambito
-concentrado <- concentrado %>%
-  group_by(nom_ent, rural) %>%
+concentrado <- concentrado |>
+  group_by(nom_ent, rural) |>
   nest()
 
 # Generamos la función para obtener el valor de NANV
 
 mean_gasto_mon_fun <- function(dat) {
-  df <- dat %>%
+  df <- dat |>
     # Para cada entidad filtra el intervalo que comienza con la estimación de f_inv
     filter(gasto_p_cum >= inverse_result &
              gasto_p_cum <= (inverse_result + .1))
@@ -542,12 +542,12 @@ mean_gasto_mon_fun <- function(dat) {
 
 
 # Se aplica la función a la lista anidada
-canv <- concentrado %>%
+canv <- concentrado |>
   mutate(mean_gasto_mon = map(data, mean_gasto_mon_fun))
 
 # Se guarda en un df
-final <- canv %>%
-  select(rural, nom_ent, mean_gasto_mon) %>%
+final <- canv |>
+  select(rural, nom_ent, mean_gasto_mon) |>
   mutate(mean_gasto_mon = map_dbl(mean_gasto_mon, ~ as.numeric(.x[1])))
 
 
@@ -556,25 +556,25 @@ final <- canv %>%
 # Se repite el mismo proceso para Nacional
 # Nacional
 
-concentrado <- concentrado %>%
+concentrado <- concentrado |>
   # Desabidamos concentrado
   unnest(data)
 
-p <- canasta_vivienda %>%
-  filter(nom_ent == "Nacional") %>%
-  select(rural, inverse_result) %>%
+p <- canasta_vivienda |>
+  filter(nom_ent == "Nacional") |>
+  select(rural, inverse_result) |>
   rename(inverse_nac = inverse_result)
 
-concentrado <- concentrado %>%
+concentrado <- concentrado |>
   left_join(p, by = c("rural"))
 
-concentrado <- concentrado %>%
+concentrado <- concentrado |>
   # Anidamos concentrado por ambito
-  group_by(rural) %>%
+  group_by(rural) |>
   nest()
 
 mean_gasto_mon_fun_nac <- function(dat) {
-  df <- dat %>%
+  df <- dat |>
     # En este caso se usa la distribución nacional
     filter(gasto_p_cum_na >= inverse_nac &
              gasto_p_cum_na <= (inverse_nac + .1))
@@ -594,30 +594,43 @@ mean_gasto_mon_fun_nac <- function(dat) {
   
 }
 
-concentrado <- concentrado %>%
+concentrado <- concentrado |>
   # Aplicamos la función a la lista anidada
   mutate(mean_gasto_mon = map(data, mean_gasto_mon_fun_nac))
 
 # Creamos un df
-nacional <- concentrado %>%
-  select(rural, mean_gasto_mon) %>%
-  mutate(mean_gasto_mon = map_dbl(mean_gasto_mon, ~ as.numeric(.x[1]))) %>%
+nacional <- concentrado |>
+  select(rural, mean_gasto_mon) |>
+  mutate(mean_gasto_mon = map_dbl(mean_gasto_mon, ~ as.numeric(.x[1]))) |>
   mutate(nom_ent = "Nacional")
 
 # Unimos entidades y nacional
-final <- final %>%
-  bind_rows(nacional) %>%
+final <- final |>
+  bind_rows(nacional) |>
   left_join(
-    canasta_vivienda %>% 
+    canasta_vivienda |> 
       select(-c(inverse_result)), by = c("rural", "nom_ent")
-    ) %>%
-  rename(vivienda = pred) %>%
-  arrange(desc(mean_gasto_mon)) %>%
-  mutate(NANV = mean_gasto_mon / 3) %>% # se divide entre tres para obtener el valor mensual
-  select(-c(mean_gasto_mon)) %>%
+    ) |>
+  rename(vivienda = pred) |>
+  arrange(desc(mean_gasto_mon)) |>
+  mutate(NANV = mean_gasto_mon / 3) |> # se divide entre tres para obtener el valor mensual
+  select(-c(mean_gasto_mon)) |>
   relocate(nom_ent, cve_ent, rural, vivienda, NANV)
 
 fwrite(final, "finaldata/nanv/1.canasta_nanv.csv")
+
+percentiles_nanv <- canasta_vivienda |> 
+  select(
+    cve_ent,
+    nom_ent,  
+    rural, 
+    inverse_result
+  ) |> 
+  rename(
+    percentil_referencia = inverse_result
+  )
+
+fwrite(percentiles_nanv, "finaldata/nanv/2.percentiles_nanv.csv")
 
 ################################################################################
 
@@ -627,7 +640,7 @@ fwrite(final, "finaldata/nanv/1.canasta_nanv.csv")
 
 # Graficas ---------------------------------------------------------------------
 
-ggplot(canasta_vivienda %>% mutate(rural = as.character(rural))) +
+ggplot(canasta_vivienda |> mutate(rural = as.character(rural))) +
   geom_bar(
     mapping = aes(
       x = reorder(nom_ent, inverse_result * (rural == 1)),
@@ -661,17 +674,17 @@ ggsave(
 
 # prueba de valores alternativos de NANV
 
-ratio <- concentrado %>%
-  unnest(data) %>%
+ratio <- concentrado |>
+  unnest(data) |>
   filter(gasto_p_cum_na >= (inverse_nac - .1) &
-           gasto_p_cum_na <= (inverse_nac + .1)) %>%
-  group_by() %>%
+           gasto_p_cum_na <= (inverse_nac + .1)) |>
+  group_by() |>
   summarise(ratio = median((gasto_mon -
                               viv -
-                              alimentos) / viv)) %>%
+                              alimentos) / viv)) |>
   pull()
 
-alternativo <- final %>%
+alternativo <- final |>
   mutate(
     vivienda = (vivienda * 4) / 3,
     nanv_alt = ifelse((vivienda * ratio) < NANV, vivienda * ratio, NANV)
