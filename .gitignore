@@ -10,3 +10,10 @@ documentos/
 # Canasta de vivienda en R (en desarrollo, aún no versionada)
 scripts/2.canasta_vivienda.R
 finaldata/vivienda/canasta_vivienda_stata.csv
+
+# Scripts legacy en consolidación (no forman parte del pipeline 1->4->maps)
+scripts/otros/
+
+# Artefactos sueltos / formatos no versionados
+*.eps
+Rplots.pdf
