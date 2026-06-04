@@ -1,0 +1,33 @@
+dimension,fuente,metrica,valor
+Alimentación,CONASAMI,pct_nacional,66.9049114568727
+Alimentación,INEGI,pct_nacional,88.3241072741521
+Alimentación,CONASAMI,pct_p10,41.2929891199382
+Alimentación,INEGI,pct_p10,76.6548638382798
+Alimentación,CONASAMI,pct_p90,87.5134142314677
+Alimentación,INEGI,pct_p90,94.7632904077926
+Alimentación,CONASAMI,hogares_cumplen,25979331
+Alimentación,INEGI,hogares_cumplen,34296454
+Vivienda (calidad),CONASAMI,pct_nacional,41.5811263543894
+Vivienda (calidad),INEGI,pct_nacional,93.8441235089259
+Vivienda (calidad),CONASAMI,pct_p10,23.758964784652
+Vivienda (calidad),INEGI,pct_p10,86.009914375845
+Vivienda (calidad),CONASAMI,pct_p90,61.1872110780915
+Vivienda (calidad),INEGI,pct_p90,99.272277942876
+Vivienda (calidad),CONASAMI,hogares_cumplen,16146047
+Vivienda (calidad),INEGI,hogares_cumplen,36439889
+Servicios básicos,CONASAMI,pct_nacional,64.4244548641613
+Servicios básicos,INEGI,pct_nacional,87.3897656542338
+Servicios básicos,CONASAMI,pct_p10,32.9013068949977
+Servicios básicos,INEGI,pct_p10,71.8248889461147
+Servicios básicos,CONASAMI,pct_p90,87.3150383853393
+Servicios básicos,INEGI,pct_p90,98.8249649166254
+Servicios básicos,CONASAMI,hogares_cumplen,25016164
+Servicios básicos,INEGI,hogares_cumplen,33933647
+Educación,CONASAMI,pct_nacional,90.1210706194632
+Educación,INEGI,pct_nacional,62.2754487933757
+Educación,CONASAMI,pct_p10,81.313847936651
+Educación,INEGI,pct_p10,38.4492371080925
+Educación,CONASAMI,pct_p90,98.9227340267459
+Educación,INEGI,pct_p90,92.3943887237907
+Educación,CONASAMI,hogares_cumplen,34994219
+Educación,INEGI,hogares_cumplen,24181700
