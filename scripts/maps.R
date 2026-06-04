@@ -1,382 +1,143 @@
 #_______________________________________________________________________________
-
-# Coordinación de Analísis de la Economía Laboral 
-# Script para gráficas del salario digno 
-
+# maps.R
+#
+# Coordinación de Análisis de la Economía Laboral (CAEL) — Conasami
+# Salario Digno — mapas coropléticos por entidad y ámbito
+#
+# Propósito: generar los mapas de los cuatro rubros (canasta de alimentos, canasta
+#   de vivienda, NANV y salario digno neto) por entidad y ámbito, en paneles urbano
+#   y rural. Clasifica cada rubro en cinco categorías de monto y aplica una rampa
+#   verde -> guinda de la paleta institucional DT 2026.
+#
+# Inputs:  salario_digno.csv (raíz; salida del script 4)
+# Outputs (graphs/maps/, PNG 300 dpi + EPS):
+#   mapa_alimentos_{urbano,rural,combined}
+#   mapa_vivienda_{urbano,rural,combined}
+#   mapa_nanv_{urbano,rural,combined}
+#   mapa_wage_{urbano,rural,combined}
+#
+# Notas: paso 5 del pipeline (1 -> 2 -> 3 -> 4 -> maps); requiere salario_digno.csv.
+#   Sigue el patrón de 000_representatividad.R (tema_mapa() + geom_sf + PNG/EPS). Las
+#   filas "Nacional" no tienen geometría y se descartan solas en el join. Los cortes
+#   de cada rubro son fijos (categorías de monto), no se recalculan con los datos.
 #_______________________________________________________________________________
 
 rm(list = ls()); gc()
+options(scipen = 999)
 
-if (!require(pacman)) install.packages("pacman") 
-library(pacman)
+if (!require(pacman)) install.packages("pacman")
 
-p_load("tidyverse",
-       "stringr", 
-       "Hmisc",
-       "EnvStats",
-       "survey",
-       "srvyr", 
-       "data.table",
-       "bit64", 
-       "statar", 
-       "foreign", 
-       "openxlsx", 
-       "extrafont", 
-       "readxl", 
-       "patchwork",
-       "rnaturalearth",
-       "rnaturalearthhires",
-       "haven")
+pacman::p_load(
+  tidyverse,
+  haven,
+  data.table,
+  patchwork,
+  sf,
+  rnaturalearth,
+  rnaturalearthhires
+)
 
 source("scripts/theme_conasami.R")
 
-#install.packages("rnaturalearthhires", repos = "https://ropensci.r-universe.dev", type = "source")
+dir.create("graphs/maps", showWarnings = FALSE, recursive = TRUE)
 
-#_______________________________________________________________________________
+# ── datos ──────────────────────────────────────────────────────────────────────
 
-living_wage <- fread("salario_digno.csv") %>% 
-  rename(salario_digno_neto = salario_digno,
-         alimentos_individual = canasta_alimentos,
-         nanv = NANV,
-         vivienda_familiar = vivienda_mensual)
-
-# gráfica de barras ------------------------------------------------------------
-
-ggplot(living_wage) +
-  geom_bar(
-    aes(x = reorder(nom_ent, salario_digno_neto*(rural == 1)), y = salario_digno_neto, fill = as.factor(rural)), 
-    stat = "identity",
-    position = "dodge"
-    ) +
-  theme_conasami() + 
-  scale_fill_manual(
-    values = c("0" = "#611232", "1" = "#98989A"),
-    labels = c("Urbano", "Rural")
-  ) +
-  scale_color_manual(
-    values = c("0" = "#611232", "1" = "#98989A"),
-    labels = c("Urbano", "Rural")
-  ) + 
-  labs(title = "Salario Digno Neto por entidad federativa y ámbito",
-       x = "",
-       y = "", 
-       fill= "", 
-       caption = "") + 
-    theme(axis.text.x = element_text(angle = 90, hjust = 1),
-          plot.title = element_text(hjust = 0.5)) 
-
-ggsave(
-  "graphs/bar_living_wage.png", 
-  plot = last_plot(),
-  dpi = 300
-)
-
-# base_mapa --------------------------------------------------------------------
+living_wage <- fread("salario_digno.csv") |>
+  rename(
+    salario_digno_neto   = salario_digno,
+    alimentos_individual = canasta_alimentos,
+    nanv                 = NANV,
+    vivienda_familiar    = vivienda_mensual
+  )
 
 mexico <- ne_states(country = "Mexico", returnclass = "sf")
 mexico$name <- ifelse(mexico$name == "Distrito Federal", "Ciudad de México", mexico$name)
+# ne_states devuelve 33 features: una geometría degenerada (área 0, name = NA) que,
+# de conservarse, aparece como categoría "NA" en la leyenda. Se descarta.
+mexico <- mexico |> filter(!is.na(name))
 
-mexico <- mexico %>% 
-  left_join(living_wage, by = c("name" = "nom_ent"))
+# Geometría por ámbito; los nacionales no cruzan con ninguna entidad y se descartan.
+sf_urbano <- mexico |> left_join(filter(living_wage, ambito == "Urbano"), by = c("name" = "nom_ent"))
+sf_rural  <- mexico |> left_join(filter(living_wage, ambito == "Rural"),  by = c("name" = "nom_ent"))
 
-# mapa salario digno -----------------------------------------------------------
+# ── estética común ─────────────────────────────────────────────────────────────
 
-salario_digno <- mexico %>% 
-  mutate(valores = factor(case_when(
-    salario_digno_neto >= 13000 & salario_digno_neto < 16000 ~ "$13,000 - $16,000", 
-    salario_digno_neto >= 16000 & salario_digno_neto < 19000 ~ "$16,000 - $19,000", 
-    salario_digno_neto >= 19000 & salario_digno_neto < 21000 ~ "$19,000 - $21,000", 
-    salario_digno_neto >= 21000 & salario_digno_neto < 23000 ~ "$21,000 - $23,000", 
-    salario_digno_neto >= 23000 ~ "$23,000 o más",
-    is.na(name) ~ "$13,000 - $16,000"
-  ), 
-  levels = c(
-    "$13,000 - $16,000",
-    "$16,000 - $19,000",
-    "$19,000 - $21,000",
-    "$21,000 - $23,000",
-    "$23,000 o más"
-  )), 
-  ambito = ifelse(is.na(name), "Urbano", ambito))
+# Rampa de 5 niveles, verde institucional -> guinda profundo (paleta DT 2026).
+rampa <- colorRampPalette(c("#1E5B4F", "#611232"))(5)
 
-etiquetas <- c(
-  "$13,000 - $16,000" = "#A7E3A0",  
-  "$16,000 - $19,000"     = "#BFD39D",  
-  "$19,000 - $21,000"   = "#D6A79F",  
-  "$21,000 - $23,000"    = "#A84C5D",  
-  "$23,000 o más"    = "#621132"   
+# Tema base para mapas: hereda fuente y leyenda de theme_conasami() y elimina los
+# elementos cartesianos (ejes, grid, borde) impropios de un mapa.
+tema_mapa <- function() {
+  theme_conasami() +
+    theme(
+      axis.line        = element_blank(),
+      axis.ticks       = element_blank(),
+      axis.text        = element_blank(),
+      axis.title       = element_blank(),
+      panel.border     = element_blank(),
+      panel.grid       = element_blank(),
+      panel.background = element_rect(fill = "transparent", color = NA),
+      legend.position  = "right",
+      legend.key.size  = unit(0.4, "cm"),
+      plot.title       = element_text(size = 14, face = "bold", hjust = 0.5)
+    )
+}
+
+# Clasifica un monto en categorías ordenadas a partir de cortes y etiquetas fijos.
+clasificar <- function(x, breaks, labels) {
+  factor(
+    cut(x, breaks = breaks, labels = labels, right = FALSE, include.lowest = TRUE),
+    levels = labels
+  )
+}
+
+# Panel de un ámbito para un rubro ya clasificado en la columna `categoria`.
+panel_mapa <- function(datos_sf, titulo, leyenda = TRUE) {
+  ggplot(datos_sf) +
+    geom_sf(aes(fill = categoria), color = "black") +
+    scale_fill_manual(values = rampa, drop = FALSE) +
+    coord_sf(datum = NA) +
+    labs(title = titulo, fill = "") +
+    tema_mapa() +
+    theme(legend.position = if (leyenda) c(0.2, 0.2) else "none")
+}
+
+# Mapa de un rubro: clasifica, arma urbano + rural + combinado y exporta PNG (300
+# dpi) y EPS de cada uno con los nombres de archivo históricos.
+mapa_rubro <- function(col, breaks, labels, archivo, width = 10, height = 5) {
+  u <- sf_urbano |> mutate(categoria = clasificar(.data[[col]], breaks, labels))
+  r <- sf_rural  |> mutate(categoria = clasificar(.data[[col]], breaks, labels))
+
+  p_urbano <- panel_mapa(u, "Urbano", leyenda = TRUE)
+  p_rural  <- panel_mapa(r, "Rural",  leyenda = FALSE)
+  combinado <- p_urbano + p_rural + plot_layout(ncol = 2)
+
+  guardar <- function(plot, sufijo, w, h) {
+    ggsave(file.path("graphs/maps", paste0(archivo, "_", sufijo, ".png")),
+           plot, width = w, height = h, dpi = 300)
+    ggsave(file.path("graphs/maps", paste0(archivo, "_", sufijo, ".eps")),
+           plot, width = w, height = h, device = cairo_ps)
+  }
+
+  guardar(p_urbano,  "urbano",   width / 2, height)
+  guardar(p_rural,   "rural",    width / 2, height)
+  guardar(combinado, "combined", width,     height)
+
+  invisible(combinado)
+}
+
+# ── configuración de rubros ──────────────────────────────────────────────────────
+# Una fila por rubro: variable, cortes de monto, etiquetas y nombre de archivo.
+
+rubros <- tribble(
+  ~col,                    ~breaks,                                  ~labels,                                                                                          ~archivo,
+  "alimentos_individual",  c(2000, 2500, 3000, 3500, 4000, Inf),     c("$2,000 - $2,500", "$2,500 - $3,000", "$3,000 - $3,500", "$3,500 - $4,000", "$4,000 o más"),    "mapa_alimentos",
+  "vivienda_familiar",     c(2000, 3500, 4500, 5500, 6500, Inf),     c("$2,000 - $3,500", "$3,500 - $4,500", "$4,500 - $5,500", "$5,500 - $6,500", "$6,500 o más"),    "mapa_vivienda",
+  "nanv",                  c(2800, 4500, 5000, 5500, 6000, Inf),     c("$2,800 - $4,500", "$4,500 - $5,000", "$5,000 - $5,500", "$5,500 - $6,000", "$6,000 o más"),    "mapa_nanv",
+  "salario_digno_neto",    c(13000, 16000, 19000, 21000, 23000, Inf), c("$13,000 - $16,000", "$16,000 - $19,000", "$19,000 - $21,000", "$21,000 - $23,000", "$23,000 o más"), "mapa_wage"
 )
 
-sd_urbano <- ggplot(data = salario_digno %>% filter(ambito == "Urbano")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Urbano", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans", color = "white"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
+pwalk(rubros, mapa_rubro)
 
-sd_urbano
-
-sd_urbano_black <- ggplot(data = salario_digno %>% filter(ambito == "Urbano")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Urbano", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans", color = "black"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-ggsave("graphs/maps/mapa_wage_urbano.png", sd_urbano, dpi = 300)
-ggsave("graphs/maps/mapa_wage_urbano_black.png", sd_urbano_black, dpi = 300)
-
-sd_rural <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Rural", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans", color = "white"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-sd_rural
-
-sd_rural_black <- ggplot(data = salario_digno %>% filter(ambito == "Rural")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Rural", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = "None",
-        text = element_text(family = "Noto Sans", color = "black"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-ggsave("graphs/maps/mapa_wage_rural.png", sd_rural, dpi = 300)
-ggsave("graphs/maps/mapa_wage_rural_black.png", sd_rural_black, dpi = 300)
-
-combined <- sd_urbano_black +  
-  sd_rural_black + 
-  plot_layout(ncol = 2) +
-  plot_annotation(
-    title = "") + 
-  theme(plot.background = element_blank()) 
-
-combined 
-
-ggsave(
-  "graphs/maps/mapa_wage_combined.png", 
-  combined, 
-  dpi = 300
-)
-
-rm(sd_urbano, sd_rural, salario_digno, etiquetas, combined)
-
-# alimentos --------------------------------------------------------------------
-
-alimentos <- mexico %>% 
-  mutate(valores = factor(case_when(
-    alimentos_individual >= 2000 & alimentos_individual < 2500 ~ "$2,000 - $2,500",
-    alimentos_individual >= 2500 & alimentos_individual < 3000 ~ "$2,500 - $3,000",
-    alimentos_individual >= 3000 & alimentos_individual < 3500 ~ "$3,000 - $3,500",
-    alimentos_individual >= 3500 & alimentos_individual < 4000 ~ "$3,500 - $4,000",
-    alimentos_individual >= 4000 ~ "$4,000 o más",
-    is.na(name) ~ "$2,000 - $2,500"
-    ), 
-    levels = c(
-      "$2,000 - $2,500",
-      "$2,500 - $3,000",
-      "$3,000 - $3,500",
-      "$3,500 - $4,000",
-      "$4,000 o más"
-    )),
-    ambito = ifelse(is.na(name), "Urbano", ambito))
-
-etiquetas <- c(
-  "$2,000 - $2,500" = "#A7E3A0",  
-  "$2,500 - $3,000"     = "#BFD39D",  
-  "$3,000 - $3,500"   = "#D6A79F",  
-  "$3,500 - $4,000"    = "#A84C5D",  
-  "$4,000 o más"    = "#621132"   
-)
-
-urbano <- ggplot(data = alimentos %>% filter(ambito == "Urbano")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Urbano", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-urbano
-
-ggsave("graphs/maps/mapa_alimentos_urbano.png", urbano, dpi = 300)
-
-rural <- ggplot(data = alimentos %>% filter(ambito == "Rural")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Rural", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = "none",
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-rural
-
-ggsave("graphs/maps/mapa_alimentos_rural.png", rural, dpi = 300)
-
-combined <- urbano + 
-  rural + 
-  plot_layout(ncol = 2) +
-  plot_annotation(
-    title = "") + 
-  theme(plot.background = element_blank()) 
-
-combined
-
-ggsave("graphs/maps/mapa_alimentos_combined.png", combined)
-
-rm(urbano, rural, alimentos, etiquetas, combined)
-
-# no alimento no vivienda ------------------------------------------------------
-
-nanv <- mexico %>% 
-  mutate(valores = factor(case_when(
-    nanv >= 2800 & nanv < 4500 ~ "$2,800 - $4,500",
-    nanv >= 4500 & nanv < 5000 ~ "$4,500 - $5,000",
-    nanv >= 5000 & nanv < 5500 ~ "$5,000 - $5,500",
-    nanv >= 5500 & nanv < 6000 ~ "$5,500 - $6,000",
-    nanv >= 6000 ~ "$6,000 o más",
-    is.na(name) ~ "$2,800 - $4,500"
-  ), 
-  levels = c(
-    "$2,800 - $4,500",
-    "$4,500 - $5,000",
-    "$5,000 - $5,500",
-    "$5,500 - $6,000",
-    "$6,000 o más"
-  )),
-  ambito = ifelse(is.na(name), "Urbano", ambito))
-
-etiquetas <- c(
-  "$2,800 - $4,500" = "#A7E3A0",  
-  "$4,500 - $5,000"     = "#BFD39D",  
-  "$5,000 - $5,500"   = "#D6A79F",  
-  "$5,500 - $6,000"    = "#A84C5D",  
-  "$6,000 o más"    = "#621132"   
-)
-
-urbano <- ggplot(data = nanv %>% filter(ambito == "Urbano")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Urbano", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-urbano
-
-ggsave("graphs/maps/mapa_nanv_urbano.png", urbano, dpi = 300)
-
-rural <- ggplot(data = nanv %>% filter(ambito == "Rural")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Rural", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = "none",
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-rural
-
-ggsave("graphs/maps/mapa_nanv_rural.png", rural, dpi = 300)
-
-combined <- urbano + 
-  rural + 
-  plot_layout(ncol = 2) +
-  plot_annotation(
-    title = "") + 
-  theme(plot.background = element_blank()) 
-
-combined
-
-ggsave("graphs/maps/mapa_nanv_combined.png", combined)
-
-rm(urbano, rural, nanv, etiquetas, combined)
-
-# vivienda ---------------------------------------------------------------------
-
-vivienda <- mexico %>% 
-  mutate(valores = factor(case_when(
-    vivienda_familiar >= 2000 & vivienda_familiar < 3500 ~ "$2,000 - $3,500",
-    vivienda_familiar >= 3500 & vivienda_familiar < 4500 ~ "$3,500 - $4,500",
-    vivienda_familiar >= 4500 & vivienda_familiar < 5500 ~ "$4,500 - $5,500",
-    vivienda_familiar >= 5500 & vivienda_familiar < 6500 ~ "$5,500 - $6,500",
-    vivienda_familiar >= 6500 ~ "$6,500 o más",
-    is.na(name) ~ "$2,000 - $3,500"
-  ), 
-  levels = c(
-    "$2,000 - $3,500",
-    "$3,500 - $4,500",
-    "$4,500 - $5,500",
-    "$5,500 - $6,500",
-    "$6,500 o más"
-  )),
-  ambito = ifelse(is.na(name), "Urbano", ambito))
-
-etiquetas <- c(
-  "$2,000 - $3,500" = "#A7E3A0",  
-  "$3,500 - $4,500"     = "#BFD39D",  
-  "$4,500 - $5,500"  = "#D6A79F",  
-  "$5,500 - $6,500"   = "#A84C5D",  
-  "$6,500 o más"    = "#621132"   
-)
-
-urbano <- ggplot(data = vivienda %>% filter(ambito == "Urbano")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Urbano", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = c(0.2,0.2),
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-urbano
-
-ggsave("graphs/maps/mapa_vivienda_urbano.png", urbano, dpi = 300)
-
-rural <- ggplot(data = vivienda %>% filter(ambito == "Rural")) +
-  geom_sf(aes(fill = valores), color = "black") +
-  labs(title = "Rural", fill = "") +
-  scale_fill_manual(values = etiquetas) +
-  theme_void() +
-  theme(legend.position = "none",
-        text = element_text(family = "Noto Sans"),
-        legend.key.size = unit(0.4, "cm"),
-        plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
-
-rural
-
-ggsave("graphs/maps/mapa_vivienda_rural.png", rural, dpi = 300)
-
-combined <- urbano + 
-  rural + 
-  plot_layout(ncol = 2) +
-  plot_annotation(
-    title = "") + 
-  theme(plot.background = element_blank()) 
-
-combined
-
-ggsave("graphs/maps/mapa_vivienda_combined.png", combined, dpi = 300)
-
-rm(urbano, rural, vivienda, etiquetas, combined, living_wage, mexico)
+message("maps.R: listo. Mapas por rubro en graphs/maps (urbano, rural y combinado; PNG + EPS).")
