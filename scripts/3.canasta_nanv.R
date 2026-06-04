@@ -1,31 +1,39 @@
 #_______________________________________________________________________________
 
-# Título: Canasta alimentaria 
+# Título: Canasta NANV (No Alimentos, No Vivienda)
 
-# Objetivo: 
+# Objetivo:
 
-  # Este script es para la construcción del componente alimentario 
-  # de la Canasta Digna
+  # Este script estima el componente NANV de la Canasta Digna a partir de su
+  # relación con el gasto en vivienda digna. Para cada zona de representatividad
+  # se ajusta un modelo monotónico (SCAM) entre el alquiler per cápita y la
+  # probabilidad acumulada del gasto corriente, se invierte para ubicar el
+  # percentil que corresponde a la vivienda digna y se promedia el gasto
+  # monetario per cápita en una banda de ±0.10 alrededor de ese percentil.
 
-# Autor: 
-  
+# Autor:
+
   # Coordinación de Análisis de la Economía Laboral
-  # de la Comisión Nacional de los Salarios Mínimos 
+  # de la Comisión Nacional de los Salarios Mínimos
 
-# inputs: ENIGH 2024
+# inputs:
 
-  # Se pueden descargar las bases de la Encuesta Nacional de Ingresos y Gastos 
-  # de los Hogares (ENIGH) 2022 en formato DTA en: 
-  
-  # https://www.inegi.org.mx/programas/enigh/nc/2022/#microdatos
-  
-  # Base Concentrado
+  # ENIGH 2024 (base Concentrado del hogar) +
+  # finaldata/vivienda/canasta_vivienda.csv (output de scripts/2. Vivienda.do)
 
+  # Se pueden descargar las bases de la Encuesta Nacional de Ingresos y Gastos
+  # de los Hogares (ENIGH) 2024 en formato DTA en:
+
+  # https://www.inegi.org.mx/programas/enigh/nc/2024/#microdatos
+
+  # outputs:
+  #   finaldata/nanv/1.canasta_nanv.csv
+  #   finaldata/nanv/2.percentiles_nanv.csv
 
 # Nota:
 
-  # Se recomienda crear un proyecto para el manejo adecuado del directorio. 
-  # Este debe incluir las siguientes carpetas: 
+  # Se recomienda crear un proyecto para el manejo adecuado del directorio.
+  # Este debe incluir las siguientes carpetas:
   # finaldata (aquí se guardan las bases finales)
   # data (aquí se guardan las bases de la ENIGH)
   # graphs (aquí se guardan las gráficas generadas)
@@ -150,7 +158,7 @@ for (ambito in c(0, 1)) {
     mutate(pred = predict.scam(modelo_ambito))
   
   ggplot(datos_ambito) +
-    geom_point(aes(x = gasto_p_cum_na, y = viv_p), color = "#611232") +
+    geom_point(aes(x = gasto_p_cum_na, y = viv_p), color = "#611232", alpha = 0.4) +
     geom_smooth(
       aes(x = gasto_p_cum_na, y = viv_p),
       method = "loess",
@@ -160,13 +168,11 @@ for (ambito in c(0, 1)) {
     geom_line(aes(x = gasto_p_cum_na, y = pred),
               color = "red",
               linewidth = 1) +
-    labs(title = "", x = "Probabilidad acumulada del Gasto Corriente", y = "Alquiler per cápita") +
+    labs(x = "Probabilidad acumulada del gasto corriente", y = "Alquiler per cápita") +
     theme_conasami() +
     theme(
-      plot.title = element_text(hjust = 0.5, color = "white"),
-      axis.title = element_text(size = 10, color = "white"),
-      text = element_text(family = "Noto Sans", color = "white"),
-      axis.text = element_text(color = "white")
+      axis.title = element_text(size = 10, color = "black"),
+      axis.text  = element_text(color = "black")
         )
   
   ggsave(
@@ -212,8 +218,6 @@ for (ambito in c(0, 1)) {
 
 
 rm(modelo_ambito, datos_ambito)
-
-range(resultados$urbano$datos$pred) # Para identificar el rango de la función.
 
 #_______________________________________________________________________________
 
@@ -640,31 +644,32 @@ fwrite(percentiles_nanv, "finaldata/nanv/2.percentiles_nanv.csv")
 
 # Graficas ---------------------------------------------------------------------
 
-ggplot(canasta_vivienda |> mutate(rural = as.character(rural))) +
-  geom_bar(
+# Percentil de referencia (inverse_result) por entidad y ámbito. Se excluye el
+# agregado Nacional para conservar la comparación entidad por entidad y se
+# ordenan las entidades por el promedio de ambos ámbitos.
+
+percentiles_grafica <- canasta_vivienda |>
+  filter(nom_ent != "Nacional") |>
+  mutate(rural = factor(rural, levels = c(0, 1), labels = c("Urbano", "Rural")))
+
+ggplot(percentiles_grafica) +
+  geom_col(
     mapping = aes(
-      x = reorder(nom_ent, inverse_result * (rural == 1)),
+      x = reorder(nom_ent, inverse_result, FUN = mean),
       y = inverse_result,
-      fill = as.factor(rural)
+      fill = rural
     ),
-    stat = "identity",
-    position = "dodge"
+    position = position_dodge(width = 0.8),
+    width = 0.7
   ) +
   theme_conasami() +
-  labs(title = "",
-       x = "",
+  labs(x = "",
        y = "",
        fill = "") +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1L)) +
-  scale_fill_manual(
-    values = c("0" = "#611232", "1" = "#98989A"),
-    labels = c("Urbano", "Rural")
-  ) +
-  scale_color_manual(
-    values = c("0" = "#611232", "1" = "#98989A"),
-    labels = c("Urbano", "Rural")
-  ) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  scale_fill_manual(values = c("Urbano" = "#611232", "Rural" = "#98989A")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, color = "black"),
+        axis.text.y = element_text(color = "black"))
 
 ggsave(
   "graphs/relacion/nacional/inverse_result.png",
