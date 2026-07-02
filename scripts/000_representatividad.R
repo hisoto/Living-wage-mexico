@@ -8,13 +8,13 @@
 #   zona de representatividad (entidad x ámbito + nacionales). Estima media, error
 #   estándar y coeficiente de variación (CV) del gasto en alimentos, vivienda, NANV
 #   (residual) y gasto corriente, clasifica la confianza según criterios INEGI y
-#   genera los mapas de CV por rubro y el mapa del gasto corriente medio.
+#   genera el mapa del gasto corriente medio. El CV por rubro se reporta en el CSV,
+#   que alimenta la tabla de representatividad del anexo del documento extendido.
 #
 # Alimenta la subsección "Representatividad estadística" del documento extendido.
 #
 # Inputs:  data/enigh2024_ns_concentradohogar_dta/concentradohogar.dta
 # Outputs: finaldata/metodologia/representatividad_cv.csv
-#          graphs/metodologia/mapa_cv_{alimentos,vivienda,nanv,gasto}.{png,eps}
 #          graphs/metodologia/mapa_gasto_corriente.{png,eps}
 #
 # Notas: independiente del pipeline 1->4 (solo requiere concentradohogar). El bloque
@@ -161,9 +161,8 @@ write_csv(representatividad, "finaldata/metodologia/representatividad_cv.csv")
 mexico <- ne_states(country = "Mexico", returnclass = "sf")
 mexico$name <- ifelse(mexico$name == "Distrito Federal", "Ciudad de México", mexico$name)
 
-# Geometría por ámbito con las medias y CV unidos (se excluyen los nacionales).
+# Geometría por ámbito con las medias unidas (se excluyen los nacionales).
 medias_mapa <- medias |>
-  rename_with(~ str_replace(.x, "_media_cv$", "_cv"), ends_with("_media_cv")) |>
   rename_with(~ str_replace(.x, "_media$", "_mean"), ends_with("_media")) |>
   filter(nom_ent != "Nacional")
 
@@ -208,14 +207,8 @@ guardar_mapa <- function(col, archivo, etiquetas_fill = waiver(), width = 10, he
   panel
 }
 
-# Mapas de coeficiente de variación por rubro
-guardar_mapa("alimentos_cv",       "mapa_cv_alimentos")
-guardar_mapa("vivienda_cv",        "mapa_cv_vivienda")
-guardar_mapa("nanv_cv",            "mapa_cv_nanv")
-guardar_mapa("gasto_corriente_cv", "mapa_cv_gasto")
-
 # Mapa del gasto corriente medio (contraste norte-sur)
 guardar_mapa("gasto_corriente_mean", "mapa_gasto_corriente",
              etiquetas_fill = scales::label_dollar(big.mark = ","))
 
-message("000_representatividad.R: listo. Tabla y mapas en finaldata/metodologia y graphs/metodologia.")
+message("000_representatividad.R: listo. Tabla (CSV) y mapa de gasto corriente en finaldata/metodologia y graphs/metodologia.")
