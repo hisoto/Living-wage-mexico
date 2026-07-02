@@ -7,7 +7,8 @@
 # Propósito: generar los mapas de los cuatro rubros (canasta de alimentos, canasta
 #   de vivienda, NANV y salario digno neto) por entidad y ámbito, en paneles urbano
 #   y rural. Clasifica cada rubro en cinco categorías de monto y aplica una rampa
-#   verde -> guinda de la paleta institucional DT 2026.
+#   tipo semáforo (verde montos bajos -> rojo/guinda montos altos) armonizada con la
+#   paleta institucional DT 2026.
 #
 # Inputs:  salario_digno.csv (raíz; salida del script 4)
 # Outputs (graphs/maps/, PNG 300 dpi + EPS):
@@ -63,8 +64,10 @@ sf_rural  <- mexico |> left_join(filter(living_wage, ambito == "Rural"),  by = c
 
 # ── estética común ─────────────────────────────────────────────────────────────
 
-# Rampa de 5 niveles, verde institucional -> guinda profundo (paleta DT 2026).
-rampa <- colorRampPalette(c("#1E5B4F", "#611232"))(5)
+# Rampa de 5 niveles tipo semáforo (verde = montos bajos -> rojo/guinda = montos altos),
+# armonizada con la paleta institucional DT 2026. Punto medio luminoso (amarillo) para
+# distinguir bien las cinco bandas, incluso las vacías retenidas por drop = FALSE.
+rampa <- c("#2E7D5B", "#9CCB6A", "#F4D35E", "#E08A3C", "#B23A48")
 
 # Tema base para mapas: hereda fuente y leyenda de theme_conasami() y elimina los
 # elementos cartesianos (ejes, grid, borde) impropios de un mapa.
@@ -95,8 +98,9 @@ clasificar <- function(x, breaks, labels) {
 # Panel de un ámbito para un rubro ya clasificado en la columna `categoria`.
 panel_mapa <- function(datos_sf, titulo, leyenda = TRUE) {
   ggplot(datos_sf) +
-    geom_sf(aes(fill = categoria), color = "black") +
-    scale_fill_manual(values = rampa, drop = FALSE) +
+    geom_sf(aes(fill = categoria), color = "grey40", linewidth = 0.2) +
+    scale_fill_manual(values = rampa, drop = FALSE,
+                      na.value = "#F0F0F0", na.translate = FALSE) +
     coord_sf(datum = NA) +
     labs(title = titulo, fill = "") +
     tema_mapa() +
