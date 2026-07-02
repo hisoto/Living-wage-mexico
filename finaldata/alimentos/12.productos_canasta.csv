@@ -1,0 +1,115 @@
+﻿ambito,clave,nombre,cantidad,unidad
+Rural,011111,Arroz en grano,1,kg
+Rural,011131,Tortillas de maíz,1,kg
+Rural,011132,Tortillas de harina de trigo,0.5,kg
+Rural,011133,Pan,0.3,kg
+Rural,011134,Pan de caja,0.62,kg
+Rural,011135,Galletas dulces,0.185,kg
+Rural,011137,Pan dulce a granel,0.35,kg
+Rural,011150,"Spaghetti, pastas italianas y pastas para sopa",0.22,kg
+Rural,011192,Tostadas,0.36,kg
+Rural,011221,Bistec de res,1,kg
+Rural,011224,Molida de res,0.7,kg
+Rural,011228,Costillas y chuleta de puerco,1,kg
+Rural,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",1,kg
+Rural,011231,Jamón de puerco,0.25,kg
+Rural,011252,Chorizo de puerco,0.4,kg
+Rural,011322,Atún enlatado,0.28,kg
+Rural,011411,Leche entera fresca,1,lt
+Rural,011433,Crema,0.25,kg
+Rural,011451,Queso fresco,0.35,kg
+Rural,011454,Queso Oaxaca o asadero,0.275,kg
+Rural,011460,Yogurt y bebidas fermentadas a base de leche,0.66,lt
+Rural,011481,Huevo de gallina,0.6,kg
+Rural,011512,Otros aceites vegetales comestibles,1,lt
+Rural,011592,Chicharrón,0.25,kg
+Rural,011611,Aguacate,0.5,kg
+Rural,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",1,kg
+Rural,011621,Limón,0.7,kg
+Rural,011633,Manzana y perón,1,kg
+Rural,011712,Lechuga,0.6,kg
+Rural,011721,Calabaza,1,kg
+Rural,011722,Chayote,0.6,kg
+Rural,011723,Chile jalapeño,0.5,kg
+Rural,011725,Chile serrano,0.25,kg
+Rural,011727,Jitomate (tomate rojo),1,kg
+Rural,011728,Pepino,1,kg
+Rural,011729,Tomate verde,1,kg
+Rural,011743,Cebolla,0.5,kg
+Rural,011748,Zanahoria,0.5,kg
+Rural,011751,Papa,1,kg
+Rural,011761,Frijol en grano,1,kg
+Rural,011796,Papas fritas en bolsa o a granel,0.153,kg
+Rural,011810,Azúcar,1,kg
+Rural,011911,Alimentos preparados para consumo inmediato,1,pieza
+Rural,011942,Cilantro,0.1,kg
+Rural,012100,Jugos de frutas o verduras envasados,1,lt
+Rural,012201,Café soluble,0.1,kg
+Rural,012501,Agua natural embotellada,20,lt
+Rural,012601,Refrescos sabor cola,2,lt
+Rural,012602,Refrescos de otros sabores,2,lt
+Rural,111111,Desayunos,1,pieza
+Rural,111112,Comidas,1,pieza
+Rural,111113,Cenas,1,pieza
+Rural,111124,Otros alimentos cocinados,1.5,pieza
+Rural,111126,Pollos rostizados,1,pieza
+Rural,181124,"Pierna, muslo o pechuga de pollo con hueso",1,kg
+Rural,181125,"Pierna, muslo o pechuga de pollo sin hueso",1,kg
+Rural,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",0.3,kg
+Rural,181134,Plátano verde y Tabasco,1,kg
+Urbano,011111,Arroz en grano,1,kg
+Urbano,011131,Tortillas de maíz,1,kg
+Urbano,011132,Tortillas de harina de trigo,0.5,kg
+Urbano,011133,Pan,0.36,kg
+Urbano,011134,Pan de caja,0.62,kg
+Urbano,011135,Galletas dulces,0.207,kg
+Urbano,011137,Pan dulce a granel,0.35,kg
+Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",0.22,kg
+Urbano,011192,Tostadas,0.36,kg
+Urbano,011221,Bistec de res,1,kg
+Urbano,011224,Molida de res,0.75,kg
+Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",1,kg
+Urbano,011231,Jamón de puerco,0.25,kg
+Urbano,011252,Chorizo de puerco,0.5,kg
+Urbano,011411,Leche entera fresca,1,lt
+Urbano,011433,Crema,0.26,kg
+Urbano,011451,Queso fresco,0.25,kg
+Urbano,011454,Queso Oaxaca o asadero,0.3,kg
+Urbano,011460,Yogurt y bebidas fermentadas a base de leche,0.88,lt
+Urbano,011481,Huevo de gallina,1,kg
+Urbano,011512,Otros aceites vegetales comestibles,1,lt
+Urbano,011592,Chicharrón,0.25,kg
+Urbano,011611,Aguacate,0.5,kg
+Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",1,kg
+Urbano,011621,Limón,1,kg
+Urbano,011633,Manzana y perón,1,kg
+Urbano,011712,Lechuga,0.5,kg
+Urbano,011721,Calabaza,1,kg
+Urbano,011722,Chayote,0.79,kg
+Urbano,011725,Chile serrano,0.25,kg
+Urbano,011727,Jitomate (tomate rojo),1,kg
+Urbano,011728,Pepino,1,kg
+Urbano,011729,Tomate verde,1,kg
+Urbano,011743,Cebolla,0.5,kg
+Urbano,011746,Nopal,0.6,kg
+Urbano,011748,Zanahoria,0.5,kg
+Urbano,011751,Papa,1,kg
+Urbano,011761,Frijol en grano,1,kg
+Urbano,011797,Frijol procesado,0.5,kg
+Urbano,011810,Azúcar,1,kg
+Urbano,011911,Alimentos preparados para consumo inmediato,1,pieza
+Urbano,011942,Cilantro,0.1,kg
+Urbano,012100,Jugos de frutas o verduras envasados,1,lt
+Urbano,012201,Café soluble,0.085,kg
+Urbano,012501,Agua natural embotellada,20,lt
+Urbano,012601,Refrescos sabor cola,2,lt
+Urbano,012602,Refrescos de otros sabores,2,lt
+Urbano,111111,Desayunos,1,pieza
+Urbano,111112,Comidas,2,pieza
+Urbano,111113,Cenas,2,pieza
+Urbano,111124,Otros alimentos cocinados,1.5,pieza
+Urbano,111126,Pollos rostizados,1,pieza
+Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",1,kg
+Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",1,kg
+Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",0.333,kg
+Urbano,181134,Plátano verde y Tabasco,1,kg

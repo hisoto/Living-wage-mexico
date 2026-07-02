@@ -1,0 +1,61 @@
+﻿clave,nombre_actual,nombre_oficial,estado
+011111,Arroz en grano,Arroz en grano,identico
+011131,Tortillas de maíz,Tortillas de maíz,identico
+011132,Tortillas de harina de trigo,Tortillas de harina de trigo,identico
+011133,Pan,Pan,identico
+011134,Pan de caja,Pan de caja,identico
+011135,Galletas dulces,Galletas dulces,identico
+011137,Pan dulce a granel,Pan dulce a granel,identico
+011150,"Spaghetti, pastas italianas y pastas para sopa","Spaghetti, pastas italianas y pastas para sopa",identico
+011192,Tostadas,Tostadas,identico
+011221,Bistec de res,Bistec de res,identico
+011224,Molida de res,Molida de res,identico
+011228,Costillas y chuleta de puerco,Costillas y chuleta de puerco,identico
+01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)","Pollo entero o en piezas (excepto pierna, muslo y pechuga)",identico
+011231,Jamón de puerco,Jamón de puerco,identico
+011252,Chorizo de puerco,Chorizo de puerco,identico
+011322,Atún enlatado,Atún enlatado,identico
+011411,Leche entera fresca,Leche entera fresca,identico
+011433,Crema,Crema,identico
+011451,Queso fresco,Queso fresco,identico
+011454,Queso Oaxaca o asadero,Queso Oaxaca o asadero,identico
+011460,Yogurt y bebidas fermentadas a base de leche,Yogurt y bebidas fermentadas a base de leche,identico
+011481,Huevo de gallina,Huevo de gallina,identico
+011512,Otros aceites vegetales comestibles,Otros aceites vegetales comestibles,identico
+011592,Chicharrón,Chicharrón,identico
+011611,Aguacate,Aguacate,identico
+011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán","Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",identico
+011621,Limón,Limón,identico
+011633,Manzana y perón,Manzana y perón,identico
+011712,Lechuga,Lechuga,identico
+011721,Calabaza,Calabaza,identico
+011722,Chayote,Chayote,identico
+011723,Chile jalapeño,Chile jalapeño,identico
+011725,Chile serrano,Chile serrano,identico
+011727,Jitomate (tomate rojo),Jitomate (tomate rojo),identico
+011728,Pepino,Pepino,identico
+011729,Tomate verde,Tomate verde,identico
+011743,Cebolla,Cebolla,identico
+011746,Nopal,Nopal,identico
+011748,Zanahoria,Zanahoria,identico
+011751,Papa,Papa,identico
+011761,Frijol en grano,Frijol en grano,identico
+011796,Papas fritas en bolsa o a granel,Papas fritas en bolsa o a granel,identico
+011797,Frijol procesado,Frijol procesado,identico
+011810,Azúcar,Azúcar,identico
+011911,"Alimentos preparados, enlatados, congelados o empacados, listos para consumirse",Alimentos preparados para consumo inmediato,error_corregido
+011942,Cilantro,Cilantro,identico
+012100,Jugos de frutas o verduras envasados,Jugos de frutas o verduras envasados,identico
+012201,Café soluble,Café soluble,identico
+012501,Agua natural embotellada,Agua natural embotellada,identico
+012601,Refrescos sabor cola,Refrescos sabor cola,identico
+012602,Refrescos de otros sabores,Refrescos de otros sabores,identico
+111111,Desayunos,Desayunos,identico
+111112,Comidas,Comidas,identico
+111113,Cenas,Cenas,identico
+111124,Otros alimentos cocinados para su consumo inmediato,Otros alimentos cocinados,error_corregido
+111126,Pollos rostizados,Pollos rostizados,identico
+181124,"Pierna, muslo o pechuga de pollo con hueso","Pierna, muslo o pechuga de pollo con hueso",identico
+181125,"Pierna, muslo o pechuga de pollo sin hueso","Pierna, muslo o pechuga de pollo sin hueso",identico
+181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera.","Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",estilistico
+181134,Plátano verde y Tabasco,Plátano verde y Tabasco,identico
