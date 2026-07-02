@@ -1,0 +1,293 @@
+﻿codigo,nombre,ruta_ccif,serie_api
+001,Arroz,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 001 Arroz",908714
+002,Botanas elaboradas con cereales,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 002 Botanas elaboradas con cereales",908715
+003,Cereales en hojuelas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 003 Cereales en hojuelas",908716
+004,Galletas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 004 Galletas",908717
+005,Harinas de trigo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 005 Harinas de trigo",908718
+006,Maíz,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 006 Maíz",908719
+007,Masa y harinas de maíz,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 007 Masa y harinas de maíz",908720
+008,Pan blanco,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 008 Pan blanco",908721
+009,Pan de caja,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 009 Pan de caja",908722
+010,Pan dulce,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 010 Pan dulce",908723
+011,Pasta para sopa,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 011 Pasta para sopa",908724
+012,"Pasteles, pastelillos y pan dulce empaquetado","01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 012 Pasteles, pastelillos y pan dulce empaquetado",908725
+013,Pastelillos y pasteles a granel,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 013 Pastelillos y pasteles a granel",908726
+014,Tortilla de maíz,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 014 Tortilla de maíz",908727
+015,Tortillas de harina de trigo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 015 Tortillas de harina de trigo",908728
+016,Tostadas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.1 Cereales y productos a base de cereales, 016 Tostadas",908729
+017,Carne de cerdo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 017 Carne de cerdo",908731
+018,Carne de res,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 018 Carne de res",908732
+019,"Carnes secas, procesadas y otros embutidos","01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 019 Carnes secas, procesadas y otros embutidos",908733
+020,Chorizo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 020 Chorizo",908734
+021,Jamón,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 021 Jamón",908735
+022,Pollo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 022 Pollo",908736
+023,Salchichas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 023 Salchichas",908737
+024,Tocino,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 024 Tocino",908738
+025,Vísceras de res,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.2 Animales vivos, carne y otras partes comestibles de animales terrestres, 025 Vísceras de res",908739
+026,Atún y sardina en lata,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.3 Pescados y otros mariscos, 026 Atún y sardina en lata",908741
+027,Camarón,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.3 Pescados y otros mariscos, 027 Camarón",908742
+028,Pescado,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.3 Pescados y otros mariscos, 028 Pescado",908743
+029,Otros pescados y mariscos en conserva,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.3 Pescados y otros mariscos, 029 Otros pescados y mariscos en conserva",908744
+030,Crema y otros productos a base de leche,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 030 Crema y otros productos a base de leche",908746
+031,Huevo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 031 Huevo",908747
+032,Leche en polvo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 032 Leche en polvo",908748
+033,Leche evaporada y condensada,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 033 Leche evaporada y condensada",908749
+034,Leche pasteurizada y fresca,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 034 Leche pasteurizada y fresca",908750
+035,Leches de origen vegetal,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 035 Leches de origen vegetal",908751
+036,Queso amarillo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 036 Queso amarillo",908752
+037,Queso fresco,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 037 Queso fresco",908753
+038,Queso manchego y Chihuahua,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 038 Queso manchego y Chihuahua",908754
+039,Queso Oaxaca y asadero,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 039 Queso Oaxaca y asadero",908755
+040,Otros quesos,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 040 Otros quesos",908756
+041,Yogurt,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.4 Leche, otros productos lácteos y huevos, 041 Yogurt",908757
+042,Aceites y grasas vegetales comestibles,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.5 Aceites y grasas, 042 Aceites y grasas vegetales comestibles",908759
+043,Manteca de cerdo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.5 Aceites y grasas, 043 Manteca de cerdo",908760
+044,Mantequilla,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.5 Aceites y grasas, 044 Mantequilla",908761
+045,Aguacate,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 045 Aguacate",908763
+046,Durazno,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 046 Durazno",908764
+047,Guayaba,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 047 Guayaba",908765
+048,Limón,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 048 Limón",908766
+049,Manzana,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 049 Manzana",908767
+050,Melón,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 050 Melón",908768
+051,Naranja,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 051 Naranja",908769
+052,Papaya,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 052 Papaya",908770
+053,Pera,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 053 Pera",908771
+054,Piña,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 054 Piña",908772
+055,Plátanos,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 055 Plátanos",908773
+056,Sandía,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 056 Sandía",908774
+057,Uva,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 057 Uva",908775
+058,Otras conservas de frutas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 058 Otras conservas de frutas",908776
+059,Otras frutas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.6 Frutas y frutos secos, 059 Otras frutas",908777
+060,Calabacita,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 060 Calabacita",908779
+061,Cebolla,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 061 Cebolla",908780
+062,Chayote,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 062 Chayote",908781
+063,Chile poblano,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 063 Chile poblano",908782
+064,Chile seco,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 064 Chile seco",908783
+065,Chile serrano,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 065 Chile serrano",908784
+066,Chiles envasados,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 066 Chiles envasados",908785
+067,Ejotes,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 067 Ejotes",908786
+068,Frijol,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 068 Frijol",908787
+069,Frijol procesado,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 069 Frijol procesado",908788
+070,Jitomate,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 070 Jitomate",908789
+071,Lechuga y col,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 071 Lechuga y col",908790
+072,Nopales,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 072 Nopales",908791
+073,Papa y otros tubérculos,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 073 Papa y otros tubérculos",908792
+074,Papas fritas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 074 Papas fritas",908793
+075,Pepino,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 075 Pepino",908794
+076,Tomate verde,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 076 Tomate verde",908795
+077,Verduras envasadas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 077 Verduras envasadas",908796
+078,Zanahoria,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 078 Zanahoria",908797
+079,Otras legumbres secas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 079 Otras legumbres secas",908798
+080,Otras verduras y legumbres,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 080 Otras verduras y legumbres",908799
+081,Otros chiles frescos,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.7 Hortalizas, tubérculos, plátanos de cocción y legumbres, 081 Otros chiles frescos",908800
+082,Azúcar,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.8 Azúcar, productos para confitería y postres, 082 Azúcar",908802
+083,Chocolate líquido y para preparar bebida,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.8 Azúcar, productos para confitería y postres, 083 Chocolate líquido y para preparar bebida",908803
+084,Chocolate y productos de confitería,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.8 Azúcar, productos para confitería y postres, 084 Chocolate y productos de confitería",908804
+085,"Gelatina, miel y mermeladas","01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.8 Azúcar, productos para confitería y postres, 085 Gelatina, miel y mermeladas",908805
+086,"Helados, nieves y paletas de hielo","01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.8 Azúcar, productos para confitería y postres, 086 Helados, nieves y paletas de hielo",908806
+087,"Cilantro, epazote y perejil","01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 087 Cilantro, epazote y perejil",908808
+088,Concentrados de pollo y sal,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 088 Concentrados de pollo y sal",908809
+089,Gelatina en polvo,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 089 Gelatina en polvo",908810
+090,Leche maternizada y alimentos para bebé,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 090 Leche maternizada y alimentos para bebé",908811
+091,Mayonesa y mostaza,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 091 Mayonesa y mostaza",908812
+092,Moles y salsas,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 092 Moles y salsas",908813
+093,Sopas instantáneas y puré de tomate,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 093 Sopas instantáneas y puré de tomate",908814
+094,Otros condimentos,"01 Alimentos y bebidas no alcohólicas, 01.1 Alimentos, 01.1.9 Alimentos preparados y otros productos alimenticios, 094 Otros condimentos",908815
+095,Jugos o néctares envasados,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.1 Jugos de frutas y hortalizas, 095 Jugos o néctares envasados",908818
+096,Café soluble,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.2 Café y sustitutos de café, 096 Café soluble",908820
+097,Café tostado,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.2 Café y sustitutos de café, 097 Café tostado",908821
+098,Té,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.3 Té, yerba mate y otros productos vegetales para infusión, 098 Té",908823
+099,Agua embotellada,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.5 Agua, 099 Agua embotellada",908825
+100,Refrescos envasados,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.6 Refrescos, 100 Refrescos envasados",908827
+101,Bebidas energéticas,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.9 Otras bebidas no alcohólicas, 101 Bebidas energéticas",908829
+102,Concentrados para refrescos,"01 Alimentos y bebidas no alcohólicas, 01.2 Bebidas no alcohólicas, 01.2.9 Otras bebidas no alcohólicas, 102 Concentrados para refrescos",908830
+103,Brandy,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.1 Bebidas destiladas y licores, 103 Brandy",908834
+104,Ron,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.1 Bebidas destiladas y licores, 104 Ron",908835
+105,Tequila,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.1 Bebidas destiladas y licores, 105 Tequila",908836
+106,Otros licores,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.1 Bebidas destiladas y licores, 106 Otros licores",908837
+107,Vino de mesa,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.2 Vino, 107 Vino de mesa",908839
+108,Cerveza,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.1 Bebidas alcohólicas, 02.1.3 Cerveza, 108 Cerveza",908841
+109,Cigarrillos,"02 Bebidas alcohólicas, tabaco y estupefacientes, 02.3 Tabaco, 02.3.0 Tabaco, 109 Cigarrillos",908844
+110,Blusas y playeras para mujer,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 110 Blusas y playeras para mujer",908848
+111,"Calcetas, medias y pantimedias","03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 111 Calcetas, medias y pantimedias",908849
+112,Calcetines y calcetas para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 112 Calcetines y calcetas para hombre",908850
+113,Calcetines y calcetas para niños,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 113 Calcetines y calcetas para niños",908851
+114,Camisas y playeras para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 114 Camisas y playeras para hombre",908852
+115,Camisas y playeras para niños,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 115 Camisas y playeras para niños",908853
+116,Pantalones para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 116 Pantalones para hombre",908854
+117,Pantalones para mujer,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 117 Pantalones para mujer",908855
+118,Pantalones para niño,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 118 Pantalones para niño",908856
+119,Ropa de abrigo,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 119 Ropa de abrigo",908857
+120,Ropa interior para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 120 Ropa interior para hombre",908858
+121,Ropa interior para mujer,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 121 Ropa interior para mujer",908859
+122,"Ropa interior para niños, niñas y adolescentes","03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 122 Ropa interior para niños, niñas y adolescentes",908860
+123,Ropa para bebés,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 123 Ropa para bebés",908861
+124,Traje para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 124 Traje para hombre",908862
+125,Uniformes escolares,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 125 Uniformes escolares",908863
+126,Vestidos y faldas para mujer,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 126 Vestidos y faldas para mujer",908864
+127,"Vestidos, faldas y pantalones para niñas","03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 127 Vestidos, faldas y pantalones para niñas",908865
+128,Otras prendas de vestir para hombre,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 128 Otras prendas de vestir para hombre",908866
+129,Otras prendas de vestir para mujer,"03 Ropa y calzado, 03.1 Ropa, 03.1.2 Prendas de vestir, 129 Otras prendas de vestir para mujer",908867
+130,Complementos de vestir,"03 Ropa y calzado, 03.1 Ropa, 03.1.3 Otras prendas y complementos de vestir, 130 Complementos de vestir",908869
+131,Servicio de lavandería,"03 Ropa y calzado, 03.1 Ropa, 03.1.4 Limpieza, reparación, confección y alquiler de ropa, 131 Servicio de lavandería",908871
+132,Servicio de tintorería,"03 Ropa y calzado, 03.1 Ropa, 03.1.4 Limpieza, reparación, confección y alquiler de ropa, 132 Servicio de tintorería",908872
+133,Sandalias y huaraches,"03 Ropa y calzado, 03.2 Calzado, 03.2.1 Calzado y otros tipos de calzado, 133 Sandalias y huaraches",908875
+134,Zapatos para hombre,"03 Ropa y calzado, 03.2 Calzado, 03.2.1 Calzado y otros tipos de calzado, 134 Zapatos para hombre",908876
+135,Zapatos para mujer,"03 Ropa y calzado, 03.2 Calzado, 03.2.1 Calzado y otros tipos de calzado, 135 Zapatos para mujer",908877
+136,Zapatos para niños y niñas,"03 Ropa y calzado, 03.2 Calzado, 03.2.1 Calzado y otros tipos de calzado, 136 Zapatos para niños y niñas",908878
+137,Zapatos tenis,"03 Ropa y calzado, 03.2 Calzado, 03.2.1 Calzado y otros tipos de calzado, 137 Zapatos tenis",908879
+138,Renta de vivienda,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.1 Alquileres reales de vivienda, 04.1.1 Alquileres reales pagados por los inquilinos de la residencia principal, 138 Renta de vivienda",908883
+139,Vivienda propia,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.2 Alquileres imputados para vivienda, 04.2.1 Alquileres imputados de propietarios-ocupantes para residencia principal, 139 Vivienda propia",908886
+140,Productos para reparación menor de la vivienda,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.3 Mantenimiento, reparación y seguridad de la vivienda, 04.3.1 Materiales para el mantenimiento y reparación de la vivienda, 140 Productos para reparación menor de la vivienda",908889
+141,"Servicios para el mantenimiento, reparación y seguridad de la vivienda","04 Vivienda, agua, electricidad, gas y otros combustibles, 04.3 Mantenimiento, reparación y seguridad de la vivienda, 04.3.2 Servicios para el mantenimiento, reparación y seguridad de la vivienda, 141 Servicios para el mantenimiento, reparación y seguridad de la vivienda",908891
+142,Derechos por el suministro de agua,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.4 Suministro de agua y servicios diversos relacionados con la vivienda, 04.4.1 Suministro de agua, 142 Derechos por el suministro de agua",908894
+143,Otros servicios relacionados con la vivienda,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.4 Suministro de agua y servicios diversos relacionados con la vivienda, 04.4.4 Otros servicios relacionados con la vivienda, 143 Otros servicios relacionados con la vivienda",908896
+144,Electricidad,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.5 Electricidad, gas y otros combustibles, 04.5.1 Electricidad, 144 Electricidad",908899
+145,Gas doméstico LP,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.5 Electricidad, gas y otros combustibles, 04.5.2 Gas, 145 Gas doméstico LP",908901
+146,Gas doméstico natural,"04 Vivienda, agua, electricidad, gas y otros combustibles, 04.5 Electricidad, gas y otros combustibles, 04.5.2 Gas, 146 Gas doméstico natural",908902
+147,Colchones,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 147 Colchones",908906
+148,Comedores y antecomedores,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 148 Comedores y antecomedores",908907
+149,Muebles diversos para el hogar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 149 Muebles diversos para el hogar",908908
+150,Muebles para cocina,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 150 Muebles para cocina",908909
+151,Recámaras,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 151 Recámaras",908910
+152,Salas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.1 Muebles, mobiliario y alfombras sueltas, 05.1.1 Muebles, mobiliario y alfombras sueltas, 152 Salas",908911
+153,Colchas y cobijas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.2 Textiles para el hogar, 05.2.1 Textiles para el hogar, 153 Colchas y cobijas",908914
+154,Sábanas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.2 Textiles para el hogar, 05.2.1 Textiles para el hogar, 154 Sábanas",908915
+155,"Toallas, cortinas y otros blancos","05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.2 Textiles para el hogar, 05.2.1 Textiles para el hogar, 155 Toallas, cortinas y otros blancos",908916
+156,Aparatos de aire acondicionado,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 156 Aparatos de aire acondicionado",908919
+157,Aspiradoras y otros aparatos para el hogar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 157 Aspiradoras y otros aparatos para el hogar",908920
+158,Estufas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 158 Estufas",908921
+159,Horno de microondas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 159 Horno de microondas",908922
+160,Lavadoras de ropa,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 160 Lavadoras de ropa",908923
+161,Refrigeradores,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.1 Grandes electrodomésticos, eléctricos o no, 161 Refrigeradores",908924
+162,"Cafeteras, tostadoras, ventiladores y otros electrodomésticos pequeños","05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.2 Electrodomésticos pequeños, 162 Cafeteras, tostadoras, ventiladores y otros electrodomésticos pequeños",908926
+163,Licuadoras,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.2 Electrodomésticos pequeños, 163 Licuadoras",908927
+164,Planchas eléctricas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.3 Electrodomésticos, 05.3.2 Electrodomésticos pequeños, 164 Planchas eléctricas",908928
+165,Artículos y utensilios para el hogar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.4 Cristalería, vajillas y utensilios para el hogar, 05.4.0 Cristalería, vajillas y utensilios para el hogar, 165 Artículos y utensilios para el hogar",908931
+166,Baterías de cocina,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.4 Cristalería, vajillas y utensilios para el hogar, 05.4.0 Cristalería, vajillas y utensilios para el hogar, 166 Baterías de cocina",908932
+167,"Loza, cristalería y cubiertos","05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.4 Cristalería, vajillas y utensilios para el hogar, 05.4.0 Cristalería, vajillas y utensilios para el hogar, 167 Loza, cristalería y cubiertos",908933
+168,Utensilios de plástico para el hogar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.4 Cristalería, vajillas y utensilios para el hogar, 05.4.0 Cristalería, vajillas y utensilios para el hogar, 168 Utensilios de plástico para el hogar",908934
+169,Focos,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.5 Herramienta y equipo para casa y jardín, 05.5.2 Herramientas no motorizadas y accesorios diversos, 169 Focos",908937
+170,Herramientas y equipo para el hogar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.5 Herramienta y equipo para casa y jardín, 05.5.2 Herramientas no motorizadas y accesorios diversos, 170 Herramientas y equipo para el hogar",908938
+171,Pilas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.5 Herramienta y equipo para casa y jardín, 05.5.2 Herramientas no motorizadas y accesorios diversos, 171 Pilas",908939
+172,Artículos desechables y no duraderos,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 172 Artículos desechables y no duraderos",908942
+173,Blanqueadores,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 173 Blanqueadores",908943
+174,Cerillos,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 174 Cerillos",908944
+175,Desodorantes ambientales,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 175 Desodorantes ambientales",908945
+176,Detergentes,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 176 Detergentes",908946
+177,"Escobas, fibras y estropajos","05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 177 Escobas, fibras y estropajos",908947
+178,Jabón para lavar,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 178 Jabón para lavar",908948
+179,Plaguicidas,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 179 Plaguicidas",908949
+180,Servilletas de papel,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 180 Servilletas de papel",908950
+181,Suavizantes y limpiadores,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 181 Suavizantes y limpiadores",908951
+182,Velas y veladoras,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.1 Artículos domésticos no duraderos, 182 Velas y veladoras",908952
+183,Servicio doméstico,"05 Mobiliario, equipo doméstico y mantenimiento rutinario del hogar, 05.6 Bienes y servicios para el mantenimiento rutinario del hogar, 05.6.2 Servicios domésticos y para el hogar, 183 Servicio doméstico",908954
+184,Analgésicos,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 184 Analgésicos",908958
+185,Antibióticos,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 185 Antibióticos",908959
+186,Antigripales,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 186 Antigripales",908960
+187,Antiinflamatorios,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 187 Antiinflamatorios",908961
+188,Cardiovasculares,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 188 Cardiovasculares",908962
+189,Dermatológicos,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 189 Dermatológicos",908963
+190,Expectorantes y descongestivos,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 190 Expectorantes y descongestivos",908964
+191,Gastrointestinales,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 191 Gastrointestinales",908965
+192,Medicamentos para alergias,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 192 Medicamentos para alergias",908966
+193,Medicamentos para diabetes,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 193 Medicamentos para diabetes",908967
+194,Medicinas homeopáticas y naturistas,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 194 Medicinas homeopáticas y naturistas",908968
+195,Nutricionales,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 195 Nutricionales",908969
+196,Otros medicamentos,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.1 Medicamentos, 196 Otros medicamentos",908970
+197,Material de curación,"06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.2 Productos médicos, 197 Material de curación",908972
+198,"Lentes, aparatos para sordera y ortopédicos","06 Salud, 06.1 Medicamentos y productos sanitarios, 06.1.3 Productos de apoyo, 198 Lentes, aparatos para sordera y ortopédicos",908974
+199,Consulta médica,"06 Salud, 06.2 Servicios de atención para pacientes ambulatorios, 06.2.1 Servicios de atención preventiva, 199 Consulta médica",908977
+200,Consulta y prótesis dental,"06 Salud, 06.2 Servicios de atención para pacientes ambulatorios, 06.2.2 Servicios dentales para pacientes ambulatorios, 200 Consulta y prótesis dental",908979
+201,Atención médica durante el parto,"06 Salud, 06.3 Servicios de atención para pacientes hospitalizados, 06.3.1 Servicios curativos y de rehabilitación para pacientes hospitalizados, 201 Atención médica durante el parto",908982
+202,Hospitalización general,"06 Salud, 06.3 Servicios de atención para pacientes hospitalizados, 06.3.1 Servicios curativos y de rehabilitación para pacientes hospitalizados, 202 Hospitalización general",908983
+203,Hospitalización parto,"06 Salud, 06.3 Servicios de atención para pacientes hospitalizados, 06.3.1 Servicios curativos y de rehabilitación para pacientes hospitalizados, 203 Hospitalización parto",908984
+204,Operación quirúrgica,"06 Salud, 06.3 Servicios de atención para pacientes hospitalizados, 06.3.1 Servicios curativos y de rehabilitación para pacientes hospitalizados, 204 Operación quirúrgica",908985
+205,Análisis clínicos,"06 Salud, 06.4 Otros servicios de salud, 06.4.1 Servicios de diagnóstico por imágenes y servicios de laboratorio médico, 205 Análisis clínicos",908988
+206,Automóviles,"07 Transporte, 07.1 Compra de vehículos, 07.1.1 Automóviles, 206 Automóviles",908992
+207,Motocicletas,"07 Transporte, 07.1 Compra de vehículos, 07.1.2 Motocicletas, 207 Motocicletas",908994
+208,Bicicletas,"07 Transporte, 07.1 Compra de vehículos, 07.1.3 Bicicletas, 208 Bicicletas",908996
+209,Acumuladores,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.1 Partes y accesorios para equipo de transporte personal, 209 Acumuladores",908999
+210,Neumáticos,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.1 Partes y accesorios para equipo de transporte personal, 210 Neumáticos",909000
+211,"Partes, accesorios y otras refacciones para vehículos","07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.1 Partes y accesorios para equipo de transporte personal, 211 Partes, accesorios y otras refacciones para vehículos",909001
+212,Aceites lubricantes,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.2 Combustibles y lubricantes para equipo de transporte personal, 212 Aceites lubricantes",909003
+213,Gasolina de alto octanaje,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.2 Combustibles y lubricantes para equipo de transporte personal, 213 Gasolina de alto octanaje",909004
+214,Gasolina de bajo octanaje,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.2 Combustibles y lubricantes para equipo de transporte personal, 214 Gasolina de bajo octanaje",909005
+215,Lavado y engrasado de automóvil,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.3 Mantenimiento y reparación de equipo de transporte personal, 215 Lavado y engrasado de automóvil",909007
+216,Mantenimiento de automóvil,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.3 Mantenimiento y reparación de equipo de transporte personal, 216 Mantenimiento de automóvil",909008
+217,Reparación de automóvil,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.3 Mantenimiento y reparación de equipo de transporte personal, 217 Reparación de automóvil",909009
+218,Cuotas de autopistas,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.4 Otros servicios relacionados con equipos de transporte personal, 218 Cuotas de autopistas",909011
+219,Estacionamiento,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.4 Otros servicios relacionados con equipos de transporte personal, 219 Estacionamiento",909012
+220,Trámites vehiculares,"07 Transporte, 07.2 Funcionamiento del equipo de transporte personal, 07.2.4 Otros servicios relacionados con equipos de transporte personal, 220 Trámites vehiculares",909013
+221,Metro o transporte eléctrico,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.1 Transporte de pasajeros por ferrocarril, 221 Metro o transporte eléctrico",909016
+222,Autobús foráneo,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.2 Transporte de pasajeros por carretera, 222 Autobús foráneo",909018
+223,Autobús urbano,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.2 Transporte de pasajeros por carretera, 223 Autobús urbano",909019
+224,Colectivo,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.2 Transporte de pasajeros por carretera, 224 Colectivo",909020
+225,Taxi,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.2 Transporte de pasajeros por carretera, 225 Taxi",909021
+226,Transporte escolar,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.2 Transporte de pasajeros por carretera, 226 Transporte escolar",909022
+227,Transporte aéreo,"07 Transporte, 07.3 Servicios de transporte de pasajeros, 07.3.3 Transporte de pasajeros por vía aérea, 227 Transporte aéreo",909024
+228,Equipo terminal de comunicación,"08 Información y comunicación, 08.1 Equipo de información y comunicación, 08.1.2 Equipo de telefonía móvil, 228 Equipo terminal de comunicación",909028
+229,Computadoras,"08 Información y comunicación, 08.1 Equipo de información y comunicación, 08.1.3 Equipo de procesamiento de información, 229 Computadoras",909030
+230,"Reproductores de audio y video, y sus accesorios","08 Información y comunicación, 08.1 Equipo de información y comunicación, 08.1.4 Equipo para la recepción, grabación y reproducción de sonido y video, 230 Reproductores de audio y video, y sus accesorios",909032
+231,Televisores,"08 Información y comunicación, 08.1 Equipo de información y comunicación, 08.1.4 Equipo para la recepción, grabación y reproducción de sonido y video, 231 Televisores",909033
+232,Servicios de telefonía fija,"08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.1 Servicios de comunicaciones fijas, 232 Servicios de telefonía fija",909036
+233,Servicio de telefonía móvil,"08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.2 Servicios de comunicaciones móviles, 233 Servicio de telefonía móvil",909038
+234,Servicio de internet,"08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.3 Servicios de provisión de acceso a Internet y servicios de almacenamiento en red, 234 Servicio de internet",909040
+235,"Paquetes de internet, telefonía y televisión de paga","08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.4 Servicios de telecomunicaciones agrupados, 235 Paquetes de internet, telefonía y televisión de paga",909042
+236,Servicio de televisión de paga,"08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.9 Otros servicios de información y comunicación, 236 Servicio de televisión de paga",909044
+237,Streaming de películas y música,"08 Información y comunicación, 08.3 Servicios de información y comunicaciones, 08.3.9 Otros servicios de información y comunicación, 237 Streaming de películas y música",909045
+238,Material y aparatos fotográficos,"09 Recreación, deporte y cultura, 09.1 Bienes recreativos duraderos, 09.1.1 Equipos e instrumentos ópticos fotográficos y cinematográficos, 238 Material y aparatos fotográficos",909049
+239,"Consolas, discos y descargas de videojuegos","09 Recreación, deporte y cultura, 09.2 Otros bienes recreativos, 09.2.1 Juguetes, juegos y pasatiempos, 239 Consolas, discos y descargas de videojuegos",909052
+240,Juguetes y juegos de mesa,"09 Recreación, deporte y cultura, 09.2 Otros bienes recreativos, 09.2.1 Juguetes, juegos y pasatiempos, 240 Juguetes y juegos de mesa",909053
+241,Artículos deportivos,"09 Recreación, deporte y cultura, 09.2 Otros bienes recreativos, 09.2.2 Equipo para deportes, campismo y recreación al aire libre, 241 Artículos deportivos",909055
+242,Plantas y flores,"09 Recreación, deporte y cultura, 09.3 Productos de jardín y mascotas, 09.3.1 Productos de jardinería, plantas y flores, 242 Plantas y flores",909058
+243,Alimento para mascotas,"09 Recreación, deporte y cultura, 09.3 Productos de jardín y mascotas, 09.3.2 Mascotas y productos relacionados, 243 Alimento para mascotas",909060
+244,Servicios para mascotas,"09 Recreación, deporte y cultura, 09.4 Servicios recreativos, 09.4.5 Veterinarios y otros servicios para mascotas, 244 Servicios para mascotas",909063
+245,Club deportivo,"09 Recreación, deporte y cultura, 09.4 Servicios recreativos, 09.4.6 Servicios recreativos y deportivos, 245 Club deportivo",909065
+246,Servicios recreativos y centros nocturnos,"09 Recreación, deporte y cultura, 09.4 Servicios recreativos, 09.4.6 Servicios recreativos y deportivos, 246 Servicios recreativos y centros nocturnos",909066
+247,"Instrumentos musicales, y descargas de audio y video","09 Recreación, deporte y cultura, 09.5 Bienes culturales, 09.5.1 Instrumentos musicales, 247 Instrumentos musicales, y descargas de audio y video",909069
+248,Cine,"09 Recreación, deporte y cultura, 09.6 Servicios culturales, 09.6.1 Cines, teatros y conciertos, 248 Cine",909072
+249,Museos y sitios culturales,"09 Recreación, deporte y cultura, 09.6 Servicios culturales, 09.6.2 Museos, bibliotecas y sitios culturales, 249 Museos y sitios culturales",909074
+250,Paquetes para fiesta,"09 Recreación, deporte y cultura, 09.6 Servicios culturales, 09.6.9 Otros servicios culturales, 250 Paquetes para fiesta",909076
+251,Libros de texto,"09 Recreación, deporte y cultura, 09.7 Periódicos, libros y artículos de papelería, 09.7.1 Libros, 251 Libros de texto",909079
+252,Otros libros,"09 Recreación, deporte y cultura, 09.7 Periódicos, libros y artículos de papelería, 09.7.1 Libros, 252 Otros libros",909080
+253,Periódicos y revistas,"09 Recreación, deporte y cultura, 09.7 Periódicos, libros y artículos de papelería, 09.7.2 Periódicos y publicaciones periódicas, 253 Periódicos y revistas",909082
+254,Material escolar,"09 Recreación, deporte y cultura, 09.7 Periódicos, libros y artículos de papelería, 09.7.4 Material de papelería y dibujo, 254 Material escolar",909084
+255,Servicios turísticos en paquete,"09 Recreación, deporte y cultura, 09.8 Paquetes de vacaciones, 09.8.0 Paquetes de vacaciones, 255 Servicios turísticos en paquete",909087
+256,Preescolar,"10 Servicios educativos, 10.1 Educación preescolar y primaria, 10.1.0 Educación preescolar y primaria, 256 Preescolar",909091
+257,Primaria,"10 Servicios educativos, 10.1 Educación preescolar y primaria, 10.1.0 Educación preescolar y primaria, 257 Primaria",909092
+258,Secundaria,"10 Servicios educativos, 10.2 Educación secundaria, 10.2.0 Educación secundaria, 258 Secundaria",909095
+259,Preparatoria,"10 Servicios educativos, 10.3 Educación postsecundaria no terciaria, 10.3.0 Educación postsecundaria no terciaria, 259 Preparatoria",909098
+260,Universidad,"10 Servicios educativos, 10.4 Educación terciaria (universitaria), 10.4.0 Educación terciaria (universitaria), 260 Universidad",909101
+261,Carrera corta,"10 Servicios educativos, 10.5 Educación no definida por nivel, 10.5.0 Educación no definida por nivel, 261 Carrera corta",909104
+262,Enseñanza adicional,"10 Servicios educativos, 10.5 Educación no definida por nivel, 10.5.0 Educación no definida por nivel, 262 Enseñanza adicional",909105
+263,Barbacoa o birria,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 263 Barbacoa o birria",909109
+264,Carnitas,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 264 Carnitas",909110
+265,"Loncherías, fondas, torterías y taquerías","11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 265 Loncherías, fondas, torterías y taquerías",909111
+266,Pizzas,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 266 Pizzas",909112
+267,Pollos rostizados,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 267 Pollos rostizados",909113
+268,Restaurantes y similares,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 268 Restaurantes y similares",909114
+269,Otros alimentos cocinados,"11 Restaurantes y servicios de alojamiento, 11.1 Servicios de alimentos y bebidas, 11.1.1 Restaurantes, cafés y similares, 269 Otros alimentos cocinados",909115
+270,Hoteles,"11 Restaurantes y servicios de alojamiento, 11.2 Servicios de alojamiento, 11.2.0 Servicios de alojamiento, 270 Hoteles",909118
+271,Seguro de automóvil,"12 Seguros y servicios financieros, 12.1 Seguros, 12.1.4 Seguros relacionado con el transporte, 271 Seguro de automóvil",909122
+272,Aparatos eléctricos para el cuidado personal,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.1 Aparatos eléctricos para el cuidado personal, 272 Aparatos eléctricos para el cuidado personal",909126
+273,Artículos de maquillaje,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 273 Artículos de maquillaje",909128
+274,Crema y productos para higiene dental,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 274 Crema y productos para higiene dental",909129
+275,Cremas para la piel,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 275 Cremas para la piel",909130
+276,Desodorantes personales,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 276 Desodorantes personales",909131
+277,Jabón de tocador,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 277 Jabón de tocador",909132
+278,Lociones y perfumes,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 278 Lociones y perfumes",909133
+279,Navajas y máquinas de afeitar,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 279 Navajas y máquinas de afeitar",909134
+280,Pañales,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 280 Pañales",909135
+281,Papel higiénico y pañuelos desechables,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 281 Papel higiénico y pañuelos desechables",909136
+282,Productos para el cabello,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 282 Productos para el cabello",909137
+283,Toallas sanitarias,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 283 Toallas sanitarias",909138
+284,Otros artículos de tocador,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.2 Otros aparatos, artículos y productos para el cuidado personal, 284 Otros artículos de tocador",909139
+285,Corte de cabello,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.3 Salones de peluquería y establecimientos de aseo personal, 285 Corte de cabello",909141
+286,Sala de belleza y masajes,"13 Cuidado personal, protección social y bienes diversos, 13.1 Cuidado personal, 13.1.3 Salones de peluquería y establecimientos de aseo personal, 286 Sala de belleza y masajes",909142
+287,"Relojes, joyas y bisutería","13 Cuidado personal, protección social y bienes diversos, 13.2 Efectos personales, 13.2.1 Joyas y relojes, 287 Relojes, joyas y bisutería",909145
+288,Bolsas y mochilas,"13 Cuidado personal, protección social y bienes diversos, 13.2 Efectos personales, 13.2.9 Otros efectos personales, 288 Bolsas y mochilas",909147
+289,Guarderías y estancias infantiles,"13 Cuidado personal, protección social y bienes diversos, 13.3 Protección social, 13.3.0 Protección social, 289 Guarderías y estancias infantiles",909150
+290,Expedición de documentos del sector público,"13 Cuidado personal, protección social y bienes diversos, 13.9 Otros servicios, 13.9.0 Otros servicios, 290 Expedición de documentos del sector público",909153
+291,Servicios funerarios,"13 Cuidado personal, protección social y bienes diversos, 13.9 Otros servicios, 13.9.0 Otros servicios, 291 Servicios funerarios",909154
+292,Servicios profesionales,"13 Cuidado personal, protección social y bienes diversos, 13.9 Otros servicios, 13.9.0 Otros servicios, 292 Servicios profesionales",909155
