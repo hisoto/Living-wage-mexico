@@ -56,7 +56,7 @@ pacman::p_load(
   broom
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 # ── Carga y preparación de datos ─────────────────────────────────────────────
 
@@ -295,40 +295,24 @@ plots_engel <- engel_df |>
   mutate(
     g = pmap(list(pred, categoria, ambito), \(df, cat, amb) {
       ggplot(df, aes(x = gasto_p_cum_na)) +
-        geom_point(aes(y = valor), color = "#611232", alpha = 0.15, size = 0.6) +
-        geom_line(aes(y = pred), color = "#A68D2C", linewidth = 1.1) +
-        labs(
-          title = paste0(cat, " — ", amb),
-          x = "Percentil ponderado del gasto corriente",
-          y = paste0("Gasto per cápita en ", cat)
-        ) +
+        geom_point(aes(y = valor), color = conasami_neutros[["gris"]],
+                   alpha = 0.15, size = 0.6) +
+        geom_line(aes(y = pred), color = conasami_colores[["guinda"]],
+                  linewidth = 1.1) +
+        labs(title = paste0(cat, " — ", amb)) +
         theme_conasami() +
-        theme(
-          plot.title = element_text(hjust = 0.5, size = 11, color = "black"),
-          axis.title = element_text(size = 9, color = "black"),
-          axis.text  = element_text(color = "black")
-        )
+        theme(plot.title = element_text(family = "Noto Sans", face = "bold",
+                                        size = 10, hjust = 0.5,
+                                        color = conasami_colores[["guinda_profundo"]]))
     })
   )
 
 walk(c("alimentos", "vivienda", "NANV"), \(cat) {
   gs <- plots_engel |> filter(categoria == cat) |> pull(g)
-  p  <- wrap_plots(gs, ncol = 2) +
-    plot_annotation(
-      title    = paste0("Curvas de Engel — ", cat, " (SCAM)"),
-      subtitle = "Vivienda y NANV con spline monotónico creciente; alimentos con spline libre",
-      theme    = theme_conasami() +
-        theme(
-          plot.title    = element_text(color = "black", hjust = 0.5),
-          plot.subtitle = element_text(color = "black", hjust = 0.5)
-        )
-    )
-  ggsave(
-    paste0("graphs/anexo/engel_", tolower(cat), ".png"),
-    plot   = p,
-    width  = 10,
-    height = 5
-  )
+  p  <- wrap_plots(gs, ncol = 2)
+  guardar_grafica_conasami(p, paste0("engel_", tolower(cat)),
+                           tamano = "libre", width = 17.5, height = 11,
+                           dir = "graphs/anexo")
 })
 
 # ── Gráfica: Forest plot de elasticidades (Log-Log + Working-Leser) ──────────
@@ -345,8 +329,8 @@ walk(c("alimentos", "vivienda", "NANV"), \(cat) {
       forest_data |> filter(categoria == cat),
       aes(x = elasticidad, y = ambito, color = regresor, shape = metodo)
     ) +
-    geom_vline(xintercept = 0, linetype = "dashed", color = "#98989A") +
-    geom_vline(xintercept = 1, linetype = "dotted", color = "#98989A") +
+    geom_vline(xintercept = 0, linetype = "dashed", color = conasami_neutros[["gris"]]) +
+    geom_vline(xintercept = 1, linetype = "dotted", color = conasami_neutros[["gris"]]) +
     geom_errorbarh(
       aes(xmin = ci_low, xmax = ci_high,
           group = interaction(regresor, metodo)),
@@ -358,39 +342,21 @@ walk(c("alimentos", "vivienda", "NANV"), \(cat) {
       size     = 2.5,
       position = position_dodge(width = 0.6)
     ) +
-    scale_color_manual(values = c("gasto_mon" = "#611232", "ing_cor" = "#1E5B4F")) +
+    scale_color_manual(values = c("gasto_mon" = unname(conasami_colores[["guinda_profundo"]]),
+                                  "ing_cor"   = unname(conasami_colores[["verde"]]))) +
     scale_shape_manual(values = c("Log-Log" = 16, "Working-Leser" = 17)) +
-    labs(
-      title    = paste0("Elasticidad-ingreso — ", cat),
-      subtitle = "Log-Log (círculo): η = β log-log; Working-Leser (triángulo): η = 1 + β/w̄",
-      x        = "Elasticidad-ingreso",
-      y        = "",
-      color    = "Regresor",
-      shape    = "Método"
-    ) +
-    theme_conasami() +
-    theme(
-      plot.title    = element_text(color = "black", hjust = 0.5),
-      plot.subtitle = element_text(color = "black", hjust = 0.5, size = 9),
-      axis.title    = element_text(color = "black"),
-      axis.text     = element_text(color = "black"),
-      legend.text   = element_text(color = "black"),
-      legend.title  = element_text(color = "black")
-    )
-  ggsave(
-    paste0("graphs/anexo/elasticidades_forest_", tolower(cat), ".png"),
-    plot   = g,
-    width  = 8,
-    height = 4
-  )
+    labs(color = "Regresor", shape = "Método") +
+    theme_conasami()
+  guardar_grafica_conasami(g, paste0("elasticidades_forest_", tolower(cat)),
+                           tamano = "ancho", dir = "graphs/anexo")
 })
 
 g_forest <- ggplot(
     forest_data,
     aes(x = elasticidad, y = ambito, color = regresor, shape = metodo)
   ) +
-  geom_vline(xintercept = 0, linetype = "dashed", color = "#98989A") +
-  geom_vline(xintercept = 1, linetype = "dotted", color = "#98989A") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = conasami_neutros[["gris"]]) +
+  geom_vline(xintercept = 1, linetype = "dotted", color = conasami_neutros[["gris"]]) +
   geom_errorbarh(
     aes(xmin = ci_low, xmax = ci_high,
         group = interaction(regresor, metodo)),
@@ -404,35 +370,16 @@ g_forest <- ggplot(
   ) +
   facet_wrap(~ categoria, ncol = 1) +
   scale_color_manual(
-    values = c("gasto_mon" = "#611232", "ing_cor" = "#1E5B4F"),
+    values = c("gasto_mon" = unname(conasami_colores[["guinda_profundo"]]),
+               "ing_cor"   = unname(conasami_colores[["verde"]])),
     labels = c("gasto_mon" = "Gasto monetario", "ing_cor" = "Ingreso corriente")
   ) +
   scale_shape_manual(values = c("Log-Log" = 16, "Working-Leser" = 17)) +
-  labs(
-    title    = NULL,
-    subtitle = "Log-Log (círculo): η = β; Working-Leser (triángulo): η = 1 + β/w̄",
-    x        = "Elasticidad-ingreso",
-    y        = NULL,
-    color    = "Regresor",
-    shape    = "Método"
-  ) +
-  theme_conasami() +
-  theme(
-    plot.title    = element_text(color = "black", hjust = 0.5),
-    plot.subtitle = element_text(color = "black", hjust = 0.5, size = 9),
-    axis.title    = element_text(color = "black"),
-    axis.text     = element_text(color = "black"),
-    strip.text    = element_text(color = "black", size = 11),
-    legend.text   = element_text(color = "black"),
-    legend.title  = element_text(color = "black")
-  )
+  labs(color = "Regresor", shape = "Método") +
+  theme_conasami()
 
-ggsave(
-  "graphs/anexo/elasticidades_forest.png",
-  plot   = g_forest,
-  width  = 10,
-  height = 8
-)
+guardar_grafica_conasami(g_forest, "elasticidades_forest", tamano = "libre",
+                         width = 17.5, height = 14, dir = "graphs/anexo")
 
 # ── Gráfica: shares de Working-Leser ─────────────────────────────────────────
 
@@ -456,30 +403,14 @@ wl_df <- concentrado |>
   )
 
 g_wl <- ggplot(wl_df, aes(x = log_gasto, y = share, weight = factor)) +
-  geom_point(color = "#611232", alpha = 0.1, size = 0.5) +
-  geom_smooth(method = "lm", color = "#A68D2C", se = FALSE, linewidth = 1) +
+  geom_point(color = conasami_neutros[["gris"]], alpha = 0.1, size = 0.5) +
+  geom_smooth(method = "lm", color = conasami_colores[["guinda"]],
+              se = FALSE, linewidth = 1) +
   facet_grid(ambito ~ categoria, scales = "free_y") +
-  labs(
-    title    = "Working-Leser: participación en el gasto vs log(gasto_mon_p)",
-    subtitle = "Pendiente > 0 → lujo; pendiente < 0 → necesidad (ambos no inferiores si η > 0)",
-    x        = "log(gasto corriente per cápita)",
-    y        = "Participación (share)"
-  ) +
-  theme_conasami() +
-  theme(
-    plot.title    = element_text(color = "black", hjust = 0.5),
-    plot.subtitle = element_text(color = "black", hjust = 0.5, size = 9),
-    axis.title    = element_text(color = "black"),
-    axis.text     = element_text(color = "black"),
-    strip.text    = element_text(color = "black", size = 10)
-  )
+  theme_conasami()
 
-ggsave(
-  "graphs/anexo/working_leser_shares.png",
-  plot   = g_wl,
-  width  = 12,
-  height = 8
-)
+guardar_grafica_conasami(g_wl, "working_leser_shares", tamano = "libre",
+                         width = 17.5, height = 12, dir = "graphs/anexo")
 
 # ── Verificación económica ───────────────────────────────────────────────────
 
@@ -903,9 +834,9 @@ etiquetas_grupo <- c(
   "hogares_nanv"             = "Hogares NANV"
 )
 colores_grupo <- c(
-  "percentiles_menores_nanv" = "#98989A",
-  "estrato_ref_alim"         = "#1E5B4F",
-  "hogares_nanv"             = "#611232"
+  "percentiles_menores_nanv" = unname(conasami_neutros[["gris"]]),
+  "estrato_ref_alim"         = unname(conasami_colores[["verde"]]),
+  "hogares_nanv"             = unname(conasami_colores[["guinda_profundo"]])
 )
 
 niveles_indicador <- c(
@@ -935,28 +866,16 @@ g_panel_a <- ggplot(panel_a_df,
     aes(label = sprintf("%.1f%%", pct)),
     position = position_dodge(width = 0.8),
     vjust    = -0.4,
-    size     = 3,
-    color    = "black",
+    size     = 2,
+    color    = conasami_neutros[["tinta"]],
     fontface = "bold"
   ) +
   scale_fill_manual(values = setNames(colores_grupo[niveles_grupo],
                                       etiquetas_grupo[niveles_grupo])) +
   scale_y_continuous(limits = c(0, 110), breaks = seq(0, 100, 20)) +
-  labs(
-    title = NULL,
-    x     = NULL,
-    y     = "% de hogares que cumplen",
-    fill  = NULL
-  ) +
+  labs(fill = NULL) +
   theme_conasami() +
-  theme(
-    plot.title   = element_text(color = "black", hjust = 0, size = 12),
-    axis.title   = element_text(color = "black"),
-    axis.text    = element_text(color = "black"),
-    axis.text.x  = element_text(angle = 25, hjust = 1, color = "black"),
-    legend.text  = element_text(color = "black"),
-    legend.title = element_text(color = "black")
-  )
+  theme(axis.text.x = element_text(angle = 25, hjust = 1))
 
 panel_b_df <- tabla_bienestar |>
   select(grupo, indice_0, indice_1, indice_2, indice_3, indice_4) |>
@@ -979,38 +898,23 @@ g_panel_b <- ggplot(panel_b_df, aes(x = grupo, y = pct, fill = nivel)) +
     color    = "white"
   ) +
   scale_fill_manual(
-    values = c("0" = "#611232", "1" = "#98989A", "2" = "#A68D2C",
-               "3" = "#1E5B4F", "4" = "#4C9B8E")
+    values = c("0" = unname(conasami_colores[["guinda_profundo"]]),
+               "1" = unname(conasami_neutros[["gris"]]),
+               "2" = unname(conasami_colores[["dorado"]]),
+               "3" = unname(conasami_colores[["verde"]]),
+               "4" = unname(conasami_colores[["verde_profundo"]]))
   ) +
   scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 20)) +
-  labs(
-    title = "B) Distribución del índice (0–4 indicadores cumplidos)",
-    x     = NULL,
-    y     = "% de hogares",
-    fill  = "Indicadores\ncumplidos"
-  ) +
-  theme_conasami() +
-  theme(
-    plot.title   = element_text(color = "black", hjust = 0, size = 12),
-    axis.title   = element_text(color = "black"),
-    axis.text    = element_text(color = "black"),
-    legend.text  = element_text(color = "black"),
-    legend.title = element_text(color = "black")
-  )
+  labs(fill = "Indicadores\ncumplidos") +
+  theme_conasami()
 
-ggsave(
-  "graphs/anexo/hogares_nanv_bienestar_indicadores.png",
-  plot   = g_panel_a,
-  width  = 12,
-  height = 6
-)
+guardar_grafica_conasami(g_panel_a, "hogares_nanv_bienestar_indicadores",
+                         tamano = "libre", width = 17.5, height = 9,
+                         dir = "graphs/anexo")
 
-ggsave(
-  "graphs/anexo/hogares_nanv_bienestar_indice.png",
-  plot   = g_panel_b,
-  width  = 8,
-  height = 5
-)
+guardar_grafica_conasami(g_panel_b, "hogares_nanv_bienestar_indice",
+                         tamano = "libre", width = 12, height = 8,
+                         dir = "graphs/anexo")
 
 # ── B.6 Resumen en consola ───────────────────────────────────────────────────
 
