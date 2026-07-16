@@ -33,7 +33,7 @@ pacman::p_load(
   patchwork
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("finaldata/metodologia", showWarnings = FALSE, recursive = TRUE)
 dir.create("graphs/metodologia",    showWarnings = FALSE, recursive = TRUE)
@@ -133,14 +133,18 @@ bind_rows(
 
 # ── gráficas ─────────────────────────────────────────────────────────────────────
 
+# Ámbitos en colores institucionales; los nacionales se distinguen con tonos más
+# oscuros de la misma familia (guinda profundo / gris secundario).
 colores_hogar <- c(
-  "Nacional_Urbano" = "#7A143F",
-  "Nacional_Rural"  = "#7F7F81",
-  "Urbano"          = "#611232",
-  "Rural"           = "#98989A"
+  "Nacional_Urbano" = unname(conasami_colores[["guinda_profundo"]]),
+  "Nacional_Rural"  = unname(conasami_neutros[["texto_secundario"]]),
+  "Urbano"          = unname(conasami_colores[["guinda"]]),
+  "Rural"           = unname(conasami_neutros[["gris"]])
 )
 
 # Barras por entidad y ámbito; los nacionales se distinguen con tonos propios.
+# El título es el identificador estructural del subpanel; se restiliza como
+# strip.text del theme. Ejes/títulos de eje viven en el pie de figura.
 barra_hogar <- function(var, titulo, y_lab = "Número de personas", breaks_n = 4, limites = NULL) {
   ggplot(hogares) +
     geom_bar(
@@ -149,7 +153,7 @@ barra_hogar <- function(var, titulo, y_lab = "Número de personas", breaks_n = 4
     ) +
     geom_hline(
       yintercept = mean(pull(hogares, {{ var }})),
-      linetype = "dashed", color = "#611232", linewidth = 0.5
+      linetype = "dashed", color = conasami_colores[["guinda_profundo"]], linewidth = 0.5
     ) +
     scale_fill_manual(
       values = colores_hogar,
@@ -158,15 +162,17 @@ barra_hogar <- function(var, titulo, y_lab = "Número de personas", breaks_n = 4
     ) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = breaks_n), limits = limites) +
     theme_conasami() +
-    labs(title = titulo, x = "", y = y_lab, fill = "") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+    labs(title = NULL, fill = "") +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+          plot.title = element_text(family = "Noto Sans", face = "bold",
+                                    size = 10, hjust = 0.5,
+                                    color = conasami_colores[["guinda_profundo"]]))
 }
 
-guardar_grafica <- function(plot, archivo, width = 10, height = 5) {
-  ggsave(file.path("graphs/metodologia", paste0(archivo, ".png")),
-         plot, width = width, height = height, dpi = 300)
-  ggsave(file.path("graphs/metodologia", paste0(archivo, ".eps")),
-         plot, width = width, height = height, device = cairo_ps)
+guardar_grafica <- function(plot, archivo, width = 17.5, height = 9) {
+  guardar_grafica_conasami(plot, archivo, tamano = "libre",
+                           width = width, height = height,
+                           dir = "graphs/metodologia")
 }
 
 plot_integrantes <- barra_hogar(integrantes, "Integrantes del hogar")
@@ -174,6 +180,12 @@ plot_trabajadoras <- barra_hogar(trabajadoras, "Personas trabajadoras", limites 
 
 composicion <- plot_integrantes + plot_trabajadoras + plot_layout(ncol = 2, nrow = 1)
 guardar_grafica(composicion, "composicion_hogar")
+
+# Paneles individuales en tamaño mediano (8 x 8 cm), sin título (viven en el pie de figura).
+guardar_grafica_conasami(plot_integrantes,  "composicion_hogar_integrantes",
+                         tamano = "medio", dir = "graphs/metodologia")
+guardar_grafica_conasami(plot_trabajadoras, "composicion_hogar_trabajadoras",
+                         tamano = "medio", dir = "graphs/metodologia")
 
 plot_ratio <- barra_hogar(ratio, "Razón de dependencia", y_lab = "Integrantes por persona trabajadora", breaks_n = 2)
 guardar_grafica(plot_ratio, "ratio_hogar")

@@ -39,7 +39,7 @@ pacman::p_load(
   rnaturalearthhires
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("finaldata/metodologia", showWarnings = FALSE, recursive = TRUE)
 dir.create("graphs/metodologia",    showWarnings = FALSE, recursive = TRUE)
@@ -169,41 +169,56 @@ medias_mapa <- medias |>
 sf_urbano <- mexico |> left_join(filter(medias_mapa, ambito == "Urbano"), by = c("name" = "nom_ent"))
 sf_rural  <- mexico |> left_join(filter(medias_mapa, ambito == "Rural"),  by = c("name" = "nom_ent"))
 
-# Tema base para mapas: hereda fuente y leyenda institucional de theme_conasami()
-# y elimina los elementos cartesianos (ejes, grid, borde) impropios de un mapa.
+# Tema base para mapas (patrón guía DT 2026 §7.6): theme_void con fuente Noto Sans.
+# El título de panel (Urbano/Rural) es un identificador estructural: se restiliza
+# como strip.text (Noto Sans bold, guinda profundo, centrado). La barra de gradiente
+# va DENTRO del mapa (esquina inferior izquierda, sobre el océano Pacífico, como en
+# maps.R) para que el mapa aproveche todo el ancho del lienzo; cada panel conserva
+# su propia barra porque el rango del gradiente difiere entre ámbitos.
 tema_mapa <- function() {
-  theme_conasami() +
+  theme_void(base_family = "Noto Sans") +
     theme(
-      axis.line   = element_blank(),
-      axis.ticks  = element_blank(),
-      axis.text   = element_blank(),
-      axis.title  = element_blank(),
-      panel.border = element_blank(),
-      panel.grid  = element_blank(),
+      text             = element_text(color = conasami_neutros[["tinta"]]),
+      plot.background  = element_rect(fill = "transparent", color = NA),
       panel.background = element_rect(fill = "transparent", color = NA),
-      legend.position = "right",
-      legend.key.size = unit(0.4, "cm")
+      legend.position  = c(0.17, 0.28),
+      legend.key.size  = unit(0.4, "cm"),
+      legend.title     = element_blank(),
+      legend.text      = element_text(family = "Noto Sans", size = 9,
+                                      color = conasami_neutros[["tinta"]]),
+      plot.title       = element_blank(),
+      # Sin margen exterior: el mapa aprovecha todo el lienzo.
+      plot.margin      = margin(0, 0, 0, 0)
     )
 }
 
 mapa_base <- function(datos_sf, col, titulo, etiquetas_fill = waiver()) {
   ggplot(datos_sf) +
-    geom_sf(aes(fill = .data[[col]]), color = "black") +
-    scale_fill_gradient(low = "#FDE9EF", high = "#611232", labels = etiquetas_fill) +
-    coord_sf(datum = NA) +
+    geom_sf(aes(fill = .data[[col]]), color = "grey40", linewidth = 0.2) +
+    scale_fill_gradient(low = "#FDE9EF",
+                        high = conasami_colores[["guinda_profundo"]],
+                        labels = etiquetas_fill) +
+    coord_sf(datum = NA, expand = FALSE) +
     labs(title = titulo, fill = "") +
     tema_mapa()
 }
 
-# Mapa combinado urbano + rural para un rubro, exportado en PNG (300 dpi) y EPS.
-guardar_mapa <- function(col, archivo, etiquetas_fill = waiver(), width = 10, height = 5) {
-  panel <- mapa_base(sf_urbano, col, "Urbano", etiquetas_fill) +
-    mapa_base(sf_rural, col, "Rural", etiquetas_fill) +
-    plot_layout(ncol = 2)
-  ggsave(file.path("graphs/metodologia", paste0(archivo, ".png")),
-         panel, width = width, height = height, dpi = 300)
-  ggsave(file.path("graphs/metodologia", paste0(archivo, ".eps")),
-         panel, width = width, height = height, device = cairo_ps)
+# Mapa de un rubro: exporta el combinado urbano + rural (nombre histórico, lo consume
+# el documento extendido) más un mapa individual por ámbito. Como la escala es un
+# gradiente continuo con rango propio por panel, cada mapa individual conserva su
+# leyenda. Individuales en tamaño medio (8×8 cm, Manual DT 2026); PNG (300 dpi) + SVG.
+guardar_mapa <- function(col, archivo, etiquetas_fill = waiver()) {
+  p_urbano <- mapa_base(sf_urbano, col, "Urbano", etiquetas_fill)
+  p_rural  <- mapa_base(sf_rural,  col, "Rural",  etiquetas_fill)
+  panel    <- p_urbano + p_rural + plot_layout(ncol = 2)
+
+  guardar_grafica_conasami(panel, archivo, tamano = "libre",
+                           width = 17.5, height = 9,
+                           dir = "graphs/metodologia")
+  guardar_grafica_conasami(p_urbano, paste0(archivo, "_urbano"),
+                           tamano = "medio", dir = "graphs/metodologia")
+  guardar_grafica_conasami(p_rural,  paste0(archivo, "_rural"),
+                           tamano = "medio", dir = "graphs/metodologia")
   panel
 }
 
