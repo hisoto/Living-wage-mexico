@@ -49,7 +49,7 @@ pacman::p_load(
   haven
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("graphs/relacion", showWarnings = FALSE, recursive = TRUE)
 
@@ -152,29 +152,23 @@ cdmx <- cdmx |>
     rural = ifelse(rural == 1, "Rural", "Urbano")
   )
 
-ggplot(cdmx) +
+g_cdmx_scam <- ggplot(cdmx) +
   geom_point(aes(x = gasto_p_cum, y = viv_p, color = as.factor(viv_dig))) +
   facet_wrap(~ rural, scales = "free_y") +
-  geom_line(aes(x = gasto_p_cum, y = pred), color = "red", linewidth = 1) +
+  geom_line(aes(x = gasto_p_cum, y = pred),
+            color = conasami_neutros[["tinta"]], linewidth = 1) +
   scale_color_manual(
-    values = c("0" = "#98989A", "1" = "#611232"),
+    values = c("0" = unname(conasami_neutros[["gris"]]),
+               "1" = unname(conasami_colores[["guinda"]])),
     labels = c("No digna", "Digna")
   ) +
-  labs(
-    x     = "Probabilidad acumulada del gasto corriente",
-    y     = "Alquiler per cápita",
-    color = ""
-  ) +
-  theme_conasami() +
-  theme(
-    axis.title = element_text(size = 10, color = "black"),
-    axis.text  = element_text(color = "black"),
-    strip.text = element_text(color = "black")
-  )
+  labs(color = "") +
+  theme_conasami()
 
-ggsave("graphs/relacion/cdmx_dignas_gasto.png", width = 10, height = 6)
+guardar_grafica_conasami(g_cdmx_scam, "cdmx_dignas_gasto", tamano = "libre",
+                         width = 17.5, height = 9, dir = "graphs/relacion")
 
-# ── Ciudad de México: radar de criterios de vivienda digna por ámbito ──────────
+# ── Ciudad de México: criterios de vivienda digna por ámbito (lollipop) ────────
 
 design <- cdmx |>
   as_survey_design(weights = factor, strata = est_dis, ids = upm)
@@ -187,8 +181,13 @@ indicadores <- design |>
     ten_f          = survey_mean(ten_f == 1, vartype = "ci"),
     disponibilidad = survey_mean(disponibilidad == 1, vartype = "ci")
   ) |>
-  select(-ends_with("_low"), -ends_with("_upp")) |>
-  pivot_longer(cols = -rural, names_to = "indicador", values_to = "valor") |>
+  rename_with(~ paste0(.x, "_est"),
+              .cols = c(habitabilidad, aseq, ten_f, disponibilidad)) |>
+  pivot_longer(
+    cols          = -rural,
+    names_to      = c("indicador", ".value"),
+    names_pattern = "(.*)_(est|low|upp)"
+  ) |>
   mutate(
     indicador = case_when(
       indicador == "habitabilidad"  ~ "Habitabilidad",
@@ -196,56 +195,48 @@ indicadores <- design |>
       indicador == "ten_f"          ~ "Tenencia",
       indicador == "disponibilidad" ~ "Disponibilidad"
     ),
+    # Orden de lectura (de arriba hacia abajo): Habitabilidad, Asequibilidad,
+    # Tenencia, Disponibilidad. Como el eje y crece hacia arriba, se invierte el
+    # orden de niveles para que Habitabilidad quede en la parte superior.
     indicador = factor(
       indicador,
-      levels = c("Habitabilidad", "Asequibilidad", "Tenencia", "Disponibilidad")
-    )
+      levels = rev(c("Habitabilidad", "Asequibilidad", "Tenencia", "Disponibilidad"))
+    ),
+    # `rural` ya viene como "Rural"/"Urbano" (se convirtió a texto en el bloque SCAM).
+    ambito = rural,
+    # Dodge manual: posición numérica del criterio con un desplazamiento por ámbito
+    # (Urbano arriba, Rural abajo). Se hace a mano porque position_dodge deforma los
+    # palos del lollipop (geom_segment) en diagonales.
+    y_base = as.integer(indicador),
+    y_num  = y_base + ifelse(ambito == "Urbano", 0.18, -0.18)
   )
 
-etiquetas_y <- data.frame(
-  indicador = levels(indicadores$indicador)[1],
-  valor     = seq(0.2, 1, by = 0.2),
-  etiqueta  = scales::percent(seq(0.2, 1, by = 0.2), accuracy = 1)
-)
-
-ggplot(indicadores, aes(x = indicador, y = valor,
-                        group = indicador, color = indicador)) +
-  geom_hline(yintercept = seq(0.2, 1, by = 0.2),
-             color = "grey85", linewidth = 0.4) +
-  geom_text(data = etiquetas_y,
-            aes(x = indicador, y = valor, label = etiqueta),
-            color = "grey40", size = 3,
-            inherit.aes = FALSE, show.legend = FALSE) +
-  geom_segment(data = distinct(indicadores, indicador),
-               aes(x = indicador, y = 0, xend = indicador, yend = 1),
-               color = "grey80", linewidth = 0.4,
-               inherit.aes = FALSE, show.legend = FALSE) +
-  geom_point(size = 4, alpha = 0.9) +
-  coord_polar() +
-  scale_y_continuous(limits = c(0, 1)) +
-  scale_color_manual(
-    name   = NULL,
-    values = c(
-      Habitabilidad  = "#611232",
-      Asequibilidad  = "#98989A",
-      Tenencia       = "#A57F2C",
-      Disponibilidad = "#1E5B4F"
-    )
-  ) +
-  facet_wrap(~ rural) +
+# Lollipop horizontal: un punto por criterio y ámbito, con la barra del intervalo de
+# confianza. Reemplaza al radar anterior (más legible para comparar los cuatro
+# criterios de vivienda digna entre ámbitos). Verde = Urbano, guinda = Rural. El eje y
+# se reetiqueta con el nombre de cada criterio a partir de su posición numérica.
+g_cdmx_criterios <- ggplot(indicadores, aes(color = ambito)) +
+  geom_segment(aes(x = 0, xend = est, y = y_num, yend = y_num), linewidth = 0.6) +
+  geom_errorbar(aes(xmin = low, xmax = upp, y = y_num),
+                orientation = "y", width = 0.12, linewidth = 0.5) +
+  geom_point(aes(x = est, y = y_num), size = 3) +
+  scale_x_continuous(labels = scales::percent_format(accuracy = 1),
+                     limits = c(0, 1),
+                     expand = expansion(mult = c(0, 0.05))) +
+  scale_y_continuous(breaks = seq_along(levels(indicadores$indicador)),
+                     labels = levels(indicadores$indicador)) +
+  scale_color_manual(values = c(
+    Urbano = unname(conasami_colores[["verde"]]),
+    Rural  = unname(conasami_colores[["guinda"]])
+  )) +
+  labs(color = NULL) +
   theme_conasami() +
-  theme(
-    panel.grid      = element_blank(),
-    axis.title      = element_blank(),
-    axis.text.y     = element_blank(),
-    axis.ticks      = element_blank(),
-    axis.line       = element_blank(),
-    strip.text      = element_text(color = "black"),
-    legend.position = "bottom"
-  ) +
-  labs(x = "", y = "")
+  theme(panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_line(color = conasami_neutros[["regla_suave"]],
+                                          linewidth = 0.3))
 
-ggsave("graphs/relacion/cdmx_radar.png", width = 8, height = 5)
+guardar_grafica_conasami(g_cdmx_criterios, "cdmx_radar", tamano = "ancho",
+                         dir = "graphs/relacion")
 
 # ── Tabla auxiliar: proporción de viviendas dignas por entidad y ámbito ────────
 

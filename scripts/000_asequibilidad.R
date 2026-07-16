@@ -33,7 +33,7 @@ if (!require(pacman))
 
 pacman::p_load(tidyverse, haven, statar, data.table)
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 # ── Carga y preparación ───────────────────────────────────────────────────────
 
@@ -63,17 +63,10 @@ tabla <- concentrado |>
 
 # ── Gráfica ────────────────────────────────────────────────────────────────────
 
-ggplot(tabla, aes(x = percentil_nacional, y = no_asequible)) +
-  geom_line(color = "#611232", linewidth = 1) +
+g_aseq <- ggplot(tabla, aes(x = percentil_nacional, y = no_asequible)) +
+  geom_line(color = conasami_colores[["guinda"]], linewidth = 1) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
-  labs(
-    x = "Percentil nacional de ingreso",
-    y = ""
-  ) +
-  theme_conasami() +
-  theme(
-    axis.title = element_text(size = 10, color = "black"),
-    axis.text  = element_text(color = "black")
-  )
+  theme_conasami()
 
-ggsave("graphs/relacion/asequibilidad.png", width = 8, height = 4, dpi = 300)
+guardar_grafica_conasami(g_aseq, "asequibilidad", tamano = "ancho",
+                         dir = "graphs/relacion")

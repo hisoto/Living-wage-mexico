@@ -54,14 +54,13 @@ p_load(
   srvyr,
   data.table,
   foreign,
-  extrafont,
   scam,
   statar,
   Hmisc,
   haven
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 #_______________________________________________________________________________
 
@@ -157,33 +156,27 @@ for (ambito in c(0, 1)) {
   datos_ambito <- datos_ambito |>
     mutate(pred = predict.scam(modelo_ambito))
   
-  ggplot(datos_ambito) +
-    geom_point(aes(x = gasto_p_cum_na, y = viv_p), color = "#611232", alpha = 0.4) +
+  # Nube de datos en gris; predicción SCAM en guinda; suavizado LOESS en verde
+  # (colores referenciados en el pie de @fig-engel-vivienda-nac del documento).
+  g_nac <- ggplot(datos_ambito) +
+    geom_point(aes(x = gasto_p_cum_na, y = viv_p),
+               color = conasami_neutros[["gris"]], alpha = 0.4) +
     geom_smooth(
       aes(x = gasto_p_cum_na, y = viv_p),
       method = "loess",
       span = .5,
-      se = FALSE
+      se = FALSE,
+      color = conasami_colores[["verde"]]
     ) +
     geom_line(aes(x = gasto_p_cum_na, y = pred),
-              color = "red",
+              color = conasami_colores[["guinda"]],
               linewidth = 1) +
-    labs(x = "Probabilidad acumulada del gasto corriente", y = "Alquiler per cápita") +
-    theme_conasami() +
-    theme(
-      axis.title = element_text(size = 10, color = "black"),
-      axis.text  = element_text(color = "black")
-        )
-  
-  ggsave(
-    filename = paste0(
-      "graphs/relacion/nacional/",
-      ifelse(ambito == 0, "urbano", "rural"),
-      "_nacional.png"
-    ),
-    plot = last_plot(),
-    width = 10,
-    height = 6
+    theme_conasami()
+
+  guardar_grafica_conasami(
+    g_nac,
+    paste0(ifelse(ambito == 0, "urbano", "rural"), "_nacional"),
+    tamano = "ancho", dir = "graphs/relacion/nacional"
   )
   
   # Se genera un local dentro de la función for
@@ -280,28 +273,27 @@ for (ent in entidades) {
     mutate(pred = predict.scam(modelo_ent))
   
   
-  ggplot(datos_ent) +
-    geom_point(aes(x = gasto_p_cum, y = viv_p), color = "#611232") +
+  g_ent <- ggplot(datos_ent) +
+    geom_point(aes(x = gasto_p_cum, y = viv_p),
+               color = conasami_neutros[["gris"]], alpha = 0.4) +
     geom_smooth(
       aes(x = gasto_p_cum, y = viv_p),
       method = "loess",
       span = .5,
-      se = FALSE
+      se = FALSE,
+      color = conasami_colores[["verde"]]
     ) +
     geom_line(aes(x = gasto_p_cum, y = pred),
-              color = "red",
+              color = conasami_colores[["guinda"]],
               linewidth = 1) +
-    labs(title = ent, x = "Probabilidad acumulada del Gasto Corriente", y = "Alquiler per cápita") +
+    labs(title = ent) +
     theme_conasami() +
-    theme(plot.title = element_text(hjust = 0.5),
-          axis.title.x = element_text(size = 10))
-  
-  ggsave(
-    filename = paste0("graphs/relacion/urbano/", ent, ".png"),
-    plot = last_plot(),
-    width = 10,
-    height = 6
-  )
+    theme(plot.title = element_text(family = "Noto Sans", face = "bold",
+                                    size = 10, hjust = 0.5,
+                                    color = conasami_colores[["guinda_profundo"]]))
+
+  guardar_grafica_conasami(g_ent, ent, tamano = "ancho",
+                           dir = "graphs/relacion/urbano")
   
   local({
     current_model <- modelo_ent
@@ -353,28 +345,27 @@ for (ent in entidades) {
   datos_ent <- datos_ent |>
     mutate(pred = predict.scam(modelo_ent))
   
-  ggplot(datos_ent) +
-    geom_point(aes(x = gasto_p_cum, y = viv_p), color = "#611232") +
+  g_ent <- ggplot(datos_ent) +
+    geom_point(aes(x = gasto_p_cum, y = viv_p),
+               color = conasami_neutros[["gris"]], alpha = 0.4) +
     geom_smooth(
       aes(x = gasto_p_cum, y = viv_p),
       method = "loess",
       span = .5,
-      se = FALSE
+      se = FALSE,
+      color = conasami_colores[["verde"]]
     ) +
     geom_line(aes(x = gasto_p_cum, y = pred),
-              color = "red",
+              color = conasami_colores[["guinda"]],
               linewidth = 1) +
-    labs(title = ent, x = "Probabilidad acumulada del Gasto Corriente", y = "Alquiler per cápita") +
+    labs(title = ent) +
     theme_conasami() +
-    theme(plot.title = element_text(hjust = 0.5),
-          axis.title.x = element_text(size = 10))
-  
-  ggsave(
-    filename = paste0("graphs/relacion/rural/", ent, "_rural.png"),
-    plot = last_plot(),
-    width = 10,
-    height = 6
-  )
+    theme(plot.title = element_text(family = "Noto Sans", face = "bold",
+                                    size = 10, hjust = 0.5,
+                                    color = conasami_colores[["guinda_profundo"]]))
+
+  guardar_grafica_conasami(g_ent, paste0(ent, "_rural"), tamano = "ancho",
+                           dir = "graphs/relacion/rural")
   
   local({
     current_model <- modelo_ent
@@ -652,7 +643,7 @@ percentiles_grafica <- canasta_vivienda |>
   filter(nom_ent != "Nacional") |>
   mutate(rural = factor(rural, levels = c(0, 1), labels = c("Urbano", "Rural")))
 
-ggplot(percentiles_grafica) +
+g_inverse <- ggplot(percentiles_grafica) +
   geom_col(
     mapping = aes(
       x = reorder(nom_ent, inverse_result, FUN = mean),
@@ -663,19 +654,14 @@ ggplot(percentiles_grafica) +
     width = 0.7
   ) +
   theme_conasami() +
-  labs(x = "",
-       y = "",
-       fill = "") +
+  labs(fill = "") +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1L)) +
-  scale_fill_manual(values = c("Urbano" = "#611232", "Rural" = "#98989A")) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, color = "black"),
-        axis.text.y = element_text(color = "black"))
+  scale_fill_conasami(breaks = c("Urbano", "Rural")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
 
-ggsave(
-  "graphs/relacion/nacional/inverse_result.png",
-  width = 12,
-  height = 6
-)
+guardar_grafica_conasami(g_inverse, "inverse_result", tamano = "libre",
+                         width = 17.5, height = 9,
+                         dir = "graphs/relacion/nacional")
 
 # prueba de valores alternativos de NANV
 
