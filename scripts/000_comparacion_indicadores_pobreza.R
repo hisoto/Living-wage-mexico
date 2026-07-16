@@ -50,20 +50,21 @@ pacman::p_load(
   patchwork
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("finaldata/alimentos", showWarnings = FALSE, recursive = TRUE)
 dir.create("graphs/alimentos",    showWarnings = FALSE, recursive = TRUE)
 
-guinda <- "#611232"
-gris   <- "#98989A"
+guinda <- conasami_colores[["guinda"]]
+gris   <- conasami_neutros[["gris"]]
 
-# Exporta una gráfica en PNG (300 dpi) y EPS, alineada al Manual DT 2026.
-guardar_grafica <- function(plot, archivo, width = 10, height = 5) {
-  ggsave(file.path("graphs/alimentos", paste0(archivo, ".png")),
-         plot, width = width, height = height, dpi = 300)
-  ggsave(file.path("graphs/alimentos", paste0(archivo, ".eps")),
-         plot, width = width, height = height, device = cairo_ps)
+# Exporta una gráfica en PNG (300 dpi) + SVG con la identidad DT 2026.
+guardar_grafica <- function(plot, archivo, tamano = "libre",
+                            width = 17.5, height = 9) {
+  guardar_grafica_conasami(plot, archivo, tamano = tamano,
+                           width = if (tamano == "libre") width else NULL,
+                           height = if (tamano == "libre") height else NULL,
+                           dir = "graphs/alimentos")
 }
 
 # ── indicadores de vivienda (bienestar Conasami) ─────────────────────────────────
@@ -241,11 +242,11 @@ g_panel <- comparacion |>
   geom_point(size = 0.8) +
   facet_wrap(~ dimension) +
   scale_color_manual(values = colores) +
-  labs(x = "Percentil", y = "(%) de hogares", color = "") +
+  labs(color = "") +
   theme_conasami() +
-  theme(legend.position = "bottom")
+  theme(strip.text = element_blank())
 
-guardar_grafica(g_panel, "comparacion_indicadores_pobreza", width = 12, height = 8)
+guardar_grafica(g_panel, "comparacion_indicadores_pobreza", width = 17.5, height = 11)
 
 # individuales por dimensión
 archivos_ind <- c(
@@ -262,10 +263,9 @@ walk2(names(archivos_ind), archivos_ind, function(dim, archivo) {
     geom_line() +
     geom_point(size = 0.9) +
     scale_color_manual(values = colores) +
-    labs(title = dim, x = "Percentil", y = "(%) de hogares", color = "") +
-    theme_conasami() +
-    theme(legend.position = "bottom")
-  guardar_grafica(g, archivo, width = 7, height = 5)
+    labs(color = "") +
+    theme_conasami()
+  guardar_grafica(g, archivo, tamano = "medio")
 })
 
 # ── cifras para la redacción del documento ───────────────────────────────────────

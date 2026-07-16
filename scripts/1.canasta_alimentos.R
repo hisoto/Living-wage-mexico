@@ -28,6 +28,8 @@
 #
 # Gráficas (graphs/alimentos/, PNG 300 dpi + EPS):
 #   indicadores_bienestar  canasta_entidad  canasta_vs_lpei
+#   paneles medianos 8x8 (sin título): indicadores_alimentacion, indicadores_vivienda,
+#   indicadores_servicios, indicadores_educacion
 #
 # Notas: el componente alimenta a los scripts 3 y 4 vía 7.canasta_alimentaria.csv;
 #   no modificar los nombres de salida sin actualizar a los consumidores. Parámetros
@@ -54,7 +56,7 @@ pacman::p_load(
   tidytext
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("finaldata/alimentos", showWarnings = FALSE, recursive = TRUE)
 dir.create("graphs/alimentos",    showWarnings = FALSE, recursive = TRUE)
@@ -111,12 +113,13 @@ disenio <- function(.data, pesos) {
     as_survey_design(weights = {{ pesos }}, strata = est_dis, ids = upm)
 }
 
-# Exporta una gráfica en PNG (300 dpi) y EPS, alineada al Manual DT 2026.
-guardar_grafica <- function(plot, archivo, width = 10, height = 5) {
-  ggsave(file.path("graphs/alimentos", paste0(archivo, ".png")),
-         plot, width = width, height = height, dpi = 300)
-  ggsave(file.path("graphs/alimentos", paste0(archivo, ".eps")),
-         plot, width = width, height = height, device = cairo_ps)
+# Exporta una gráfica en PNG (300 dpi) + SVG con la identidad DT 2026.
+# width/height en cm (tamano = "libre"); todas las figuras de este script son
+# densas (paneles 2x2, rankings de 32 entidades), por eso van en libre.
+guardar_grafica <- function(plot, archivo, width = 17.5, height = 10) {
+  guardar_grafica_conasami(plot, archivo, tamano = "libre",
+                           width = width, height = height,
+                           dir = "graphs/alimentos")
 }
 
 # ── indicadores de vivienda ────────────────────────────────────────────────────
@@ -266,13 +269,17 @@ fwrite(tabla.percentil.indicadores,
 # ── gráfica de indicadores de bienestar (DT 2026) ────────────────────────────────
 # Los indicadores seleccionados para el índice se resaltan en guinda institucional.
 
-guinda <- "#611232"
-gris   <- "#98989A"
+guinda <- conasami_colores[["guinda"]]
+gris   <- conasami_neutros[["gris"]]
 
 # series: vector con nombres = etiqueta de la serie, valores = columna del df.
 # valores: vector con nombres = etiqueta, valores = color. La serie seleccionada va en guinda.
-panel_indicador <- function(datos, series, valores, titulo) {
-  datos |>
+# titulo: identificador estructural del subpanel (categoría de indicador). Con título
+# (panel combinado) se restiliza al estilo strip.text del theme (Noto Sans bold, guinda
+# profundo); con titulo = NULL (gráficas medianas individuales) se omite y el pie va en
+# la tabla-envoltorio de Word. Ejes y demás títulos se dejan al pie de figura del documento.
+panel_indicador <- function(datos, series, valores, titulo = NULL) {
+  p <- datos |>
     select(percentil_nacional, all_of(unname(series))) |>
     pivot_longer(-percentil_nacional, names_to = "col", values_to = "p") |>
     mutate(serie = factor(names(series)[match(col, series)], levels = names(series))) |>
@@ -280,45 +287,54 @@ panel_indicador <- function(datos, series, valores, titulo) {
     geom_line() +
     geom_point() +
     scale_color_manual(values = valores) +
-    labs(title = titulo, x = "Percentil", y = "(%) de hogares", color = "") +
-    theme_conasami() +
-    theme(legend.position = "bottom")
+    labs(color = NULL) +
+    theme_conasami()
+
+  if (!is.null(titulo)) {
+    p <- p +
+      labs(title = titulo) +
+      theme(plot.title = element_text(family = "Noto Sans", face = "bold",
+                                      size = 10, hjust = 0.5,
+                                      color = conasami_colores[["guinda_profundo"]]))
+  }
+  p
 }
 
-g_alimento <- panel_indicador(
-  tabla.percentil.indicadores,
-  c("Sin falta de alimentos" = "i.alim.p", "Exceso de gasto alimento" = "i.exceso.g.alim.p"),
-  c("Sin falta de alimentos" = guinda, "Exceso de gasto alimento" = gris),
-  "Indicadores alimentarios"
+# Fuente única para el panel combinado 2x2 (con título por categoría) y para las
+# gráficas medianas individuales (sin título; el pie va en la envoltura de Word).
+indicadores_cfg <- list(
+  indicadores_alimentacion = list(
+    series  = c("Sin falta de alimentos" = "i.alim.p", "Exceso de gasto" = "i.exceso.g.alim.p"),
+    valores = c("Sin falta de alimentos" = guinda,     "Exceso de gasto" = gris),
+    titulo  = "Indicadores alimentarios"),
+  indicadores_vivienda = list(
+    series  = c("Habitabilidad" = "i.materiales.p", "Sin hacinamiento" = "i.hacinamiento.p"),
+    valores = c("Habitabilidad" = guinda,           "Sin hacinamiento" = gris),
+    titulo  = "Indicadores vivienda"),
+  indicadores_servicios = list(
+    series  = c("Servicios de baño" = "i.saneamiento.p", "Acceso a agua" = "i.agua.p"),
+    valores = c("Servicios de baño" = guinda,           "Acceso a agua" = gris),
+    titulo  = "Indicadores servicios"),
+  indicadores_educacion = list(
+    series  = c("Sin rezago educativo" = "i.edu.p"),
+    valores = c("Sin rezago educativo" = guinda),
+    titulo  = "Indicador de educación")
 )
 
-g_vivienda <- panel_indicador(
-  tabla.percentil.indicadores,
-  c("Habitabilidad" = "i.materiales.p", "Sin hacinamiento" = "i.hacinamiento.p"),
-  c("Habitabilidad" = guinda, "Sin hacinamiento" = gris),
-  "Indicadores vivienda"
-)
+# panel combinado 2x2 (se conserva; alimenta @fig-indicadores del documento)
+g_indicadores <- indicadores_cfg |>
+  map(\(cfg) panel_indicador(tabla.percentil.indicadores, cfg$series, cfg$valores, cfg$titulo)) |>
+  wrap_plots(ncol = 2, nrow = 2)
 
-g_servicios <- panel_indicador(
-  tabla.percentil.indicadores,
-  c("Servicios de baño" = "i.saneamiento.p", "Acceso a fuentes de agua" = "i.agua.p"),
-  c("Servicios de baño" = guinda, "Acceso a fuentes de agua" = gris),
-  "Indicadores servicios"
-)
+guardar_grafica(g_indicadores, "indicadores_bienestar", width = 17.5, height = 12)
 
-g_edu <- panel_indicador(
-  tabla.percentil.indicadores,
-  c("Sin rezago educativo" = "i.edu.p"),
-  c("Sin rezago educativo" = guinda),
-  "Indicador de educación"
-)
+# gráficas medianas individuales por indicador (8x8 cm, sin título)
+iwalk(indicadores_cfg, function(cfg, archivo) {
+  g <- panel_indicador(tabla.percentil.indicadores, cfg$series, cfg$valores)
+  guardar_grafica_conasami(g, archivo, tamano = "medio", dir = "graphs/alimentos")
+})
 
-g_indicadores <- g_alimento + g_vivienda + g_servicios + g_edu +
-  plot_layout(ncol = 2, nrow = 2)
-
-guardar_grafica(g_indicadores, "indicadores_bienestar", width = 12, height = 8)
-
-rm(tabla.percentil.indicadores, g_alimento, g_vivienda, g_servicios, g_edu, g_indicadores)
+rm(tabla.percentil.indicadores, indicadores_cfg, g_indicadores)
 
 # ── índice de bienestar y criterios de selección ─────────────────────────────────
 
@@ -552,13 +568,11 @@ g_canasta <- ggplot(canasta_ent,
                         fill = ambito)) +
   geom_col(position = position_dodge(width = 0.7), width = 0.6) +
   coord_flip() +
-  scale_fill_manual(values = c("Urbano" = guinda, "Rural" = "#1E5B4F")) +
-  labs(title = "Canasta alimentaria por entidad y ámbito",
-       x = "", y = "Pesos mensuales por persona", fill = "") +
-  theme_conasami() +
-  theme(legend.position = "bottom")
+  scale_fill_conasami(breaks = c("Urbano", "Rural")) +
+  labs(fill = "") +
+  theme_conasami()
 
-guardar_grafica(g_canasta, "canasta_entidad", width = 9, height = 10)
+guardar_grafica(g_canasta, "canasta_entidad", width = 14, height = 19)
 
 # ── comparación canasta vs LPEI (validación ex post) ─────────────────────────────
 # Se compara el valor nacional con la LPEI (se conserva para 9.comparacion_lpei.csv,
@@ -583,17 +597,15 @@ g_lpei <- canasta_ent |>
   geom_col(fill = guinda, width = 0.7) +
   geom_hline(data = lineas_lpei,
              aes(yintercept = lpei, linetype = "LPEI (Coneval)"),
-             color = gris, linewidth = 0.7) +
+             color = conasami_colores["tinta"], linewidth = 1) +
   scale_x_reordered() +
   scale_linetype_manual(values = c("LPEI (Coneval)" = "dashed")) +
   facet_wrap(~ ambito, scales = "free_y") +
   coord_flip() +
-  labs(title = "Canasta alimentaria por entidad y ámbito frente a la LPEI",
-       x = "", y = "Pesos mensuales por persona", linetype = "") +
-  theme_conasami() +
-  theme(legend.position = "bottom")
+  labs(linetype = "") +
+  theme_conasami()
 
-guardar_grafica(g_lpei, "canasta_vs_lpei", width = 11, height = 9)
+guardar_grafica(g_lpei, "canasta_vs_lpei", width = 17.5, height = 14)
 
 # ── cifras para la redacción del documento ───────────────────────────────────────
 
