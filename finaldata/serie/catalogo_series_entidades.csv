@@ -1,0 +1,1697 @@
+﻿nom_ent,cve_ent,componente,codigo,nombre_nodo,serie_api
+Aguascalientes,1,alimentos,001,Arroz,894972
+Aguascalientes,1,alimentos,004,Galletas,894967
+Aguascalientes,1,alimentos,008,Pan blanco,894961
+Aguascalientes,1,alimentos,009,Pan de caja,894962
+Aguascalientes,1,alimentos,010,Pan dulce,894963
+Aguascalientes,1,alimentos,011,Pasta para sopa,894969
+Aguascalientes,1,alimentos,014,Tortilla de maíz,894958
+Aguascalientes,1,alimentos,015,Tortillas de harina de trigo,894970
+Aguascalientes,1,alimentos,016,Tostadas,894959
+Aguascalientes,1,alimentos,017,Carne de cerdo,894978
+Aguascalientes,1,alimentos,018,Carne de res,894981
+Aguascalientes,1,alimentos,019,"Carnes secas, procesadas y otros embutidos",894984
+Aguascalientes,1,alimentos,020,Chorizo,894985
+Aguascalientes,1,alimentos,021,Jamón,894986
+Aguascalientes,1,alimentos,022,Pollo,894976
+Aguascalientes,1,alimentos,026,Atún y sardina en lata,894994
+Aguascalientes,1,alimentos,030,Crema y otros productos a base de leche,895005
+Aguascalientes,1,alimentos,031,Huevo,895015
+Aguascalientes,1,alimentos,034,Leche pasteurizada y fresca,894998
+Aguascalientes,1,alimentos,037,Queso fresco,895007
+Aguascalientes,1,alimentos,039,Queso Oaxaca y asadero,895009
+Aguascalientes,1,alimentos,041,Yogurt,895011
+Aguascalientes,1,alimentos,042,Aceites y grasas vegetales comestibles,895018
+Aguascalientes,1,alimentos,045,Aguacate,895021
+Aguascalientes,1,alimentos,048,Limón,895024
+Aguascalientes,1,alimentos,049,Manzana,895025
+Aguascalientes,1,alimentos,055,Plátanos,895031
+Aguascalientes,1,alimentos,060,Calabacita,895036
+Aguascalientes,1,alimentos,061,Cebolla,895037
+Aguascalientes,1,alimentos,062,Chayote,895038
+Aguascalientes,1,alimentos,065,Chile serrano,895040
+Aguascalientes,1,alimentos,068,Frijol,895054
+Aguascalientes,1,alimentos,069,Frijol procesado,895059
+Aguascalientes,1,alimentos,070,Jitomate,895042
+Aguascalientes,1,alimentos,071,Lechuga y col,895043
+Aguascalientes,1,alimentos,072,Nopales,895044
+Aguascalientes,1,alimentos,073,Papa y otros tubérculos,895045
+Aguascalientes,1,alimentos,074,Papas fritas,895081
+Aguascalientes,1,alimentos,075,Pepino,895046
+Aguascalientes,1,alimentos,076,Tomate verde,895047
+Aguascalientes,1,alimentos,078,Zanahoria,895048
+Aguascalientes,1,alimentos,081,Otros chiles frescos,895050
+Aguascalientes,1,alimentos,082,Azúcar,895066
+Aguascalientes,1,alimentos,087,"Cilantro, epazote y perejil",895051
+Aguascalientes,1,alimentos,095,Jugos o néctares envasados,895063
+Aguascalientes,1,alimentos,096,Café soluble,895068
+Aguascalientes,1,alimentos,099,Agua embotellada,895072
+Aguascalientes,1,alimentos,100,Refrescos envasados,895073
+Aguascalientes,1,alimentos,267,Pollos rostizados,895091
+Aguascalientes,1,alimentos,269,Otros alimentos cocinados,895092
+Aguascalientes,1,comidas_fuera,25,Alimentos cocinados fuera de casa,895087
+Aguascalientes,1,nanv,general,Índice general,894950
+Aguascalientes,1,vivienda,3,Vivienda,895158
+Baja California,2,alimentos,001,Arroz,895402
+Baja California,2,alimentos,004,Galletas,895397
+Baja California,2,alimentos,008,Pan blanco,895391
+Baja California,2,alimentos,009,Pan de caja,895392
+Baja California,2,alimentos,010,Pan dulce,895393
+Baja California,2,alimentos,011,Pasta para sopa,895399
+Baja California,2,alimentos,014,Tortilla de maíz,895388
+Baja California,2,alimentos,015,Tortillas de harina de trigo,895400
+Baja California,2,alimentos,016,Tostadas,895389
+Baja California,2,alimentos,017,Carne de cerdo,895408
+Baja California,2,alimentos,018,Carne de res,895411
+Baja California,2,alimentos,019,"Carnes secas, procesadas y otros embutidos",895414
+Baja California,2,alimentos,020,Chorizo,895415
+Baja California,2,alimentos,021,Jamón,895416
+Baja California,2,alimentos,022,Pollo,895406
+Baja California,2,alimentos,026,Atún y sardina en lata,895424
+Baja California,2,alimentos,030,Crema y otros productos a base de leche,895435
+Baja California,2,alimentos,031,Huevo,895445
+Baja California,2,alimentos,034,Leche pasteurizada y fresca,895428
+Baja California,2,alimentos,037,Queso fresco,895437
+Baja California,2,alimentos,039,Queso Oaxaca y asadero,895439
+Baja California,2,alimentos,041,Yogurt,895441
+Baja California,2,alimentos,042,Aceites y grasas vegetales comestibles,895448
+Baja California,2,alimentos,045,Aguacate,895451
+Baja California,2,alimentos,048,Limón,895454
+Baja California,2,alimentos,049,Manzana,895455
+Baja California,2,alimentos,055,Plátanos,895461
+Baja California,2,alimentos,060,Calabacita,895466
+Baja California,2,alimentos,061,Cebolla,895467
+Baja California,2,alimentos,062,Chayote,895468
+Baja California,2,alimentos,065,Chile serrano,895470
+Baja California,2,alimentos,068,Frijol,895484
+Baja California,2,alimentos,069,Frijol procesado,895489
+Baja California,2,alimentos,070,Jitomate,895472
+Baja California,2,alimentos,071,Lechuga y col,895473
+Baja California,2,alimentos,072,Nopales,895474
+Baja California,2,alimentos,073,Papa y otros tubérculos,895475
+Baja California,2,alimentos,074,Papas fritas,895511
+Baja California,2,alimentos,075,Pepino,895476
+Baja California,2,alimentos,076,Tomate verde,895477
+Baja California,2,alimentos,078,Zanahoria,895478
+Baja California,2,alimentos,081,Otros chiles frescos,895480
+Baja California,2,alimentos,082,Azúcar,895496
+Baja California,2,alimentos,087,"Cilantro, epazote y perejil",895481
+Baja California,2,alimentos,095,Jugos o néctares envasados,895493
+Baja California,2,alimentos,096,Café soluble,895498
+Baja California,2,alimentos,099,Agua embotellada,895502
+Baja California,2,alimentos,100,Refrescos envasados,895503
+Baja California,2,alimentos,267,Pollos rostizados,895521
+Baja California,2,alimentos,269,Otros alimentos cocinados,895522
+Baja California,2,comidas_fuera,25,Alimentos cocinados fuera de casa,895517
+Baja California,2,nanv,general,Índice general,895380
+Baja California,2,vivienda,3,Vivienda,895588
+Baja California Sur,3,alimentos,001,Arroz,895832
+Baja California Sur,3,alimentos,004,Galletas,895827
+Baja California Sur,3,alimentos,008,Pan blanco,895821
+Baja California Sur,3,alimentos,009,Pan de caja,895822
+Baja California Sur,3,alimentos,010,Pan dulce,895823
+Baja California Sur,3,alimentos,011,Pasta para sopa,895829
+Baja California Sur,3,alimentos,014,Tortilla de maíz,895818
+Baja California Sur,3,alimentos,015,Tortillas de harina de trigo,895830
+Baja California Sur,3,alimentos,016,Tostadas,895819
+Baja California Sur,3,alimentos,017,Carne de cerdo,895838
+Baja California Sur,3,alimentos,018,Carne de res,895841
+Baja California Sur,3,alimentos,019,"Carnes secas, procesadas y otros embutidos",895844
+Baja California Sur,3,alimentos,020,Chorizo,895845
+Baja California Sur,3,alimentos,021,Jamón,895846
+Baja California Sur,3,alimentos,022,Pollo,895836
+Baja California Sur,3,alimentos,026,Atún y sardina en lata,895854
+Baja California Sur,3,alimentos,030,Crema y otros productos a base de leche,895865
+Baja California Sur,3,alimentos,031,Huevo,895875
+Baja California Sur,3,alimentos,034,Leche pasteurizada y fresca,895858
+Baja California Sur,3,alimentos,037,Queso fresco,895867
+Baja California Sur,3,alimentos,039,Queso Oaxaca y asadero,895869
+Baja California Sur,3,alimentos,041,Yogurt,895871
+Baja California Sur,3,alimentos,042,Aceites y grasas vegetales comestibles,895878
+Baja California Sur,3,alimentos,045,Aguacate,895881
+Baja California Sur,3,alimentos,048,Limón,895884
+Baja California Sur,3,alimentos,049,Manzana,895885
+Baja California Sur,3,alimentos,055,Plátanos,895891
+Baja California Sur,3,alimentos,060,Calabacita,895896
+Baja California Sur,3,alimentos,061,Cebolla,895897
+Baja California Sur,3,alimentos,062,Chayote,895898
+Baja California Sur,3,alimentos,065,Chile serrano,895900
+Baja California Sur,3,alimentos,068,Frijol,895914
+Baja California Sur,3,alimentos,069,Frijol procesado,895919
+Baja California Sur,3,alimentos,070,Jitomate,895902
+Baja California Sur,3,alimentos,071,Lechuga y col,895903
+Baja California Sur,3,alimentos,072,Nopales,895904
+Baja California Sur,3,alimentos,073,Papa y otros tubérculos,895905
+Baja California Sur,3,alimentos,074,Papas fritas,895941
+Baja California Sur,3,alimentos,075,Pepino,895906
+Baja California Sur,3,alimentos,076,Tomate verde,895907
+Baja California Sur,3,alimentos,078,Zanahoria,895908
+Baja California Sur,3,alimentos,081,Otros chiles frescos,895910
+Baja California Sur,3,alimentos,082,Azúcar,895926
+Baja California Sur,3,alimentos,087,"Cilantro, epazote y perejil",895911
+Baja California Sur,3,alimentos,095,Jugos o néctares envasados,895923
+Baja California Sur,3,alimentos,096,Café soluble,895928
+Baja California Sur,3,alimentos,099,Agua embotellada,895932
+Baja California Sur,3,alimentos,100,Refrescos envasados,895933
+Baja California Sur,3,alimentos,267,Pollos rostizados,895951
+Baja California Sur,3,alimentos,269,Otros alimentos cocinados,895952
+Baja California Sur,3,comidas_fuera,25,Alimentos cocinados fuera de casa,895947
+Baja California Sur,3,nanv,general,Índice general,895810
+Baja California Sur,3,vivienda,3,Vivienda,896018
+Campeche,4,alimentos,001,Arroz,896262
+Campeche,4,alimentos,004,Galletas,896257
+Campeche,4,alimentos,008,Pan blanco,896251
+Campeche,4,alimentos,009,Pan de caja,896252
+Campeche,4,alimentos,010,Pan dulce,896253
+Campeche,4,alimentos,011,Pasta para sopa,896259
+Campeche,4,alimentos,014,Tortilla de maíz,896248
+Campeche,4,alimentos,015,Tortillas de harina de trigo,896260
+Campeche,4,alimentos,016,Tostadas,896249
+Campeche,4,alimentos,017,Carne de cerdo,896268
+Campeche,4,alimentos,018,Carne de res,896271
+Campeche,4,alimentos,019,"Carnes secas, procesadas y otros embutidos",896274
+Campeche,4,alimentos,020,Chorizo,896275
+Campeche,4,alimentos,021,Jamón,896276
+Campeche,4,alimentos,022,Pollo,896266
+Campeche,4,alimentos,026,Atún y sardina en lata,896284
+Campeche,4,alimentos,030,Crema y otros productos a base de leche,896295
+Campeche,4,alimentos,031,Huevo,896305
+Campeche,4,alimentos,034,Leche pasteurizada y fresca,896288
+Campeche,4,alimentos,037,Queso fresco,896297
+Campeche,4,alimentos,039,Queso Oaxaca y asadero,896299
+Campeche,4,alimentos,041,Yogurt,896301
+Campeche,4,alimentos,042,Aceites y grasas vegetales comestibles,896308
+Campeche,4,alimentos,045,Aguacate,896311
+Campeche,4,alimentos,048,Limón,896314
+Campeche,4,alimentos,049,Manzana,896315
+Campeche,4,alimentos,055,Plátanos,896321
+Campeche,4,alimentos,060,Calabacita,896326
+Campeche,4,alimentos,061,Cebolla,896327
+Campeche,4,alimentos,062,Chayote,896328
+Campeche,4,alimentos,065,Chile serrano,896330
+Campeche,4,alimentos,068,Frijol,896344
+Campeche,4,alimentos,069,Frijol procesado,896349
+Campeche,4,alimentos,070,Jitomate,896332
+Campeche,4,alimentos,071,Lechuga y col,896333
+Campeche,4,alimentos,072,Nopales,896334
+Campeche,4,alimentos,073,Papa y otros tubérculos,896335
+Campeche,4,alimentos,074,Papas fritas,896371
+Campeche,4,alimentos,075,Pepino,896336
+Campeche,4,alimentos,076,Tomate verde,896337
+Campeche,4,alimentos,078,Zanahoria,896338
+Campeche,4,alimentos,081,Otros chiles frescos,896340
+Campeche,4,alimentos,082,Azúcar,896356
+Campeche,4,alimentos,087,"Cilantro, epazote y perejil",896341
+Campeche,4,alimentos,095,Jugos o néctares envasados,896353
+Campeche,4,alimentos,096,Café soluble,896358
+Campeche,4,alimentos,099,Agua embotellada,896362
+Campeche,4,alimentos,100,Refrescos envasados,896363
+Campeche,4,alimentos,267,Pollos rostizados,896381
+Campeche,4,alimentos,269,Otros alimentos cocinados,896382
+Campeche,4,comidas_fuera,25,Alimentos cocinados fuera de casa,896377
+Campeche,4,nanv,general,Índice general,896240
+Campeche,4,vivienda,3,Vivienda,896448
+Coahuila,5,alimentos,001,Arroz,896692
+Coahuila,5,alimentos,004,Galletas,896687
+Coahuila,5,alimentos,008,Pan blanco,896681
+Coahuila,5,alimentos,009,Pan de caja,896682
+Coahuila,5,alimentos,010,Pan dulce,896683
+Coahuila,5,alimentos,011,Pasta para sopa,896689
+Coahuila,5,alimentos,014,Tortilla de maíz,896678
+Coahuila,5,alimentos,015,Tortillas de harina de trigo,896690
+Coahuila,5,alimentos,016,Tostadas,896679
+Coahuila,5,alimentos,017,Carne de cerdo,896698
+Coahuila,5,alimentos,018,Carne de res,896701
+Coahuila,5,alimentos,019,"Carnes secas, procesadas y otros embutidos",896704
+Coahuila,5,alimentos,020,Chorizo,896705
+Coahuila,5,alimentos,021,Jamón,896706
+Coahuila,5,alimentos,022,Pollo,896696
+Coahuila,5,alimentos,026,Atún y sardina en lata,896714
+Coahuila,5,alimentos,030,Crema y otros productos a base de leche,896725
+Coahuila,5,alimentos,031,Huevo,896735
+Coahuila,5,alimentos,034,Leche pasteurizada y fresca,896718
+Coahuila,5,alimentos,037,Queso fresco,896727
+Coahuila,5,alimentos,039,Queso Oaxaca y asadero,896729
+Coahuila,5,alimentos,041,Yogurt,896731
+Coahuila,5,alimentos,042,Aceites y grasas vegetales comestibles,896738
+Coahuila,5,alimentos,045,Aguacate,896741
+Coahuila,5,alimentos,048,Limón,896744
+Coahuila,5,alimentos,049,Manzana,896745
+Coahuila,5,alimentos,055,Plátanos,896751
+Coahuila,5,alimentos,060,Calabacita,896756
+Coahuila,5,alimentos,061,Cebolla,896757
+Coahuila,5,alimentos,062,Chayote,896758
+Coahuila,5,alimentos,065,Chile serrano,896760
+Coahuila,5,alimentos,068,Frijol,896774
+Coahuila,5,alimentos,069,Frijol procesado,896779
+Coahuila,5,alimentos,070,Jitomate,896762
+Coahuila,5,alimentos,071,Lechuga y col,896763
+Coahuila,5,alimentos,072,Nopales,896764
+Coahuila,5,alimentos,073,Papa y otros tubérculos,896765
+Coahuila,5,alimentos,074,Papas fritas,896801
+Coahuila,5,alimentos,075,Pepino,896766
+Coahuila,5,alimentos,076,Tomate verde,896767
+Coahuila,5,alimentos,078,Zanahoria,896768
+Coahuila,5,alimentos,081,Otros chiles frescos,896770
+Coahuila,5,alimentos,082,Azúcar,896786
+Coahuila,5,alimentos,087,"Cilantro, epazote y perejil",896771
+Coahuila,5,alimentos,095,Jugos o néctares envasados,896783
+Coahuila,5,alimentos,096,Café soluble,896788
+Coahuila,5,alimentos,099,Agua embotellada,896792
+Coahuila,5,alimentos,100,Refrescos envasados,896793
+Coahuila,5,alimentos,267,Pollos rostizados,896811
+Coahuila,5,alimentos,269,Otros alimentos cocinados,896812
+Coahuila,5,comidas_fuera,25,Alimentos cocinados fuera de casa,896807
+Coahuila,5,nanv,general,Índice general,896670
+Coahuila,5,vivienda,3,Vivienda,896878
+Colima,6,alimentos,001,Arroz,897122
+Colima,6,alimentos,004,Galletas,897117
+Colima,6,alimentos,008,Pan blanco,897111
+Colima,6,alimentos,009,Pan de caja,897112
+Colima,6,alimentos,010,Pan dulce,897113
+Colima,6,alimentos,011,Pasta para sopa,897119
+Colima,6,alimentos,014,Tortilla de maíz,897108
+Colima,6,alimentos,015,Tortillas de harina de trigo,897120
+Colima,6,alimentos,016,Tostadas,897109
+Colima,6,alimentos,017,Carne de cerdo,897128
+Colima,6,alimentos,018,Carne de res,897131
+Colima,6,alimentos,019,"Carnes secas, procesadas y otros embutidos",897134
+Colima,6,alimentos,020,Chorizo,897135
+Colima,6,alimentos,021,Jamón,897136
+Colima,6,alimentos,022,Pollo,897126
+Colima,6,alimentos,026,Atún y sardina en lata,897144
+Colima,6,alimentos,030,Crema y otros productos a base de leche,897155
+Colima,6,alimentos,031,Huevo,897165
+Colima,6,alimentos,034,Leche pasteurizada y fresca,897148
+Colima,6,alimentos,037,Queso fresco,897157
+Colima,6,alimentos,039,Queso Oaxaca y asadero,897159
+Colima,6,alimentos,041,Yogurt,897161
+Colima,6,alimentos,042,Aceites y grasas vegetales comestibles,897168
+Colima,6,alimentos,045,Aguacate,897171
+Colima,6,alimentos,048,Limón,897174
+Colima,6,alimentos,049,Manzana,897175
+Colima,6,alimentos,055,Plátanos,897181
+Colima,6,alimentos,060,Calabacita,897186
+Colima,6,alimentos,061,Cebolla,897187
+Colima,6,alimentos,062,Chayote,897188
+Colima,6,alimentos,065,Chile serrano,897190
+Colima,6,alimentos,068,Frijol,897204
+Colima,6,alimentos,069,Frijol procesado,897209
+Colima,6,alimentos,070,Jitomate,897192
+Colima,6,alimentos,071,Lechuga y col,897193
+Colima,6,alimentos,072,Nopales,897194
+Colima,6,alimentos,073,Papa y otros tubérculos,897195
+Colima,6,alimentos,074,Papas fritas,897231
+Colima,6,alimentos,075,Pepino,897196
+Colima,6,alimentos,076,Tomate verde,897197
+Colima,6,alimentos,078,Zanahoria,897198
+Colima,6,alimentos,081,Otros chiles frescos,897200
+Colima,6,alimentos,082,Azúcar,897216
+Colima,6,alimentos,087,"Cilantro, epazote y perejil",897201
+Colima,6,alimentos,095,Jugos o néctares envasados,897213
+Colima,6,alimentos,096,Café soluble,897218
+Colima,6,alimentos,099,Agua embotellada,897222
+Colima,6,alimentos,100,Refrescos envasados,897223
+Colima,6,alimentos,267,Pollos rostizados,897241
+Colima,6,alimentos,269,Otros alimentos cocinados,897242
+Colima,6,comidas_fuera,25,Alimentos cocinados fuera de casa,897237
+Colima,6,nanv,general,Índice general,897100
+Colima,6,vivienda,3,Vivienda,897308
+Chiapas,7,alimentos,001,Arroz,897552
+Chiapas,7,alimentos,004,Galletas,897547
+Chiapas,7,alimentos,008,Pan blanco,897541
+Chiapas,7,alimentos,009,Pan de caja,897542
+Chiapas,7,alimentos,010,Pan dulce,897543
+Chiapas,7,alimentos,011,Pasta para sopa,897549
+Chiapas,7,alimentos,014,Tortilla de maíz,897538
+Chiapas,7,alimentos,015,Tortillas de harina de trigo,897550
+Chiapas,7,alimentos,016,Tostadas,897539
+Chiapas,7,alimentos,017,Carne de cerdo,897558
+Chiapas,7,alimentos,018,Carne de res,897561
+Chiapas,7,alimentos,019,"Carnes secas, procesadas y otros embutidos",897564
+Chiapas,7,alimentos,020,Chorizo,897565
+Chiapas,7,alimentos,021,Jamón,897566
+Chiapas,7,alimentos,022,Pollo,897556
+Chiapas,7,alimentos,026,Atún y sardina en lata,897574
+Chiapas,7,alimentos,030,Crema y otros productos a base de leche,897585
+Chiapas,7,alimentos,031,Huevo,897595
+Chiapas,7,alimentos,034,Leche pasteurizada y fresca,897578
+Chiapas,7,alimentos,037,Queso fresco,897587
+Chiapas,7,alimentos,039,Queso Oaxaca y asadero,897589
+Chiapas,7,alimentos,041,Yogurt,897591
+Chiapas,7,alimentos,042,Aceites y grasas vegetales comestibles,897598
+Chiapas,7,alimentos,045,Aguacate,897601
+Chiapas,7,alimentos,048,Limón,897604
+Chiapas,7,alimentos,049,Manzana,897605
+Chiapas,7,alimentos,055,Plátanos,897611
+Chiapas,7,alimentos,060,Calabacita,897616
+Chiapas,7,alimentos,061,Cebolla,897617
+Chiapas,7,alimentos,062,Chayote,897618
+Chiapas,7,alimentos,065,Chile serrano,897620
+Chiapas,7,alimentos,068,Frijol,897634
+Chiapas,7,alimentos,069,Frijol procesado,897639
+Chiapas,7,alimentos,070,Jitomate,897622
+Chiapas,7,alimentos,071,Lechuga y col,897623
+Chiapas,7,alimentos,072,Nopales,897624
+Chiapas,7,alimentos,073,Papa y otros tubérculos,897625
+Chiapas,7,alimentos,074,Papas fritas,897661
+Chiapas,7,alimentos,075,Pepino,897626
+Chiapas,7,alimentos,076,Tomate verde,897627
+Chiapas,7,alimentos,078,Zanahoria,897628
+Chiapas,7,alimentos,081,Otros chiles frescos,897630
+Chiapas,7,alimentos,082,Azúcar,897646
+Chiapas,7,alimentos,087,"Cilantro, epazote y perejil",897631
+Chiapas,7,alimentos,095,Jugos o néctares envasados,897643
+Chiapas,7,alimentos,096,Café soluble,897648
+Chiapas,7,alimentos,099,Agua embotellada,897652
+Chiapas,7,alimentos,100,Refrescos envasados,897653
+Chiapas,7,alimentos,267,Pollos rostizados,897671
+Chiapas,7,alimentos,269,Otros alimentos cocinados,897672
+Chiapas,7,comidas_fuera,25,Alimentos cocinados fuera de casa,897667
+Chiapas,7,nanv,general,Índice general,897530
+Chiapas,7,vivienda,3,Vivienda,897738
+Chihuahua,8,alimentos,001,Arroz,897982
+Chihuahua,8,alimentos,004,Galletas,897977
+Chihuahua,8,alimentos,008,Pan blanco,897971
+Chihuahua,8,alimentos,009,Pan de caja,897972
+Chihuahua,8,alimentos,010,Pan dulce,897973
+Chihuahua,8,alimentos,011,Pasta para sopa,897979
+Chihuahua,8,alimentos,014,Tortilla de maíz,897968
+Chihuahua,8,alimentos,015,Tortillas de harina de trigo,897980
+Chihuahua,8,alimentos,016,Tostadas,897969
+Chihuahua,8,alimentos,017,Carne de cerdo,897988
+Chihuahua,8,alimentos,018,Carne de res,897991
+Chihuahua,8,alimentos,019,"Carnes secas, procesadas y otros embutidos",897994
+Chihuahua,8,alimentos,020,Chorizo,897995
+Chihuahua,8,alimentos,021,Jamón,897996
+Chihuahua,8,alimentos,022,Pollo,897986
+Chihuahua,8,alimentos,026,Atún y sardina en lata,898004
+Chihuahua,8,alimentos,030,Crema y otros productos a base de leche,898015
+Chihuahua,8,alimentos,031,Huevo,898025
+Chihuahua,8,alimentos,034,Leche pasteurizada y fresca,898008
+Chihuahua,8,alimentos,037,Queso fresco,898017
+Chihuahua,8,alimentos,039,Queso Oaxaca y asadero,898019
+Chihuahua,8,alimentos,041,Yogurt,898021
+Chihuahua,8,alimentos,042,Aceites y grasas vegetales comestibles,898028
+Chihuahua,8,alimentos,045,Aguacate,898031
+Chihuahua,8,alimentos,048,Limón,898034
+Chihuahua,8,alimentos,049,Manzana,898035
+Chihuahua,8,alimentos,055,Plátanos,898041
+Chihuahua,8,alimentos,060,Calabacita,898046
+Chihuahua,8,alimentos,061,Cebolla,898047
+Chihuahua,8,alimentos,062,Chayote,898048
+Chihuahua,8,alimentos,065,Chile serrano,898050
+Chihuahua,8,alimentos,068,Frijol,898064
+Chihuahua,8,alimentos,069,Frijol procesado,898069
+Chihuahua,8,alimentos,070,Jitomate,898052
+Chihuahua,8,alimentos,071,Lechuga y col,898053
+Chihuahua,8,alimentos,072,Nopales,898054
+Chihuahua,8,alimentos,073,Papa y otros tubérculos,898055
+Chihuahua,8,alimentos,074,Papas fritas,898091
+Chihuahua,8,alimentos,075,Pepino,898056
+Chihuahua,8,alimentos,076,Tomate verde,898057
+Chihuahua,8,alimentos,078,Zanahoria,898058
+Chihuahua,8,alimentos,081,Otros chiles frescos,898060
+Chihuahua,8,alimentos,082,Azúcar,898076
+Chihuahua,8,alimentos,087,"Cilantro, epazote y perejil",898061
+Chihuahua,8,alimentos,095,Jugos o néctares envasados,898073
+Chihuahua,8,alimentos,096,Café soluble,898078
+Chihuahua,8,alimentos,099,Agua embotellada,898082
+Chihuahua,8,alimentos,100,Refrescos envasados,898083
+Chihuahua,8,alimentos,267,Pollos rostizados,898101
+Chihuahua,8,alimentos,269,Otros alimentos cocinados,898102
+Chihuahua,8,comidas_fuera,25,Alimentos cocinados fuera de casa,898097
+Chihuahua,8,nanv,general,Índice general,897960
+Chihuahua,8,vivienda,3,Vivienda,898168
+Ciudad de México,9,alimentos,001,Arroz,898412
+Ciudad de México,9,alimentos,004,Galletas,898407
+Ciudad de México,9,alimentos,008,Pan blanco,898401
+Ciudad de México,9,alimentos,009,Pan de caja,898402
+Ciudad de México,9,alimentos,010,Pan dulce,898403
+Ciudad de México,9,alimentos,011,Pasta para sopa,898409
+Ciudad de México,9,alimentos,014,Tortilla de maíz,898398
+Ciudad de México,9,alimentos,015,Tortillas de harina de trigo,898410
+Ciudad de México,9,alimentos,016,Tostadas,898399
+Ciudad de México,9,alimentos,017,Carne de cerdo,898418
+Ciudad de México,9,alimentos,018,Carne de res,898421
+Ciudad de México,9,alimentos,019,"Carnes secas, procesadas y otros embutidos",898424
+Ciudad de México,9,alimentos,020,Chorizo,898425
+Ciudad de México,9,alimentos,021,Jamón,898426
+Ciudad de México,9,alimentos,022,Pollo,898416
+Ciudad de México,9,alimentos,026,Atún y sardina en lata,898434
+Ciudad de México,9,alimentos,030,Crema y otros productos a base de leche,898445
+Ciudad de México,9,alimentos,031,Huevo,898455
+Ciudad de México,9,alimentos,034,Leche pasteurizada y fresca,898438
+Ciudad de México,9,alimentos,037,Queso fresco,898447
+Ciudad de México,9,alimentos,039,Queso Oaxaca y asadero,898449
+Ciudad de México,9,alimentos,041,Yogurt,898451
+Ciudad de México,9,alimentos,042,Aceites y grasas vegetales comestibles,898458
+Ciudad de México,9,alimentos,045,Aguacate,898461
+Ciudad de México,9,alimentos,048,Limón,898464
+Ciudad de México,9,alimentos,049,Manzana,898465
+Ciudad de México,9,alimentos,055,Plátanos,898471
+Ciudad de México,9,alimentos,060,Calabacita,898476
+Ciudad de México,9,alimentos,061,Cebolla,898477
+Ciudad de México,9,alimentos,062,Chayote,898478
+Ciudad de México,9,alimentos,065,Chile serrano,898480
+Ciudad de México,9,alimentos,068,Frijol,898494
+Ciudad de México,9,alimentos,069,Frijol procesado,898499
+Ciudad de México,9,alimentos,070,Jitomate,898482
+Ciudad de México,9,alimentos,071,Lechuga y col,898483
+Ciudad de México,9,alimentos,072,Nopales,898484
+Ciudad de México,9,alimentos,073,Papa y otros tubérculos,898485
+Ciudad de México,9,alimentos,074,Papas fritas,898521
+Ciudad de México,9,alimentos,075,Pepino,898486
+Ciudad de México,9,alimentos,076,Tomate verde,898487
+Ciudad de México,9,alimentos,078,Zanahoria,898488
+Ciudad de México,9,alimentos,081,Otros chiles frescos,898490
+Ciudad de México,9,alimentos,082,Azúcar,898506
+Ciudad de México,9,alimentos,087,"Cilantro, epazote y perejil",898491
+Ciudad de México,9,alimentos,095,Jugos o néctares envasados,898503
+Ciudad de México,9,alimentos,096,Café soluble,898508
+Ciudad de México,9,alimentos,099,Agua embotellada,898512
+Ciudad de México,9,alimentos,100,Refrescos envasados,898513
+Ciudad de México,9,alimentos,267,Pollos rostizados,898531
+Ciudad de México,9,alimentos,269,Otros alimentos cocinados,898532
+Ciudad de México,9,comidas_fuera,25,Alimentos cocinados fuera de casa,898527
+Ciudad de México,9,nanv,general,Índice general,898390
+Ciudad de México,9,vivienda,3,Vivienda,898598
+Durango,10,alimentos,001,Arroz,898842
+Durango,10,alimentos,004,Galletas,898837
+Durango,10,alimentos,008,Pan blanco,898831
+Durango,10,alimentos,009,Pan de caja,898832
+Durango,10,alimentos,010,Pan dulce,898833
+Durango,10,alimentos,011,Pasta para sopa,898839
+Durango,10,alimentos,014,Tortilla de maíz,898828
+Durango,10,alimentos,015,Tortillas de harina de trigo,898840
+Durango,10,alimentos,016,Tostadas,898829
+Durango,10,alimentos,017,Carne de cerdo,898848
+Durango,10,alimentos,018,Carne de res,898851
+Durango,10,alimentos,019,"Carnes secas, procesadas y otros embutidos",898854
+Durango,10,alimentos,020,Chorizo,898855
+Durango,10,alimentos,021,Jamón,898856
+Durango,10,alimentos,022,Pollo,898846
+Durango,10,alimentos,026,Atún y sardina en lata,898864
+Durango,10,alimentos,030,Crema y otros productos a base de leche,898875
+Durango,10,alimentos,031,Huevo,898885
+Durango,10,alimentos,034,Leche pasteurizada y fresca,898868
+Durango,10,alimentos,037,Queso fresco,898877
+Durango,10,alimentos,039,Queso Oaxaca y asadero,898879
+Durango,10,alimentos,041,Yogurt,898881
+Durango,10,alimentos,042,Aceites y grasas vegetales comestibles,898888
+Durango,10,alimentos,045,Aguacate,898891
+Durango,10,alimentos,048,Limón,898894
+Durango,10,alimentos,049,Manzana,898895
+Durango,10,alimentos,055,Plátanos,898901
+Durango,10,alimentos,060,Calabacita,898906
+Durango,10,alimentos,061,Cebolla,898907
+Durango,10,alimentos,062,Chayote,898908
+Durango,10,alimentos,065,Chile serrano,898910
+Durango,10,alimentos,068,Frijol,898924
+Durango,10,alimentos,069,Frijol procesado,898929
+Durango,10,alimentos,070,Jitomate,898912
+Durango,10,alimentos,071,Lechuga y col,898913
+Durango,10,alimentos,072,Nopales,898914
+Durango,10,alimentos,073,Papa y otros tubérculos,898915
+Durango,10,alimentos,074,Papas fritas,898951
+Durango,10,alimentos,075,Pepino,898916
+Durango,10,alimentos,076,Tomate verde,898917
+Durango,10,alimentos,078,Zanahoria,898918
+Durango,10,alimentos,081,Otros chiles frescos,898920
+Durango,10,alimentos,082,Azúcar,898936
+Durango,10,alimentos,087,"Cilantro, epazote y perejil",898921
+Durango,10,alimentos,095,Jugos o néctares envasados,898933
+Durango,10,alimentos,096,Café soluble,898938
+Durango,10,alimentos,099,Agua embotellada,898942
+Durango,10,alimentos,100,Refrescos envasados,898943
+Durango,10,alimentos,267,Pollos rostizados,898961
+Durango,10,alimentos,269,Otros alimentos cocinados,898962
+Durango,10,comidas_fuera,25,Alimentos cocinados fuera de casa,898957
+Durango,10,nanv,general,Índice general,898820
+Durango,10,vivienda,3,Vivienda,899028
+Guanajuato,11,alimentos,001,Arroz,899272
+Guanajuato,11,alimentos,004,Galletas,899267
+Guanajuato,11,alimentos,008,Pan blanco,899261
+Guanajuato,11,alimentos,009,Pan de caja,899262
+Guanajuato,11,alimentos,010,Pan dulce,899263
+Guanajuato,11,alimentos,011,Pasta para sopa,899269
+Guanajuato,11,alimentos,014,Tortilla de maíz,899258
+Guanajuato,11,alimentos,015,Tortillas de harina de trigo,899270
+Guanajuato,11,alimentos,016,Tostadas,899259
+Guanajuato,11,alimentos,017,Carne de cerdo,899278
+Guanajuato,11,alimentos,018,Carne de res,899281
+Guanajuato,11,alimentos,019,"Carnes secas, procesadas y otros embutidos",899284
+Guanajuato,11,alimentos,020,Chorizo,899285
+Guanajuato,11,alimentos,021,Jamón,899286
+Guanajuato,11,alimentos,022,Pollo,899276
+Guanajuato,11,alimentos,026,Atún y sardina en lata,899294
+Guanajuato,11,alimentos,030,Crema y otros productos a base de leche,899305
+Guanajuato,11,alimentos,031,Huevo,899315
+Guanajuato,11,alimentos,034,Leche pasteurizada y fresca,899298
+Guanajuato,11,alimentos,037,Queso fresco,899307
+Guanajuato,11,alimentos,039,Queso Oaxaca y asadero,899309
+Guanajuato,11,alimentos,041,Yogurt,899311
+Guanajuato,11,alimentos,042,Aceites y grasas vegetales comestibles,899318
+Guanajuato,11,alimentos,045,Aguacate,899321
+Guanajuato,11,alimentos,048,Limón,899324
+Guanajuato,11,alimentos,049,Manzana,899325
+Guanajuato,11,alimentos,055,Plátanos,899331
+Guanajuato,11,alimentos,060,Calabacita,899336
+Guanajuato,11,alimentos,061,Cebolla,899337
+Guanajuato,11,alimentos,062,Chayote,899338
+Guanajuato,11,alimentos,065,Chile serrano,899340
+Guanajuato,11,alimentos,068,Frijol,899354
+Guanajuato,11,alimentos,069,Frijol procesado,899359
+Guanajuato,11,alimentos,070,Jitomate,899342
+Guanajuato,11,alimentos,071,Lechuga y col,899343
+Guanajuato,11,alimentos,072,Nopales,899344
+Guanajuato,11,alimentos,073,Papa y otros tubérculos,899345
+Guanajuato,11,alimentos,074,Papas fritas,899381
+Guanajuato,11,alimentos,075,Pepino,899346
+Guanajuato,11,alimentos,076,Tomate verde,899347
+Guanajuato,11,alimentos,078,Zanahoria,899348
+Guanajuato,11,alimentos,081,Otros chiles frescos,899350
+Guanajuato,11,alimentos,082,Azúcar,899366
+Guanajuato,11,alimentos,087,"Cilantro, epazote y perejil",899351
+Guanajuato,11,alimentos,095,Jugos o néctares envasados,899363
+Guanajuato,11,alimentos,096,Café soluble,899368
+Guanajuato,11,alimentos,099,Agua embotellada,899372
+Guanajuato,11,alimentos,100,Refrescos envasados,899373
+Guanajuato,11,alimentos,267,Pollos rostizados,899391
+Guanajuato,11,alimentos,269,Otros alimentos cocinados,899392
+Guanajuato,11,comidas_fuera,25,Alimentos cocinados fuera de casa,899387
+Guanajuato,11,nanv,general,Índice general,899250
+Guanajuato,11,vivienda,3,Vivienda,899458
+Guerrero,12,alimentos,001,Arroz,899702
+Guerrero,12,alimentos,004,Galletas,899697
+Guerrero,12,alimentos,008,Pan blanco,899691
+Guerrero,12,alimentos,009,Pan de caja,899692
+Guerrero,12,alimentos,010,Pan dulce,899693
+Guerrero,12,alimentos,011,Pasta para sopa,899699
+Guerrero,12,alimentos,014,Tortilla de maíz,899688
+Guerrero,12,alimentos,015,Tortillas de harina de trigo,899700
+Guerrero,12,alimentos,016,Tostadas,899689
+Guerrero,12,alimentos,017,Carne de cerdo,899708
+Guerrero,12,alimentos,018,Carne de res,899711
+Guerrero,12,alimentos,019,"Carnes secas, procesadas y otros embutidos",899714
+Guerrero,12,alimentos,020,Chorizo,899715
+Guerrero,12,alimentos,021,Jamón,899716
+Guerrero,12,alimentos,022,Pollo,899706
+Guerrero,12,alimentos,026,Atún y sardina en lata,899724
+Guerrero,12,alimentos,030,Crema y otros productos a base de leche,899735
+Guerrero,12,alimentos,031,Huevo,899745
+Guerrero,12,alimentos,034,Leche pasteurizada y fresca,899728
+Guerrero,12,alimentos,037,Queso fresco,899737
+Guerrero,12,alimentos,039,Queso Oaxaca y asadero,899739
+Guerrero,12,alimentos,041,Yogurt,899741
+Guerrero,12,alimentos,042,Aceites y grasas vegetales comestibles,899748
+Guerrero,12,alimentos,045,Aguacate,899751
+Guerrero,12,alimentos,048,Limón,899754
+Guerrero,12,alimentos,049,Manzana,899755
+Guerrero,12,alimentos,055,Plátanos,899761
+Guerrero,12,alimentos,060,Calabacita,899766
+Guerrero,12,alimentos,061,Cebolla,899767
+Guerrero,12,alimentos,062,Chayote,899768
+Guerrero,12,alimentos,065,Chile serrano,899770
+Guerrero,12,alimentos,068,Frijol,899784
+Guerrero,12,alimentos,069,Frijol procesado,899789
+Guerrero,12,alimentos,070,Jitomate,899772
+Guerrero,12,alimentos,071,Lechuga y col,899773
+Guerrero,12,alimentos,072,Nopales,899774
+Guerrero,12,alimentos,073,Papa y otros tubérculos,899775
+Guerrero,12,alimentos,074,Papas fritas,899811
+Guerrero,12,alimentos,075,Pepino,899776
+Guerrero,12,alimentos,076,Tomate verde,899777
+Guerrero,12,alimentos,078,Zanahoria,899778
+Guerrero,12,alimentos,081,Otros chiles frescos,899780
+Guerrero,12,alimentos,082,Azúcar,899796
+Guerrero,12,alimentos,087,"Cilantro, epazote y perejil",899781
+Guerrero,12,alimentos,095,Jugos o néctares envasados,899793
+Guerrero,12,alimentos,096,Café soluble,899798
+Guerrero,12,alimentos,099,Agua embotellada,899802
+Guerrero,12,alimentos,100,Refrescos envasados,899803
+Guerrero,12,alimentos,267,Pollos rostizados,899821
+Guerrero,12,alimentos,269,Otros alimentos cocinados,899822
+Guerrero,12,comidas_fuera,25,Alimentos cocinados fuera de casa,899817
+Guerrero,12,nanv,general,Índice general,899680
+Guerrero,12,vivienda,3,Vivienda,899888
+Hidalgo,13,alimentos,001,Arroz,900132
+Hidalgo,13,alimentos,004,Galletas,900127
+Hidalgo,13,alimentos,008,Pan blanco,900121
+Hidalgo,13,alimentos,009,Pan de caja,900122
+Hidalgo,13,alimentos,010,Pan dulce,900123
+Hidalgo,13,alimentos,011,Pasta para sopa,900129
+Hidalgo,13,alimentos,014,Tortilla de maíz,900118
+Hidalgo,13,alimentos,015,Tortillas de harina de trigo,900130
+Hidalgo,13,alimentos,016,Tostadas,900119
+Hidalgo,13,alimentos,017,Carne de cerdo,900138
+Hidalgo,13,alimentos,018,Carne de res,900141
+Hidalgo,13,alimentos,019,"Carnes secas, procesadas y otros embutidos",900144
+Hidalgo,13,alimentos,020,Chorizo,900145
+Hidalgo,13,alimentos,021,Jamón,900146
+Hidalgo,13,alimentos,022,Pollo,900136
+Hidalgo,13,alimentos,026,Atún y sardina en lata,900154
+Hidalgo,13,alimentos,030,Crema y otros productos a base de leche,900165
+Hidalgo,13,alimentos,031,Huevo,900175
+Hidalgo,13,alimentos,034,Leche pasteurizada y fresca,900158
+Hidalgo,13,alimentos,037,Queso fresco,900167
+Hidalgo,13,alimentos,039,Queso Oaxaca y asadero,900169
+Hidalgo,13,alimentos,041,Yogurt,900171
+Hidalgo,13,alimentos,042,Aceites y grasas vegetales comestibles,900178
+Hidalgo,13,alimentos,045,Aguacate,900181
+Hidalgo,13,alimentos,048,Limón,900184
+Hidalgo,13,alimentos,049,Manzana,900185
+Hidalgo,13,alimentos,055,Plátanos,900191
+Hidalgo,13,alimentos,060,Calabacita,900196
+Hidalgo,13,alimentos,061,Cebolla,900197
+Hidalgo,13,alimentos,062,Chayote,900198
+Hidalgo,13,alimentos,065,Chile serrano,900200
+Hidalgo,13,alimentos,068,Frijol,900214
+Hidalgo,13,alimentos,069,Frijol procesado,900219
+Hidalgo,13,alimentos,070,Jitomate,900202
+Hidalgo,13,alimentos,071,Lechuga y col,900203
+Hidalgo,13,alimentos,072,Nopales,900204
+Hidalgo,13,alimentos,073,Papa y otros tubérculos,900205
+Hidalgo,13,alimentos,074,Papas fritas,900241
+Hidalgo,13,alimentos,075,Pepino,900206
+Hidalgo,13,alimentos,076,Tomate verde,900207
+Hidalgo,13,alimentos,078,Zanahoria,900208
+Hidalgo,13,alimentos,081,Otros chiles frescos,900210
+Hidalgo,13,alimentos,082,Azúcar,900226
+Hidalgo,13,alimentos,087,"Cilantro, epazote y perejil",900211
+Hidalgo,13,alimentos,095,Jugos o néctares envasados,900223
+Hidalgo,13,alimentos,096,Café soluble,900228
+Hidalgo,13,alimentos,099,Agua embotellada,900232
+Hidalgo,13,alimentos,100,Refrescos envasados,900233
+Hidalgo,13,alimentos,267,Pollos rostizados,900251
+Hidalgo,13,alimentos,269,Otros alimentos cocinados,900252
+Hidalgo,13,comidas_fuera,25,Alimentos cocinados fuera de casa,900247
+Hidalgo,13,nanv,general,Índice general,900110
+Hidalgo,13,vivienda,3,Vivienda,900318
+Jalisco,14,alimentos,001,Arroz,900562
+Jalisco,14,alimentos,004,Galletas,900557
+Jalisco,14,alimentos,008,Pan blanco,900551
+Jalisco,14,alimentos,009,Pan de caja,900552
+Jalisco,14,alimentos,010,Pan dulce,900553
+Jalisco,14,alimentos,011,Pasta para sopa,900559
+Jalisco,14,alimentos,014,Tortilla de maíz,900548
+Jalisco,14,alimentos,015,Tortillas de harina de trigo,900560
+Jalisco,14,alimentos,016,Tostadas,900549
+Jalisco,14,alimentos,017,Carne de cerdo,900568
+Jalisco,14,alimentos,018,Carne de res,900571
+Jalisco,14,alimentos,019,"Carnes secas, procesadas y otros embutidos",900574
+Jalisco,14,alimentos,020,Chorizo,900575
+Jalisco,14,alimentos,021,Jamón,900576
+Jalisco,14,alimentos,022,Pollo,900566
+Jalisco,14,alimentos,026,Atún y sardina en lata,900584
+Jalisco,14,alimentos,030,Crema y otros productos a base de leche,900595
+Jalisco,14,alimentos,031,Huevo,900605
+Jalisco,14,alimentos,034,Leche pasteurizada y fresca,900588
+Jalisco,14,alimentos,037,Queso fresco,900597
+Jalisco,14,alimentos,039,Queso Oaxaca y asadero,900599
+Jalisco,14,alimentos,041,Yogurt,900601
+Jalisco,14,alimentos,042,Aceites y grasas vegetales comestibles,900608
+Jalisco,14,alimentos,045,Aguacate,900611
+Jalisco,14,alimentos,048,Limón,900614
+Jalisco,14,alimentos,049,Manzana,900615
+Jalisco,14,alimentos,055,Plátanos,900621
+Jalisco,14,alimentos,060,Calabacita,900626
+Jalisco,14,alimentos,061,Cebolla,900627
+Jalisco,14,alimentos,062,Chayote,900628
+Jalisco,14,alimentos,065,Chile serrano,900630
+Jalisco,14,alimentos,068,Frijol,900644
+Jalisco,14,alimentos,069,Frijol procesado,900649
+Jalisco,14,alimentos,070,Jitomate,900632
+Jalisco,14,alimentos,071,Lechuga y col,900633
+Jalisco,14,alimentos,072,Nopales,900634
+Jalisco,14,alimentos,073,Papa y otros tubérculos,900635
+Jalisco,14,alimentos,074,Papas fritas,900671
+Jalisco,14,alimentos,075,Pepino,900636
+Jalisco,14,alimentos,076,Tomate verde,900637
+Jalisco,14,alimentos,078,Zanahoria,900638
+Jalisco,14,alimentos,081,Otros chiles frescos,900640
+Jalisco,14,alimentos,082,Azúcar,900656
+Jalisco,14,alimentos,087,"Cilantro, epazote y perejil",900641
+Jalisco,14,alimentos,095,Jugos o néctares envasados,900653
+Jalisco,14,alimentos,096,Café soluble,900658
+Jalisco,14,alimentos,099,Agua embotellada,900662
+Jalisco,14,alimentos,100,Refrescos envasados,900663
+Jalisco,14,alimentos,267,Pollos rostizados,900681
+Jalisco,14,alimentos,269,Otros alimentos cocinados,900682
+Jalisco,14,comidas_fuera,25,Alimentos cocinados fuera de casa,900677
+Jalisco,14,nanv,general,Índice general,900540
+Jalisco,14,vivienda,3,Vivienda,900748
+México,15,alimentos,001,Arroz,900992
+México,15,alimentos,004,Galletas,900987
+México,15,alimentos,008,Pan blanco,900981
+México,15,alimentos,009,Pan de caja,900982
+México,15,alimentos,010,Pan dulce,900983
+México,15,alimentos,011,Pasta para sopa,900989
+México,15,alimentos,014,Tortilla de maíz,900978
+México,15,alimentos,015,Tortillas de harina de trigo,900990
+México,15,alimentos,016,Tostadas,900979
+México,15,alimentos,017,Carne de cerdo,900998
+México,15,alimentos,018,Carne de res,901001
+México,15,alimentos,019,"Carnes secas, procesadas y otros embutidos",901004
+México,15,alimentos,020,Chorizo,901005
+México,15,alimentos,021,Jamón,901006
+México,15,alimentos,022,Pollo,900996
+México,15,alimentos,026,Atún y sardina en lata,901014
+México,15,alimentos,030,Crema y otros productos a base de leche,901025
+México,15,alimentos,031,Huevo,901035
+México,15,alimentos,034,Leche pasteurizada y fresca,901018
+México,15,alimentos,037,Queso fresco,901027
+México,15,alimentos,039,Queso Oaxaca y asadero,901029
+México,15,alimentos,041,Yogurt,901031
+México,15,alimentos,042,Aceites y grasas vegetales comestibles,901038
+México,15,alimentos,045,Aguacate,901041
+México,15,alimentos,048,Limón,901044
+México,15,alimentos,049,Manzana,901045
+México,15,alimentos,055,Plátanos,901051
+México,15,alimentos,060,Calabacita,901056
+México,15,alimentos,061,Cebolla,901057
+México,15,alimentos,062,Chayote,901058
+México,15,alimentos,065,Chile serrano,901060
+México,15,alimentos,068,Frijol,901074
+México,15,alimentos,069,Frijol procesado,901079
+México,15,alimentos,070,Jitomate,901062
+México,15,alimentos,071,Lechuga y col,901063
+México,15,alimentos,072,Nopales,901064
+México,15,alimentos,073,Papa y otros tubérculos,901065
+México,15,alimentos,074,Papas fritas,901101
+México,15,alimentos,075,Pepino,901066
+México,15,alimentos,076,Tomate verde,901067
+México,15,alimentos,078,Zanahoria,901068
+México,15,alimentos,081,Otros chiles frescos,901070
+México,15,alimentos,082,Azúcar,901086
+México,15,alimentos,087,"Cilantro, epazote y perejil",901071
+México,15,alimentos,095,Jugos o néctares envasados,901083
+México,15,alimentos,096,Café soluble,901088
+México,15,alimentos,099,Agua embotellada,901092
+México,15,alimentos,100,Refrescos envasados,901093
+México,15,alimentos,267,Pollos rostizados,901111
+México,15,alimentos,269,Otros alimentos cocinados,901112
+México,15,comidas_fuera,25,Alimentos cocinados fuera de casa,901107
+México,15,nanv,general,Índice general,900970
+México,15,vivienda,3,Vivienda,901178
+Michoacán,16,alimentos,001,Arroz,901422
+Michoacán,16,alimentos,004,Galletas,901417
+Michoacán,16,alimentos,008,Pan blanco,901411
+Michoacán,16,alimentos,009,Pan de caja,901412
+Michoacán,16,alimentos,010,Pan dulce,901413
+Michoacán,16,alimentos,011,Pasta para sopa,901419
+Michoacán,16,alimentos,014,Tortilla de maíz,901408
+Michoacán,16,alimentos,015,Tortillas de harina de trigo,901420
+Michoacán,16,alimentos,016,Tostadas,901409
+Michoacán,16,alimentos,017,Carne de cerdo,901428
+Michoacán,16,alimentos,018,Carne de res,901431
+Michoacán,16,alimentos,019,"Carnes secas, procesadas y otros embutidos",901434
+Michoacán,16,alimentos,020,Chorizo,901435
+Michoacán,16,alimentos,021,Jamón,901436
+Michoacán,16,alimentos,022,Pollo,901426
+Michoacán,16,alimentos,026,Atún y sardina en lata,901444
+Michoacán,16,alimentos,030,Crema y otros productos a base de leche,901455
+Michoacán,16,alimentos,031,Huevo,901465
+Michoacán,16,alimentos,034,Leche pasteurizada y fresca,901448
+Michoacán,16,alimentos,037,Queso fresco,901457
+Michoacán,16,alimentos,039,Queso Oaxaca y asadero,901459
+Michoacán,16,alimentos,041,Yogurt,901461
+Michoacán,16,alimentos,042,Aceites y grasas vegetales comestibles,901468
+Michoacán,16,alimentos,045,Aguacate,901471
+Michoacán,16,alimentos,048,Limón,901474
+Michoacán,16,alimentos,049,Manzana,901475
+Michoacán,16,alimentos,055,Plátanos,901481
+Michoacán,16,alimentos,060,Calabacita,901486
+Michoacán,16,alimentos,061,Cebolla,901487
+Michoacán,16,alimentos,062,Chayote,901488
+Michoacán,16,alimentos,065,Chile serrano,901490
+Michoacán,16,alimentos,068,Frijol,901504
+Michoacán,16,alimentos,069,Frijol procesado,901509
+Michoacán,16,alimentos,070,Jitomate,901492
+Michoacán,16,alimentos,071,Lechuga y col,901493
+Michoacán,16,alimentos,072,Nopales,901494
+Michoacán,16,alimentos,073,Papa y otros tubérculos,901495
+Michoacán,16,alimentos,074,Papas fritas,901531
+Michoacán,16,alimentos,075,Pepino,901496
+Michoacán,16,alimentos,076,Tomate verde,901497
+Michoacán,16,alimentos,078,Zanahoria,901498
+Michoacán,16,alimentos,081,Otros chiles frescos,901500
+Michoacán,16,alimentos,082,Azúcar,901516
+Michoacán,16,alimentos,087,"Cilantro, epazote y perejil",901501
+Michoacán,16,alimentos,095,Jugos o néctares envasados,901513
+Michoacán,16,alimentos,096,Café soluble,901518
+Michoacán,16,alimentos,099,Agua embotellada,901522
+Michoacán,16,alimentos,100,Refrescos envasados,901523
+Michoacán,16,alimentos,267,Pollos rostizados,901541
+Michoacán,16,alimentos,269,Otros alimentos cocinados,901542
+Michoacán,16,comidas_fuera,25,Alimentos cocinados fuera de casa,901537
+Michoacán,16,nanv,general,Índice general,901400
+Michoacán,16,vivienda,3,Vivienda,901608
+Morelos,17,alimentos,001,Arroz,901852
+Morelos,17,alimentos,004,Galletas,901847
+Morelos,17,alimentos,008,Pan blanco,901841
+Morelos,17,alimentos,009,Pan de caja,901842
+Morelos,17,alimentos,010,Pan dulce,901843
+Morelos,17,alimentos,011,Pasta para sopa,901849
+Morelos,17,alimentos,014,Tortilla de maíz,901838
+Morelos,17,alimentos,015,Tortillas de harina de trigo,901850
+Morelos,17,alimentos,016,Tostadas,901839
+Morelos,17,alimentos,017,Carne de cerdo,901858
+Morelos,17,alimentos,018,Carne de res,901861
+Morelos,17,alimentos,019,"Carnes secas, procesadas y otros embutidos",901864
+Morelos,17,alimentos,020,Chorizo,901865
+Morelos,17,alimentos,021,Jamón,901866
+Morelos,17,alimentos,022,Pollo,901856
+Morelos,17,alimentos,026,Atún y sardina en lata,901874
+Morelos,17,alimentos,030,Crema y otros productos a base de leche,901885
+Morelos,17,alimentos,031,Huevo,901895
+Morelos,17,alimentos,034,Leche pasteurizada y fresca,901878
+Morelos,17,alimentos,037,Queso fresco,901887
+Morelos,17,alimentos,039,Queso Oaxaca y asadero,901889
+Morelos,17,alimentos,041,Yogurt,901891
+Morelos,17,alimentos,042,Aceites y grasas vegetales comestibles,901898
+Morelos,17,alimentos,045,Aguacate,901901
+Morelos,17,alimentos,048,Limón,901904
+Morelos,17,alimentos,049,Manzana,901905
+Morelos,17,alimentos,055,Plátanos,901911
+Morelos,17,alimentos,060,Calabacita,901916
+Morelos,17,alimentos,061,Cebolla,901917
+Morelos,17,alimentos,062,Chayote,901918
+Morelos,17,alimentos,065,Chile serrano,901920
+Morelos,17,alimentos,068,Frijol,901934
+Morelos,17,alimentos,069,Frijol procesado,901939
+Morelos,17,alimentos,070,Jitomate,901922
+Morelos,17,alimentos,071,Lechuga y col,901923
+Morelos,17,alimentos,072,Nopales,901924
+Morelos,17,alimentos,073,Papa y otros tubérculos,901925
+Morelos,17,alimentos,074,Papas fritas,901961
+Morelos,17,alimentos,075,Pepino,901926
+Morelos,17,alimentos,076,Tomate verde,901927
+Morelos,17,alimentos,078,Zanahoria,901928
+Morelos,17,alimentos,081,Otros chiles frescos,901930
+Morelos,17,alimentos,082,Azúcar,901946
+Morelos,17,alimentos,087,"Cilantro, epazote y perejil",901931
+Morelos,17,alimentos,095,Jugos o néctares envasados,901943
+Morelos,17,alimentos,096,Café soluble,901948
+Morelos,17,alimentos,099,Agua embotellada,901952
+Morelos,17,alimentos,100,Refrescos envasados,901953
+Morelos,17,alimentos,267,Pollos rostizados,901971
+Morelos,17,alimentos,269,Otros alimentos cocinados,901972
+Morelos,17,comidas_fuera,25,Alimentos cocinados fuera de casa,901967
+Morelos,17,nanv,general,Índice general,901830
+Morelos,17,vivienda,3,Vivienda,902038
+Nayarit,18,alimentos,001,Arroz,902282
+Nayarit,18,alimentos,004,Galletas,902277
+Nayarit,18,alimentos,008,Pan blanco,902271
+Nayarit,18,alimentos,009,Pan de caja,902272
+Nayarit,18,alimentos,010,Pan dulce,902273
+Nayarit,18,alimentos,011,Pasta para sopa,902279
+Nayarit,18,alimentos,014,Tortilla de maíz,902268
+Nayarit,18,alimentos,015,Tortillas de harina de trigo,902280
+Nayarit,18,alimentos,016,Tostadas,902269
+Nayarit,18,alimentos,017,Carne de cerdo,902288
+Nayarit,18,alimentos,018,Carne de res,902291
+Nayarit,18,alimentos,019,"Carnes secas, procesadas y otros embutidos",902294
+Nayarit,18,alimentos,020,Chorizo,902295
+Nayarit,18,alimentos,021,Jamón,902296
+Nayarit,18,alimentos,022,Pollo,902286
+Nayarit,18,alimentos,026,Atún y sardina en lata,902304
+Nayarit,18,alimentos,030,Crema y otros productos a base de leche,902315
+Nayarit,18,alimentos,031,Huevo,902325
+Nayarit,18,alimentos,034,Leche pasteurizada y fresca,902308
+Nayarit,18,alimentos,037,Queso fresco,902317
+Nayarit,18,alimentos,039,Queso Oaxaca y asadero,902319
+Nayarit,18,alimentos,041,Yogurt,902321
+Nayarit,18,alimentos,042,Aceites y grasas vegetales comestibles,902328
+Nayarit,18,alimentos,045,Aguacate,902331
+Nayarit,18,alimentos,048,Limón,902334
+Nayarit,18,alimentos,049,Manzana,902335
+Nayarit,18,alimentos,055,Plátanos,902341
+Nayarit,18,alimentos,060,Calabacita,902346
+Nayarit,18,alimentos,061,Cebolla,902347
+Nayarit,18,alimentos,062,Chayote,902348
+Nayarit,18,alimentos,065,Chile serrano,902350
+Nayarit,18,alimentos,068,Frijol,902364
+Nayarit,18,alimentos,069,Frijol procesado,902369
+Nayarit,18,alimentos,070,Jitomate,902352
+Nayarit,18,alimentos,071,Lechuga y col,902353
+Nayarit,18,alimentos,072,Nopales,902354
+Nayarit,18,alimentos,073,Papa y otros tubérculos,902355
+Nayarit,18,alimentos,074,Papas fritas,902391
+Nayarit,18,alimentos,075,Pepino,902356
+Nayarit,18,alimentos,076,Tomate verde,902357
+Nayarit,18,alimentos,078,Zanahoria,902358
+Nayarit,18,alimentos,081,Otros chiles frescos,902360
+Nayarit,18,alimentos,082,Azúcar,902376
+Nayarit,18,alimentos,087,"Cilantro, epazote y perejil",902361
+Nayarit,18,alimentos,095,Jugos o néctares envasados,902373
+Nayarit,18,alimentos,096,Café soluble,902378
+Nayarit,18,alimentos,099,Agua embotellada,902382
+Nayarit,18,alimentos,100,Refrescos envasados,902383
+Nayarit,18,alimentos,267,Pollos rostizados,902401
+Nayarit,18,alimentos,269,Otros alimentos cocinados,902402
+Nayarit,18,comidas_fuera,25,Alimentos cocinados fuera de casa,902397
+Nayarit,18,nanv,general,Índice general,902260
+Nayarit,18,vivienda,3,Vivienda,902468
+Nuevo León,19,alimentos,001,Arroz,902712
+Nuevo León,19,alimentos,004,Galletas,902707
+Nuevo León,19,alimentos,008,Pan blanco,902701
+Nuevo León,19,alimentos,009,Pan de caja,902702
+Nuevo León,19,alimentos,010,Pan dulce,902703
+Nuevo León,19,alimentos,011,Pasta para sopa,902709
+Nuevo León,19,alimentos,014,Tortilla de maíz,902698
+Nuevo León,19,alimentos,015,Tortillas de harina de trigo,902710
+Nuevo León,19,alimentos,016,Tostadas,902699
+Nuevo León,19,alimentos,017,Carne de cerdo,902718
+Nuevo León,19,alimentos,018,Carne de res,902721
+Nuevo León,19,alimentos,019,"Carnes secas, procesadas y otros embutidos",902724
+Nuevo León,19,alimentos,020,Chorizo,902725
+Nuevo León,19,alimentos,021,Jamón,902726
+Nuevo León,19,alimentos,022,Pollo,902716
+Nuevo León,19,alimentos,026,Atún y sardina en lata,902734
+Nuevo León,19,alimentos,030,Crema y otros productos a base de leche,902745
+Nuevo León,19,alimentos,031,Huevo,902755
+Nuevo León,19,alimentos,034,Leche pasteurizada y fresca,902738
+Nuevo León,19,alimentos,037,Queso fresco,902747
+Nuevo León,19,alimentos,039,Queso Oaxaca y asadero,902749
+Nuevo León,19,alimentos,041,Yogurt,902751
+Nuevo León,19,alimentos,042,Aceites y grasas vegetales comestibles,902758
+Nuevo León,19,alimentos,045,Aguacate,902761
+Nuevo León,19,alimentos,048,Limón,902764
+Nuevo León,19,alimentos,049,Manzana,902765
+Nuevo León,19,alimentos,055,Plátanos,902771
+Nuevo León,19,alimentos,060,Calabacita,902776
+Nuevo León,19,alimentos,061,Cebolla,902777
+Nuevo León,19,alimentos,062,Chayote,902778
+Nuevo León,19,alimentos,065,Chile serrano,902780
+Nuevo León,19,alimentos,068,Frijol,902794
+Nuevo León,19,alimentos,069,Frijol procesado,902799
+Nuevo León,19,alimentos,070,Jitomate,902782
+Nuevo León,19,alimentos,071,Lechuga y col,902783
+Nuevo León,19,alimentos,072,Nopales,902784
+Nuevo León,19,alimentos,073,Papa y otros tubérculos,902785
+Nuevo León,19,alimentos,074,Papas fritas,902821
+Nuevo León,19,alimentos,075,Pepino,902786
+Nuevo León,19,alimentos,076,Tomate verde,902787
+Nuevo León,19,alimentos,078,Zanahoria,902788
+Nuevo León,19,alimentos,081,Otros chiles frescos,902790
+Nuevo León,19,alimentos,082,Azúcar,902806
+Nuevo León,19,alimentos,087,"Cilantro, epazote y perejil",902791
+Nuevo León,19,alimentos,095,Jugos o néctares envasados,902803
+Nuevo León,19,alimentos,096,Café soluble,902808
+Nuevo León,19,alimentos,099,Agua embotellada,902812
+Nuevo León,19,alimentos,100,Refrescos envasados,902813
+Nuevo León,19,alimentos,267,Pollos rostizados,902831
+Nuevo León,19,alimentos,269,Otros alimentos cocinados,902832
+Nuevo León,19,comidas_fuera,25,Alimentos cocinados fuera de casa,902827
+Nuevo León,19,nanv,general,Índice general,902690
+Nuevo León,19,vivienda,3,Vivienda,902898
+Oaxaca,20,alimentos,001,Arroz,903142
+Oaxaca,20,alimentos,004,Galletas,903137
+Oaxaca,20,alimentos,008,Pan blanco,903131
+Oaxaca,20,alimentos,009,Pan de caja,903132
+Oaxaca,20,alimentos,010,Pan dulce,903133
+Oaxaca,20,alimentos,011,Pasta para sopa,903139
+Oaxaca,20,alimentos,014,Tortilla de maíz,903128
+Oaxaca,20,alimentos,015,Tortillas de harina de trigo,903140
+Oaxaca,20,alimentos,016,Tostadas,903129
+Oaxaca,20,alimentos,017,Carne de cerdo,903148
+Oaxaca,20,alimentos,018,Carne de res,903151
+Oaxaca,20,alimentos,019,"Carnes secas, procesadas y otros embutidos",903154
+Oaxaca,20,alimentos,020,Chorizo,903155
+Oaxaca,20,alimentos,021,Jamón,903156
+Oaxaca,20,alimentos,022,Pollo,903146
+Oaxaca,20,alimentos,026,Atún y sardina en lata,903164
+Oaxaca,20,alimentos,030,Crema y otros productos a base de leche,903175
+Oaxaca,20,alimentos,031,Huevo,903185
+Oaxaca,20,alimentos,034,Leche pasteurizada y fresca,903168
+Oaxaca,20,alimentos,037,Queso fresco,903177
+Oaxaca,20,alimentos,039,Queso Oaxaca y asadero,903179
+Oaxaca,20,alimentos,041,Yogurt,903181
+Oaxaca,20,alimentos,042,Aceites y grasas vegetales comestibles,903188
+Oaxaca,20,alimentos,045,Aguacate,903191
+Oaxaca,20,alimentos,048,Limón,903194
+Oaxaca,20,alimentos,049,Manzana,903195
+Oaxaca,20,alimentos,055,Plátanos,903201
+Oaxaca,20,alimentos,060,Calabacita,903206
+Oaxaca,20,alimentos,061,Cebolla,903207
+Oaxaca,20,alimentos,062,Chayote,903208
+Oaxaca,20,alimentos,065,Chile serrano,903210
+Oaxaca,20,alimentos,068,Frijol,903224
+Oaxaca,20,alimentos,069,Frijol procesado,903229
+Oaxaca,20,alimentos,070,Jitomate,903212
+Oaxaca,20,alimentos,071,Lechuga y col,903213
+Oaxaca,20,alimentos,072,Nopales,903214
+Oaxaca,20,alimentos,073,Papa y otros tubérculos,903215
+Oaxaca,20,alimentos,074,Papas fritas,903251
+Oaxaca,20,alimentos,075,Pepino,903216
+Oaxaca,20,alimentos,076,Tomate verde,903217
+Oaxaca,20,alimentos,078,Zanahoria,903218
+Oaxaca,20,alimentos,081,Otros chiles frescos,903220
+Oaxaca,20,alimentos,082,Azúcar,903236
+Oaxaca,20,alimentos,087,"Cilantro, epazote y perejil",903221
+Oaxaca,20,alimentos,095,Jugos o néctares envasados,903233
+Oaxaca,20,alimentos,096,Café soluble,903238
+Oaxaca,20,alimentos,099,Agua embotellada,903242
+Oaxaca,20,alimentos,100,Refrescos envasados,903243
+Oaxaca,20,alimentos,267,Pollos rostizados,903261
+Oaxaca,20,alimentos,269,Otros alimentos cocinados,903262
+Oaxaca,20,comidas_fuera,25,Alimentos cocinados fuera de casa,903257
+Oaxaca,20,nanv,general,Índice general,903120
+Oaxaca,20,vivienda,3,Vivienda,903328
+Puebla,21,alimentos,001,Arroz,903572
+Puebla,21,alimentos,004,Galletas,903567
+Puebla,21,alimentos,008,Pan blanco,903561
+Puebla,21,alimentos,009,Pan de caja,903562
+Puebla,21,alimentos,010,Pan dulce,903563
+Puebla,21,alimentos,011,Pasta para sopa,903569
+Puebla,21,alimentos,014,Tortilla de maíz,903558
+Puebla,21,alimentos,015,Tortillas de harina de trigo,903570
+Puebla,21,alimentos,016,Tostadas,903559
+Puebla,21,alimentos,017,Carne de cerdo,903578
+Puebla,21,alimentos,018,Carne de res,903581
+Puebla,21,alimentos,019,"Carnes secas, procesadas y otros embutidos",903584
+Puebla,21,alimentos,020,Chorizo,903585
+Puebla,21,alimentos,021,Jamón,903586
+Puebla,21,alimentos,022,Pollo,903576
+Puebla,21,alimentos,026,Atún y sardina en lata,903594
+Puebla,21,alimentos,030,Crema y otros productos a base de leche,903605
+Puebla,21,alimentos,031,Huevo,903615
+Puebla,21,alimentos,034,Leche pasteurizada y fresca,903598
+Puebla,21,alimentos,037,Queso fresco,903607
+Puebla,21,alimentos,039,Queso Oaxaca y asadero,903609
+Puebla,21,alimentos,041,Yogurt,903611
+Puebla,21,alimentos,042,Aceites y grasas vegetales comestibles,903618
+Puebla,21,alimentos,045,Aguacate,903621
+Puebla,21,alimentos,048,Limón,903624
+Puebla,21,alimentos,049,Manzana,903625
+Puebla,21,alimentos,055,Plátanos,903631
+Puebla,21,alimentos,060,Calabacita,903636
+Puebla,21,alimentos,061,Cebolla,903637
+Puebla,21,alimentos,062,Chayote,903638
+Puebla,21,alimentos,065,Chile serrano,903640
+Puebla,21,alimentos,068,Frijol,903654
+Puebla,21,alimentos,069,Frijol procesado,903659
+Puebla,21,alimentos,070,Jitomate,903642
+Puebla,21,alimentos,071,Lechuga y col,903643
+Puebla,21,alimentos,072,Nopales,903644
+Puebla,21,alimentos,073,Papa y otros tubérculos,903645
+Puebla,21,alimentos,074,Papas fritas,903681
+Puebla,21,alimentos,075,Pepino,903646
+Puebla,21,alimentos,076,Tomate verde,903647
+Puebla,21,alimentos,078,Zanahoria,903648
+Puebla,21,alimentos,081,Otros chiles frescos,903650
+Puebla,21,alimentos,082,Azúcar,903666
+Puebla,21,alimentos,087,"Cilantro, epazote y perejil",903651
+Puebla,21,alimentos,095,Jugos o néctares envasados,903663
+Puebla,21,alimentos,096,Café soluble,903668
+Puebla,21,alimentos,099,Agua embotellada,903672
+Puebla,21,alimentos,100,Refrescos envasados,903673
+Puebla,21,alimentos,267,Pollos rostizados,903691
+Puebla,21,alimentos,269,Otros alimentos cocinados,903692
+Puebla,21,comidas_fuera,25,Alimentos cocinados fuera de casa,903687
+Puebla,21,nanv,general,Índice general,903550
+Puebla,21,vivienda,3,Vivienda,903758
+Querétaro,22,alimentos,001,Arroz,904002
+Querétaro,22,alimentos,004,Galletas,903997
+Querétaro,22,alimentos,008,Pan blanco,903991
+Querétaro,22,alimentos,009,Pan de caja,903992
+Querétaro,22,alimentos,010,Pan dulce,903993
+Querétaro,22,alimentos,011,Pasta para sopa,903999
+Querétaro,22,alimentos,014,Tortilla de maíz,903988
+Querétaro,22,alimentos,015,Tortillas de harina de trigo,904000
+Querétaro,22,alimentos,016,Tostadas,903989
+Querétaro,22,alimentos,017,Carne de cerdo,904008
+Querétaro,22,alimentos,018,Carne de res,904011
+Querétaro,22,alimentos,019,"Carnes secas, procesadas y otros embutidos",904014
+Querétaro,22,alimentos,020,Chorizo,904015
+Querétaro,22,alimentos,021,Jamón,904016
+Querétaro,22,alimentos,022,Pollo,904006
+Querétaro,22,alimentos,026,Atún y sardina en lata,904024
+Querétaro,22,alimentos,030,Crema y otros productos a base de leche,904035
+Querétaro,22,alimentos,031,Huevo,904045
+Querétaro,22,alimentos,034,Leche pasteurizada y fresca,904028
+Querétaro,22,alimentos,037,Queso fresco,904037
+Querétaro,22,alimentos,039,Queso Oaxaca y asadero,904039
+Querétaro,22,alimentos,041,Yogurt,904041
+Querétaro,22,alimentos,042,Aceites y grasas vegetales comestibles,904048
+Querétaro,22,alimentos,045,Aguacate,904051
+Querétaro,22,alimentos,048,Limón,904054
+Querétaro,22,alimentos,049,Manzana,904055
+Querétaro,22,alimentos,055,Plátanos,904061
+Querétaro,22,alimentos,060,Calabacita,904066
+Querétaro,22,alimentos,061,Cebolla,904067
+Querétaro,22,alimentos,062,Chayote,904068
+Querétaro,22,alimentos,065,Chile serrano,904070
+Querétaro,22,alimentos,068,Frijol,904084
+Querétaro,22,alimentos,069,Frijol procesado,904089
+Querétaro,22,alimentos,070,Jitomate,904072
+Querétaro,22,alimentos,071,Lechuga y col,904073
+Querétaro,22,alimentos,072,Nopales,904074
+Querétaro,22,alimentos,073,Papa y otros tubérculos,904075
+Querétaro,22,alimentos,074,Papas fritas,904111
+Querétaro,22,alimentos,075,Pepino,904076
+Querétaro,22,alimentos,076,Tomate verde,904077
+Querétaro,22,alimentos,078,Zanahoria,904078
+Querétaro,22,alimentos,081,Otros chiles frescos,904080
+Querétaro,22,alimentos,082,Azúcar,904096
+Querétaro,22,alimentos,087,"Cilantro, epazote y perejil",904081
+Querétaro,22,alimentos,095,Jugos o néctares envasados,904093
+Querétaro,22,alimentos,096,Café soluble,904098
+Querétaro,22,alimentos,099,Agua embotellada,904102
+Querétaro,22,alimentos,100,Refrescos envasados,904103
+Querétaro,22,alimentos,267,Pollos rostizados,904121
+Querétaro,22,alimentos,269,Otros alimentos cocinados,904122
+Querétaro,22,comidas_fuera,25,Alimentos cocinados fuera de casa,904117
+Querétaro,22,nanv,general,Índice general,903980
+Querétaro,22,vivienda,3,Vivienda,904188
+Quintana Roo,23,alimentos,001,Arroz,904432
+Quintana Roo,23,alimentos,004,Galletas,904427
+Quintana Roo,23,alimentos,008,Pan blanco,904421
+Quintana Roo,23,alimentos,009,Pan de caja,904422
+Quintana Roo,23,alimentos,010,Pan dulce,904423
+Quintana Roo,23,alimentos,011,Pasta para sopa,904429
+Quintana Roo,23,alimentos,014,Tortilla de maíz,904418
+Quintana Roo,23,alimentos,015,Tortillas de harina de trigo,904430
+Quintana Roo,23,alimentos,016,Tostadas,904419
+Quintana Roo,23,alimentos,017,Carne de cerdo,904438
+Quintana Roo,23,alimentos,018,Carne de res,904441
+Quintana Roo,23,alimentos,019,"Carnes secas, procesadas y otros embutidos",904444
+Quintana Roo,23,alimentos,020,Chorizo,904445
+Quintana Roo,23,alimentos,021,Jamón,904446
+Quintana Roo,23,alimentos,022,Pollo,904436
+Quintana Roo,23,alimentos,026,Atún y sardina en lata,904454
+Quintana Roo,23,alimentos,030,Crema y otros productos a base de leche,904465
+Quintana Roo,23,alimentos,031,Huevo,904475
+Quintana Roo,23,alimentos,034,Leche pasteurizada y fresca,904458
+Quintana Roo,23,alimentos,037,Queso fresco,904467
+Quintana Roo,23,alimentos,039,Queso Oaxaca y asadero,904469
+Quintana Roo,23,alimentos,041,Yogurt,904471
+Quintana Roo,23,alimentos,042,Aceites y grasas vegetales comestibles,904478
+Quintana Roo,23,alimentos,045,Aguacate,904481
+Quintana Roo,23,alimentos,048,Limón,904484
+Quintana Roo,23,alimentos,049,Manzana,904485
+Quintana Roo,23,alimentos,055,Plátanos,904491
+Quintana Roo,23,alimentos,060,Calabacita,904496
+Quintana Roo,23,alimentos,061,Cebolla,904497
+Quintana Roo,23,alimentos,062,Chayote,904498
+Quintana Roo,23,alimentos,065,Chile serrano,904500
+Quintana Roo,23,alimentos,068,Frijol,904514
+Quintana Roo,23,alimentos,069,Frijol procesado,904519
+Quintana Roo,23,alimentos,070,Jitomate,904502
+Quintana Roo,23,alimentos,071,Lechuga y col,904503
+Quintana Roo,23,alimentos,072,Nopales,904504
+Quintana Roo,23,alimentos,073,Papa y otros tubérculos,904505
+Quintana Roo,23,alimentos,074,Papas fritas,904541
+Quintana Roo,23,alimentos,075,Pepino,904506
+Quintana Roo,23,alimentos,076,Tomate verde,904507
+Quintana Roo,23,alimentos,078,Zanahoria,904508
+Quintana Roo,23,alimentos,081,Otros chiles frescos,904510
+Quintana Roo,23,alimentos,082,Azúcar,904526
+Quintana Roo,23,alimentos,087,"Cilantro, epazote y perejil",904511
+Quintana Roo,23,alimentos,095,Jugos o néctares envasados,904523
+Quintana Roo,23,alimentos,096,Café soluble,904528
+Quintana Roo,23,alimentos,099,Agua embotellada,904532
+Quintana Roo,23,alimentos,100,Refrescos envasados,904533
+Quintana Roo,23,alimentos,267,Pollos rostizados,904551
+Quintana Roo,23,alimentos,269,Otros alimentos cocinados,904552
+Quintana Roo,23,comidas_fuera,25,Alimentos cocinados fuera de casa,904547
+Quintana Roo,23,nanv,general,Índice general,904410
+Quintana Roo,23,vivienda,3,Vivienda,904618
+San Luis Potosí,24,alimentos,001,Arroz,904862
+San Luis Potosí,24,alimentos,004,Galletas,904857
+San Luis Potosí,24,alimentos,008,Pan blanco,904851
+San Luis Potosí,24,alimentos,009,Pan de caja,904852
+San Luis Potosí,24,alimentos,010,Pan dulce,904853
+San Luis Potosí,24,alimentos,011,Pasta para sopa,904859
+San Luis Potosí,24,alimentos,014,Tortilla de maíz,904848
+San Luis Potosí,24,alimentos,015,Tortillas de harina de trigo,904860
+San Luis Potosí,24,alimentos,016,Tostadas,904849
+San Luis Potosí,24,alimentos,017,Carne de cerdo,904868
+San Luis Potosí,24,alimentos,018,Carne de res,904871
+San Luis Potosí,24,alimentos,019,"Carnes secas, procesadas y otros embutidos",904874
+San Luis Potosí,24,alimentos,020,Chorizo,904875
+San Luis Potosí,24,alimentos,021,Jamón,904876
+San Luis Potosí,24,alimentos,022,Pollo,904866
+San Luis Potosí,24,alimentos,026,Atún y sardina en lata,904884
+San Luis Potosí,24,alimentos,030,Crema y otros productos a base de leche,904895
+San Luis Potosí,24,alimentos,031,Huevo,904905
+San Luis Potosí,24,alimentos,034,Leche pasteurizada y fresca,904888
+San Luis Potosí,24,alimentos,037,Queso fresco,904897
+San Luis Potosí,24,alimentos,039,Queso Oaxaca y asadero,904899
+San Luis Potosí,24,alimentos,041,Yogurt,904901
+San Luis Potosí,24,alimentos,042,Aceites y grasas vegetales comestibles,904908
+San Luis Potosí,24,alimentos,045,Aguacate,904911
+San Luis Potosí,24,alimentos,048,Limón,904914
+San Luis Potosí,24,alimentos,049,Manzana,904915
+San Luis Potosí,24,alimentos,055,Plátanos,904921
+San Luis Potosí,24,alimentos,060,Calabacita,904926
+San Luis Potosí,24,alimentos,061,Cebolla,904927
+San Luis Potosí,24,alimentos,062,Chayote,904928
+San Luis Potosí,24,alimentos,065,Chile serrano,904930
+San Luis Potosí,24,alimentos,068,Frijol,904944
+San Luis Potosí,24,alimentos,069,Frijol procesado,904949
+San Luis Potosí,24,alimentos,070,Jitomate,904932
+San Luis Potosí,24,alimentos,071,Lechuga y col,904933
+San Luis Potosí,24,alimentos,072,Nopales,904934
+San Luis Potosí,24,alimentos,073,Papa y otros tubérculos,904935
+San Luis Potosí,24,alimentos,074,Papas fritas,904971
+San Luis Potosí,24,alimentos,075,Pepino,904936
+San Luis Potosí,24,alimentos,076,Tomate verde,904937
+San Luis Potosí,24,alimentos,078,Zanahoria,904938
+San Luis Potosí,24,alimentos,081,Otros chiles frescos,904940
+San Luis Potosí,24,alimentos,082,Azúcar,904956
+San Luis Potosí,24,alimentos,087,"Cilantro, epazote y perejil",904941
+San Luis Potosí,24,alimentos,095,Jugos o néctares envasados,904953
+San Luis Potosí,24,alimentos,096,Café soluble,904958
+San Luis Potosí,24,alimentos,099,Agua embotellada,904962
+San Luis Potosí,24,alimentos,100,Refrescos envasados,904963
+San Luis Potosí,24,alimentos,267,Pollos rostizados,904981
+San Luis Potosí,24,alimentos,269,Otros alimentos cocinados,904982
+San Luis Potosí,24,comidas_fuera,25,Alimentos cocinados fuera de casa,904977
+San Luis Potosí,24,nanv,general,Índice general,904840
+San Luis Potosí,24,vivienda,3,Vivienda,905048
+Sinaloa,25,alimentos,001,Arroz,905292
+Sinaloa,25,alimentos,004,Galletas,905287
+Sinaloa,25,alimentos,008,Pan blanco,905281
+Sinaloa,25,alimentos,009,Pan de caja,905282
+Sinaloa,25,alimentos,010,Pan dulce,905283
+Sinaloa,25,alimentos,011,Pasta para sopa,905289
+Sinaloa,25,alimentos,014,Tortilla de maíz,905278
+Sinaloa,25,alimentos,015,Tortillas de harina de trigo,905290
+Sinaloa,25,alimentos,016,Tostadas,905279
+Sinaloa,25,alimentos,017,Carne de cerdo,905298
+Sinaloa,25,alimentos,018,Carne de res,905301
+Sinaloa,25,alimentos,019,"Carnes secas, procesadas y otros embutidos",905304
+Sinaloa,25,alimentos,020,Chorizo,905305
+Sinaloa,25,alimentos,021,Jamón,905306
+Sinaloa,25,alimentos,022,Pollo,905296
+Sinaloa,25,alimentos,026,Atún y sardina en lata,905314
+Sinaloa,25,alimentos,030,Crema y otros productos a base de leche,905325
+Sinaloa,25,alimentos,031,Huevo,905335
+Sinaloa,25,alimentos,034,Leche pasteurizada y fresca,905318
+Sinaloa,25,alimentos,037,Queso fresco,905327
+Sinaloa,25,alimentos,039,Queso Oaxaca y asadero,905329
+Sinaloa,25,alimentos,041,Yogurt,905331
+Sinaloa,25,alimentos,042,Aceites y grasas vegetales comestibles,905338
+Sinaloa,25,alimentos,045,Aguacate,905341
+Sinaloa,25,alimentos,048,Limón,905344
+Sinaloa,25,alimentos,049,Manzana,905345
+Sinaloa,25,alimentos,055,Plátanos,905351
+Sinaloa,25,alimentos,060,Calabacita,905356
+Sinaloa,25,alimentos,061,Cebolla,905357
+Sinaloa,25,alimentos,062,Chayote,905358
+Sinaloa,25,alimentos,065,Chile serrano,905360
+Sinaloa,25,alimentos,068,Frijol,905374
+Sinaloa,25,alimentos,069,Frijol procesado,905379
+Sinaloa,25,alimentos,070,Jitomate,905362
+Sinaloa,25,alimentos,071,Lechuga y col,905363
+Sinaloa,25,alimentos,072,Nopales,905364
+Sinaloa,25,alimentos,073,Papa y otros tubérculos,905365
+Sinaloa,25,alimentos,074,Papas fritas,905401
+Sinaloa,25,alimentos,075,Pepino,905366
+Sinaloa,25,alimentos,076,Tomate verde,905367
+Sinaloa,25,alimentos,078,Zanahoria,905368
+Sinaloa,25,alimentos,081,Otros chiles frescos,905370
+Sinaloa,25,alimentos,082,Azúcar,905386
+Sinaloa,25,alimentos,087,"Cilantro, epazote y perejil",905371
+Sinaloa,25,alimentos,095,Jugos o néctares envasados,905383
+Sinaloa,25,alimentos,096,Café soluble,905388
+Sinaloa,25,alimentos,099,Agua embotellada,905392
+Sinaloa,25,alimentos,100,Refrescos envasados,905393
+Sinaloa,25,alimentos,267,Pollos rostizados,905411
+Sinaloa,25,alimentos,269,Otros alimentos cocinados,905412
+Sinaloa,25,comidas_fuera,25,Alimentos cocinados fuera de casa,905407
+Sinaloa,25,nanv,general,Índice general,905270
+Sinaloa,25,vivienda,3,Vivienda,905478
+Sonora,26,alimentos,001,Arroz,905722
+Sonora,26,alimentos,004,Galletas,905717
+Sonora,26,alimentos,008,Pan blanco,905711
+Sonora,26,alimentos,009,Pan de caja,905712
+Sonora,26,alimentos,010,Pan dulce,905713
+Sonora,26,alimentos,011,Pasta para sopa,905719
+Sonora,26,alimentos,014,Tortilla de maíz,905708
+Sonora,26,alimentos,015,Tortillas de harina de trigo,905720
+Sonora,26,alimentos,016,Tostadas,905709
+Sonora,26,alimentos,017,Carne de cerdo,905728
+Sonora,26,alimentos,018,Carne de res,905731
+Sonora,26,alimentos,019,"Carnes secas, procesadas y otros embutidos",905734
+Sonora,26,alimentos,020,Chorizo,905735
+Sonora,26,alimentos,021,Jamón,905736
+Sonora,26,alimentos,022,Pollo,905726
+Sonora,26,alimentos,026,Atún y sardina en lata,905744
+Sonora,26,alimentos,030,Crema y otros productos a base de leche,905755
+Sonora,26,alimentos,031,Huevo,905765
+Sonora,26,alimentos,034,Leche pasteurizada y fresca,905748
+Sonora,26,alimentos,037,Queso fresco,905757
+Sonora,26,alimentos,039,Queso Oaxaca y asadero,905759
+Sonora,26,alimentos,041,Yogurt,905761
+Sonora,26,alimentos,042,Aceites y grasas vegetales comestibles,905768
+Sonora,26,alimentos,045,Aguacate,905771
+Sonora,26,alimentos,048,Limón,905774
+Sonora,26,alimentos,049,Manzana,905775
+Sonora,26,alimentos,055,Plátanos,905781
+Sonora,26,alimentos,060,Calabacita,905786
+Sonora,26,alimentos,061,Cebolla,905787
+Sonora,26,alimentos,062,Chayote,905788
+Sonora,26,alimentos,065,Chile serrano,905790
+Sonora,26,alimentos,068,Frijol,905804
+Sonora,26,alimentos,069,Frijol procesado,905809
+Sonora,26,alimentos,070,Jitomate,905792
+Sonora,26,alimentos,071,Lechuga y col,905793
+Sonora,26,alimentos,072,Nopales,905794
+Sonora,26,alimentos,073,Papa y otros tubérculos,905795
+Sonora,26,alimentos,074,Papas fritas,905831
+Sonora,26,alimentos,075,Pepino,905796
+Sonora,26,alimentos,076,Tomate verde,905797
+Sonora,26,alimentos,078,Zanahoria,905798
+Sonora,26,alimentos,081,Otros chiles frescos,905800
+Sonora,26,alimentos,082,Azúcar,905816
+Sonora,26,alimentos,087,"Cilantro, epazote y perejil",905801
+Sonora,26,alimentos,095,Jugos o néctares envasados,905813
+Sonora,26,alimentos,096,Café soluble,905818
+Sonora,26,alimentos,099,Agua embotellada,905822
+Sonora,26,alimentos,100,Refrescos envasados,905823
+Sonora,26,alimentos,267,Pollos rostizados,905841
+Sonora,26,alimentos,269,Otros alimentos cocinados,905842
+Sonora,26,comidas_fuera,25,Alimentos cocinados fuera de casa,905837
+Sonora,26,nanv,general,Índice general,905700
+Sonora,26,vivienda,3,Vivienda,905908
+Tabasco,27,alimentos,001,Arroz,906152
+Tabasco,27,alimentos,004,Galletas,906147
+Tabasco,27,alimentos,008,Pan blanco,906141
+Tabasco,27,alimentos,009,Pan de caja,906142
+Tabasco,27,alimentos,010,Pan dulce,906143
+Tabasco,27,alimentos,011,Pasta para sopa,906149
+Tabasco,27,alimentos,014,Tortilla de maíz,906138
+Tabasco,27,alimentos,015,Tortillas de harina de trigo,906150
+Tabasco,27,alimentos,016,Tostadas,906139
+Tabasco,27,alimentos,017,Carne de cerdo,906158
+Tabasco,27,alimentos,018,Carne de res,906161
+Tabasco,27,alimentos,019,"Carnes secas, procesadas y otros embutidos",906164
+Tabasco,27,alimentos,020,Chorizo,906165
+Tabasco,27,alimentos,021,Jamón,906166
+Tabasco,27,alimentos,022,Pollo,906156
+Tabasco,27,alimentos,026,Atún y sardina en lata,906174
+Tabasco,27,alimentos,030,Crema y otros productos a base de leche,906185
+Tabasco,27,alimentos,031,Huevo,906195
+Tabasco,27,alimentos,034,Leche pasteurizada y fresca,906178
+Tabasco,27,alimentos,037,Queso fresco,906187
+Tabasco,27,alimentos,039,Queso Oaxaca y asadero,906189
+Tabasco,27,alimentos,041,Yogurt,906191
+Tabasco,27,alimentos,042,Aceites y grasas vegetales comestibles,906198
+Tabasco,27,alimentos,045,Aguacate,906201
+Tabasco,27,alimentos,048,Limón,906204
+Tabasco,27,alimentos,049,Manzana,906205
+Tabasco,27,alimentos,055,Plátanos,906211
+Tabasco,27,alimentos,060,Calabacita,906216
+Tabasco,27,alimentos,061,Cebolla,906217
+Tabasco,27,alimentos,062,Chayote,906218
+Tabasco,27,alimentos,065,Chile serrano,906220
+Tabasco,27,alimentos,068,Frijol,906234
+Tabasco,27,alimentos,069,Frijol procesado,906239
+Tabasco,27,alimentos,070,Jitomate,906222
+Tabasco,27,alimentos,071,Lechuga y col,906223
+Tabasco,27,alimentos,072,Nopales,906224
+Tabasco,27,alimentos,073,Papa y otros tubérculos,906225
+Tabasco,27,alimentos,074,Papas fritas,906261
+Tabasco,27,alimentos,075,Pepino,906226
+Tabasco,27,alimentos,076,Tomate verde,906227
+Tabasco,27,alimentos,078,Zanahoria,906228
+Tabasco,27,alimentos,081,Otros chiles frescos,906230
+Tabasco,27,alimentos,082,Azúcar,906246
+Tabasco,27,alimentos,087,"Cilantro, epazote y perejil",906231
+Tabasco,27,alimentos,095,Jugos o néctares envasados,906243
+Tabasco,27,alimentos,096,Café soluble,906248
+Tabasco,27,alimentos,099,Agua embotellada,906252
+Tabasco,27,alimentos,100,Refrescos envasados,906253
+Tabasco,27,alimentos,267,Pollos rostizados,906271
+Tabasco,27,alimentos,269,Otros alimentos cocinados,906272
+Tabasco,27,comidas_fuera,25,Alimentos cocinados fuera de casa,906267
+Tabasco,27,nanv,general,Índice general,906130
+Tabasco,27,vivienda,3,Vivienda,906338
+Tamaulipas,28,alimentos,001,Arroz,906582
+Tamaulipas,28,alimentos,004,Galletas,906577
+Tamaulipas,28,alimentos,008,Pan blanco,906571
+Tamaulipas,28,alimentos,009,Pan de caja,906572
+Tamaulipas,28,alimentos,010,Pan dulce,906573
+Tamaulipas,28,alimentos,011,Pasta para sopa,906579
+Tamaulipas,28,alimentos,014,Tortilla de maíz,906568
+Tamaulipas,28,alimentos,015,Tortillas de harina de trigo,906580
+Tamaulipas,28,alimentos,016,Tostadas,906569
+Tamaulipas,28,alimentos,017,Carne de cerdo,906588
+Tamaulipas,28,alimentos,018,Carne de res,906591
+Tamaulipas,28,alimentos,019,"Carnes secas, procesadas y otros embutidos",906594
+Tamaulipas,28,alimentos,020,Chorizo,906595
+Tamaulipas,28,alimentos,021,Jamón,906596
+Tamaulipas,28,alimentos,022,Pollo,906586
+Tamaulipas,28,alimentos,026,Atún y sardina en lata,906604
+Tamaulipas,28,alimentos,030,Crema y otros productos a base de leche,906615
+Tamaulipas,28,alimentos,031,Huevo,906625
+Tamaulipas,28,alimentos,034,Leche pasteurizada y fresca,906608
+Tamaulipas,28,alimentos,037,Queso fresco,906617
+Tamaulipas,28,alimentos,039,Queso Oaxaca y asadero,906619
+Tamaulipas,28,alimentos,041,Yogurt,906621
+Tamaulipas,28,alimentos,042,Aceites y grasas vegetales comestibles,906628
+Tamaulipas,28,alimentos,045,Aguacate,906631
+Tamaulipas,28,alimentos,048,Limón,906634
+Tamaulipas,28,alimentos,049,Manzana,906635
+Tamaulipas,28,alimentos,055,Plátanos,906641
+Tamaulipas,28,alimentos,060,Calabacita,906646
+Tamaulipas,28,alimentos,061,Cebolla,906647
+Tamaulipas,28,alimentos,062,Chayote,906648
+Tamaulipas,28,alimentos,065,Chile serrano,906650
+Tamaulipas,28,alimentos,068,Frijol,906664
+Tamaulipas,28,alimentos,069,Frijol procesado,906669
+Tamaulipas,28,alimentos,070,Jitomate,906652
+Tamaulipas,28,alimentos,071,Lechuga y col,906653
+Tamaulipas,28,alimentos,072,Nopales,906654
+Tamaulipas,28,alimentos,073,Papa y otros tubérculos,906655
+Tamaulipas,28,alimentos,074,Papas fritas,906691
+Tamaulipas,28,alimentos,075,Pepino,906656
+Tamaulipas,28,alimentos,076,Tomate verde,906657
+Tamaulipas,28,alimentos,078,Zanahoria,906658
+Tamaulipas,28,alimentos,081,Otros chiles frescos,906660
+Tamaulipas,28,alimentos,082,Azúcar,906676
+Tamaulipas,28,alimentos,087,"Cilantro, epazote y perejil",906661
+Tamaulipas,28,alimentos,095,Jugos o néctares envasados,906673
+Tamaulipas,28,alimentos,096,Café soluble,906678
+Tamaulipas,28,alimentos,099,Agua embotellada,906682
+Tamaulipas,28,alimentos,100,Refrescos envasados,906683
+Tamaulipas,28,alimentos,267,Pollos rostizados,906701
+Tamaulipas,28,alimentos,269,Otros alimentos cocinados,906702
+Tamaulipas,28,comidas_fuera,25,Alimentos cocinados fuera de casa,906697
+Tamaulipas,28,nanv,general,Índice general,906560
+Tamaulipas,28,vivienda,3,Vivienda,906768
+Tlaxcala,29,alimentos,001,Arroz,907012
+Tlaxcala,29,alimentos,004,Galletas,907007
+Tlaxcala,29,alimentos,008,Pan blanco,907001
+Tlaxcala,29,alimentos,009,Pan de caja,907002
+Tlaxcala,29,alimentos,010,Pan dulce,907003
+Tlaxcala,29,alimentos,011,Pasta para sopa,907009
+Tlaxcala,29,alimentos,014,Tortilla de maíz,906998
+Tlaxcala,29,alimentos,015,Tortillas de harina de trigo,907010
+Tlaxcala,29,alimentos,016,Tostadas,906999
+Tlaxcala,29,alimentos,017,Carne de cerdo,907018
+Tlaxcala,29,alimentos,018,Carne de res,907021
+Tlaxcala,29,alimentos,019,"Carnes secas, procesadas y otros embutidos",907024
+Tlaxcala,29,alimentos,020,Chorizo,907025
+Tlaxcala,29,alimentos,021,Jamón,907026
+Tlaxcala,29,alimentos,022,Pollo,907016
+Tlaxcala,29,alimentos,026,Atún y sardina en lata,907034
+Tlaxcala,29,alimentos,030,Crema y otros productos a base de leche,907045
+Tlaxcala,29,alimentos,031,Huevo,907055
+Tlaxcala,29,alimentos,034,Leche pasteurizada y fresca,907038
+Tlaxcala,29,alimentos,037,Queso fresco,907047
+Tlaxcala,29,alimentos,039,Queso Oaxaca y asadero,907049
+Tlaxcala,29,alimentos,041,Yogurt,907051
+Tlaxcala,29,alimentos,042,Aceites y grasas vegetales comestibles,907058
+Tlaxcala,29,alimentos,045,Aguacate,907061
+Tlaxcala,29,alimentos,048,Limón,907064
+Tlaxcala,29,alimentos,049,Manzana,907065
+Tlaxcala,29,alimentos,055,Plátanos,907071
+Tlaxcala,29,alimentos,060,Calabacita,907076
+Tlaxcala,29,alimentos,061,Cebolla,907077
+Tlaxcala,29,alimentos,062,Chayote,907078
+Tlaxcala,29,alimentos,065,Chile serrano,907080
+Tlaxcala,29,alimentos,068,Frijol,907094
+Tlaxcala,29,alimentos,069,Frijol procesado,907099
+Tlaxcala,29,alimentos,070,Jitomate,907082
+Tlaxcala,29,alimentos,071,Lechuga y col,907083
+Tlaxcala,29,alimentos,072,Nopales,907084
+Tlaxcala,29,alimentos,073,Papa y otros tubérculos,907085
+Tlaxcala,29,alimentos,074,Papas fritas,907121
+Tlaxcala,29,alimentos,075,Pepino,907086
+Tlaxcala,29,alimentos,076,Tomate verde,907087
+Tlaxcala,29,alimentos,078,Zanahoria,907088
+Tlaxcala,29,alimentos,081,Otros chiles frescos,907090
+Tlaxcala,29,alimentos,082,Azúcar,907106
+Tlaxcala,29,alimentos,087,"Cilantro, epazote y perejil",907091
+Tlaxcala,29,alimentos,095,Jugos o néctares envasados,907103
+Tlaxcala,29,alimentos,096,Café soluble,907108
+Tlaxcala,29,alimentos,099,Agua embotellada,907112
+Tlaxcala,29,alimentos,100,Refrescos envasados,907113
+Tlaxcala,29,alimentos,267,Pollos rostizados,907131
+Tlaxcala,29,alimentos,269,Otros alimentos cocinados,907132
+Tlaxcala,29,comidas_fuera,25,Alimentos cocinados fuera de casa,907127
+Tlaxcala,29,nanv,general,Índice general,906990
+Tlaxcala,29,vivienda,3,Vivienda,907198
+Veracruz,30,alimentos,001,Arroz,907442
+Veracruz,30,alimentos,004,Galletas,907437
+Veracruz,30,alimentos,008,Pan blanco,907431
+Veracruz,30,alimentos,009,Pan de caja,907432
+Veracruz,30,alimentos,010,Pan dulce,907433
+Veracruz,30,alimentos,011,Pasta para sopa,907439
+Veracruz,30,alimentos,014,Tortilla de maíz,907428
+Veracruz,30,alimentos,015,Tortillas de harina de trigo,907440
+Veracruz,30,alimentos,016,Tostadas,907429
+Veracruz,30,alimentos,017,Carne de cerdo,907448
+Veracruz,30,alimentos,018,Carne de res,907451
+Veracruz,30,alimentos,019,"Carnes secas, procesadas y otros embutidos",907454
+Veracruz,30,alimentos,020,Chorizo,907455
+Veracruz,30,alimentos,021,Jamón,907456
+Veracruz,30,alimentos,022,Pollo,907446
+Veracruz,30,alimentos,026,Atún y sardina en lata,907464
+Veracruz,30,alimentos,030,Crema y otros productos a base de leche,907475
+Veracruz,30,alimentos,031,Huevo,907485
+Veracruz,30,alimentos,034,Leche pasteurizada y fresca,907468
+Veracruz,30,alimentos,037,Queso fresco,907477
+Veracruz,30,alimentos,039,Queso Oaxaca y asadero,907479
+Veracruz,30,alimentos,041,Yogurt,907481
+Veracruz,30,alimentos,042,Aceites y grasas vegetales comestibles,907488
+Veracruz,30,alimentos,045,Aguacate,907491
+Veracruz,30,alimentos,048,Limón,907494
+Veracruz,30,alimentos,049,Manzana,907495
+Veracruz,30,alimentos,055,Plátanos,907501
+Veracruz,30,alimentos,060,Calabacita,907506
+Veracruz,30,alimentos,061,Cebolla,907507
+Veracruz,30,alimentos,062,Chayote,907508
+Veracruz,30,alimentos,065,Chile serrano,907510
+Veracruz,30,alimentos,068,Frijol,907524
+Veracruz,30,alimentos,069,Frijol procesado,907529
+Veracruz,30,alimentos,070,Jitomate,907512
+Veracruz,30,alimentos,071,Lechuga y col,907513
+Veracruz,30,alimentos,072,Nopales,907514
+Veracruz,30,alimentos,073,Papa y otros tubérculos,907515
+Veracruz,30,alimentos,074,Papas fritas,907551
+Veracruz,30,alimentos,075,Pepino,907516
+Veracruz,30,alimentos,076,Tomate verde,907517
+Veracruz,30,alimentos,078,Zanahoria,907518
+Veracruz,30,alimentos,081,Otros chiles frescos,907520
+Veracruz,30,alimentos,082,Azúcar,907536
+Veracruz,30,alimentos,087,"Cilantro, epazote y perejil",907521
+Veracruz,30,alimentos,095,Jugos o néctares envasados,907533
+Veracruz,30,alimentos,096,Café soluble,907538
+Veracruz,30,alimentos,099,Agua embotellada,907542
+Veracruz,30,alimentos,100,Refrescos envasados,907543
+Veracruz,30,alimentos,267,Pollos rostizados,907561
+Veracruz,30,alimentos,269,Otros alimentos cocinados,907562
+Veracruz,30,comidas_fuera,25,Alimentos cocinados fuera de casa,907557
+Veracruz,30,nanv,general,Índice general,907420
+Veracruz,30,vivienda,3,Vivienda,907628
+Yucatán,31,alimentos,001,Arroz,907872
+Yucatán,31,alimentos,004,Galletas,907867
+Yucatán,31,alimentos,008,Pan blanco,907861
+Yucatán,31,alimentos,009,Pan de caja,907862
+Yucatán,31,alimentos,010,Pan dulce,907863
+Yucatán,31,alimentos,011,Pasta para sopa,907869
+Yucatán,31,alimentos,014,Tortilla de maíz,907858
+Yucatán,31,alimentos,015,Tortillas de harina de trigo,907870
+Yucatán,31,alimentos,016,Tostadas,907859
+Yucatán,31,alimentos,017,Carne de cerdo,907878
+Yucatán,31,alimentos,018,Carne de res,907881
+Yucatán,31,alimentos,019,"Carnes secas, procesadas y otros embutidos",907884
+Yucatán,31,alimentos,020,Chorizo,907885
+Yucatán,31,alimentos,021,Jamón,907886
+Yucatán,31,alimentos,022,Pollo,907876
+Yucatán,31,alimentos,026,Atún y sardina en lata,907894
+Yucatán,31,alimentos,030,Crema y otros productos a base de leche,907905
+Yucatán,31,alimentos,031,Huevo,907915
+Yucatán,31,alimentos,034,Leche pasteurizada y fresca,907898
+Yucatán,31,alimentos,037,Queso fresco,907907
+Yucatán,31,alimentos,039,Queso Oaxaca y asadero,907909
+Yucatán,31,alimentos,041,Yogurt,907911
+Yucatán,31,alimentos,042,Aceites y grasas vegetales comestibles,907918
+Yucatán,31,alimentos,045,Aguacate,907921
+Yucatán,31,alimentos,048,Limón,907924
+Yucatán,31,alimentos,049,Manzana,907925
+Yucatán,31,alimentos,055,Plátanos,907931
+Yucatán,31,alimentos,060,Calabacita,907936
+Yucatán,31,alimentos,061,Cebolla,907937
+Yucatán,31,alimentos,062,Chayote,907938
+Yucatán,31,alimentos,065,Chile serrano,907940
+Yucatán,31,alimentos,068,Frijol,907954
+Yucatán,31,alimentos,069,Frijol procesado,907959
+Yucatán,31,alimentos,070,Jitomate,907942
+Yucatán,31,alimentos,071,Lechuga y col,907943
+Yucatán,31,alimentos,072,Nopales,907944
+Yucatán,31,alimentos,073,Papa y otros tubérculos,907945
+Yucatán,31,alimentos,074,Papas fritas,907981
+Yucatán,31,alimentos,075,Pepino,907946
+Yucatán,31,alimentos,076,Tomate verde,907947
+Yucatán,31,alimentos,078,Zanahoria,907948
+Yucatán,31,alimentos,081,Otros chiles frescos,907950
+Yucatán,31,alimentos,082,Azúcar,907966
+Yucatán,31,alimentos,087,"Cilantro, epazote y perejil",907951
+Yucatán,31,alimentos,095,Jugos o néctares envasados,907963
+Yucatán,31,alimentos,096,Café soluble,907968
+Yucatán,31,alimentos,099,Agua embotellada,907972
+Yucatán,31,alimentos,100,Refrescos envasados,907973
+Yucatán,31,alimentos,267,Pollos rostizados,907991
+Yucatán,31,alimentos,269,Otros alimentos cocinados,907992
+Yucatán,31,comidas_fuera,25,Alimentos cocinados fuera de casa,907987
+Yucatán,31,nanv,general,Índice general,907850
+Yucatán,31,vivienda,3,Vivienda,908058
+Zacatecas,32,alimentos,001,Arroz,908302
+Zacatecas,32,alimentos,004,Galletas,908297
+Zacatecas,32,alimentos,008,Pan blanco,908291
+Zacatecas,32,alimentos,009,Pan de caja,908292
+Zacatecas,32,alimentos,010,Pan dulce,908293
+Zacatecas,32,alimentos,011,Pasta para sopa,908299
+Zacatecas,32,alimentos,014,Tortilla de maíz,908288
+Zacatecas,32,alimentos,015,Tortillas de harina de trigo,908300
+Zacatecas,32,alimentos,016,Tostadas,908289
+Zacatecas,32,alimentos,017,Carne de cerdo,908308
+Zacatecas,32,alimentos,018,Carne de res,908311
+Zacatecas,32,alimentos,019,"Carnes secas, procesadas y otros embutidos",908314
+Zacatecas,32,alimentos,020,Chorizo,908315
+Zacatecas,32,alimentos,021,Jamón,908316
+Zacatecas,32,alimentos,022,Pollo,908306
+Zacatecas,32,alimentos,026,Atún y sardina en lata,908324
+Zacatecas,32,alimentos,030,Crema y otros productos a base de leche,908335
+Zacatecas,32,alimentos,031,Huevo,908345
+Zacatecas,32,alimentos,034,Leche pasteurizada y fresca,908328
+Zacatecas,32,alimentos,037,Queso fresco,908337
+Zacatecas,32,alimentos,039,Queso Oaxaca y asadero,908339
+Zacatecas,32,alimentos,041,Yogurt,908341
+Zacatecas,32,alimentos,042,Aceites y grasas vegetales comestibles,908348
+Zacatecas,32,alimentos,045,Aguacate,908351
+Zacatecas,32,alimentos,048,Limón,908354
+Zacatecas,32,alimentos,049,Manzana,908355
+Zacatecas,32,alimentos,055,Plátanos,908361
+Zacatecas,32,alimentos,060,Calabacita,908366
+Zacatecas,32,alimentos,061,Cebolla,908367
+Zacatecas,32,alimentos,062,Chayote,908368
+Zacatecas,32,alimentos,065,Chile serrano,908370
+Zacatecas,32,alimentos,068,Frijol,908384
+Zacatecas,32,alimentos,069,Frijol procesado,908389
+Zacatecas,32,alimentos,070,Jitomate,908372
+Zacatecas,32,alimentos,071,Lechuga y col,908373
+Zacatecas,32,alimentos,072,Nopales,908374
+Zacatecas,32,alimentos,073,Papa y otros tubérculos,908375
+Zacatecas,32,alimentos,074,Papas fritas,908411
+Zacatecas,32,alimentos,075,Pepino,908376
+Zacatecas,32,alimentos,076,Tomate verde,908377
+Zacatecas,32,alimentos,078,Zanahoria,908378
+Zacatecas,32,alimentos,081,Otros chiles frescos,908380
+Zacatecas,32,alimentos,082,Azúcar,908396
+Zacatecas,32,alimentos,087,"Cilantro, epazote y perejil",908381
+Zacatecas,32,alimentos,095,Jugos o néctares envasados,908393
+Zacatecas,32,alimentos,096,Café soluble,908398
+Zacatecas,32,alimentos,099,Agua embotellada,908402
+Zacatecas,32,alimentos,100,Refrescos envasados,908403
+Zacatecas,32,alimentos,267,Pollos rostizados,908421
+Zacatecas,32,alimentos,269,Otros alimentos cocinados,908422
+Zacatecas,32,comidas_fuera,25,Alimentos cocinados fuera de casa,908417
+Zacatecas,32,nanv,general,Índice general,908280
+Zacatecas,32,vivienda,3,Vivienda,908488

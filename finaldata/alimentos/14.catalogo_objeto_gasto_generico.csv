@@ -1,0 +1,293 @@
+﻿codigo,nombre,ruta_og,serie_api
+002,Botanas elaboradas con cereales,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 01 Tortillas y derivados del maíz, 002 Botanas elaboradas con cereales",865591
+006,Maíz,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 01 Tortillas y derivados del maíz, 006 Maíz",865592
+007,Masa y harinas de maíz,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 01 Tortillas y derivados del maíz, 007 Masa y harinas de maíz",865593
+014,Tortilla de maíz,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 01 Tortillas y derivados del maíz, 014 Tortilla de maíz",865594
+016,Tostadas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 01 Tortillas y derivados del maíz, 016 Tostadas",865595
+008,Pan blanco,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 02 Pan, 008 Pan blanco",865597
+009,Pan de caja,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 02 Pan, 009 Pan de caja",865598
+010,Pan dulce,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 02 Pan, 010 Pan dulce",865599
+012,"Pasteles, pastelillos y pan dulce empaquetado","1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 02 Pan, 012 Pasteles, pastelillos y pan dulce empaquetado",865600
+013,Pastelillos y pasteles a granel,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 02 Pan, 013 Pastelillos y pasteles a granel",865601
+004,Galletas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 03 Galletas, pastas y harinas de trigo, 004 Galletas",865603
+005,Harinas de trigo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 03 Galletas, pastas y harinas de trigo, 005 Harinas de trigo",865606
+011,Pasta para sopa,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 03 Galletas, pastas y harinas de trigo, 011 Pasta para sopa",865607
+015,Tortillas de harina de trigo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 03 Galletas, pastas y harinas de trigo, 015 Tortillas de harina de trigo",865608
+001,Arroz,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 04 Arroz y cereales preparados, 001 Arroz",865610
+003,Cereales en hojuelas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.1. Pan, tortillas y cereales, 04 Arroz y cereales preparados, 003 Cereales en hojuelas",865611
+022,Pollo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 05 Carne de ave, 022 Pollo",865614
+017,Carne de cerdo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 06 Carne y vísceras de cerdo, 017 Carne de cerdo",865618
+043,Manteca de cerdo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 06 Carne y vísceras de cerdo, 043 Manteca de cerdo",865623
+018,Carne de res,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 07 Carne y vísceras de res, 018 Carne de res",865625
+025,Vísceras de res,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 07 Carne y vísceras de res, 025 Vísceras de res",865631
+019,"Carnes secas, procesadas y otros embutidos","1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 08 Carnes frías, secas y embutidos, 019 Carnes secas, procesadas y otros embutidos",865633
+020,Chorizo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 08 Carnes frías, secas y embutidos, 020 Chorizo",865634
+021,Jamón,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 08 Carnes frías, secas y embutidos, 021 Jamón",865635
+023,Salchichas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 08 Carnes frías, secas y embutidos, 023 Salchichas",865636
+024,Tocino,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.2. Carnes, 08 Carnes frías, secas y embutidos, 024 Tocino",865637
+027,Camarón,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.3. Pescados y mariscos, 09 Pescados y mariscos, 027 Camarón",865640
+028,Pescado,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.3. Pescados y mariscos, 09 Pescados y mariscos, 028 Pescado",865641
+026,Atún y sardina en lata,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.3. Pescados y mariscos, 10 Pescados y mariscos en conserva, 026 Atún y sardina en lata",865643
+029,Otros pescados y mariscos en conserva,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.3. Pescados y mariscos, 10 Pescados y mariscos en conserva, 029 Otros pescados y mariscos en conserva",865644
+034,Leche pasteurizada y fresca,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 11 Leche pasteurizada y fresca, 034 Leche pasteurizada y fresca",865647
+035,Leches de origen vegetal,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 11 Leche pasteurizada y fresca, 035 Leches de origen vegetal",865648
+032,Leche en polvo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 12 Leche procesada, 032 Leche en polvo",865650
+033,Leche evaporada y condensada,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 12 Leche procesada, 033 Leche evaporada y condensada",865651
+090,Leche maternizada y alimentos para bebé,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 12 Leche procesada, 090 Leche maternizada y alimentos para bebé",865652
+030,Crema y otros productos a base de leche,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 030 Crema y otros productos a base de leche",865654
+036,Queso amarillo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 036 Queso amarillo",865655
+037,Queso fresco,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 037 Queso fresco",865656
+038,Queso manchego y Chihuahua,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 038 Queso manchego y Chihuahua",865657
+039,Queso Oaxaca y asadero,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 039 Queso Oaxaca y asadero",865658
+040,Otros quesos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 040 Otros quesos",865659
+041,Yogurt,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 041 Yogurt",865660
+044,Mantequilla,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 044 Mantequilla",865661
+086,"Helados, nieves y paletas de hielo","1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 13 Derivados de leche, 086 Helados, nieves y paletas de hielo",865662
+031,Huevo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.4. Leche, derivados de leche y huevo, 14 Huevo, 031 Huevo",865664
+042,Aceites y grasas vegetales comestibles,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.5. Aceites y grasas comestibles, 15 Aceites y grasas vegetales comestibles, 042 Aceites y grasas vegetales comestibles",865667
+045,Aguacate,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 045 Aguacate",865670
+046,Durazno,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 046 Durazno",865671
+047,Guayaba,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 047 Guayaba",865672
+048,Limón,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 048 Limón",865673
+049,Manzana,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 049 Manzana",865674
+050,Melón,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 050 Melón",865675
+051,Naranja,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 051 Naranja",865676
+052,Papaya,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 052 Papaya",865677
+053,Pera,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 053 Pera",865678
+054,Piña,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 054 Piña",865679
+055,Plátanos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 055 Plátanos",865680
+056,Sandía,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 056 Sandía",865681
+057,Uva,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 057 Uva",865682
+059,Otras frutas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 16 Frutas frescas, 059 Otras frutas",865683
+060,Calabacita,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 060 Calabacita",865688
+061,Cebolla,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 061 Cebolla",865689
+062,Chayote,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 062 Chayote",865690
+063,Chile poblano,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 063 Chile poblano",865691
+065,Chile serrano,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 065 Chile serrano",865692
+067,Ejotes,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 067 Ejotes",865693
+070,Jitomate,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 070 Jitomate",865694
+071,Lechuga y col,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 071 Lechuga y col",865695
+072,Nopales,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 072 Nopales",865696
+073,Papa y otros tubérculos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 073 Papa y otros tubérculos",865697
+075,Pepino,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 075 Pepino",865698
+076,Tomate verde,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 076 Tomate verde",865699
+078,Zanahoria,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 078 Zanahoria",865700
+080,Otras verduras y legumbres,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 080 Otras verduras y legumbres",865701
+081,Otros chiles frescos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 081 Otros chiles frescos",865702
+087,"Cilantro, epazote y perejil","1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 17 Hortalizas frescas, 087 Cilantro, epazote y perejil",865703
+064,Chile seco,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 18 Legumbres secas, 064 Chile seco",865705
+068,Frijol,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 18 Legumbres secas, 068 Frijol",865706
+079,Otras legumbres secas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 18 Legumbres secas, 079 Otras legumbres secas",865707
+058,Otras conservas de frutas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 058 Otras conservas de frutas",865709
+066,Chiles envasados,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 066 Chiles envasados",865710
+069,Frijol procesado,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 069 Frijol procesado",865711
+077,Verduras envasadas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 077 Verduras envasadas",865712
+092,Moles y salsas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 092 Moles y salsas",865713
+093,Sopas instantáneas y puré de tomate,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 093 Sopas instantáneas y puré de tomate",865714
+095,Jugos o néctares envasados,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.6. Frutas y hortalizas, 19 Frutas y legumbres procesadas, 095 Jugos o néctares envasados",865715
+082,Azúcar,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 20 Azúcar, 082 Azúcar",865718
+096,Café soluble,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 21 Café, 096 Café soluble",865720
+097,Café tostado,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 21 Café, 097 Café tostado",865721
+098,Té,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 21 Café, 098 Té",865722
+099,Agua embotellada,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 22 Refrescos envasados y agua embotellada, 099 Agua embotellada",865724
+100,Refrescos envasados,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 22 Refrescos envasados y agua embotellada, 100 Refrescos envasados",865725
+101,Bebidas energéticas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.7. Azúcar, café y refrescos envasados, 22 Refrescos envasados y agua embotellada, 101 Bebidas energéticas",865726
+088,Concentrados de pollo y sal,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 23 Condimentos, 088 Concentrados de pollo y sal",865729
+091,Mayonesa y mostaza,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 23 Condimentos, 091 Mayonesa y mostaza",865730
+094,Otros condimentos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 23 Condimentos, 094 Otros condimentos",865731
+074,Papas fritas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 074 Papas fritas",865733
+083,Chocolate líquido y para preparar bebida,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 083 Chocolate líquido y para preparar bebida",865734
+084,Chocolate y productos de confitería,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 084 Chocolate y productos de confitería",865735
+085,"Gelatina, miel y mermeladas","1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 085 Gelatina, miel y mermeladas",865736
+089,Gelatina en polvo,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 089 Gelatina en polvo",865737
+102,Concentrados para refrescos,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 24 Chocolates y golosinas, 102 Concentrados para refrescos",865738
+263,Barbacoa o birria,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 25 Alimentos cocinados fuera de casa, 263 Barbacoa o birria",865740
+264,Carnitas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 25 Alimentos cocinados fuera de casa, 264 Carnitas",865741
+266,Pizzas,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 25 Alimentos cocinados fuera de casa, 266 Pizzas",865742
+267,Pollos rostizados,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 25 Alimentos cocinados fuera de casa, 267 Pollos rostizados",865743
+269,Otros alimentos cocinados,"1. Alimentos, bebidas y tabaco, 1.1. Alimentos, 1.1.8. Otros alimentos, 25 Alimentos cocinados fuera de casa, 269 Otros alimentos cocinados",865744
+108,Cerveza,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 26 Cerveza, 108 Cerveza",865748
+103,Brandy,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 27 Vinos y licores, 103 Brandy",865750
+104,Ron,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 27 Vinos y licores, 104 Ron",865751
+105,Tequila,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 27 Vinos y licores, 105 Tequila",865752
+106,Otros licores,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 27 Vinos y licores, 106 Otros licores",865753
+107,Vino de mesa,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.1. Bebidas alcohólicas, 27 Vinos y licores, 107 Vino de mesa",865754
+109,Cigarrillos,"1. Alimentos, bebidas y tabaco, 1.2. Bebidas alcohólicas y tabaco, 1.2.2. Tabaco, 28 Cigarrillos, 109 Cigarrillos",865757
+112,Calcetines y calcetas para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 29 Camisas y ropa interior para hombre, 112 Calcetines y calcetas para hombre",865762
+114,Camisas y playeras para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 29 Camisas y ropa interior para hombre, 114 Camisas y playeras para hombre",865763
+120,Ropa interior para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 29 Camisas y ropa interior para hombre, 120 Ropa interior para hombre",865764
+116,Pantalones para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 30 Pantalones, trajes y otras prendas para hombre, 116 Pantalones para hombre",865766
+124,Traje para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 30 Pantalones, trajes y otras prendas para hombre, 124 Traje para hombre",865767
+128,Otras prendas de vestir para hombre,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.1. Ropa hombre, 30 Pantalones, trajes y otras prendas para hombre, 128 Otras prendas de vestir para hombre",865768
+110,Blusas y playeras para mujer,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 31 Blusas y ropa interior para mujer, 110 Blusas y playeras para mujer",865771
+111,"Calcetas, medias y pantimedias","2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 31 Blusas y ropa interior para mujer, 111 Calcetas, medias y pantimedias",865772
+121,Ropa interior para mujer,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 31 Blusas y ropa interior para mujer, 121 Ropa interior para mujer",865773
+117,Pantalones para mujer,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 32 Pantalones y otras prendas para mujer, 117 Pantalones para mujer",865775
+126,Vestidos y faldas para mujer,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 33 Vestidos, faldas y conjuntos para mujer, 126 Vestidos y faldas para mujer",865777
+129,Otras prendas de vestir para mujer,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.2. Ropa mujer, 33 Vestidos, faldas y conjuntos para mujer, 129 Otras prendas de vestir para mujer",865778
+113,Calcetines y calcetas para niños,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 34 Ropa para niños, 113 Calcetines y calcetas para niños",865781
+115,Camisas y playeras para niños,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 34 Ropa para niños, 115 Camisas y playeras para niños",865782
+118,Pantalones para niño,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 34 Ropa para niños, 118 Pantalones para niño",865783
+122,"Ropa interior para niños, niñas y adolescentes","2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 34 Ropa para niños, 122 Ropa interior para niños, niñas y adolescentes",865784
+127,"Vestidos, faldas y pantalones para niñas","2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 34 Ropa para niños, 127 Vestidos, faldas y pantalones para niñas",865787
+123,Ropa para bebés,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.3. Ropa para niños y bebés, 35 Ropa para bebés, 123 Ropa para bebés",865789
+119,Ropa de abrigo,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.4. Ropa de abrigo y uniformes escolares, 36 Ropa de abrigo, 119 Ropa de abrigo",865792
+125,Uniformes escolares,"2. Ropa, calzado y accesorios, 2.1. Ropa, 2.1.4. Ropa de abrigo y uniformes escolares, 37 Uniformes escolares, 125 Uniformes escolares",865797
+133,Sandalias y huaraches,"2. Ropa, calzado y accesorios, 2.2. Calzado, 2.2.1. Calzado, 38 Calzado, 133 Sandalias y huaraches",865801
+134,Zapatos para hombre,"2. Ropa, calzado y accesorios, 2.2. Calzado, 2.2.1. Calzado, 38 Calzado, 134 Zapatos para hombre",865802
+135,Zapatos para mujer,"2. Ropa, calzado y accesorios, 2.2. Calzado, 2.2.1. Calzado, 38 Calzado, 135 Zapatos para mujer",865803
+136,Zapatos para niños y niñas,"2. Ropa, calzado y accesorios, 2.2. Calzado, 2.2.1. Calzado, 38 Calzado, 136 Zapatos para niños y niñas",865804
+137,Zapatos tenis,"2. Ropa, calzado y accesorios, 2.2. Calzado, 2.2.1. Calzado, 38 Calzado, 137 Zapatos tenis",865805
+131,Servicio de lavandería,"2. Ropa, calzado y accesorios, 2.3. Accesorios y cuidados del vestido, 2.3.1. Cuidados del vestido y accesorios, 39 Limpieza vestido y mantenimiento de calzado, 131 Servicio de lavandería",865809
+132,Servicio de tintorería,"2. Ropa, calzado y accesorios, 2.3. Accesorios y cuidados del vestido, 2.3.1. Cuidados del vestido y accesorios, 39 Limpieza vestido y mantenimiento de calzado, 132 Servicio de tintorería",865810
+130,Complementos de vestir,"2. Ropa, calzado y accesorios, 2.3. Accesorios y cuidados del vestido, 2.3.1. Cuidados del vestido y accesorios, 40 Accesorios personales, 130 Complementos de vestir",865812
+287,"Relojes, joyas y bisutería","2. Ropa, calzado y accesorios, 2.3. Accesorios y cuidados del vestido, 2.3.1. Cuidados del vestido y accesorios, 40 Accesorios personales, 287 Relojes, joyas y bisutería",865813
+288,Bolsas y mochilas,"2. Ropa, calzado y accesorios, 2.3. Accesorios y cuidados del vestido, 2.3.1. Cuidados del vestido y accesorios, 40 Accesorios personales, 288 Bolsas y mochilas",865814
+138,Renta de vivienda,"3. Vivienda, 3.1. Costo de uso de vivienda, 3.1.1. Costo de uso de vivienda, 41 Vivienda alquilada, 138 Renta de vivienda",865819
+139,Vivienda propia,"3. Vivienda, 3.1. Costo de uso de vivienda, 3.1.1. Costo de uso de vivienda, 42 Vivienda propia, 139 Vivienda propia",865821
+140,Productos para reparación menor de la vivienda,"3. Vivienda, 3.1. Costo de uso de vivienda, 3.1.1. Costo de uso de vivienda, 42 Vivienda propia, 140 Productos para reparación menor de la vivienda",865822
+142,Derechos por el suministro de agua,"3. Vivienda, 3.1. Costo de uso de vivienda, 3.1.1. Costo de uso de vivienda, 42 Vivienda propia, 142 Derechos por el suministro de agua",865823
+144,Electricidad,"3. Vivienda, 3.2. Electricidad y combustibles, 3.2.1. Electricidad y combustibles, 43 Electricidad, 144 Electricidad",865827
+145,Gas doméstico LP,"3. Vivienda, 3.2. Electricidad y combustibles, 3.2.1. Electricidad y combustibles, 44 Gas doméstico, 145 Gas doméstico LP",865829
+146,Gas doméstico natural,"3. Vivienda, 3.2. Electricidad y combustibles, 3.2.1. Electricidad y combustibles, 44 Gas doméstico, 146 Gas doméstico natural",865830
+232,Servicios de telefonía fija,"3. Vivienda, 3.3. Otros servicios relacionados con la vivienda, 3.3.1. Otros servicios relacionados con la vivienda, 45 Servicio telefónico, 232 Servicios de telefonía fija",865834
+233,Servicio de telefonía móvil,"3. Vivienda, 3.3. Otros servicios relacionados con la vivienda, 3.3.1. Otros servicios relacionados con la vivienda, 45 Servicio telefónico, 233 Servicio de telefonía móvil",865835
+141,"Servicios para el mantenimiento, reparación y seguridad de la vivienda","3. Vivienda, 3.3. Otros servicios relacionados con la vivienda, 3.3.1. Otros servicios relacionados con la vivienda, 46 Servicios de la vivienda, 141 Servicios para el mantenimiento, reparación y seguridad de la vivienda",865837
+143,Otros servicios relacionados con la vivienda,"3. Vivienda, 3.3. Otros servicios relacionados con la vivienda, 3.3.1. Otros servicios relacionados con la vivienda, 46 Servicios de la vivienda, 143 Otros servicios relacionados con la vivienda",865838
+183,Servicio doméstico,"3. Vivienda, 3.3. Otros servicios relacionados con la vivienda, 3.3.1. Otros servicios relacionados con la vivienda, 46 Servicios de la vivienda, 183 Servicio doméstico",865839
+150,Muebles para cocina,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 47 Muebles de cocina, 150 Muebles para cocina",865844
+158,Estufas,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 47 Muebles de cocina, 158 Estufas",865845
+147,Colchones,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 48 Muebles de madera, 147 Colchones",865847
+148,Comedores y antecomedores,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 48 Muebles de madera, 148 Comedores y antecomedores",865848
+149,Muebles diversos para el hogar,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 48 Muebles de madera, 149 Muebles diversos para el hogar",865849
+151,Recámaras,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 48 Muebles de madera, 151 Recámaras",865850
+152,Salas,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.1. Muebles, 48 Muebles de madera, 152 Salas",865851
+156,Aparatos de aire acondicionado,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 156 Aparatos de aire acondicionado",865854
+157,Aspiradoras y otros aparatos para el hogar,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 157 Aspiradoras y otros aparatos para el hogar",865855
+159,Horno de microondas,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 159 Horno de microondas",865856
+160,Lavadoras de ropa,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 160 Lavadoras de ropa",865857
+161,Refrigeradores,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 161 Refrigeradores",865858
+162,"Cafeteras, tostadoras, ventiladores y otros electrodomésticos pequeños","4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 162 Cafeteras, tostadoras, ventiladores y otros electrodomésticos pequeños",865859
+163,Licuadoras,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 163 Licuadoras",865860
+164,Planchas eléctricas,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 164 Planchas eléctricas",865861
+228,Equipo terminal de comunicación,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 228 Equipo terminal de comunicación",865862
+272,Aparatos eléctricos para el cuidado personal,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 49 Aparatos eléctricos, 272 Aparatos eléctricos para el cuidado personal",865863
+229,Computadoras,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 50 Aparatos electrónicos, 229 Computadoras",865865
+230,"Reproductores de audio y video, y sus accesorios","4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 50 Aparatos electrónicos, 230 Reproductores de audio y video, y sus accesorios",865866
+231,Televisores,"4. Muebles, aparatos y accesorios domésticos, 4.1. Muebles y aparatos domésticos, 4.1.2. Aparatos, 50 Aparatos electrónicos, 231 Televisores",865867
+169,Focos,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 169 Focos",865871
+170,Herramientas y equipo para el hogar,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 170 Herramientas y equipo para el hogar",865872
+171,Pilas,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 171 Pilas",865873
+172,Artículos desechables y no duraderos,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 172 Artículos desechables y no duraderos",865874
+174,Cerillos,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 174 Cerillos",865875
+182,Velas y veladoras,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 51 Accesorios domésticos, 182 Velas y veladoras",865876
+165,Artículos y utensilios para el hogar,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 52 Utensilios domésticos, 165 Artículos y utensilios para el hogar",865878
+166,Baterías de cocina,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 52 Utensilios domésticos, 166 Baterías de cocina",865879
+167,"Loza, cristalería y cubiertos","4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 52 Utensilios domésticos, 167 Loza, cristalería y cubiertos",865880
+168,Utensilios de plástico para el hogar,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 52 Utensilios domésticos, 168 Utensilios de plástico para el hogar",865881
+177,"Escobas, fibras y estropajos","4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 52 Utensilios domésticos, 177 Escobas, fibras y estropajos",865882
+153,Colchas y cobijas,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 53 Accesorios textiles de uso en el hogar, 153 Colchas y cobijas",865884
+154,Sábanas,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 53 Accesorios textiles de uso en el hogar, 154 Sábanas",865885
+155,"Toallas, cortinas y otros blancos","4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.1. Accesorios y utensilios, 53 Accesorios textiles de uso en el hogar, 155 Toallas, cortinas y otros blancos",865886
+173,Blanqueadores,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 173 Blanqueadores",865889
+175,Desodorantes ambientales,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 175 Desodorantes ambientales",865890
+176,Detergentes,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 176 Detergentes",865891
+178,Jabón para lavar,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 178 Jabón para lavar",865892
+179,Plaguicidas,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 179 Plaguicidas",865893
+181,Suavizantes y limpiadores,"4. Muebles, aparatos y accesorios domésticos, 4.2. Accesorios y artículos de limpieza para el hogar, 4.2.2. Detergentes y productos similares, 54 Detergentes y productos similares, 181 Suavizantes y limpiadores",865894
+184,Analgésicos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 184 Analgésicos",865899
+185,Antibióticos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 185 Antibióticos",865900
+186,Antigripales,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 186 Antigripales",865901
+187,Antiinflamatorios,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 187 Antiinflamatorios",865902
+188,Cardiovasculares,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 188 Cardiovasculares",865903
+189,Dermatológicos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 189 Dermatológicos",865904
+190,Expectorantes y descongestivos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 190 Expectorantes y descongestivos",865905
+191,Gastrointestinales,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 191 Gastrointestinales",865906
+192,Medicamentos para alergias,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 192 Medicamentos para alergias",865907
+193,Medicamentos para diabetes,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 193 Medicamentos para diabetes",865908
+194,Medicinas homeopáticas y naturistas,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 194 Medicinas homeopáticas y naturistas",865909
+195,Nutricionales,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 195 Nutricionales",865910
+196,Otros medicamentos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 196 Otros medicamentos",865911
+197,Material de curación,"5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 55 Medicamentos, 197 Material de curación",865914
+198,"Lentes, aparatos para sordera y ortopédicos","5. Salud y cuidado personal, 5.1. Salud, 5.1.1. Medicamentos y aparatos, 56 Aparatos médicos, 198 Lentes, aparatos para sordera y ortopédicos",865916
+199,Consulta médica,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 199 Consulta médica",865919
+200,Consulta y prótesis dental,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 200 Consulta y prótesis dental",865922
+201,Atención médica durante el parto,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 201 Atención médica durante el parto",865923
+202,Hospitalización general,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 202 Hospitalización general",865924
+203,Hospitalización parto,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 203 Hospitalización parto",865925
+204,Operación quirúrgica,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 204 Operación quirúrgica",865926
+205,Análisis clínicos,"5. Salud y cuidado personal, 5.1. Salud, 5.1.2. Servicios médicos, 57 Servicios médicos, 205 Análisis clínicos",865927
+285,Corte de cabello,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.1. Servicios para el cuidado personal, 58 Servicios para el cuidado personal, 285 Corte de cabello",865931
+286,Sala de belleza y masajes,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.1. Servicios para el cuidado personal, 58 Servicios para el cuidado personal, 286 Sala de belleza y masajes",865932
+273,Artículos de maquillaje,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 273 Artículos de maquillaje",865935
+274,Crema y productos para higiene dental,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 274 Crema y productos para higiene dental",865936
+275,Cremas para la piel,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 275 Cremas para la piel",865937
+276,Desodorantes personales,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 276 Desodorantes personales",865938
+277,Jabón de tocador,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 277 Jabón de tocador",865939
+278,Lociones y perfumes,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 278 Lociones y perfumes",865940
+279,Navajas y máquinas de afeitar,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 279 Navajas y máquinas de afeitar",865941
+282,Productos para el cabello,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 282 Productos para el cabello",865942
+284,Otros artículos de tocador,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 59 Artículos para el cuidado personal, 284 Otros artículos de tocador",865943
+180,Servilletas de papel,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 60 Artículos de papel para higiene personal, 180 Servilletas de papel",865945
+280,Pañales,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 60 Artículos de papel para higiene personal, 280 Pañales",865946
+281,Papel higiénico y pañuelos desechables,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 60 Artículos de papel para higiene personal, 281 Papel higiénico y pañuelos desechables",865947
+283,Toallas sanitarias,"5. Salud y cuidado personal, 5.2. Cuidado personal, 5.2.2. Artículos para higiene y cuidado personal, 60 Artículos de papel para higiene personal, 283 Toallas sanitarias",865950
+221,Metro o transporte eléctrico,"6. Transporte, 6.1. Transporte público, 6.1.1. Transporte público urbano, 61 Transporte público urbano, 221 Metro o transporte eléctrico",865955
+223,Autobús urbano,"6. Transporte, 6.1. Transporte público, 6.1.1. Transporte público urbano, 61 Transporte público urbano, 223 Autobús urbano",865956
+224,Colectivo,"6. Transporte, 6.1. Transporte público, 6.1.1. Transporte público urbano, 61 Transporte público urbano, 224 Colectivo",865957
+225,Taxi,"6. Transporte, 6.1. Transporte público, 6.1.1. Transporte público urbano, 61 Transporte público urbano, 225 Taxi",865958
+226,Transporte escolar,"6. Transporte, 6.1. Transporte público, 6.1.1. Transporte público urbano, 61 Transporte público urbano, 226 Transporte escolar",865959
+222,Autobús foráneo,"6. Transporte, 6.1. Transporte público, 6.1.2. Transporte público foráneo, 62 Transporte público foráneo, 222 Autobús foráneo",865962
+227,Transporte aéreo,"6. Transporte, 6.1. Transporte público, 6.1.2. Transporte público foráneo, 62 Transporte público foráneo, 227 Transporte aéreo",865963
+206,Automóviles,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.1. Adquisición de vehículos, 63 Vehículos automotores y de pedal, 206 Automóviles",865967
+207,Motocicletas,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.1. Adquisición de vehículos, 63 Vehículos automotores y de pedal, 207 Motocicletas",865968
+208,Bicicletas,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.1. Adquisición de vehículos, 63 Vehículos automotores y de pedal, 208 Bicicletas",865969
+212,Aceites lubricantes,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 64 Gasolinas y aceites lubricantes, 212 Aceites lubricantes",865972
+213,Gasolina de alto octanaje,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 64 Gasolinas y aceites lubricantes, 213 Gasolina de alto octanaje",865973
+214,Gasolina de bajo octanaje,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 64 Gasolinas y aceites lubricantes, 214 Gasolina de bajo octanaje",865974
+209,Acumuladores,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 65 Refacciones y accesorios automotrices, 209 Acumuladores",865976
+210,Neumáticos,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 65 Refacciones y accesorios automotrices, 210 Neumáticos",865977
+211,"Partes, accesorios y otras refacciones para vehículos","6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 65 Refacciones y accesorios automotrices, 211 Partes, accesorios y otras refacciones para vehículos",865978
+215,Lavado y engrasado de automóvil,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 215 Lavado y engrasado de automóvil",865980
+216,Mantenimiento de automóvil,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 216 Mantenimiento de automóvil",865981
+217,Reparación de automóvil,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 217 Reparación de automóvil",865982
+218,Cuotas de autopistas,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 218 Cuotas de autopistas",865983
+219,Estacionamiento,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 219 Estacionamiento",865984
+220,Trámites vehiculares,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 220 Trámites vehiculares",865985
+271,Seguro de automóvil,"6. Transporte, 6.2. Transporte por cuenta propia, 6.2.2. Uso de vehículos, 66 Servicios para el automóvil, 271 Seguro de automóvil",865986
+256,Preescolar,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 256 Preescolar",865991
+257,Primaria,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 257 Primaria",865992
+258,Secundaria,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 258 Secundaria",865993
+259,Preparatoria,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 259 Preparatoria",865994
+260,Universidad,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 260 Universidad",865995
+261,Carrera corta,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 261 Carrera corta",865996
+262,Enseñanza adicional,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 262 Enseñanza adicional",865997
+289,Guarderías y estancias infantiles,"7. Educación y esparcimiento, 7.1. Educación, 7.1.1. Educación privada, 67 Educación privada, 289 Guarderías y estancias infantiles",865998
+251,Libros de texto,"7. Educación y esparcimiento, 7.1. Educación, 7.1.2. Artículos de educación, 68 Libros, 251 Libros de texto",866001
+252,Otros libros,"7. Educación y esparcimiento, 7.1. Educación, 7.1.2. Artículos de educación, 68 Libros, 252 Otros libros",866002
+254,Material escolar,"7. Educación y esparcimiento, 7.1. Educación, 7.1.2. Artículos de educación, 69 Material escolar, 254 Material escolar",866004
+255,Servicios turísticos en paquete,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 70 Hoteles y gastos turísticos, 255 Servicios turísticos en paquete",866010
+270,Hoteles,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 70 Hoteles y gastos turísticos, 270 Hoteles",866011
+234,Servicio de internet,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 234 Servicio de internet",866013
+235,"Paquetes de internet, telefonía y televisión de paga","7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 235 Paquetes de internet, telefonía y televisión de paga",866014
+236,Servicio de televisión de paga,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 236 Servicio de televisión de paga",866015
+237,Streaming de películas y música,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 237 Streaming de películas y música",866016
+244,Servicios para mascotas,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 244 Servicios para mascotas",866017
+245,Club deportivo,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 245 Club deportivo",866018
+246,Servicios recreativos y centros nocturnos,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 246 Servicios recreativos y centros nocturnos",866019
+248,Cine,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 248 Cine",866020
+249,Museos y sitios culturales,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 249 Museos y sitios culturales",866021
+250,Paquetes para fiesta,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.1. Servicios de esparcimiento, 71 Otros servicios de esparcimiento, 250 Paquetes para fiesta",866022
+253,Periódicos y revistas,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 72 Periódicos y revistas, 253 Periódicos y revistas",866025
+238,Material y aparatos fotográficos,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 238 Material y aparatos fotográficos",866027
+239,"Consolas, discos y descargas de videojuegos","7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 239 Consolas, discos y descargas de videojuegos",866028
+240,Juguetes y juegos de mesa,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 240 Juguetes y juegos de mesa",866029
+241,Artículos deportivos,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 241 Artículos deportivos",866030
+242,Plantas y flores,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 242 Plantas y flores",866031
+243,Alimento para mascotas,"7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 243 Alimento para mascotas",866032
+247,"Instrumentos musicales, y descargas de audio y video","7. Educación y esparcimiento, 7.2. Esparcimiento, 7.2.2. Artículos de esparcimiento, 73 Otros artículos de esparcimiento, 247 Instrumentos musicales, y descargas de audio y video",866033
+265,"Loncherías, fondas, torterías y taquerías","8. Otros servicios, 8.1. Otros servicios, 8.1.1. Otros servicios, 74 Restaurantes, bares y similares, 265 Loncherías, fondas, torterías y taquerías",866038
+268,Restaurantes y similares,"8. Otros servicios, 8.1. Otros servicios, 8.1.1. Otros servicios, 74 Restaurantes, bares y similares, 268 Restaurantes y similares",866039
+292,Servicios profesionales,"8. Otros servicios, 8.1. Otros servicios, 8.1.1. Otros servicios, 75 Servicios profesionales, 292 Servicios profesionales",866044
+290,Expedición de documentos del sector público,"8. Otros servicios, 8.1. Otros servicios, 8.1.1. Otros servicios, 76 Servicios diversos, 290 Expedición de documentos del sector público",866046
+291,Servicios funerarios,"8. Otros servicios, 8.1. Otros servicios, 8.1.1. Otros servicios, 76 Servicios diversos, 291 Servicios funerarios",866047

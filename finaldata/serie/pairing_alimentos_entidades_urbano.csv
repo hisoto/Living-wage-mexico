@@ -1,0 +1,1793 @@
+﻿nom_ent,cve_ent,ambito,clave_enigh,nombre_enigh,codigo,serie_api,es_comida_fuera
+Aguascalientes,1,Urbano,011111,Arroz en grano,001,894972,FALSE
+Aguascalientes,1,Urbano,011131,Tortillas de maíz,014,894958,FALSE
+Aguascalientes,1,Urbano,011132,Tortillas de harina de trigo,015,894970,FALSE
+Aguascalientes,1,Urbano,011133,Pan,008,894961,FALSE
+Aguascalientes,1,Urbano,011134,Pan de caja,009,894962,FALSE
+Aguascalientes,1,Urbano,011135,Galletas dulces,004,894967,FALSE
+Aguascalientes,1,Urbano,011137,Pan dulce a granel,010,894963,FALSE
+Aguascalientes,1,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,894969,FALSE
+Aguascalientes,1,Urbano,011192,Tostadas,016,894959,FALSE
+Aguascalientes,1,Urbano,011221,Bistec de res,018,894981,FALSE
+Aguascalientes,1,Urbano,011224,Molida de res,018,894981,FALSE
+Aguascalientes,1,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,894976,FALSE
+Aguascalientes,1,Urbano,011231,Jamón de puerco,021,894986,FALSE
+Aguascalientes,1,Urbano,011252,Chorizo de puerco,020,894985,FALSE
+Aguascalientes,1,Urbano,011411,Leche entera fresca,034,894998,FALSE
+Aguascalientes,1,Urbano,011433,Crema,030,895005,FALSE
+Aguascalientes,1,Urbano,011451,Queso fresco,037,895007,FALSE
+Aguascalientes,1,Urbano,011454,Queso Oaxaca o asadero,039,895009,FALSE
+Aguascalientes,1,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,895011,FALSE
+Aguascalientes,1,Urbano,011481,Huevo de gallina,031,895015,FALSE
+Aguascalientes,1,Urbano,011512,Otros aceites vegetales comestibles,042,895018,FALSE
+Aguascalientes,1,Urbano,011592,Chicharrón,019,894984,FALSE
+Aguascalientes,1,Urbano,011611,Aguacate,045,895021,FALSE
+Aguascalientes,1,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,895031,FALSE
+Aguascalientes,1,Urbano,011621,Limón,048,895024,FALSE
+Aguascalientes,1,Urbano,011633,Manzana y perón,049,895025,FALSE
+Aguascalientes,1,Urbano,011712,Lechuga,071,895043,FALSE
+Aguascalientes,1,Urbano,011721,Calabaza,060,895036,FALSE
+Aguascalientes,1,Urbano,011722,Chayote,062,895038,FALSE
+Aguascalientes,1,Urbano,011725,Chile serrano,065,895040,FALSE
+Aguascalientes,1,Urbano,011727,Jitomate (tomate rojo),070,895042,FALSE
+Aguascalientes,1,Urbano,011728,Pepino,075,895046,FALSE
+Aguascalientes,1,Urbano,011729,Tomate verde,076,895047,FALSE
+Aguascalientes,1,Urbano,011743,Cebolla,061,895037,FALSE
+Aguascalientes,1,Urbano,011746,Nopal,072,895044,FALSE
+Aguascalientes,1,Urbano,011748,Zanahoria,078,895048,FALSE
+Aguascalientes,1,Urbano,011751,Papa,073,895045,FALSE
+Aguascalientes,1,Urbano,011761,Frijol en grano,068,895054,FALSE
+Aguascalientes,1,Urbano,011797,Frijol procesado,069,895059,FALSE
+Aguascalientes,1,Urbano,011810,Azúcar,082,895066,FALSE
+Aguascalientes,1,Urbano,011911,Alimentos preparados para consumo inmediato,269,895092,FALSE
+Aguascalientes,1,Urbano,011942,Cilantro,087,895051,FALSE
+Aguascalientes,1,Urbano,012100,Jugos de frutas o verduras envasados,095,895063,FALSE
+Aguascalientes,1,Urbano,012201,Café soluble,096,895068,FALSE
+Aguascalientes,1,Urbano,012501,Agua natural embotellada,099,895072,FALSE
+Aguascalientes,1,Urbano,012601,Refrescos sabor cola,100,895073,FALSE
+Aguascalientes,1,Urbano,012602,Refrescos de otros sabores,100,895073,FALSE
+Aguascalientes,1,Urbano,111111,Desayunos,25,895087,TRUE
+Aguascalientes,1,Urbano,111112,Comidas,25,895087,TRUE
+Aguascalientes,1,Urbano,111113,Cenas,25,895087,TRUE
+Aguascalientes,1,Urbano,111124,Otros alimentos cocinados,269,895092,FALSE
+Aguascalientes,1,Urbano,111126,Pollos rostizados,267,895091,FALSE
+Aguascalientes,1,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,894976,FALSE
+Aguascalientes,1,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,894976,FALSE
+Aguascalientes,1,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,894984,FALSE
+Aguascalientes,1,Urbano,181134,Plátano verde y Tabasco,055,895031,FALSE
+Baja California,2,Urbano,011111,Arroz en grano,001,895402,FALSE
+Baja California,2,Urbano,011131,Tortillas de maíz,014,895388,FALSE
+Baja California,2,Urbano,011132,Tortillas de harina de trigo,015,895400,FALSE
+Baja California,2,Urbano,011133,Pan,008,895391,FALSE
+Baja California,2,Urbano,011134,Pan de caja,009,895392,FALSE
+Baja California,2,Urbano,011135,Galletas dulces,004,895397,FALSE
+Baja California,2,Urbano,011137,Pan dulce a granel,010,895393,FALSE
+Baja California,2,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,895399,FALSE
+Baja California,2,Urbano,011192,Tostadas,016,895389,FALSE
+Baja California,2,Urbano,011221,Bistec de res,018,895411,FALSE
+Baja California,2,Urbano,011224,Molida de res,018,895411,FALSE
+Baja California,2,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,895406,FALSE
+Baja California,2,Urbano,011231,Jamón de puerco,021,895416,FALSE
+Baja California,2,Urbano,011252,Chorizo de puerco,020,895415,FALSE
+Baja California,2,Urbano,011411,Leche entera fresca,034,895428,FALSE
+Baja California,2,Urbano,011433,Crema,030,895435,FALSE
+Baja California,2,Urbano,011451,Queso fresco,037,895437,FALSE
+Baja California,2,Urbano,011454,Queso Oaxaca o asadero,039,895439,FALSE
+Baja California,2,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,895441,FALSE
+Baja California,2,Urbano,011481,Huevo de gallina,031,895445,FALSE
+Baja California,2,Urbano,011512,Otros aceites vegetales comestibles,042,895448,FALSE
+Baja California,2,Urbano,011592,Chicharrón,019,895414,FALSE
+Baja California,2,Urbano,011611,Aguacate,045,895451,FALSE
+Baja California,2,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,895461,FALSE
+Baja California,2,Urbano,011621,Limón,048,895454,FALSE
+Baja California,2,Urbano,011633,Manzana y perón,049,895455,FALSE
+Baja California,2,Urbano,011712,Lechuga,071,895473,FALSE
+Baja California,2,Urbano,011721,Calabaza,060,895466,FALSE
+Baja California,2,Urbano,011722,Chayote,062,895468,FALSE
+Baja California,2,Urbano,011725,Chile serrano,065,895470,FALSE
+Baja California,2,Urbano,011727,Jitomate (tomate rojo),070,895472,FALSE
+Baja California,2,Urbano,011728,Pepino,075,895476,FALSE
+Baja California,2,Urbano,011729,Tomate verde,076,895477,FALSE
+Baja California,2,Urbano,011743,Cebolla,061,895467,FALSE
+Baja California,2,Urbano,011746,Nopal,072,895474,FALSE
+Baja California,2,Urbano,011748,Zanahoria,078,895478,FALSE
+Baja California,2,Urbano,011751,Papa,073,895475,FALSE
+Baja California,2,Urbano,011761,Frijol en grano,068,895484,FALSE
+Baja California,2,Urbano,011797,Frijol procesado,069,895489,FALSE
+Baja California,2,Urbano,011810,Azúcar,082,895496,FALSE
+Baja California,2,Urbano,011911,Alimentos preparados para consumo inmediato,269,895522,FALSE
+Baja California,2,Urbano,011942,Cilantro,087,895481,FALSE
+Baja California,2,Urbano,012100,Jugos de frutas o verduras envasados,095,895493,FALSE
+Baja California,2,Urbano,012201,Café soluble,096,895498,FALSE
+Baja California,2,Urbano,012501,Agua natural embotellada,099,895502,FALSE
+Baja California,2,Urbano,012601,Refrescos sabor cola,100,895503,FALSE
+Baja California,2,Urbano,012602,Refrescos de otros sabores,100,895503,FALSE
+Baja California,2,Urbano,111111,Desayunos,25,895517,TRUE
+Baja California,2,Urbano,111112,Comidas,25,895517,TRUE
+Baja California,2,Urbano,111113,Cenas,25,895517,TRUE
+Baja California,2,Urbano,111124,Otros alimentos cocinados,269,895522,FALSE
+Baja California,2,Urbano,111126,Pollos rostizados,267,895521,FALSE
+Baja California,2,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,895406,FALSE
+Baja California,2,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,895406,FALSE
+Baja California,2,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,895414,FALSE
+Baja California,2,Urbano,181134,Plátano verde y Tabasco,055,895461,FALSE
+Baja California Sur,3,Urbano,011111,Arroz en grano,001,895832,FALSE
+Baja California Sur,3,Urbano,011131,Tortillas de maíz,014,895818,FALSE
+Baja California Sur,3,Urbano,011132,Tortillas de harina de trigo,015,895830,FALSE
+Baja California Sur,3,Urbano,011133,Pan,008,895821,FALSE
+Baja California Sur,3,Urbano,011134,Pan de caja,009,895822,FALSE
+Baja California Sur,3,Urbano,011135,Galletas dulces,004,895827,FALSE
+Baja California Sur,3,Urbano,011137,Pan dulce a granel,010,895823,FALSE
+Baja California Sur,3,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,895829,FALSE
+Baja California Sur,3,Urbano,011192,Tostadas,016,895819,FALSE
+Baja California Sur,3,Urbano,011221,Bistec de res,018,895841,FALSE
+Baja California Sur,3,Urbano,011224,Molida de res,018,895841,FALSE
+Baja California Sur,3,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,895836,FALSE
+Baja California Sur,3,Urbano,011231,Jamón de puerco,021,895846,FALSE
+Baja California Sur,3,Urbano,011252,Chorizo de puerco,020,895845,FALSE
+Baja California Sur,3,Urbano,011411,Leche entera fresca,034,895858,FALSE
+Baja California Sur,3,Urbano,011433,Crema,030,895865,FALSE
+Baja California Sur,3,Urbano,011451,Queso fresco,037,895867,FALSE
+Baja California Sur,3,Urbano,011454,Queso Oaxaca o asadero,039,895869,FALSE
+Baja California Sur,3,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,895871,FALSE
+Baja California Sur,3,Urbano,011481,Huevo de gallina,031,895875,FALSE
+Baja California Sur,3,Urbano,011512,Otros aceites vegetales comestibles,042,895878,FALSE
+Baja California Sur,3,Urbano,011592,Chicharrón,019,895844,FALSE
+Baja California Sur,3,Urbano,011611,Aguacate,045,895881,FALSE
+Baja California Sur,3,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,895891,FALSE
+Baja California Sur,3,Urbano,011621,Limón,048,895884,FALSE
+Baja California Sur,3,Urbano,011633,Manzana y perón,049,895885,FALSE
+Baja California Sur,3,Urbano,011712,Lechuga,071,895903,FALSE
+Baja California Sur,3,Urbano,011721,Calabaza,060,895896,FALSE
+Baja California Sur,3,Urbano,011722,Chayote,062,895898,FALSE
+Baja California Sur,3,Urbano,011725,Chile serrano,065,895900,FALSE
+Baja California Sur,3,Urbano,011727,Jitomate (tomate rojo),070,895902,FALSE
+Baja California Sur,3,Urbano,011728,Pepino,075,895906,FALSE
+Baja California Sur,3,Urbano,011729,Tomate verde,076,895907,FALSE
+Baja California Sur,3,Urbano,011743,Cebolla,061,895897,FALSE
+Baja California Sur,3,Urbano,011746,Nopal,072,895904,FALSE
+Baja California Sur,3,Urbano,011748,Zanahoria,078,895908,FALSE
+Baja California Sur,3,Urbano,011751,Papa,073,895905,FALSE
+Baja California Sur,3,Urbano,011761,Frijol en grano,068,895914,FALSE
+Baja California Sur,3,Urbano,011797,Frijol procesado,069,895919,FALSE
+Baja California Sur,3,Urbano,011810,Azúcar,082,895926,FALSE
+Baja California Sur,3,Urbano,011911,Alimentos preparados para consumo inmediato,269,895952,FALSE
+Baja California Sur,3,Urbano,011942,Cilantro,087,895911,FALSE
+Baja California Sur,3,Urbano,012100,Jugos de frutas o verduras envasados,095,895923,FALSE
+Baja California Sur,3,Urbano,012201,Café soluble,096,895928,FALSE
+Baja California Sur,3,Urbano,012501,Agua natural embotellada,099,895932,FALSE
+Baja California Sur,3,Urbano,012601,Refrescos sabor cola,100,895933,FALSE
+Baja California Sur,3,Urbano,012602,Refrescos de otros sabores,100,895933,FALSE
+Baja California Sur,3,Urbano,111111,Desayunos,25,895947,TRUE
+Baja California Sur,3,Urbano,111112,Comidas,25,895947,TRUE
+Baja California Sur,3,Urbano,111113,Cenas,25,895947,TRUE
+Baja California Sur,3,Urbano,111124,Otros alimentos cocinados,269,895952,FALSE
+Baja California Sur,3,Urbano,111126,Pollos rostizados,267,895951,FALSE
+Baja California Sur,3,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,895836,FALSE
+Baja California Sur,3,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,895836,FALSE
+Baja California Sur,3,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,895844,FALSE
+Baja California Sur,3,Urbano,181134,Plátano verde y Tabasco,055,895891,FALSE
+Campeche,4,Urbano,011111,Arroz en grano,001,896262,FALSE
+Campeche,4,Urbano,011131,Tortillas de maíz,014,896248,FALSE
+Campeche,4,Urbano,011132,Tortillas de harina de trigo,015,896260,FALSE
+Campeche,4,Urbano,011133,Pan,008,896251,FALSE
+Campeche,4,Urbano,011134,Pan de caja,009,896252,FALSE
+Campeche,4,Urbano,011135,Galletas dulces,004,896257,FALSE
+Campeche,4,Urbano,011137,Pan dulce a granel,010,896253,FALSE
+Campeche,4,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,896259,FALSE
+Campeche,4,Urbano,011192,Tostadas,016,896249,FALSE
+Campeche,4,Urbano,011221,Bistec de res,018,896271,FALSE
+Campeche,4,Urbano,011224,Molida de res,018,896271,FALSE
+Campeche,4,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,896266,FALSE
+Campeche,4,Urbano,011231,Jamón de puerco,021,896276,FALSE
+Campeche,4,Urbano,011252,Chorizo de puerco,020,896275,FALSE
+Campeche,4,Urbano,011411,Leche entera fresca,034,896288,FALSE
+Campeche,4,Urbano,011433,Crema,030,896295,FALSE
+Campeche,4,Urbano,011451,Queso fresco,037,896297,FALSE
+Campeche,4,Urbano,011454,Queso Oaxaca o asadero,039,896299,FALSE
+Campeche,4,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,896301,FALSE
+Campeche,4,Urbano,011481,Huevo de gallina,031,896305,FALSE
+Campeche,4,Urbano,011512,Otros aceites vegetales comestibles,042,896308,FALSE
+Campeche,4,Urbano,011592,Chicharrón,019,896274,FALSE
+Campeche,4,Urbano,011611,Aguacate,045,896311,FALSE
+Campeche,4,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,896321,FALSE
+Campeche,4,Urbano,011621,Limón,048,896314,FALSE
+Campeche,4,Urbano,011633,Manzana y perón,049,896315,FALSE
+Campeche,4,Urbano,011712,Lechuga,071,896333,FALSE
+Campeche,4,Urbano,011721,Calabaza,060,896326,FALSE
+Campeche,4,Urbano,011722,Chayote,062,896328,FALSE
+Campeche,4,Urbano,011725,Chile serrano,065,896330,FALSE
+Campeche,4,Urbano,011727,Jitomate (tomate rojo),070,896332,FALSE
+Campeche,4,Urbano,011728,Pepino,075,896336,FALSE
+Campeche,4,Urbano,011729,Tomate verde,076,896337,FALSE
+Campeche,4,Urbano,011743,Cebolla,061,896327,FALSE
+Campeche,4,Urbano,011746,Nopal,072,896334,FALSE
+Campeche,4,Urbano,011748,Zanahoria,078,896338,FALSE
+Campeche,4,Urbano,011751,Papa,073,896335,FALSE
+Campeche,4,Urbano,011761,Frijol en grano,068,896344,FALSE
+Campeche,4,Urbano,011797,Frijol procesado,069,896349,FALSE
+Campeche,4,Urbano,011810,Azúcar,082,896356,FALSE
+Campeche,4,Urbano,011911,Alimentos preparados para consumo inmediato,269,896382,FALSE
+Campeche,4,Urbano,011942,Cilantro,087,896341,FALSE
+Campeche,4,Urbano,012100,Jugos de frutas o verduras envasados,095,896353,FALSE
+Campeche,4,Urbano,012201,Café soluble,096,896358,FALSE
+Campeche,4,Urbano,012501,Agua natural embotellada,099,896362,FALSE
+Campeche,4,Urbano,012601,Refrescos sabor cola,100,896363,FALSE
+Campeche,4,Urbano,012602,Refrescos de otros sabores,100,896363,FALSE
+Campeche,4,Urbano,111111,Desayunos,25,896377,TRUE
+Campeche,4,Urbano,111112,Comidas,25,896377,TRUE
+Campeche,4,Urbano,111113,Cenas,25,896377,TRUE
+Campeche,4,Urbano,111124,Otros alimentos cocinados,269,896382,FALSE
+Campeche,4,Urbano,111126,Pollos rostizados,267,896381,FALSE
+Campeche,4,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,896266,FALSE
+Campeche,4,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,896266,FALSE
+Campeche,4,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,896274,FALSE
+Campeche,4,Urbano,181134,Plátano verde y Tabasco,055,896321,FALSE
+Coahuila,5,Urbano,011111,Arroz en grano,001,896692,FALSE
+Coahuila,5,Urbano,011131,Tortillas de maíz,014,896678,FALSE
+Coahuila,5,Urbano,011132,Tortillas de harina de trigo,015,896690,FALSE
+Coahuila,5,Urbano,011133,Pan,008,896681,FALSE
+Coahuila,5,Urbano,011134,Pan de caja,009,896682,FALSE
+Coahuila,5,Urbano,011135,Galletas dulces,004,896687,FALSE
+Coahuila,5,Urbano,011137,Pan dulce a granel,010,896683,FALSE
+Coahuila,5,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,896689,FALSE
+Coahuila,5,Urbano,011192,Tostadas,016,896679,FALSE
+Coahuila,5,Urbano,011221,Bistec de res,018,896701,FALSE
+Coahuila,5,Urbano,011224,Molida de res,018,896701,FALSE
+Coahuila,5,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,896696,FALSE
+Coahuila,5,Urbano,011231,Jamón de puerco,021,896706,FALSE
+Coahuila,5,Urbano,011252,Chorizo de puerco,020,896705,FALSE
+Coahuila,5,Urbano,011411,Leche entera fresca,034,896718,FALSE
+Coahuila,5,Urbano,011433,Crema,030,896725,FALSE
+Coahuila,5,Urbano,011451,Queso fresco,037,896727,FALSE
+Coahuila,5,Urbano,011454,Queso Oaxaca o asadero,039,896729,FALSE
+Coahuila,5,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,896731,FALSE
+Coahuila,5,Urbano,011481,Huevo de gallina,031,896735,FALSE
+Coahuila,5,Urbano,011512,Otros aceites vegetales comestibles,042,896738,FALSE
+Coahuila,5,Urbano,011592,Chicharrón,019,896704,FALSE
+Coahuila,5,Urbano,011611,Aguacate,045,896741,FALSE
+Coahuila,5,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,896751,FALSE
+Coahuila,5,Urbano,011621,Limón,048,896744,FALSE
+Coahuila,5,Urbano,011633,Manzana y perón,049,896745,FALSE
+Coahuila,5,Urbano,011712,Lechuga,071,896763,FALSE
+Coahuila,5,Urbano,011721,Calabaza,060,896756,FALSE
+Coahuila,5,Urbano,011722,Chayote,062,896758,FALSE
+Coahuila,5,Urbano,011725,Chile serrano,065,896760,FALSE
+Coahuila,5,Urbano,011727,Jitomate (tomate rojo),070,896762,FALSE
+Coahuila,5,Urbano,011728,Pepino,075,896766,FALSE
+Coahuila,5,Urbano,011729,Tomate verde,076,896767,FALSE
+Coahuila,5,Urbano,011743,Cebolla,061,896757,FALSE
+Coahuila,5,Urbano,011746,Nopal,072,896764,FALSE
+Coahuila,5,Urbano,011748,Zanahoria,078,896768,FALSE
+Coahuila,5,Urbano,011751,Papa,073,896765,FALSE
+Coahuila,5,Urbano,011761,Frijol en grano,068,896774,FALSE
+Coahuila,5,Urbano,011797,Frijol procesado,069,896779,FALSE
+Coahuila,5,Urbano,011810,Azúcar,082,896786,FALSE
+Coahuila,5,Urbano,011911,Alimentos preparados para consumo inmediato,269,896812,FALSE
+Coahuila,5,Urbano,011942,Cilantro,087,896771,FALSE
+Coahuila,5,Urbano,012100,Jugos de frutas o verduras envasados,095,896783,FALSE
+Coahuila,5,Urbano,012201,Café soluble,096,896788,FALSE
+Coahuila,5,Urbano,012501,Agua natural embotellada,099,896792,FALSE
+Coahuila,5,Urbano,012601,Refrescos sabor cola,100,896793,FALSE
+Coahuila,5,Urbano,012602,Refrescos de otros sabores,100,896793,FALSE
+Coahuila,5,Urbano,111111,Desayunos,25,896807,TRUE
+Coahuila,5,Urbano,111112,Comidas,25,896807,TRUE
+Coahuila,5,Urbano,111113,Cenas,25,896807,TRUE
+Coahuila,5,Urbano,111124,Otros alimentos cocinados,269,896812,FALSE
+Coahuila,5,Urbano,111126,Pollos rostizados,267,896811,FALSE
+Coahuila,5,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,896696,FALSE
+Coahuila,5,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,896696,FALSE
+Coahuila,5,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,896704,FALSE
+Coahuila,5,Urbano,181134,Plátano verde y Tabasco,055,896751,FALSE
+Colima,6,Urbano,011111,Arroz en grano,001,897122,FALSE
+Colima,6,Urbano,011131,Tortillas de maíz,014,897108,FALSE
+Colima,6,Urbano,011132,Tortillas de harina de trigo,015,897120,FALSE
+Colima,6,Urbano,011133,Pan,008,897111,FALSE
+Colima,6,Urbano,011134,Pan de caja,009,897112,FALSE
+Colima,6,Urbano,011135,Galletas dulces,004,897117,FALSE
+Colima,6,Urbano,011137,Pan dulce a granel,010,897113,FALSE
+Colima,6,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,897119,FALSE
+Colima,6,Urbano,011192,Tostadas,016,897109,FALSE
+Colima,6,Urbano,011221,Bistec de res,018,897131,FALSE
+Colima,6,Urbano,011224,Molida de res,018,897131,FALSE
+Colima,6,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,897126,FALSE
+Colima,6,Urbano,011231,Jamón de puerco,021,897136,FALSE
+Colima,6,Urbano,011252,Chorizo de puerco,020,897135,FALSE
+Colima,6,Urbano,011411,Leche entera fresca,034,897148,FALSE
+Colima,6,Urbano,011433,Crema,030,897155,FALSE
+Colima,6,Urbano,011451,Queso fresco,037,897157,FALSE
+Colima,6,Urbano,011454,Queso Oaxaca o asadero,039,897159,FALSE
+Colima,6,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,897161,FALSE
+Colima,6,Urbano,011481,Huevo de gallina,031,897165,FALSE
+Colima,6,Urbano,011512,Otros aceites vegetales comestibles,042,897168,FALSE
+Colima,6,Urbano,011592,Chicharrón,019,897134,FALSE
+Colima,6,Urbano,011611,Aguacate,045,897171,FALSE
+Colima,6,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,897181,FALSE
+Colima,6,Urbano,011621,Limón,048,897174,FALSE
+Colima,6,Urbano,011633,Manzana y perón,049,897175,FALSE
+Colima,6,Urbano,011712,Lechuga,071,897193,FALSE
+Colima,6,Urbano,011721,Calabaza,060,897186,FALSE
+Colima,6,Urbano,011722,Chayote,062,897188,FALSE
+Colima,6,Urbano,011725,Chile serrano,065,897190,FALSE
+Colima,6,Urbano,011727,Jitomate (tomate rojo),070,897192,FALSE
+Colima,6,Urbano,011728,Pepino,075,897196,FALSE
+Colima,6,Urbano,011729,Tomate verde,076,897197,FALSE
+Colima,6,Urbano,011743,Cebolla,061,897187,FALSE
+Colima,6,Urbano,011746,Nopal,072,897194,FALSE
+Colima,6,Urbano,011748,Zanahoria,078,897198,FALSE
+Colima,6,Urbano,011751,Papa,073,897195,FALSE
+Colima,6,Urbano,011761,Frijol en grano,068,897204,FALSE
+Colima,6,Urbano,011797,Frijol procesado,069,897209,FALSE
+Colima,6,Urbano,011810,Azúcar,082,897216,FALSE
+Colima,6,Urbano,011911,Alimentos preparados para consumo inmediato,269,897242,FALSE
+Colima,6,Urbano,011942,Cilantro,087,897201,FALSE
+Colima,6,Urbano,012100,Jugos de frutas o verduras envasados,095,897213,FALSE
+Colima,6,Urbano,012201,Café soluble,096,897218,FALSE
+Colima,6,Urbano,012501,Agua natural embotellada,099,897222,FALSE
+Colima,6,Urbano,012601,Refrescos sabor cola,100,897223,FALSE
+Colima,6,Urbano,012602,Refrescos de otros sabores,100,897223,FALSE
+Colima,6,Urbano,111111,Desayunos,25,897237,TRUE
+Colima,6,Urbano,111112,Comidas,25,897237,TRUE
+Colima,6,Urbano,111113,Cenas,25,897237,TRUE
+Colima,6,Urbano,111124,Otros alimentos cocinados,269,897242,FALSE
+Colima,6,Urbano,111126,Pollos rostizados,267,897241,FALSE
+Colima,6,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,897126,FALSE
+Colima,6,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,897126,FALSE
+Colima,6,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,897134,FALSE
+Colima,6,Urbano,181134,Plátano verde y Tabasco,055,897181,FALSE
+Chiapas,7,Urbano,011111,Arroz en grano,001,897552,FALSE
+Chiapas,7,Urbano,011131,Tortillas de maíz,014,897538,FALSE
+Chiapas,7,Urbano,011132,Tortillas de harina de trigo,015,897550,FALSE
+Chiapas,7,Urbano,011133,Pan,008,897541,FALSE
+Chiapas,7,Urbano,011134,Pan de caja,009,897542,FALSE
+Chiapas,7,Urbano,011135,Galletas dulces,004,897547,FALSE
+Chiapas,7,Urbano,011137,Pan dulce a granel,010,897543,FALSE
+Chiapas,7,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,897549,FALSE
+Chiapas,7,Urbano,011192,Tostadas,016,897539,FALSE
+Chiapas,7,Urbano,011221,Bistec de res,018,897561,FALSE
+Chiapas,7,Urbano,011224,Molida de res,018,897561,FALSE
+Chiapas,7,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,897556,FALSE
+Chiapas,7,Urbano,011231,Jamón de puerco,021,897566,FALSE
+Chiapas,7,Urbano,011252,Chorizo de puerco,020,897565,FALSE
+Chiapas,7,Urbano,011411,Leche entera fresca,034,897578,FALSE
+Chiapas,7,Urbano,011433,Crema,030,897585,FALSE
+Chiapas,7,Urbano,011451,Queso fresco,037,897587,FALSE
+Chiapas,7,Urbano,011454,Queso Oaxaca o asadero,039,897589,FALSE
+Chiapas,7,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,897591,FALSE
+Chiapas,7,Urbano,011481,Huevo de gallina,031,897595,FALSE
+Chiapas,7,Urbano,011512,Otros aceites vegetales comestibles,042,897598,FALSE
+Chiapas,7,Urbano,011592,Chicharrón,019,897564,FALSE
+Chiapas,7,Urbano,011611,Aguacate,045,897601,FALSE
+Chiapas,7,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,897611,FALSE
+Chiapas,7,Urbano,011621,Limón,048,897604,FALSE
+Chiapas,7,Urbano,011633,Manzana y perón,049,897605,FALSE
+Chiapas,7,Urbano,011712,Lechuga,071,897623,FALSE
+Chiapas,7,Urbano,011721,Calabaza,060,897616,FALSE
+Chiapas,7,Urbano,011722,Chayote,062,897618,FALSE
+Chiapas,7,Urbano,011725,Chile serrano,065,897620,FALSE
+Chiapas,7,Urbano,011727,Jitomate (tomate rojo),070,897622,FALSE
+Chiapas,7,Urbano,011728,Pepino,075,897626,FALSE
+Chiapas,7,Urbano,011729,Tomate verde,076,897627,FALSE
+Chiapas,7,Urbano,011743,Cebolla,061,897617,FALSE
+Chiapas,7,Urbano,011746,Nopal,072,897624,FALSE
+Chiapas,7,Urbano,011748,Zanahoria,078,897628,FALSE
+Chiapas,7,Urbano,011751,Papa,073,897625,FALSE
+Chiapas,7,Urbano,011761,Frijol en grano,068,897634,FALSE
+Chiapas,7,Urbano,011797,Frijol procesado,069,897639,FALSE
+Chiapas,7,Urbano,011810,Azúcar,082,897646,FALSE
+Chiapas,7,Urbano,011911,Alimentos preparados para consumo inmediato,269,897672,FALSE
+Chiapas,7,Urbano,011942,Cilantro,087,897631,FALSE
+Chiapas,7,Urbano,012100,Jugos de frutas o verduras envasados,095,897643,FALSE
+Chiapas,7,Urbano,012201,Café soluble,096,897648,FALSE
+Chiapas,7,Urbano,012501,Agua natural embotellada,099,897652,FALSE
+Chiapas,7,Urbano,012601,Refrescos sabor cola,100,897653,FALSE
+Chiapas,7,Urbano,012602,Refrescos de otros sabores,100,897653,FALSE
+Chiapas,7,Urbano,111111,Desayunos,25,897667,TRUE
+Chiapas,7,Urbano,111112,Comidas,25,897667,TRUE
+Chiapas,7,Urbano,111113,Cenas,25,897667,TRUE
+Chiapas,7,Urbano,111124,Otros alimentos cocinados,269,897672,FALSE
+Chiapas,7,Urbano,111126,Pollos rostizados,267,897671,FALSE
+Chiapas,7,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,897556,FALSE
+Chiapas,7,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,897556,FALSE
+Chiapas,7,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,897564,FALSE
+Chiapas,7,Urbano,181134,Plátano verde y Tabasco,055,897611,FALSE
+Chihuahua,8,Urbano,011111,Arroz en grano,001,897982,FALSE
+Chihuahua,8,Urbano,011131,Tortillas de maíz,014,897968,FALSE
+Chihuahua,8,Urbano,011132,Tortillas de harina de trigo,015,897980,FALSE
+Chihuahua,8,Urbano,011133,Pan,008,897971,FALSE
+Chihuahua,8,Urbano,011134,Pan de caja,009,897972,FALSE
+Chihuahua,8,Urbano,011135,Galletas dulces,004,897977,FALSE
+Chihuahua,8,Urbano,011137,Pan dulce a granel,010,897973,FALSE
+Chihuahua,8,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,897979,FALSE
+Chihuahua,8,Urbano,011192,Tostadas,016,897969,FALSE
+Chihuahua,8,Urbano,011221,Bistec de res,018,897991,FALSE
+Chihuahua,8,Urbano,011224,Molida de res,018,897991,FALSE
+Chihuahua,8,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,897986,FALSE
+Chihuahua,8,Urbano,011231,Jamón de puerco,021,897996,FALSE
+Chihuahua,8,Urbano,011252,Chorizo de puerco,020,897995,FALSE
+Chihuahua,8,Urbano,011411,Leche entera fresca,034,898008,FALSE
+Chihuahua,8,Urbano,011433,Crema,030,898015,FALSE
+Chihuahua,8,Urbano,011451,Queso fresco,037,898017,FALSE
+Chihuahua,8,Urbano,011454,Queso Oaxaca o asadero,039,898019,FALSE
+Chihuahua,8,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,898021,FALSE
+Chihuahua,8,Urbano,011481,Huevo de gallina,031,898025,FALSE
+Chihuahua,8,Urbano,011512,Otros aceites vegetales comestibles,042,898028,FALSE
+Chihuahua,8,Urbano,011592,Chicharrón,019,897994,FALSE
+Chihuahua,8,Urbano,011611,Aguacate,045,898031,FALSE
+Chihuahua,8,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,898041,FALSE
+Chihuahua,8,Urbano,011621,Limón,048,898034,FALSE
+Chihuahua,8,Urbano,011633,Manzana y perón,049,898035,FALSE
+Chihuahua,8,Urbano,011712,Lechuga,071,898053,FALSE
+Chihuahua,8,Urbano,011721,Calabaza,060,898046,FALSE
+Chihuahua,8,Urbano,011722,Chayote,062,898048,FALSE
+Chihuahua,8,Urbano,011725,Chile serrano,065,898050,FALSE
+Chihuahua,8,Urbano,011727,Jitomate (tomate rojo),070,898052,FALSE
+Chihuahua,8,Urbano,011728,Pepino,075,898056,FALSE
+Chihuahua,8,Urbano,011729,Tomate verde,076,898057,FALSE
+Chihuahua,8,Urbano,011743,Cebolla,061,898047,FALSE
+Chihuahua,8,Urbano,011746,Nopal,072,898054,FALSE
+Chihuahua,8,Urbano,011748,Zanahoria,078,898058,FALSE
+Chihuahua,8,Urbano,011751,Papa,073,898055,FALSE
+Chihuahua,8,Urbano,011761,Frijol en grano,068,898064,FALSE
+Chihuahua,8,Urbano,011797,Frijol procesado,069,898069,FALSE
+Chihuahua,8,Urbano,011810,Azúcar,082,898076,FALSE
+Chihuahua,8,Urbano,011911,Alimentos preparados para consumo inmediato,269,898102,FALSE
+Chihuahua,8,Urbano,011942,Cilantro,087,898061,FALSE
+Chihuahua,8,Urbano,012100,Jugos de frutas o verduras envasados,095,898073,FALSE
+Chihuahua,8,Urbano,012201,Café soluble,096,898078,FALSE
+Chihuahua,8,Urbano,012501,Agua natural embotellada,099,898082,FALSE
+Chihuahua,8,Urbano,012601,Refrescos sabor cola,100,898083,FALSE
+Chihuahua,8,Urbano,012602,Refrescos de otros sabores,100,898083,FALSE
+Chihuahua,8,Urbano,111111,Desayunos,25,898097,TRUE
+Chihuahua,8,Urbano,111112,Comidas,25,898097,TRUE
+Chihuahua,8,Urbano,111113,Cenas,25,898097,TRUE
+Chihuahua,8,Urbano,111124,Otros alimentos cocinados,269,898102,FALSE
+Chihuahua,8,Urbano,111126,Pollos rostizados,267,898101,FALSE
+Chihuahua,8,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,897986,FALSE
+Chihuahua,8,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,897986,FALSE
+Chihuahua,8,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,897994,FALSE
+Chihuahua,8,Urbano,181134,Plátano verde y Tabasco,055,898041,FALSE
+Ciudad de México,9,Urbano,011111,Arroz en grano,001,898412,FALSE
+Ciudad de México,9,Urbano,011131,Tortillas de maíz,014,898398,FALSE
+Ciudad de México,9,Urbano,011132,Tortillas de harina de trigo,015,898410,FALSE
+Ciudad de México,9,Urbano,011133,Pan,008,898401,FALSE
+Ciudad de México,9,Urbano,011134,Pan de caja,009,898402,FALSE
+Ciudad de México,9,Urbano,011135,Galletas dulces,004,898407,FALSE
+Ciudad de México,9,Urbano,011137,Pan dulce a granel,010,898403,FALSE
+Ciudad de México,9,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,898409,FALSE
+Ciudad de México,9,Urbano,011192,Tostadas,016,898399,FALSE
+Ciudad de México,9,Urbano,011221,Bistec de res,018,898421,FALSE
+Ciudad de México,9,Urbano,011224,Molida de res,018,898421,FALSE
+Ciudad de México,9,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,898416,FALSE
+Ciudad de México,9,Urbano,011231,Jamón de puerco,021,898426,FALSE
+Ciudad de México,9,Urbano,011252,Chorizo de puerco,020,898425,FALSE
+Ciudad de México,9,Urbano,011411,Leche entera fresca,034,898438,FALSE
+Ciudad de México,9,Urbano,011433,Crema,030,898445,FALSE
+Ciudad de México,9,Urbano,011451,Queso fresco,037,898447,FALSE
+Ciudad de México,9,Urbano,011454,Queso Oaxaca o asadero,039,898449,FALSE
+Ciudad de México,9,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,898451,FALSE
+Ciudad de México,9,Urbano,011481,Huevo de gallina,031,898455,FALSE
+Ciudad de México,9,Urbano,011512,Otros aceites vegetales comestibles,042,898458,FALSE
+Ciudad de México,9,Urbano,011592,Chicharrón,019,898424,FALSE
+Ciudad de México,9,Urbano,011611,Aguacate,045,898461,FALSE
+Ciudad de México,9,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,898471,FALSE
+Ciudad de México,9,Urbano,011621,Limón,048,898464,FALSE
+Ciudad de México,9,Urbano,011633,Manzana y perón,049,898465,FALSE
+Ciudad de México,9,Urbano,011712,Lechuga,071,898483,FALSE
+Ciudad de México,9,Urbano,011721,Calabaza,060,898476,FALSE
+Ciudad de México,9,Urbano,011722,Chayote,062,898478,FALSE
+Ciudad de México,9,Urbano,011725,Chile serrano,065,898480,FALSE
+Ciudad de México,9,Urbano,011727,Jitomate (tomate rojo),070,898482,FALSE
+Ciudad de México,9,Urbano,011728,Pepino,075,898486,FALSE
+Ciudad de México,9,Urbano,011729,Tomate verde,076,898487,FALSE
+Ciudad de México,9,Urbano,011743,Cebolla,061,898477,FALSE
+Ciudad de México,9,Urbano,011746,Nopal,072,898484,FALSE
+Ciudad de México,9,Urbano,011748,Zanahoria,078,898488,FALSE
+Ciudad de México,9,Urbano,011751,Papa,073,898485,FALSE
+Ciudad de México,9,Urbano,011761,Frijol en grano,068,898494,FALSE
+Ciudad de México,9,Urbano,011797,Frijol procesado,069,898499,FALSE
+Ciudad de México,9,Urbano,011810,Azúcar,082,898506,FALSE
+Ciudad de México,9,Urbano,011911,Alimentos preparados para consumo inmediato,269,898532,FALSE
+Ciudad de México,9,Urbano,011942,Cilantro,087,898491,FALSE
+Ciudad de México,9,Urbano,012100,Jugos de frutas o verduras envasados,095,898503,FALSE
+Ciudad de México,9,Urbano,012201,Café soluble,096,898508,FALSE
+Ciudad de México,9,Urbano,012501,Agua natural embotellada,099,898512,FALSE
+Ciudad de México,9,Urbano,012601,Refrescos sabor cola,100,898513,FALSE
+Ciudad de México,9,Urbano,012602,Refrescos de otros sabores,100,898513,FALSE
+Ciudad de México,9,Urbano,111111,Desayunos,25,898527,TRUE
+Ciudad de México,9,Urbano,111112,Comidas,25,898527,TRUE
+Ciudad de México,9,Urbano,111113,Cenas,25,898527,TRUE
+Ciudad de México,9,Urbano,111124,Otros alimentos cocinados,269,898532,FALSE
+Ciudad de México,9,Urbano,111126,Pollos rostizados,267,898531,FALSE
+Ciudad de México,9,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,898416,FALSE
+Ciudad de México,9,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,898416,FALSE
+Ciudad de México,9,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,898424,FALSE
+Ciudad de México,9,Urbano,181134,Plátano verde y Tabasco,055,898471,FALSE
+Durango,10,Urbano,011111,Arroz en grano,001,898842,FALSE
+Durango,10,Urbano,011131,Tortillas de maíz,014,898828,FALSE
+Durango,10,Urbano,011132,Tortillas de harina de trigo,015,898840,FALSE
+Durango,10,Urbano,011133,Pan,008,898831,FALSE
+Durango,10,Urbano,011134,Pan de caja,009,898832,FALSE
+Durango,10,Urbano,011135,Galletas dulces,004,898837,FALSE
+Durango,10,Urbano,011137,Pan dulce a granel,010,898833,FALSE
+Durango,10,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,898839,FALSE
+Durango,10,Urbano,011192,Tostadas,016,898829,FALSE
+Durango,10,Urbano,011221,Bistec de res,018,898851,FALSE
+Durango,10,Urbano,011224,Molida de res,018,898851,FALSE
+Durango,10,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,898846,FALSE
+Durango,10,Urbano,011231,Jamón de puerco,021,898856,FALSE
+Durango,10,Urbano,011252,Chorizo de puerco,020,898855,FALSE
+Durango,10,Urbano,011411,Leche entera fresca,034,898868,FALSE
+Durango,10,Urbano,011433,Crema,030,898875,FALSE
+Durango,10,Urbano,011451,Queso fresco,037,898877,FALSE
+Durango,10,Urbano,011454,Queso Oaxaca o asadero,039,898879,FALSE
+Durango,10,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,898881,FALSE
+Durango,10,Urbano,011481,Huevo de gallina,031,898885,FALSE
+Durango,10,Urbano,011512,Otros aceites vegetales comestibles,042,898888,FALSE
+Durango,10,Urbano,011592,Chicharrón,019,898854,FALSE
+Durango,10,Urbano,011611,Aguacate,045,898891,FALSE
+Durango,10,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,898901,FALSE
+Durango,10,Urbano,011621,Limón,048,898894,FALSE
+Durango,10,Urbano,011633,Manzana y perón,049,898895,FALSE
+Durango,10,Urbano,011712,Lechuga,071,898913,FALSE
+Durango,10,Urbano,011721,Calabaza,060,898906,FALSE
+Durango,10,Urbano,011722,Chayote,062,898908,FALSE
+Durango,10,Urbano,011725,Chile serrano,065,898910,FALSE
+Durango,10,Urbano,011727,Jitomate (tomate rojo),070,898912,FALSE
+Durango,10,Urbano,011728,Pepino,075,898916,FALSE
+Durango,10,Urbano,011729,Tomate verde,076,898917,FALSE
+Durango,10,Urbano,011743,Cebolla,061,898907,FALSE
+Durango,10,Urbano,011746,Nopal,072,898914,FALSE
+Durango,10,Urbano,011748,Zanahoria,078,898918,FALSE
+Durango,10,Urbano,011751,Papa,073,898915,FALSE
+Durango,10,Urbano,011761,Frijol en grano,068,898924,FALSE
+Durango,10,Urbano,011797,Frijol procesado,069,898929,FALSE
+Durango,10,Urbano,011810,Azúcar,082,898936,FALSE
+Durango,10,Urbano,011911,Alimentos preparados para consumo inmediato,269,898962,FALSE
+Durango,10,Urbano,011942,Cilantro,087,898921,FALSE
+Durango,10,Urbano,012100,Jugos de frutas o verduras envasados,095,898933,FALSE
+Durango,10,Urbano,012201,Café soluble,096,898938,FALSE
+Durango,10,Urbano,012501,Agua natural embotellada,099,898942,FALSE
+Durango,10,Urbano,012601,Refrescos sabor cola,100,898943,FALSE
+Durango,10,Urbano,012602,Refrescos de otros sabores,100,898943,FALSE
+Durango,10,Urbano,111111,Desayunos,25,898957,TRUE
+Durango,10,Urbano,111112,Comidas,25,898957,TRUE
+Durango,10,Urbano,111113,Cenas,25,898957,TRUE
+Durango,10,Urbano,111124,Otros alimentos cocinados,269,898962,FALSE
+Durango,10,Urbano,111126,Pollos rostizados,267,898961,FALSE
+Durango,10,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,898846,FALSE
+Durango,10,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,898846,FALSE
+Durango,10,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,898854,FALSE
+Durango,10,Urbano,181134,Plátano verde y Tabasco,055,898901,FALSE
+Guanajuato,11,Urbano,011111,Arroz en grano,001,899272,FALSE
+Guanajuato,11,Urbano,011131,Tortillas de maíz,014,899258,FALSE
+Guanajuato,11,Urbano,011132,Tortillas de harina de trigo,015,899270,FALSE
+Guanajuato,11,Urbano,011133,Pan,008,899261,FALSE
+Guanajuato,11,Urbano,011134,Pan de caja,009,899262,FALSE
+Guanajuato,11,Urbano,011135,Galletas dulces,004,899267,FALSE
+Guanajuato,11,Urbano,011137,Pan dulce a granel,010,899263,FALSE
+Guanajuato,11,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,899269,FALSE
+Guanajuato,11,Urbano,011192,Tostadas,016,899259,FALSE
+Guanajuato,11,Urbano,011221,Bistec de res,018,899281,FALSE
+Guanajuato,11,Urbano,011224,Molida de res,018,899281,FALSE
+Guanajuato,11,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,899276,FALSE
+Guanajuato,11,Urbano,011231,Jamón de puerco,021,899286,FALSE
+Guanajuato,11,Urbano,011252,Chorizo de puerco,020,899285,FALSE
+Guanajuato,11,Urbano,011411,Leche entera fresca,034,899298,FALSE
+Guanajuato,11,Urbano,011433,Crema,030,899305,FALSE
+Guanajuato,11,Urbano,011451,Queso fresco,037,899307,FALSE
+Guanajuato,11,Urbano,011454,Queso Oaxaca o asadero,039,899309,FALSE
+Guanajuato,11,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,899311,FALSE
+Guanajuato,11,Urbano,011481,Huevo de gallina,031,899315,FALSE
+Guanajuato,11,Urbano,011512,Otros aceites vegetales comestibles,042,899318,FALSE
+Guanajuato,11,Urbano,011592,Chicharrón,019,899284,FALSE
+Guanajuato,11,Urbano,011611,Aguacate,045,899321,FALSE
+Guanajuato,11,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,899331,FALSE
+Guanajuato,11,Urbano,011621,Limón,048,899324,FALSE
+Guanajuato,11,Urbano,011633,Manzana y perón,049,899325,FALSE
+Guanajuato,11,Urbano,011712,Lechuga,071,899343,FALSE
+Guanajuato,11,Urbano,011721,Calabaza,060,899336,FALSE
+Guanajuato,11,Urbano,011722,Chayote,062,899338,FALSE
+Guanajuato,11,Urbano,011725,Chile serrano,065,899340,FALSE
+Guanajuato,11,Urbano,011727,Jitomate (tomate rojo),070,899342,FALSE
+Guanajuato,11,Urbano,011728,Pepino,075,899346,FALSE
+Guanajuato,11,Urbano,011729,Tomate verde,076,899347,FALSE
+Guanajuato,11,Urbano,011743,Cebolla,061,899337,FALSE
+Guanajuato,11,Urbano,011746,Nopal,072,899344,FALSE
+Guanajuato,11,Urbano,011748,Zanahoria,078,899348,FALSE
+Guanajuato,11,Urbano,011751,Papa,073,899345,FALSE
+Guanajuato,11,Urbano,011761,Frijol en grano,068,899354,FALSE
+Guanajuato,11,Urbano,011797,Frijol procesado,069,899359,FALSE
+Guanajuato,11,Urbano,011810,Azúcar,082,899366,FALSE
+Guanajuato,11,Urbano,011911,Alimentos preparados para consumo inmediato,269,899392,FALSE
+Guanajuato,11,Urbano,011942,Cilantro,087,899351,FALSE
+Guanajuato,11,Urbano,012100,Jugos de frutas o verduras envasados,095,899363,FALSE
+Guanajuato,11,Urbano,012201,Café soluble,096,899368,FALSE
+Guanajuato,11,Urbano,012501,Agua natural embotellada,099,899372,FALSE
+Guanajuato,11,Urbano,012601,Refrescos sabor cola,100,899373,FALSE
+Guanajuato,11,Urbano,012602,Refrescos de otros sabores,100,899373,FALSE
+Guanajuato,11,Urbano,111111,Desayunos,25,899387,TRUE
+Guanajuato,11,Urbano,111112,Comidas,25,899387,TRUE
+Guanajuato,11,Urbano,111113,Cenas,25,899387,TRUE
+Guanajuato,11,Urbano,111124,Otros alimentos cocinados,269,899392,FALSE
+Guanajuato,11,Urbano,111126,Pollos rostizados,267,899391,FALSE
+Guanajuato,11,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,899276,FALSE
+Guanajuato,11,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,899276,FALSE
+Guanajuato,11,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,899284,FALSE
+Guanajuato,11,Urbano,181134,Plátano verde y Tabasco,055,899331,FALSE
+Guerrero,12,Urbano,011111,Arroz en grano,001,899702,FALSE
+Guerrero,12,Urbano,011131,Tortillas de maíz,014,899688,FALSE
+Guerrero,12,Urbano,011132,Tortillas de harina de trigo,015,899700,FALSE
+Guerrero,12,Urbano,011133,Pan,008,899691,FALSE
+Guerrero,12,Urbano,011134,Pan de caja,009,899692,FALSE
+Guerrero,12,Urbano,011135,Galletas dulces,004,899697,FALSE
+Guerrero,12,Urbano,011137,Pan dulce a granel,010,899693,FALSE
+Guerrero,12,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,899699,FALSE
+Guerrero,12,Urbano,011192,Tostadas,016,899689,FALSE
+Guerrero,12,Urbano,011221,Bistec de res,018,899711,FALSE
+Guerrero,12,Urbano,011224,Molida de res,018,899711,FALSE
+Guerrero,12,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,899706,FALSE
+Guerrero,12,Urbano,011231,Jamón de puerco,021,899716,FALSE
+Guerrero,12,Urbano,011252,Chorizo de puerco,020,899715,FALSE
+Guerrero,12,Urbano,011411,Leche entera fresca,034,899728,FALSE
+Guerrero,12,Urbano,011433,Crema,030,899735,FALSE
+Guerrero,12,Urbano,011451,Queso fresco,037,899737,FALSE
+Guerrero,12,Urbano,011454,Queso Oaxaca o asadero,039,899739,FALSE
+Guerrero,12,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,899741,FALSE
+Guerrero,12,Urbano,011481,Huevo de gallina,031,899745,FALSE
+Guerrero,12,Urbano,011512,Otros aceites vegetales comestibles,042,899748,FALSE
+Guerrero,12,Urbano,011592,Chicharrón,019,899714,FALSE
+Guerrero,12,Urbano,011611,Aguacate,045,899751,FALSE
+Guerrero,12,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,899761,FALSE
+Guerrero,12,Urbano,011621,Limón,048,899754,FALSE
+Guerrero,12,Urbano,011633,Manzana y perón,049,899755,FALSE
+Guerrero,12,Urbano,011712,Lechuga,071,899773,FALSE
+Guerrero,12,Urbano,011721,Calabaza,060,899766,FALSE
+Guerrero,12,Urbano,011722,Chayote,062,899768,FALSE
+Guerrero,12,Urbano,011725,Chile serrano,065,899770,FALSE
+Guerrero,12,Urbano,011727,Jitomate (tomate rojo),070,899772,FALSE
+Guerrero,12,Urbano,011728,Pepino,075,899776,FALSE
+Guerrero,12,Urbano,011729,Tomate verde,076,899777,FALSE
+Guerrero,12,Urbano,011743,Cebolla,061,899767,FALSE
+Guerrero,12,Urbano,011746,Nopal,072,899774,FALSE
+Guerrero,12,Urbano,011748,Zanahoria,078,899778,FALSE
+Guerrero,12,Urbano,011751,Papa,073,899775,FALSE
+Guerrero,12,Urbano,011761,Frijol en grano,068,899784,FALSE
+Guerrero,12,Urbano,011797,Frijol procesado,069,899789,FALSE
+Guerrero,12,Urbano,011810,Azúcar,082,899796,FALSE
+Guerrero,12,Urbano,011911,Alimentos preparados para consumo inmediato,269,899822,FALSE
+Guerrero,12,Urbano,011942,Cilantro,087,899781,FALSE
+Guerrero,12,Urbano,012100,Jugos de frutas o verduras envasados,095,899793,FALSE
+Guerrero,12,Urbano,012201,Café soluble,096,899798,FALSE
+Guerrero,12,Urbano,012501,Agua natural embotellada,099,899802,FALSE
+Guerrero,12,Urbano,012601,Refrescos sabor cola,100,899803,FALSE
+Guerrero,12,Urbano,012602,Refrescos de otros sabores,100,899803,FALSE
+Guerrero,12,Urbano,111111,Desayunos,25,899817,TRUE
+Guerrero,12,Urbano,111112,Comidas,25,899817,TRUE
+Guerrero,12,Urbano,111113,Cenas,25,899817,TRUE
+Guerrero,12,Urbano,111124,Otros alimentos cocinados,269,899822,FALSE
+Guerrero,12,Urbano,111126,Pollos rostizados,267,899821,FALSE
+Guerrero,12,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,899706,FALSE
+Guerrero,12,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,899706,FALSE
+Guerrero,12,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,899714,FALSE
+Guerrero,12,Urbano,181134,Plátano verde y Tabasco,055,899761,FALSE
+Hidalgo,13,Urbano,011111,Arroz en grano,001,900132,FALSE
+Hidalgo,13,Urbano,011131,Tortillas de maíz,014,900118,FALSE
+Hidalgo,13,Urbano,011132,Tortillas de harina de trigo,015,900130,FALSE
+Hidalgo,13,Urbano,011133,Pan,008,900121,FALSE
+Hidalgo,13,Urbano,011134,Pan de caja,009,900122,FALSE
+Hidalgo,13,Urbano,011135,Galletas dulces,004,900127,FALSE
+Hidalgo,13,Urbano,011137,Pan dulce a granel,010,900123,FALSE
+Hidalgo,13,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,900129,FALSE
+Hidalgo,13,Urbano,011192,Tostadas,016,900119,FALSE
+Hidalgo,13,Urbano,011221,Bistec de res,018,900141,FALSE
+Hidalgo,13,Urbano,011224,Molida de res,018,900141,FALSE
+Hidalgo,13,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,900136,FALSE
+Hidalgo,13,Urbano,011231,Jamón de puerco,021,900146,FALSE
+Hidalgo,13,Urbano,011252,Chorizo de puerco,020,900145,FALSE
+Hidalgo,13,Urbano,011411,Leche entera fresca,034,900158,FALSE
+Hidalgo,13,Urbano,011433,Crema,030,900165,FALSE
+Hidalgo,13,Urbano,011451,Queso fresco,037,900167,FALSE
+Hidalgo,13,Urbano,011454,Queso Oaxaca o asadero,039,900169,FALSE
+Hidalgo,13,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,900171,FALSE
+Hidalgo,13,Urbano,011481,Huevo de gallina,031,900175,FALSE
+Hidalgo,13,Urbano,011512,Otros aceites vegetales comestibles,042,900178,FALSE
+Hidalgo,13,Urbano,011592,Chicharrón,019,900144,FALSE
+Hidalgo,13,Urbano,011611,Aguacate,045,900181,FALSE
+Hidalgo,13,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,900191,FALSE
+Hidalgo,13,Urbano,011621,Limón,048,900184,FALSE
+Hidalgo,13,Urbano,011633,Manzana y perón,049,900185,FALSE
+Hidalgo,13,Urbano,011712,Lechuga,071,900203,FALSE
+Hidalgo,13,Urbano,011721,Calabaza,060,900196,FALSE
+Hidalgo,13,Urbano,011722,Chayote,062,900198,FALSE
+Hidalgo,13,Urbano,011725,Chile serrano,065,900200,FALSE
+Hidalgo,13,Urbano,011727,Jitomate (tomate rojo),070,900202,FALSE
+Hidalgo,13,Urbano,011728,Pepino,075,900206,FALSE
+Hidalgo,13,Urbano,011729,Tomate verde,076,900207,FALSE
+Hidalgo,13,Urbano,011743,Cebolla,061,900197,FALSE
+Hidalgo,13,Urbano,011746,Nopal,072,900204,FALSE
+Hidalgo,13,Urbano,011748,Zanahoria,078,900208,FALSE
+Hidalgo,13,Urbano,011751,Papa,073,900205,FALSE
+Hidalgo,13,Urbano,011761,Frijol en grano,068,900214,FALSE
+Hidalgo,13,Urbano,011797,Frijol procesado,069,900219,FALSE
+Hidalgo,13,Urbano,011810,Azúcar,082,900226,FALSE
+Hidalgo,13,Urbano,011911,Alimentos preparados para consumo inmediato,269,900252,FALSE
+Hidalgo,13,Urbano,011942,Cilantro,087,900211,FALSE
+Hidalgo,13,Urbano,012100,Jugos de frutas o verduras envasados,095,900223,FALSE
+Hidalgo,13,Urbano,012201,Café soluble,096,900228,FALSE
+Hidalgo,13,Urbano,012501,Agua natural embotellada,099,900232,FALSE
+Hidalgo,13,Urbano,012601,Refrescos sabor cola,100,900233,FALSE
+Hidalgo,13,Urbano,012602,Refrescos de otros sabores,100,900233,FALSE
+Hidalgo,13,Urbano,111111,Desayunos,25,900247,TRUE
+Hidalgo,13,Urbano,111112,Comidas,25,900247,TRUE
+Hidalgo,13,Urbano,111113,Cenas,25,900247,TRUE
+Hidalgo,13,Urbano,111124,Otros alimentos cocinados,269,900252,FALSE
+Hidalgo,13,Urbano,111126,Pollos rostizados,267,900251,FALSE
+Hidalgo,13,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,900136,FALSE
+Hidalgo,13,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,900136,FALSE
+Hidalgo,13,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,900144,FALSE
+Hidalgo,13,Urbano,181134,Plátano verde y Tabasco,055,900191,FALSE
+Jalisco,14,Urbano,011111,Arroz en grano,001,900562,FALSE
+Jalisco,14,Urbano,011131,Tortillas de maíz,014,900548,FALSE
+Jalisco,14,Urbano,011132,Tortillas de harina de trigo,015,900560,FALSE
+Jalisco,14,Urbano,011133,Pan,008,900551,FALSE
+Jalisco,14,Urbano,011134,Pan de caja,009,900552,FALSE
+Jalisco,14,Urbano,011135,Galletas dulces,004,900557,FALSE
+Jalisco,14,Urbano,011137,Pan dulce a granel,010,900553,FALSE
+Jalisco,14,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,900559,FALSE
+Jalisco,14,Urbano,011192,Tostadas,016,900549,FALSE
+Jalisco,14,Urbano,011221,Bistec de res,018,900571,FALSE
+Jalisco,14,Urbano,011224,Molida de res,018,900571,FALSE
+Jalisco,14,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,900566,FALSE
+Jalisco,14,Urbano,011231,Jamón de puerco,021,900576,FALSE
+Jalisco,14,Urbano,011252,Chorizo de puerco,020,900575,FALSE
+Jalisco,14,Urbano,011411,Leche entera fresca,034,900588,FALSE
+Jalisco,14,Urbano,011433,Crema,030,900595,FALSE
+Jalisco,14,Urbano,011451,Queso fresco,037,900597,FALSE
+Jalisco,14,Urbano,011454,Queso Oaxaca o asadero,039,900599,FALSE
+Jalisco,14,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,900601,FALSE
+Jalisco,14,Urbano,011481,Huevo de gallina,031,900605,FALSE
+Jalisco,14,Urbano,011512,Otros aceites vegetales comestibles,042,900608,FALSE
+Jalisco,14,Urbano,011592,Chicharrón,019,900574,FALSE
+Jalisco,14,Urbano,011611,Aguacate,045,900611,FALSE
+Jalisco,14,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,900621,FALSE
+Jalisco,14,Urbano,011621,Limón,048,900614,FALSE
+Jalisco,14,Urbano,011633,Manzana y perón,049,900615,FALSE
+Jalisco,14,Urbano,011712,Lechuga,071,900633,FALSE
+Jalisco,14,Urbano,011721,Calabaza,060,900626,FALSE
+Jalisco,14,Urbano,011722,Chayote,062,900628,FALSE
+Jalisco,14,Urbano,011725,Chile serrano,065,900630,FALSE
+Jalisco,14,Urbano,011727,Jitomate (tomate rojo),070,900632,FALSE
+Jalisco,14,Urbano,011728,Pepino,075,900636,FALSE
+Jalisco,14,Urbano,011729,Tomate verde,076,900637,FALSE
+Jalisco,14,Urbano,011743,Cebolla,061,900627,FALSE
+Jalisco,14,Urbano,011746,Nopal,072,900634,FALSE
+Jalisco,14,Urbano,011748,Zanahoria,078,900638,FALSE
+Jalisco,14,Urbano,011751,Papa,073,900635,FALSE
+Jalisco,14,Urbano,011761,Frijol en grano,068,900644,FALSE
+Jalisco,14,Urbano,011797,Frijol procesado,069,900649,FALSE
+Jalisco,14,Urbano,011810,Azúcar,082,900656,FALSE
+Jalisco,14,Urbano,011911,Alimentos preparados para consumo inmediato,269,900682,FALSE
+Jalisco,14,Urbano,011942,Cilantro,087,900641,FALSE
+Jalisco,14,Urbano,012100,Jugos de frutas o verduras envasados,095,900653,FALSE
+Jalisco,14,Urbano,012201,Café soluble,096,900658,FALSE
+Jalisco,14,Urbano,012501,Agua natural embotellada,099,900662,FALSE
+Jalisco,14,Urbano,012601,Refrescos sabor cola,100,900663,FALSE
+Jalisco,14,Urbano,012602,Refrescos de otros sabores,100,900663,FALSE
+Jalisco,14,Urbano,111111,Desayunos,25,900677,TRUE
+Jalisco,14,Urbano,111112,Comidas,25,900677,TRUE
+Jalisco,14,Urbano,111113,Cenas,25,900677,TRUE
+Jalisco,14,Urbano,111124,Otros alimentos cocinados,269,900682,FALSE
+Jalisco,14,Urbano,111126,Pollos rostizados,267,900681,FALSE
+Jalisco,14,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,900566,FALSE
+Jalisco,14,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,900566,FALSE
+Jalisco,14,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,900574,FALSE
+Jalisco,14,Urbano,181134,Plátano verde y Tabasco,055,900621,FALSE
+México,15,Urbano,011111,Arroz en grano,001,900992,FALSE
+México,15,Urbano,011131,Tortillas de maíz,014,900978,FALSE
+México,15,Urbano,011132,Tortillas de harina de trigo,015,900990,FALSE
+México,15,Urbano,011133,Pan,008,900981,FALSE
+México,15,Urbano,011134,Pan de caja,009,900982,FALSE
+México,15,Urbano,011135,Galletas dulces,004,900987,FALSE
+México,15,Urbano,011137,Pan dulce a granel,010,900983,FALSE
+México,15,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,900989,FALSE
+México,15,Urbano,011192,Tostadas,016,900979,FALSE
+México,15,Urbano,011221,Bistec de res,018,901001,FALSE
+México,15,Urbano,011224,Molida de res,018,901001,FALSE
+México,15,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,900996,FALSE
+México,15,Urbano,011231,Jamón de puerco,021,901006,FALSE
+México,15,Urbano,011252,Chorizo de puerco,020,901005,FALSE
+México,15,Urbano,011411,Leche entera fresca,034,901018,FALSE
+México,15,Urbano,011433,Crema,030,901025,FALSE
+México,15,Urbano,011451,Queso fresco,037,901027,FALSE
+México,15,Urbano,011454,Queso Oaxaca o asadero,039,901029,FALSE
+México,15,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,901031,FALSE
+México,15,Urbano,011481,Huevo de gallina,031,901035,FALSE
+México,15,Urbano,011512,Otros aceites vegetales comestibles,042,901038,FALSE
+México,15,Urbano,011592,Chicharrón,019,901004,FALSE
+México,15,Urbano,011611,Aguacate,045,901041,FALSE
+México,15,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,901051,FALSE
+México,15,Urbano,011621,Limón,048,901044,FALSE
+México,15,Urbano,011633,Manzana y perón,049,901045,FALSE
+México,15,Urbano,011712,Lechuga,071,901063,FALSE
+México,15,Urbano,011721,Calabaza,060,901056,FALSE
+México,15,Urbano,011722,Chayote,062,901058,FALSE
+México,15,Urbano,011725,Chile serrano,065,901060,FALSE
+México,15,Urbano,011727,Jitomate (tomate rojo),070,901062,FALSE
+México,15,Urbano,011728,Pepino,075,901066,FALSE
+México,15,Urbano,011729,Tomate verde,076,901067,FALSE
+México,15,Urbano,011743,Cebolla,061,901057,FALSE
+México,15,Urbano,011746,Nopal,072,901064,FALSE
+México,15,Urbano,011748,Zanahoria,078,901068,FALSE
+México,15,Urbano,011751,Papa,073,901065,FALSE
+México,15,Urbano,011761,Frijol en grano,068,901074,FALSE
+México,15,Urbano,011797,Frijol procesado,069,901079,FALSE
+México,15,Urbano,011810,Azúcar,082,901086,FALSE
+México,15,Urbano,011911,Alimentos preparados para consumo inmediato,269,901112,FALSE
+México,15,Urbano,011942,Cilantro,087,901071,FALSE
+México,15,Urbano,012100,Jugos de frutas o verduras envasados,095,901083,FALSE
+México,15,Urbano,012201,Café soluble,096,901088,FALSE
+México,15,Urbano,012501,Agua natural embotellada,099,901092,FALSE
+México,15,Urbano,012601,Refrescos sabor cola,100,901093,FALSE
+México,15,Urbano,012602,Refrescos de otros sabores,100,901093,FALSE
+México,15,Urbano,111111,Desayunos,25,901107,TRUE
+México,15,Urbano,111112,Comidas,25,901107,TRUE
+México,15,Urbano,111113,Cenas,25,901107,TRUE
+México,15,Urbano,111124,Otros alimentos cocinados,269,901112,FALSE
+México,15,Urbano,111126,Pollos rostizados,267,901111,FALSE
+México,15,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,900996,FALSE
+México,15,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,900996,FALSE
+México,15,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,901004,FALSE
+México,15,Urbano,181134,Plátano verde y Tabasco,055,901051,FALSE
+Michoacán,16,Urbano,011111,Arroz en grano,001,901422,FALSE
+Michoacán,16,Urbano,011131,Tortillas de maíz,014,901408,FALSE
+Michoacán,16,Urbano,011132,Tortillas de harina de trigo,015,901420,FALSE
+Michoacán,16,Urbano,011133,Pan,008,901411,FALSE
+Michoacán,16,Urbano,011134,Pan de caja,009,901412,FALSE
+Michoacán,16,Urbano,011135,Galletas dulces,004,901417,FALSE
+Michoacán,16,Urbano,011137,Pan dulce a granel,010,901413,FALSE
+Michoacán,16,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,901419,FALSE
+Michoacán,16,Urbano,011192,Tostadas,016,901409,FALSE
+Michoacán,16,Urbano,011221,Bistec de res,018,901431,FALSE
+Michoacán,16,Urbano,011224,Molida de res,018,901431,FALSE
+Michoacán,16,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,901426,FALSE
+Michoacán,16,Urbano,011231,Jamón de puerco,021,901436,FALSE
+Michoacán,16,Urbano,011252,Chorizo de puerco,020,901435,FALSE
+Michoacán,16,Urbano,011411,Leche entera fresca,034,901448,FALSE
+Michoacán,16,Urbano,011433,Crema,030,901455,FALSE
+Michoacán,16,Urbano,011451,Queso fresco,037,901457,FALSE
+Michoacán,16,Urbano,011454,Queso Oaxaca o asadero,039,901459,FALSE
+Michoacán,16,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,901461,FALSE
+Michoacán,16,Urbano,011481,Huevo de gallina,031,901465,FALSE
+Michoacán,16,Urbano,011512,Otros aceites vegetales comestibles,042,901468,FALSE
+Michoacán,16,Urbano,011592,Chicharrón,019,901434,FALSE
+Michoacán,16,Urbano,011611,Aguacate,045,901471,FALSE
+Michoacán,16,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,901481,FALSE
+Michoacán,16,Urbano,011621,Limón,048,901474,FALSE
+Michoacán,16,Urbano,011633,Manzana y perón,049,901475,FALSE
+Michoacán,16,Urbano,011712,Lechuga,071,901493,FALSE
+Michoacán,16,Urbano,011721,Calabaza,060,901486,FALSE
+Michoacán,16,Urbano,011722,Chayote,062,901488,FALSE
+Michoacán,16,Urbano,011725,Chile serrano,065,901490,FALSE
+Michoacán,16,Urbano,011727,Jitomate (tomate rojo),070,901492,FALSE
+Michoacán,16,Urbano,011728,Pepino,075,901496,FALSE
+Michoacán,16,Urbano,011729,Tomate verde,076,901497,FALSE
+Michoacán,16,Urbano,011743,Cebolla,061,901487,FALSE
+Michoacán,16,Urbano,011746,Nopal,072,901494,FALSE
+Michoacán,16,Urbano,011748,Zanahoria,078,901498,FALSE
+Michoacán,16,Urbano,011751,Papa,073,901495,FALSE
+Michoacán,16,Urbano,011761,Frijol en grano,068,901504,FALSE
+Michoacán,16,Urbano,011797,Frijol procesado,069,901509,FALSE
+Michoacán,16,Urbano,011810,Azúcar,082,901516,FALSE
+Michoacán,16,Urbano,011911,Alimentos preparados para consumo inmediato,269,901542,FALSE
+Michoacán,16,Urbano,011942,Cilantro,087,901501,FALSE
+Michoacán,16,Urbano,012100,Jugos de frutas o verduras envasados,095,901513,FALSE
+Michoacán,16,Urbano,012201,Café soluble,096,901518,FALSE
+Michoacán,16,Urbano,012501,Agua natural embotellada,099,901522,FALSE
+Michoacán,16,Urbano,012601,Refrescos sabor cola,100,901523,FALSE
+Michoacán,16,Urbano,012602,Refrescos de otros sabores,100,901523,FALSE
+Michoacán,16,Urbano,111111,Desayunos,25,901537,TRUE
+Michoacán,16,Urbano,111112,Comidas,25,901537,TRUE
+Michoacán,16,Urbano,111113,Cenas,25,901537,TRUE
+Michoacán,16,Urbano,111124,Otros alimentos cocinados,269,901542,FALSE
+Michoacán,16,Urbano,111126,Pollos rostizados,267,901541,FALSE
+Michoacán,16,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,901426,FALSE
+Michoacán,16,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,901426,FALSE
+Michoacán,16,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,901434,FALSE
+Michoacán,16,Urbano,181134,Plátano verde y Tabasco,055,901481,FALSE
+Morelos,17,Urbano,011111,Arroz en grano,001,901852,FALSE
+Morelos,17,Urbano,011131,Tortillas de maíz,014,901838,FALSE
+Morelos,17,Urbano,011132,Tortillas de harina de trigo,015,901850,FALSE
+Morelos,17,Urbano,011133,Pan,008,901841,FALSE
+Morelos,17,Urbano,011134,Pan de caja,009,901842,FALSE
+Morelos,17,Urbano,011135,Galletas dulces,004,901847,FALSE
+Morelos,17,Urbano,011137,Pan dulce a granel,010,901843,FALSE
+Morelos,17,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,901849,FALSE
+Morelos,17,Urbano,011192,Tostadas,016,901839,FALSE
+Morelos,17,Urbano,011221,Bistec de res,018,901861,FALSE
+Morelos,17,Urbano,011224,Molida de res,018,901861,FALSE
+Morelos,17,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,901856,FALSE
+Morelos,17,Urbano,011231,Jamón de puerco,021,901866,FALSE
+Morelos,17,Urbano,011252,Chorizo de puerco,020,901865,FALSE
+Morelos,17,Urbano,011411,Leche entera fresca,034,901878,FALSE
+Morelos,17,Urbano,011433,Crema,030,901885,FALSE
+Morelos,17,Urbano,011451,Queso fresco,037,901887,FALSE
+Morelos,17,Urbano,011454,Queso Oaxaca o asadero,039,901889,FALSE
+Morelos,17,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,901891,FALSE
+Morelos,17,Urbano,011481,Huevo de gallina,031,901895,FALSE
+Morelos,17,Urbano,011512,Otros aceites vegetales comestibles,042,901898,FALSE
+Morelos,17,Urbano,011592,Chicharrón,019,901864,FALSE
+Morelos,17,Urbano,011611,Aguacate,045,901901,FALSE
+Morelos,17,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,901911,FALSE
+Morelos,17,Urbano,011621,Limón,048,901904,FALSE
+Morelos,17,Urbano,011633,Manzana y perón,049,901905,FALSE
+Morelos,17,Urbano,011712,Lechuga,071,901923,FALSE
+Morelos,17,Urbano,011721,Calabaza,060,901916,FALSE
+Morelos,17,Urbano,011722,Chayote,062,901918,FALSE
+Morelos,17,Urbano,011725,Chile serrano,065,901920,FALSE
+Morelos,17,Urbano,011727,Jitomate (tomate rojo),070,901922,FALSE
+Morelos,17,Urbano,011728,Pepino,075,901926,FALSE
+Morelos,17,Urbano,011729,Tomate verde,076,901927,FALSE
+Morelos,17,Urbano,011743,Cebolla,061,901917,FALSE
+Morelos,17,Urbano,011746,Nopal,072,901924,FALSE
+Morelos,17,Urbano,011748,Zanahoria,078,901928,FALSE
+Morelos,17,Urbano,011751,Papa,073,901925,FALSE
+Morelos,17,Urbano,011761,Frijol en grano,068,901934,FALSE
+Morelos,17,Urbano,011797,Frijol procesado,069,901939,FALSE
+Morelos,17,Urbano,011810,Azúcar,082,901946,FALSE
+Morelos,17,Urbano,011911,Alimentos preparados para consumo inmediato,269,901972,FALSE
+Morelos,17,Urbano,011942,Cilantro,087,901931,FALSE
+Morelos,17,Urbano,012100,Jugos de frutas o verduras envasados,095,901943,FALSE
+Morelos,17,Urbano,012201,Café soluble,096,901948,FALSE
+Morelos,17,Urbano,012501,Agua natural embotellada,099,901952,FALSE
+Morelos,17,Urbano,012601,Refrescos sabor cola,100,901953,FALSE
+Morelos,17,Urbano,012602,Refrescos de otros sabores,100,901953,FALSE
+Morelos,17,Urbano,111111,Desayunos,25,901967,TRUE
+Morelos,17,Urbano,111112,Comidas,25,901967,TRUE
+Morelos,17,Urbano,111113,Cenas,25,901967,TRUE
+Morelos,17,Urbano,111124,Otros alimentos cocinados,269,901972,FALSE
+Morelos,17,Urbano,111126,Pollos rostizados,267,901971,FALSE
+Morelos,17,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,901856,FALSE
+Morelos,17,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,901856,FALSE
+Morelos,17,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,901864,FALSE
+Morelos,17,Urbano,181134,Plátano verde y Tabasco,055,901911,FALSE
+Nayarit,18,Urbano,011111,Arroz en grano,001,902282,FALSE
+Nayarit,18,Urbano,011131,Tortillas de maíz,014,902268,FALSE
+Nayarit,18,Urbano,011132,Tortillas de harina de trigo,015,902280,FALSE
+Nayarit,18,Urbano,011133,Pan,008,902271,FALSE
+Nayarit,18,Urbano,011134,Pan de caja,009,902272,FALSE
+Nayarit,18,Urbano,011135,Galletas dulces,004,902277,FALSE
+Nayarit,18,Urbano,011137,Pan dulce a granel,010,902273,FALSE
+Nayarit,18,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,902279,FALSE
+Nayarit,18,Urbano,011192,Tostadas,016,902269,FALSE
+Nayarit,18,Urbano,011221,Bistec de res,018,902291,FALSE
+Nayarit,18,Urbano,011224,Molida de res,018,902291,FALSE
+Nayarit,18,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,902286,FALSE
+Nayarit,18,Urbano,011231,Jamón de puerco,021,902296,FALSE
+Nayarit,18,Urbano,011252,Chorizo de puerco,020,902295,FALSE
+Nayarit,18,Urbano,011411,Leche entera fresca,034,902308,FALSE
+Nayarit,18,Urbano,011433,Crema,030,902315,FALSE
+Nayarit,18,Urbano,011451,Queso fresco,037,902317,FALSE
+Nayarit,18,Urbano,011454,Queso Oaxaca o asadero,039,902319,FALSE
+Nayarit,18,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,902321,FALSE
+Nayarit,18,Urbano,011481,Huevo de gallina,031,902325,FALSE
+Nayarit,18,Urbano,011512,Otros aceites vegetales comestibles,042,902328,FALSE
+Nayarit,18,Urbano,011592,Chicharrón,019,902294,FALSE
+Nayarit,18,Urbano,011611,Aguacate,045,902331,FALSE
+Nayarit,18,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,902341,FALSE
+Nayarit,18,Urbano,011621,Limón,048,902334,FALSE
+Nayarit,18,Urbano,011633,Manzana y perón,049,902335,FALSE
+Nayarit,18,Urbano,011712,Lechuga,071,902353,FALSE
+Nayarit,18,Urbano,011721,Calabaza,060,902346,FALSE
+Nayarit,18,Urbano,011722,Chayote,062,902348,FALSE
+Nayarit,18,Urbano,011725,Chile serrano,065,902350,FALSE
+Nayarit,18,Urbano,011727,Jitomate (tomate rojo),070,902352,FALSE
+Nayarit,18,Urbano,011728,Pepino,075,902356,FALSE
+Nayarit,18,Urbano,011729,Tomate verde,076,902357,FALSE
+Nayarit,18,Urbano,011743,Cebolla,061,902347,FALSE
+Nayarit,18,Urbano,011746,Nopal,072,902354,FALSE
+Nayarit,18,Urbano,011748,Zanahoria,078,902358,FALSE
+Nayarit,18,Urbano,011751,Papa,073,902355,FALSE
+Nayarit,18,Urbano,011761,Frijol en grano,068,902364,FALSE
+Nayarit,18,Urbano,011797,Frijol procesado,069,902369,FALSE
+Nayarit,18,Urbano,011810,Azúcar,082,902376,FALSE
+Nayarit,18,Urbano,011911,Alimentos preparados para consumo inmediato,269,902402,FALSE
+Nayarit,18,Urbano,011942,Cilantro,087,902361,FALSE
+Nayarit,18,Urbano,012100,Jugos de frutas o verduras envasados,095,902373,FALSE
+Nayarit,18,Urbano,012201,Café soluble,096,902378,FALSE
+Nayarit,18,Urbano,012501,Agua natural embotellada,099,902382,FALSE
+Nayarit,18,Urbano,012601,Refrescos sabor cola,100,902383,FALSE
+Nayarit,18,Urbano,012602,Refrescos de otros sabores,100,902383,FALSE
+Nayarit,18,Urbano,111111,Desayunos,25,902397,TRUE
+Nayarit,18,Urbano,111112,Comidas,25,902397,TRUE
+Nayarit,18,Urbano,111113,Cenas,25,902397,TRUE
+Nayarit,18,Urbano,111124,Otros alimentos cocinados,269,902402,FALSE
+Nayarit,18,Urbano,111126,Pollos rostizados,267,902401,FALSE
+Nayarit,18,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,902286,FALSE
+Nayarit,18,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,902286,FALSE
+Nayarit,18,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,902294,FALSE
+Nayarit,18,Urbano,181134,Plátano verde y Tabasco,055,902341,FALSE
+Nuevo León,19,Urbano,011111,Arroz en grano,001,902712,FALSE
+Nuevo León,19,Urbano,011131,Tortillas de maíz,014,902698,FALSE
+Nuevo León,19,Urbano,011132,Tortillas de harina de trigo,015,902710,FALSE
+Nuevo León,19,Urbano,011133,Pan,008,902701,FALSE
+Nuevo León,19,Urbano,011134,Pan de caja,009,902702,FALSE
+Nuevo León,19,Urbano,011135,Galletas dulces,004,902707,FALSE
+Nuevo León,19,Urbano,011137,Pan dulce a granel,010,902703,FALSE
+Nuevo León,19,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,902709,FALSE
+Nuevo León,19,Urbano,011192,Tostadas,016,902699,FALSE
+Nuevo León,19,Urbano,011221,Bistec de res,018,902721,FALSE
+Nuevo León,19,Urbano,011224,Molida de res,018,902721,FALSE
+Nuevo León,19,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,902716,FALSE
+Nuevo León,19,Urbano,011231,Jamón de puerco,021,902726,FALSE
+Nuevo León,19,Urbano,011252,Chorizo de puerco,020,902725,FALSE
+Nuevo León,19,Urbano,011411,Leche entera fresca,034,902738,FALSE
+Nuevo León,19,Urbano,011433,Crema,030,902745,FALSE
+Nuevo León,19,Urbano,011451,Queso fresco,037,902747,FALSE
+Nuevo León,19,Urbano,011454,Queso Oaxaca o asadero,039,902749,FALSE
+Nuevo León,19,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,902751,FALSE
+Nuevo León,19,Urbano,011481,Huevo de gallina,031,902755,FALSE
+Nuevo León,19,Urbano,011512,Otros aceites vegetales comestibles,042,902758,FALSE
+Nuevo León,19,Urbano,011592,Chicharrón,019,902724,FALSE
+Nuevo León,19,Urbano,011611,Aguacate,045,902761,FALSE
+Nuevo León,19,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,902771,FALSE
+Nuevo León,19,Urbano,011621,Limón,048,902764,FALSE
+Nuevo León,19,Urbano,011633,Manzana y perón,049,902765,FALSE
+Nuevo León,19,Urbano,011712,Lechuga,071,902783,FALSE
+Nuevo León,19,Urbano,011721,Calabaza,060,902776,FALSE
+Nuevo León,19,Urbano,011722,Chayote,062,902778,FALSE
+Nuevo León,19,Urbano,011725,Chile serrano,065,902780,FALSE
+Nuevo León,19,Urbano,011727,Jitomate (tomate rojo),070,902782,FALSE
+Nuevo León,19,Urbano,011728,Pepino,075,902786,FALSE
+Nuevo León,19,Urbano,011729,Tomate verde,076,902787,FALSE
+Nuevo León,19,Urbano,011743,Cebolla,061,902777,FALSE
+Nuevo León,19,Urbano,011746,Nopal,072,902784,FALSE
+Nuevo León,19,Urbano,011748,Zanahoria,078,902788,FALSE
+Nuevo León,19,Urbano,011751,Papa,073,902785,FALSE
+Nuevo León,19,Urbano,011761,Frijol en grano,068,902794,FALSE
+Nuevo León,19,Urbano,011797,Frijol procesado,069,902799,FALSE
+Nuevo León,19,Urbano,011810,Azúcar,082,902806,FALSE
+Nuevo León,19,Urbano,011911,Alimentos preparados para consumo inmediato,269,902832,FALSE
+Nuevo León,19,Urbano,011942,Cilantro,087,902791,FALSE
+Nuevo León,19,Urbano,012100,Jugos de frutas o verduras envasados,095,902803,FALSE
+Nuevo León,19,Urbano,012201,Café soluble,096,902808,FALSE
+Nuevo León,19,Urbano,012501,Agua natural embotellada,099,902812,FALSE
+Nuevo León,19,Urbano,012601,Refrescos sabor cola,100,902813,FALSE
+Nuevo León,19,Urbano,012602,Refrescos de otros sabores,100,902813,FALSE
+Nuevo León,19,Urbano,111111,Desayunos,25,902827,TRUE
+Nuevo León,19,Urbano,111112,Comidas,25,902827,TRUE
+Nuevo León,19,Urbano,111113,Cenas,25,902827,TRUE
+Nuevo León,19,Urbano,111124,Otros alimentos cocinados,269,902832,FALSE
+Nuevo León,19,Urbano,111126,Pollos rostizados,267,902831,FALSE
+Nuevo León,19,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,902716,FALSE
+Nuevo León,19,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,902716,FALSE
+Nuevo León,19,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,902724,FALSE
+Nuevo León,19,Urbano,181134,Plátano verde y Tabasco,055,902771,FALSE
+Oaxaca,20,Urbano,011111,Arroz en grano,001,903142,FALSE
+Oaxaca,20,Urbano,011131,Tortillas de maíz,014,903128,FALSE
+Oaxaca,20,Urbano,011132,Tortillas de harina de trigo,015,903140,FALSE
+Oaxaca,20,Urbano,011133,Pan,008,903131,FALSE
+Oaxaca,20,Urbano,011134,Pan de caja,009,903132,FALSE
+Oaxaca,20,Urbano,011135,Galletas dulces,004,903137,FALSE
+Oaxaca,20,Urbano,011137,Pan dulce a granel,010,903133,FALSE
+Oaxaca,20,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,903139,FALSE
+Oaxaca,20,Urbano,011192,Tostadas,016,903129,FALSE
+Oaxaca,20,Urbano,011221,Bistec de res,018,903151,FALSE
+Oaxaca,20,Urbano,011224,Molida de res,018,903151,FALSE
+Oaxaca,20,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,903146,FALSE
+Oaxaca,20,Urbano,011231,Jamón de puerco,021,903156,FALSE
+Oaxaca,20,Urbano,011252,Chorizo de puerco,020,903155,FALSE
+Oaxaca,20,Urbano,011411,Leche entera fresca,034,903168,FALSE
+Oaxaca,20,Urbano,011433,Crema,030,903175,FALSE
+Oaxaca,20,Urbano,011451,Queso fresco,037,903177,FALSE
+Oaxaca,20,Urbano,011454,Queso Oaxaca o asadero,039,903179,FALSE
+Oaxaca,20,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,903181,FALSE
+Oaxaca,20,Urbano,011481,Huevo de gallina,031,903185,FALSE
+Oaxaca,20,Urbano,011512,Otros aceites vegetales comestibles,042,903188,FALSE
+Oaxaca,20,Urbano,011592,Chicharrón,019,903154,FALSE
+Oaxaca,20,Urbano,011611,Aguacate,045,903191,FALSE
+Oaxaca,20,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,903201,FALSE
+Oaxaca,20,Urbano,011621,Limón,048,903194,FALSE
+Oaxaca,20,Urbano,011633,Manzana y perón,049,903195,FALSE
+Oaxaca,20,Urbano,011712,Lechuga,071,903213,FALSE
+Oaxaca,20,Urbano,011721,Calabaza,060,903206,FALSE
+Oaxaca,20,Urbano,011722,Chayote,062,903208,FALSE
+Oaxaca,20,Urbano,011725,Chile serrano,065,903210,FALSE
+Oaxaca,20,Urbano,011727,Jitomate (tomate rojo),070,903212,FALSE
+Oaxaca,20,Urbano,011728,Pepino,075,903216,FALSE
+Oaxaca,20,Urbano,011729,Tomate verde,076,903217,FALSE
+Oaxaca,20,Urbano,011743,Cebolla,061,903207,FALSE
+Oaxaca,20,Urbano,011746,Nopal,072,903214,FALSE
+Oaxaca,20,Urbano,011748,Zanahoria,078,903218,FALSE
+Oaxaca,20,Urbano,011751,Papa,073,903215,FALSE
+Oaxaca,20,Urbano,011761,Frijol en grano,068,903224,FALSE
+Oaxaca,20,Urbano,011797,Frijol procesado,069,903229,FALSE
+Oaxaca,20,Urbano,011810,Azúcar,082,903236,FALSE
+Oaxaca,20,Urbano,011911,Alimentos preparados para consumo inmediato,269,903262,FALSE
+Oaxaca,20,Urbano,011942,Cilantro,087,903221,FALSE
+Oaxaca,20,Urbano,012100,Jugos de frutas o verduras envasados,095,903233,FALSE
+Oaxaca,20,Urbano,012201,Café soluble,096,903238,FALSE
+Oaxaca,20,Urbano,012501,Agua natural embotellada,099,903242,FALSE
+Oaxaca,20,Urbano,012601,Refrescos sabor cola,100,903243,FALSE
+Oaxaca,20,Urbano,012602,Refrescos de otros sabores,100,903243,FALSE
+Oaxaca,20,Urbano,111111,Desayunos,25,903257,TRUE
+Oaxaca,20,Urbano,111112,Comidas,25,903257,TRUE
+Oaxaca,20,Urbano,111113,Cenas,25,903257,TRUE
+Oaxaca,20,Urbano,111124,Otros alimentos cocinados,269,903262,FALSE
+Oaxaca,20,Urbano,111126,Pollos rostizados,267,903261,FALSE
+Oaxaca,20,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,903146,FALSE
+Oaxaca,20,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,903146,FALSE
+Oaxaca,20,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,903154,FALSE
+Oaxaca,20,Urbano,181134,Plátano verde y Tabasco,055,903201,FALSE
+Puebla,21,Urbano,011111,Arroz en grano,001,903572,FALSE
+Puebla,21,Urbano,011131,Tortillas de maíz,014,903558,FALSE
+Puebla,21,Urbano,011132,Tortillas de harina de trigo,015,903570,FALSE
+Puebla,21,Urbano,011133,Pan,008,903561,FALSE
+Puebla,21,Urbano,011134,Pan de caja,009,903562,FALSE
+Puebla,21,Urbano,011135,Galletas dulces,004,903567,FALSE
+Puebla,21,Urbano,011137,Pan dulce a granel,010,903563,FALSE
+Puebla,21,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,903569,FALSE
+Puebla,21,Urbano,011192,Tostadas,016,903559,FALSE
+Puebla,21,Urbano,011221,Bistec de res,018,903581,FALSE
+Puebla,21,Urbano,011224,Molida de res,018,903581,FALSE
+Puebla,21,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,903576,FALSE
+Puebla,21,Urbano,011231,Jamón de puerco,021,903586,FALSE
+Puebla,21,Urbano,011252,Chorizo de puerco,020,903585,FALSE
+Puebla,21,Urbano,011411,Leche entera fresca,034,903598,FALSE
+Puebla,21,Urbano,011433,Crema,030,903605,FALSE
+Puebla,21,Urbano,011451,Queso fresco,037,903607,FALSE
+Puebla,21,Urbano,011454,Queso Oaxaca o asadero,039,903609,FALSE
+Puebla,21,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,903611,FALSE
+Puebla,21,Urbano,011481,Huevo de gallina,031,903615,FALSE
+Puebla,21,Urbano,011512,Otros aceites vegetales comestibles,042,903618,FALSE
+Puebla,21,Urbano,011592,Chicharrón,019,903584,FALSE
+Puebla,21,Urbano,011611,Aguacate,045,903621,FALSE
+Puebla,21,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,903631,FALSE
+Puebla,21,Urbano,011621,Limón,048,903624,FALSE
+Puebla,21,Urbano,011633,Manzana y perón,049,903625,FALSE
+Puebla,21,Urbano,011712,Lechuga,071,903643,FALSE
+Puebla,21,Urbano,011721,Calabaza,060,903636,FALSE
+Puebla,21,Urbano,011722,Chayote,062,903638,FALSE
+Puebla,21,Urbano,011725,Chile serrano,065,903640,FALSE
+Puebla,21,Urbano,011727,Jitomate (tomate rojo),070,903642,FALSE
+Puebla,21,Urbano,011728,Pepino,075,903646,FALSE
+Puebla,21,Urbano,011729,Tomate verde,076,903647,FALSE
+Puebla,21,Urbano,011743,Cebolla,061,903637,FALSE
+Puebla,21,Urbano,011746,Nopal,072,903644,FALSE
+Puebla,21,Urbano,011748,Zanahoria,078,903648,FALSE
+Puebla,21,Urbano,011751,Papa,073,903645,FALSE
+Puebla,21,Urbano,011761,Frijol en grano,068,903654,FALSE
+Puebla,21,Urbano,011797,Frijol procesado,069,903659,FALSE
+Puebla,21,Urbano,011810,Azúcar,082,903666,FALSE
+Puebla,21,Urbano,011911,Alimentos preparados para consumo inmediato,269,903692,FALSE
+Puebla,21,Urbano,011942,Cilantro,087,903651,FALSE
+Puebla,21,Urbano,012100,Jugos de frutas o verduras envasados,095,903663,FALSE
+Puebla,21,Urbano,012201,Café soluble,096,903668,FALSE
+Puebla,21,Urbano,012501,Agua natural embotellada,099,903672,FALSE
+Puebla,21,Urbano,012601,Refrescos sabor cola,100,903673,FALSE
+Puebla,21,Urbano,012602,Refrescos de otros sabores,100,903673,FALSE
+Puebla,21,Urbano,111111,Desayunos,25,903687,TRUE
+Puebla,21,Urbano,111112,Comidas,25,903687,TRUE
+Puebla,21,Urbano,111113,Cenas,25,903687,TRUE
+Puebla,21,Urbano,111124,Otros alimentos cocinados,269,903692,FALSE
+Puebla,21,Urbano,111126,Pollos rostizados,267,903691,FALSE
+Puebla,21,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,903576,FALSE
+Puebla,21,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,903576,FALSE
+Puebla,21,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,903584,FALSE
+Puebla,21,Urbano,181134,Plátano verde y Tabasco,055,903631,FALSE
+Querétaro,22,Urbano,011111,Arroz en grano,001,904002,FALSE
+Querétaro,22,Urbano,011131,Tortillas de maíz,014,903988,FALSE
+Querétaro,22,Urbano,011132,Tortillas de harina de trigo,015,904000,FALSE
+Querétaro,22,Urbano,011133,Pan,008,903991,FALSE
+Querétaro,22,Urbano,011134,Pan de caja,009,903992,FALSE
+Querétaro,22,Urbano,011135,Galletas dulces,004,903997,FALSE
+Querétaro,22,Urbano,011137,Pan dulce a granel,010,903993,FALSE
+Querétaro,22,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,903999,FALSE
+Querétaro,22,Urbano,011192,Tostadas,016,903989,FALSE
+Querétaro,22,Urbano,011221,Bistec de res,018,904011,FALSE
+Querétaro,22,Urbano,011224,Molida de res,018,904011,FALSE
+Querétaro,22,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,904006,FALSE
+Querétaro,22,Urbano,011231,Jamón de puerco,021,904016,FALSE
+Querétaro,22,Urbano,011252,Chorizo de puerco,020,904015,FALSE
+Querétaro,22,Urbano,011411,Leche entera fresca,034,904028,FALSE
+Querétaro,22,Urbano,011433,Crema,030,904035,FALSE
+Querétaro,22,Urbano,011451,Queso fresco,037,904037,FALSE
+Querétaro,22,Urbano,011454,Queso Oaxaca o asadero,039,904039,FALSE
+Querétaro,22,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,904041,FALSE
+Querétaro,22,Urbano,011481,Huevo de gallina,031,904045,FALSE
+Querétaro,22,Urbano,011512,Otros aceites vegetales comestibles,042,904048,FALSE
+Querétaro,22,Urbano,011592,Chicharrón,019,904014,FALSE
+Querétaro,22,Urbano,011611,Aguacate,045,904051,FALSE
+Querétaro,22,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,904061,FALSE
+Querétaro,22,Urbano,011621,Limón,048,904054,FALSE
+Querétaro,22,Urbano,011633,Manzana y perón,049,904055,FALSE
+Querétaro,22,Urbano,011712,Lechuga,071,904073,FALSE
+Querétaro,22,Urbano,011721,Calabaza,060,904066,FALSE
+Querétaro,22,Urbano,011722,Chayote,062,904068,FALSE
+Querétaro,22,Urbano,011725,Chile serrano,065,904070,FALSE
+Querétaro,22,Urbano,011727,Jitomate (tomate rojo),070,904072,FALSE
+Querétaro,22,Urbano,011728,Pepino,075,904076,FALSE
+Querétaro,22,Urbano,011729,Tomate verde,076,904077,FALSE
+Querétaro,22,Urbano,011743,Cebolla,061,904067,FALSE
+Querétaro,22,Urbano,011746,Nopal,072,904074,FALSE
+Querétaro,22,Urbano,011748,Zanahoria,078,904078,FALSE
+Querétaro,22,Urbano,011751,Papa,073,904075,FALSE
+Querétaro,22,Urbano,011761,Frijol en grano,068,904084,FALSE
+Querétaro,22,Urbano,011797,Frijol procesado,069,904089,FALSE
+Querétaro,22,Urbano,011810,Azúcar,082,904096,FALSE
+Querétaro,22,Urbano,011911,Alimentos preparados para consumo inmediato,269,904122,FALSE
+Querétaro,22,Urbano,011942,Cilantro,087,904081,FALSE
+Querétaro,22,Urbano,012100,Jugos de frutas o verduras envasados,095,904093,FALSE
+Querétaro,22,Urbano,012201,Café soluble,096,904098,FALSE
+Querétaro,22,Urbano,012501,Agua natural embotellada,099,904102,FALSE
+Querétaro,22,Urbano,012601,Refrescos sabor cola,100,904103,FALSE
+Querétaro,22,Urbano,012602,Refrescos de otros sabores,100,904103,FALSE
+Querétaro,22,Urbano,111111,Desayunos,25,904117,TRUE
+Querétaro,22,Urbano,111112,Comidas,25,904117,TRUE
+Querétaro,22,Urbano,111113,Cenas,25,904117,TRUE
+Querétaro,22,Urbano,111124,Otros alimentos cocinados,269,904122,FALSE
+Querétaro,22,Urbano,111126,Pollos rostizados,267,904121,FALSE
+Querétaro,22,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,904006,FALSE
+Querétaro,22,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,904006,FALSE
+Querétaro,22,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,904014,FALSE
+Querétaro,22,Urbano,181134,Plátano verde y Tabasco,055,904061,FALSE
+Quintana Roo,23,Urbano,011111,Arroz en grano,001,904432,FALSE
+Quintana Roo,23,Urbano,011131,Tortillas de maíz,014,904418,FALSE
+Quintana Roo,23,Urbano,011132,Tortillas de harina de trigo,015,904430,FALSE
+Quintana Roo,23,Urbano,011133,Pan,008,904421,FALSE
+Quintana Roo,23,Urbano,011134,Pan de caja,009,904422,FALSE
+Quintana Roo,23,Urbano,011135,Galletas dulces,004,904427,FALSE
+Quintana Roo,23,Urbano,011137,Pan dulce a granel,010,904423,FALSE
+Quintana Roo,23,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,904429,FALSE
+Quintana Roo,23,Urbano,011192,Tostadas,016,904419,FALSE
+Quintana Roo,23,Urbano,011221,Bistec de res,018,904441,FALSE
+Quintana Roo,23,Urbano,011224,Molida de res,018,904441,FALSE
+Quintana Roo,23,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,904436,FALSE
+Quintana Roo,23,Urbano,011231,Jamón de puerco,021,904446,FALSE
+Quintana Roo,23,Urbano,011252,Chorizo de puerco,020,904445,FALSE
+Quintana Roo,23,Urbano,011411,Leche entera fresca,034,904458,FALSE
+Quintana Roo,23,Urbano,011433,Crema,030,904465,FALSE
+Quintana Roo,23,Urbano,011451,Queso fresco,037,904467,FALSE
+Quintana Roo,23,Urbano,011454,Queso Oaxaca o asadero,039,904469,FALSE
+Quintana Roo,23,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,904471,FALSE
+Quintana Roo,23,Urbano,011481,Huevo de gallina,031,904475,FALSE
+Quintana Roo,23,Urbano,011512,Otros aceites vegetales comestibles,042,904478,FALSE
+Quintana Roo,23,Urbano,011592,Chicharrón,019,904444,FALSE
+Quintana Roo,23,Urbano,011611,Aguacate,045,904481,FALSE
+Quintana Roo,23,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,904491,FALSE
+Quintana Roo,23,Urbano,011621,Limón,048,904484,FALSE
+Quintana Roo,23,Urbano,011633,Manzana y perón,049,904485,FALSE
+Quintana Roo,23,Urbano,011712,Lechuga,071,904503,FALSE
+Quintana Roo,23,Urbano,011721,Calabaza,060,904496,FALSE
+Quintana Roo,23,Urbano,011722,Chayote,062,904498,FALSE
+Quintana Roo,23,Urbano,011725,Chile serrano,065,904500,FALSE
+Quintana Roo,23,Urbano,011727,Jitomate (tomate rojo),070,904502,FALSE
+Quintana Roo,23,Urbano,011728,Pepino,075,904506,FALSE
+Quintana Roo,23,Urbano,011729,Tomate verde,076,904507,FALSE
+Quintana Roo,23,Urbano,011743,Cebolla,061,904497,FALSE
+Quintana Roo,23,Urbano,011746,Nopal,072,904504,FALSE
+Quintana Roo,23,Urbano,011748,Zanahoria,078,904508,FALSE
+Quintana Roo,23,Urbano,011751,Papa,073,904505,FALSE
+Quintana Roo,23,Urbano,011761,Frijol en grano,068,904514,FALSE
+Quintana Roo,23,Urbano,011797,Frijol procesado,069,904519,FALSE
+Quintana Roo,23,Urbano,011810,Azúcar,082,904526,FALSE
+Quintana Roo,23,Urbano,011911,Alimentos preparados para consumo inmediato,269,904552,FALSE
+Quintana Roo,23,Urbano,011942,Cilantro,087,904511,FALSE
+Quintana Roo,23,Urbano,012100,Jugos de frutas o verduras envasados,095,904523,FALSE
+Quintana Roo,23,Urbano,012201,Café soluble,096,904528,FALSE
+Quintana Roo,23,Urbano,012501,Agua natural embotellada,099,904532,FALSE
+Quintana Roo,23,Urbano,012601,Refrescos sabor cola,100,904533,FALSE
+Quintana Roo,23,Urbano,012602,Refrescos de otros sabores,100,904533,FALSE
+Quintana Roo,23,Urbano,111111,Desayunos,25,904547,TRUE
+Quintana Roo,23,Urbano,111112,Comidas,25,904547,TRUE
+Quintana Roo,23,Urbano,111113,Cenas,25,904547,TRUE
+Quintana Roo,23,Urbano,111124,Otros alimentos cocinados,269,904552,FALSE
+Quintana Roo,23,Urbano,111126,Pollos rostizados,267,904551,FALSE
+Quintana Roo,23,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,904436,FALSE
+Quintana Roo,23,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,904436,FALSE
+Quintana Roo,23,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,904444,FALSE
+Quintana Roo,23,Urbano,181134,Plátano verde y Tabasco,055,904491,FALSE
+San Luis Potosí,24,Urbano,011111,Arroz en grano,001,904862,FALSE
+San Luis Potosí,24,Urbano,011131,Tortillas de maíz,014,904848,FALSE
+San Luis Potosí,24,Urbano,011132,Tortillas de harina de trigo,015,904860,FALSE
+San Luis Potosí,24,Urbano,011133,Pan,008,904851,FALSE
+San Luis Potosí,24,Urbano,011134,Pan de caja,009,904852,FALSE
+San Luis Potosí,24,Urbano,011135,Galletas dulces,004,904857,FALSE
+San Luis Potosí,24,Urbano,011137,Pan dulce a granel,010,904853,FALSE
+San Luis Potosí,24,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,904859,FALSE
+San Luis Potosí,24,Urbano,011192,Tostadas,016,904849,FALSE
+San Luis Potosí,24,Urbano,011221,Bistec de res,018,904871,FALSE
+San Luis Potosí,24,Urbano,011224,Molida de res,018,904871,FALSE
+San Luis Potosí,24,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,904866,FALSE
+San Luis Potosí,24,Urbano,011231,Jamón de puerco,021,904876,FALSE
+San Luis Potosí,24,Urbano,011252,Chorizo de puerco,020,904875,FALSE
+San Luis Potosí,24,Urbano,011411,Leche entera fresca,034,904888,FALSE
+San Luis Potosí,24,Urbano,011433,Crema,030,904895,FALSE
+San Luis Potosí,24,Urbano,011451,Queso fresco,037,904897,FALSE
+San Luis Potosí,24,Urbano,011454,Queso Oaxaca o asadero,039,904899,FALSE
+San Luis Potosí,24,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,904901,FALSE
+San Luis Potosí,24,Urbano,011481,Huevo de gallina,031,904905,FALSE
+San Luis Potosí,24,Urbano,011512,Otros aceites vegetales comestibles,042,904908,FALSE
+San Luis Potosí,24,Urbano,011592,Chicharrón,019,904874,FALSE
+San Luis Potosí,24,Urbano,011611,Aguacate,045,904911,FALSE
+San Luis Potosí,24,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,904921,FALSE
+San Luis Potosí,24,Urbano,011621,Limón,048,904914,FALSE
+San Luis Potosí,24,Urbano,011633,Manzana y perón,049,904915,FALSE
+San Luis Potosí,24,Urbano,011712,Lechuga,071,904933,FALSE
+San Luis Potosí,24,Urbano,011721,Calabaza,060,904926,FALSE
+San Luis Potosí,24,Urbano,011722,Chayote,062,904928,FALSE
+San Luis Potosí,24,Urbano,011725,Chile serrano,065,904930,FALSE
+San Luis Potosí,24,Urbano,011727,Jitomate (tomate rojo),070,904932,FALSE
+San Luis Potosí,24,Urbano,011728,Pepino,075,904936,FALSE
+San Luis Potosí,24,Urbano,011729,Tomate verde,076,904937,FALSE
+San Luis Potosí,24,Urbano,011743,Cebolla,061,904927,FALSE
+San Luis Potosí,24,Urbano,011746,Nopal,072,904934,FALSE
+San Luis Potosí,24,Urbano,011748,Zanahoria,078,904938,FALSE
+San Luis Potosí,24,Urbano,011751,Papa,073,904935,FALSE
+San Luis Potosí,24,Urbano,011761,Frijol en grano,068,904944,FALSE
+San Luis Potosí,24,Urbano,011797,Frijol procesado,069,904949,FALSE
+San Luis Potosí,24,Urbano,011810,Azúcar,082,904956,FALSE
+San Luis Potosí,24,Urbano,011911,Alimentos preparados para consumo inmediato,269,904982,FALSE
+San Luis Potosí,24,Urbano,011942,Cilantro,087,904941,FALSE
+San Luis Potosí,24,Urbano,012100,Jugos de frutas o verduras envasados,095,904953,FALSE
+San Luis Potosí,24,Urbano,012201,Café soluble,096,904958,FALSE
+San Luis Potosí,24,Urbano,012501,Agua natural embotellada,099,904962,FALSE
+San Luis Potosí,24,Urbano,012601,Refrescos sabor cola,100,904963,FALSE
+San Luis Potosí,24,Urbano,012602,Refrescos de otros sabores,100,904963,FALSE
+San Luis Potosí,24,Urbano,111111,Desayunos,25,904977,TRUE
+San Luis Potosí,24,Urbano,111112,Comidas,25,904977,TRUE
+San Luis Potosí,24,Urbano,111113,Cenas,25,904977,TRUE
+San Luis Potosí,24,Urbano,111124,Otros alimentos cocinados,269,904982,FALSE
+San Luis Potosí,24,Urbano,111126,Pollos rostizados,267,904981,FALSE
+San Luis Potosí,24,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,904866,FALSE
+San Luis Potosí,24,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,904866,FALSE
+San Luis Potosí,24,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,904874,FALSE
+San Luis Potosí,24,Urbano,181134,Plátano verde y Tabasco,055,904921,FALSE
+Sinaloa,25,Urbano,011111,Arroz en grano,001,905292,FALSE
+Sinaloa,25,Urbano,011131,Tortillas de maíz,014,905278,FALSE
+Sinaloa,25,Urbano,011132,Tortillas de harina de trigo,015,905290,FALSE
+Sinaloa,25,Urbano,011133,Pan,008,905281,FALSE
+Sinaloa,25,Urbano,011134,Pan de caja,009,905282,FALSE
+Sinaloa,25,Urbano,011135,Galletas dulces,004,905287,FALSE
+Sinaloa,25,Urbano,011137,Pan dulce a granel,010,905283,FALSE
+Sinaloa,25,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,905289,FALSE
+Sinaloa,25,Urbano,011192,Tostadas,016,905279,FALSE
+Sinaloa,25,Urbano,011221,Bistec de res,018,905301,FALSE
+Sinaloa,25,Urbano,011224,Molida de res,018,905301,FALSE
+Sinaloa,25,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,905296,FALSE
+Sinaloa,25,Urbano,011231,Jamón de puerco,021,905306,FALSE
+Sinaloa,25,Urbano,011252,Chorizo de puerco,020,905305,FALSE
+Sinaloa,25,Urbano,011411,Leche entera fresca,034,905318,FALSE
+Sinaloa,25,Urbano,011433,Crema,030,905325,FALSE
+Sinaloa,25,Urbano,011451,Queso fresco,037,905327,FALSE
+Sinaloa,25,Urbano,011454,Queso Oaxaca o asadero,039,905329,FALSE
+Sinaloa,25,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,905331,FALSE
+Sinaloa,25,Urbano,011481,Huevo de gallina,031,905335,FALSE
+Sinaloa,25,Urbano,011512,Otros aceites vegetales comestibles,042,905338,FALSE
+Sinaloa,25,Urbano,011592,Chicharrón,019,905304,FALSE
+Sinaloa,25,Urbano,011611,Aguacate,045,905341,FALSE
+Sinaloa,25,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,905351,FALSE
+Sinaloa,25,Urbano,011621,Limón,048,905344,FALSE
+Sinaloa,25,Urbano,011633,Manzana y perón,049,905345,FALSE
+Sinaloa,25,Urbano,011712,Lechuga,071,905363,FALSE
+Sinaloa,25,Urbano,011721,Calabaza,060,905356,FALSE
+Sinaloa,25,Urbano,011722,Chayote,062,905358,FALSE
+Sinaloa,25,Urbano,011725,Chile serrano,065,905360,FALSE
+Sinaloa,25,Urbano,011727,Jitomate (tomate rojo),070,905362,FALSE
+Sinaloa,25,Urbano,011728,Pepino,075,905366,FALSE
+Sinaloa,25,Urbano,011729,Tomate verde,076,905367,FALSE
+Sinaloa,25,Urbano,011743,Cebolla,061,905357,FALSE
+Sinaloa,25,Urbano,011746,Nopal,072,905364,FALSE
+Sinaloa,25,Urbano,011748,Zanahoria,078,905368,FALSE
+Sinaloa,25,Urbano,011751,Papa,073,905365,FALSE
+Sinaloa,25,Urbano,011761,Frijol en grano,068,905374,FALSE
+Sinaloa,25,Urbano,011797,Frijol procesado,069,905379,FALSE
+Sinaloa,25,Urbano,011810,Azúcar,082,905386,FALSE
+Sinaloa,25,Urbano,011911,Alimentos preparados para consumo inmediato,269,905412,FALSE
+Sinaloa,25,Urbano,011942,Cilantro,087,905371,FALSE
+Sinaloa,25,Urbano,012100,Jugos de frutas o verduras envasados,095,905383,FALSE
+Sinaloa,25,Urbano,012201,Café soluble,096,905388,FALSE
+Sinaloa,25,Urbano,012501,Agua natural embotellada,099,905392,FALSE
+Sinaloa,25,Urbano,012601,Refrescos sabor cola,100,905393,FALSE
+Sinaloa,25,Urbano,012602,Refrescos de otros sabores,100,905393,FALSE
+Sinaloa,25,Urbano,111111,Desayunos,25,905407,TRUE
+Sinaloa,25,Urbano,111112,Comidas,25,905407,TRUE
+Sinaloa,25,Urbano,111113,Cenas,25,905407,TRUE
+Sinaloa,25,Urbano,111124,Otros alimentos cocinados,269,905412,FALSE
+Sinaloa,25,Urbano,111126,Pollos rostizados,267,905411,FALSE
+Sinaloa,25,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,905296,FALSE
+Sinaloa,25,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,905296,FALSE
+Sinaloa,25,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,905304,FALSE
+Sinaloa,25,Urbano,181134,Plátano verde y Tabasco,055,905351,FALSE
+Sonora,26,Urbano,011111,Arroz en grano,001,905722,FALSE
+Sonora,26,Urbano,011131,Tortillas de maíz,014,905708,FALSE
+Sonora,26,Urbano,011132,Tortillas de harina de trigo,015,905720,FALSE
+Sonora,26,Urbano,011133,Pan,008,905711,FALSE
+Sonora,26,Urbano,011134,Pan de caja,009,905712,FALSE
+Sonora,26,Urbano,011135,Galletas dulces,004,905717,FALSE
+Sonora,26,Urbano,011137,Pan dulce a granel,010,905713,FALSE
+Sonora,26,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,905719,FALSE
+Sonora,26,Urbano,011192,Tostadas,016,905709,FALSE
+Sonora,26,Urbano,011221,Bistec de res,018,905731,FALSE
+Sonora,26,Urbano,011224,Molida de res,018,905731,FALSE
+Sonora,26,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,905726,FALSE
+Sonora,26,Urbano,011231,Jamón de puerco,021,905736,FALSE
+Sonora,26,Urbano,011252,Chorizo de puerco,020,905735,FALSE
+Sonora,26,Urbano,011411,Leche entera fresca,034,905748,FALSE
+Sonora,26,Urbano,011433,Crema,030,905755,FALSE
+Sonora,26,Urbano,011451,Queso fresco,037,905757,FALSE
+Sonora,26,Urbano,011454,Queso Oaxaca o asadero,039,905759,FALSE
+Sonora,26,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,905761,FALSE
+Sonora,26,Urbano,011481,Huevo de gallina,031,905765,FALSE
+Sonora,26,Urbano,011512,Otros aceites vegetales comestibles,042,905768,FALSE
+Sonora,26,Urbano,011592,Chicharrón,019,905734,FALSE
+Sonora,26,Urbano,011611,Aguacate,045,905771,FALSE
+Sonora,26,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,905781,FALSE
+Sonora,26,Urbano,011621,Limón,048,905774,FALSE
+Sonora,26,Urbano,011633,Manzana y perón,049,905775,FALSE
+Sonora,26,Urbano,011712,Lechuga,071,905793,FALSE
+Sonora,26,Urbano,011721,Calabaza,060,905786,FALSE
+Sonora,26,Urbano,011722,Chayote,062,905788,FALSE
+Sonora,26,Urbano,011725,Chile serrano,065,905790,FALSE
+Sonora,26,Urbano,011727,Jitomate (tomate rojo),070,905792,FALSE
+Sonora,26,Urbano,011728,Pepino,075,905796,FALSE
+Sonora,26,Urbano,011729,Tomate verde,076,905797,FALSE
+Sonora,26,Urbano,011743,Cebolla,061,905787,FALSE
+Sonora,26,Urbano,011746,Nopal,072,905794,FALSE
+Sonora,26,Urbano,011748,Zanahoria,078,905798,FALSE
+Sonora,26,Urbano,011751,Papa,073,905795,FALSE
+Sonora,26,Urbano,011761,Frijol en grano,068,905804,FALSE
+Sonora,26,Urbano,011797,Frijol procesado,069,905809,FALSE
+Sonora,26,Urbano,011810,Azúcar,082,905816,FALSE
+Sonora,26,Urbano,011911,Alimentos preparados para consumo inmediato,269,905842,FALSE
+Sonora,26,Urbano,011942,Cilantro,087,905801,FALSE
+Sonora,26,Urbano,012100,Jugos de frutas o verduras envasados,095,905813,FALSE
+Sonora,26,Urbano,012201,Café soluble,096,905818,FALSE
+Sonora,26,Urbano,012501,Agua natural embotellada,099,905822,FALSE
+Sonora,26,Urbano,012601,Refrescos sabor cola,100,905823,FALSE
+Sonora,26,Urbano,012602,Refrescos de otros sabores,100,905823,FALSE
+Sonora,26,Urbano,111111,Desayunos,25,905837,TRUE
+Sonora,26,Urbano,111112,Comidas,25,905837,TRUE
+Sonora,26,Urbano,111113,Cenas,25,905837,TRUE
+Sonora,26,Urbano,111124,Otros alimentos cocinados,269,905842,FALSE
+Sonora,26,Urbano,111126,Pollos rostizados,267,905841,FALSE
+Sonora,26,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,905726,FALSE
+Sonora,26,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,905726,FALSE
+Sonora,26,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,905734,FALSE
+Sonora,26,Urbano,181134,Plátano verde y Tabasco,055,905781,FALSE
+Tabasco,27,Urbano,011111,Arroz en grano,001,906152,FALSE
+Tabasco,27,Urbano,011131,Tortillas de maíz,014,906138,FALSE
+Tabasco,27,Urbano,011132,Tortillas de harina de trigo,015,906150,FALSE
+Tabasco,27,Urbano,011133,Pan,008,906141,FALSE
+Tabasco,27,Urbano,011134,Pan de caja,009,906142,FALSE
+Tabasco,27,Urbano,011135,Galletas dulces,004,906147,FALSE
+Tabasco,27,Urbano,011137,Pan dulce a granel,010,906143,FALSE
+Tabasco,27,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,906149,FALSE
+Tabasco,27,Urbano,011192,Tostadas,016,906139,FALSE
+Tabasco,27,Urbano,011221,Bistec de res,018,906161,FALSE
+Tabasco,27,Urbano,011224,Molida de res,018,906161,FALSE
+Tabasco,27,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,906156,FALSE
+Tabasco,27,Urbano,011231,Jamón de puerco,021,906166,FALSE
+Tabasco,27,Urbano,011252,Chorizo de puerco,020,906165,FALSE
+Tabasco,27,Urbano,011411,Leche entera fresca,034,906178,FALSE
+Tabasco,27,Urbano,011433,Crema,030,906185,FALSE
+Tabasco,27,Urbano,011451,Queso fresco,037,906187,FALSE
+Tabasco,27,Urbano,011454,Queso Oaxaca o asadero,039,906189,FALSE
+Tabasco,27,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,906191,FALSE
+Tabasco,27,Urbano,011481,Huevo de gallina,031,906195,FALSE
+Tabasco,27,Urbano,011512,Otros aceites vegetales comestibles,042,906198,FALSE
+Tabasco,27,Urbano,011592,Chicharrón,019,906164,FALSE
+Tabasco,27,Urbano,011611,Aguacate,045,906201,FALSE
+Tabasco,27,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,906211,FALSE
+Tabasco,27,Urbano,011621,Limón,048,906204,FALSE
+Tabasco,27,Urbano,011633,Manzana y perón,049,906205,FALSE
+Tabasco,27,Urbano,011712,Lechuga,071,906223,FALSE
+Tabasco,27,Urbano,011721,Calabaza,060,906216,FALSE
+Tabasco,27,Urbano,011722,Chayote,062,906218,FALSE
+Tabasco,27,Urbano,011725,Chile serrano,065,906220,FALSE
+Tabasco,27,Urbano,011727,Jitomate (tomate rojo),070,906222,FALSE
+Tabasco,27,Urbano,011728,Pepino,075,906226,FALSE
+Tabasco,27,Urbano,011729,Tomate verde,076,906227,FALSE
+Tabasco,27,Urbano,011743,Cebolla,061,906217,FALSE
+Tabasco,27,Urbano,011746,Nopal,072,906224,FALSE
+Tabasco,27,Urbano,011748,Zanahoria,078,906228,FALSE
+Tabasco,27,Urbano,011751,Papa,073,906225,FALSE
+Tabasco,27,Urbano,011761,Frijol en grano,068,906234,FALSE
+Tabasco,27,Urbano,011797,Frijol procesado,069,906239,FALSE
+Tabasco,27,Urbano,011810,Azúcar,082,906246,FALSE
+Tabasco,27,Urbano,011911,Alimentos preparados para consumo inmediato,269,906272,FALSE
+Tabasco,27,Urbano,011942,Cilantro,087,906231,FALSE
+Tabasco,27,Urbano,012100,Jugos de frutas o verduras envasados,095,906243,FALSE
+Tabasco,27,Urbano,012201,Café soluble,096,906248,FALSE
+Tabasco,27,Urbano,012501,Agua natural embotellada,099,906252,FALSE
+Tabasco,27,Urbano,012601,Refrescos sabor cola,100,906253,FALSE
+Tabasco,27,Urbano,012602,Refrescos de otros sabores,100,906253,FALSE
+Tabasco,27,Urbano,111111,Desayunos,25,906267,TRUE
+Tabasco,27,Urbano,111112,Comidas,25,906267,TRUE
+Tabasco,27,Urbano,111113,Cenas,25,906267,TRUE
+Tabasco,27,Urbano,111124,Otros alimentos cocinados,269,906272,FALSE
+Tabasco,27,Urbano,111126,Pollos rostizados,267,906271,FALSE
+Tabasco,27,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,906156,FALSE
+Tabasco,27,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,906156,FALSE
+Tabasco,27,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,906164,FALSE
+Tabasco,27,Urbano,181134,Plátano verde y Tabasco,055,906211,FALSE
+Tamaulipas,28,Urbano,011111,Arroz en grano,001,906582,FALSE
+Tamaulipas,28,Urbano,011131,Tortillas de maíz,014,906568,FALSE
+Tamaulipas,28,Urbano,011132,Tortillas de harina de trigo,015,906580,FALSE
+Tamaulipas,28,Urbano,011133,Pan,008,906571,FALSE
+Tamaulipas,28,Urbano,011134,Pan de caja,009,906572,FALSE
+Tamaulipas,28,Urbano,011135,Galletas dulces,004,906577,FALSE
+Tamaulipas,28,Urbano,011137,Pan dulce a granel,010,906573,FALSE
+Tamaulipas,28,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,906579,FALSE
+Tamaulipas,28,Urbano,011192,Tostadas,016,906569,FALSE
+Tamaulipas,28,Urbano,011221,Bistec de res,018,906591,FALSE
+Tamaulipas,28,Urbano,011224,Molida de res,018,906591,FALSE
+Tamaulipas,28,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,906586,FALSE
+Tamaulipas,28,Urbano,011231,Jamón de puerco,021,906596,FALSE
+Tamaulipas,28,Urbano,011252,Chorizo de puerco,020,906595,FALSE
+Tamaulipas,28,Urbano,011411,Leche entera fresca,034,906608,FALSE
+Tamaulipas,28,Urbano,011433,Crema,030,906615,FALSE
+Tamaulipas,28,Urbano,011451,Queso fresco,037,906617,FALSE
+Tamaulipas,28,Urbano,011454,Queso Oaxaca o asadero,039,906619,FALSE
+Tamaulipas,28,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,906621,FALSE
+Tamaulipas,28,Urbano,011481,Huevo de gallina,031,906625,FALSE
+Tamaulipas,28,Urbano,011512,Otros aceites vegetales comestibles,042,906628,FALSE
+Tamaulipas,28,Urbano,011592,Chicharrón,019,906594,FALSE
+Tamaulipas,28,Urbano,011611,Aguacate,045,906631,FALSE
+Tamaulipas,28,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,906641,FALSE
+Tamaulipas,28,Urbano,011621,Limón,048,906634,FALSE
+Tamaulipas,28,Urbano,011633,Manzana y perón,049,906635,FALSE
+Tamaulipas,28,Urbano,011712,Lechuga,071,906653,FALSE
+Tamaulipas,28,Urbano,011721,Calabaza,060,906646,FALSE
+Tamaulipas,28,Urbano,011722,Chayote,062,906648,FALSE
+Tamaulipas,28,Urbano,011725,Chile serrano,065,906650,FALSE
+Tamaulipas,28,Urbano,011727,Jitomate (tomate rojo),070,906652,FALSE
+Tamaulipas,28,Urbano,011728,Pepino,075,906656,FALSE
+Tamaulipas,28,Urbano,011729,Tomate verde,076,906657,FALSE
+Tamaulipas,28,Urbano,011743,Cebolla,061,906647,FALSE
+Tamaulipas,28,Urbano,011746,Nopal,072,906654,FALSE
+Tamaulipas,28,Urbano,011748,Zanahoria,078,906658,FALSE
+Tamaulipas,28,Urbano,011751,Papa,073,906655,FALSE
+Tamaulipas,28,Urbano,011761,Frijol en grano,068,906664,FALSE
+Tamaulipas,28,Urbano,011797,Frijol procesado,069,906669,FALSE
+Tamaulipas,28,Urbano,011810,Azúcar,082,906676,FALSE
+Tamaulipas,28,Urbano,011911,Alimentos preparados para consumo inmediato,269,906702,FALSE
+Tamaulipas,28,Urbano,011942,Cilantro,087,906661,FALSE
+Tamaulipas,28,Urbano,012100,Jugos de frutas o verduras envasados,095,906673,FALSE
+Tamaulipas,28,Urbano,012201,Café soluble,096,906678,FALSE
+Tamaulipas,28,Urbano,012501,Agua natural embotellada,099,906682,FALSE
+Tamaulipas,28,Urbano,012601,Refrescos sabor cola,100,906683,FALSE
+Tamaulipas,28,Urbano,012602,Refrescos de otros sabores,100,906683,FALSE
+Tamaulipas,28,Urbano,111111,Desayunos,25,906697,TRUE
+Tamaulipas,28,Urbano,111112,Comidas,25,906697,TRUE
+Tamaulipas,28,Urbano,111113,Cenas,25,906697,TRUE
+Tamaulipas,28,Urbano,111124,Otros alimentos cocinados,269,906702,FALSE
+Tamaulipas,28,Urbano,111126,Pollos rostizados,267,906701,FALSE
+Tamaulipas,28,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,906586,FALSE
+Tamaulipas,28,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,906586,FALSE
+Tamaulipas,28,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,906594,FALSE
+Tamaulipas,28,Urbano,181134,Plátano verde y Tabasco,055,906641,FALSE
+Tlaxcala,29,Urbano,011111,Arroz en grano,001,907012,FALSE
+Tlaxcala,29,Urbano,011131,Tortillas de maíz,014,906998,FALSE
+Tlaxcala,29,Urbano,011132,Tortillas de harina de trigo,015,907010,FALSE
+Tlaxcala,29,Urbano,011133,Pan,008,907001,FALSE
+Tlaxcala,29,Urbano,011134,Pan de caja,009,907002,FALSE
+Tlaxcala,29,Urbano,011135,Galletas dulces,004,907007,FALSE
+Tlaxcala,29,Urbano,011137,Pan dulce a granel,010,907003,FALSE
+Tlaxcala,29,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,907009,FALSE
+Tlaxcala,29,Urbano,011192,Tostadas,016,906999,FALSE
+Tlaxcala,29,Urbano,011221,Bistec de res,018,907021,FALSE
+Tlaxcala,29,Urbano,011224,Molida de res,018,907021,FALSE
+Tlaxcala,29,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,907016,FALSE
+Tlaxcala,29,Urbano,011231,Jamón de puerco,021,907026,FALSE
+Tlaxcala,29,Urbano,011252,Chorizo de puerco,020,907025,FALSE
+Tlaxcala,29,Urbano,011411,Leche entera fresca,034,907038,FALSE
+Tlaxcala,29,Urbano,011433,Crema,030,907045,FALSE
+Tlaxcala,29,Urbano,011451,Queso fresco,037,907047,FALSE
+Tlaxcala,29,Urbano,011454,Queso Oaxaca o asadero,039,907049,FALSE
+Tlaxcala,29,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,907051,FALSE
+Tlaxcala,29,Urbano,011481,Huevo de gallina,031,907055,FALSE
+Tlaxcala,29,Urbano,011512,Otros aceites vegetales comestibles,042,907058,FALSE
+Tlaxcala,29,Urbano,011592,Chicharrón,019,907024,FALSE
+Tlaxcala,29,Urbano,011611,Aguacate,045,907061,FALSE
+Tlaxcala,29,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,907071,FALSE
+Tlaxcala,29,Urbano,011621,Limón,048,907064,FALSE
+Tlaxcala,29,Urbano,011633,Manzana y perón,049,907065,FALSE
+Tlaxcala,29,Urbano,011712,Lechuga,071,907083,FALSE
+Tlaxcala,29,Urbano,011721,Calabaza,060,907076,FALSE
+Tlaxcala,29,Urbano,011722,Chayote,062,907078,FALSE
+Tlaxcala,29,Urbano,011725,Chile serrano,065,907080,FALSE
+Tlaxcala,29,Urbano,011727,Jitomate (tomate rojo),070,907082,FALSE
+Tlaxcala,29,Urbano,011728,Pepino,075,907086,FALSE
+Tlaxcala,29,Urbano,011729,Tomate verde,076,907087,FALSE
+Tlaxcala,29,Urbano,011743,Cebolla,061,907077,FALSE
+Tlaxcala,29,Urbano,011746,Nopal,072,907084,FALSE
+Tlaxcala,29,Urbano,011748,Zanahoria,078,907088,FALSE
+Tlaxcala,29,Urbano,011751,Papa,073,907085,FALSE
+Tlaxcala,29,Urbano,011761,Frijol en grano,068,907094,FALSE
+Tlaxcala,29,Urbano,011797,Frijol procesado,069,907099,FALSE
+Tlaxcala,29,Urbano,011810,Azúcar,082,907106,FALSE
+Tlaxcala,29,Urbano,011911,Alimentos preparados para consumo inmediato,269,907132,FALSE
+Tlaxcala,29,Urbano,011942,Cilantro,087,907091,FALSE
+Tlaxcala,29,Urbano,012100,Jugos de frutas o verduras envasados,095,907103,FALSE
+Tlaxcala,29,Urbano,012201,Café soluble,096,907108,FALSE
+Tlaxcala,29,Urbano,012501,Agua natural embotellada,099,907112,FALSE
+Tlaxcala,29,Urbano,012601,Refrescos sabor cola,100,907113,FALSE
+Tlaxcala,29,Urbano,012602,Refrescos de otros sabores,100,907113,FALSE
+Tlaxcala,29,Urbano,111111,Desayunos,25,907127,TRUE
+Tlaxcala,29,Urbano,111112,Comidas,25,907127,TRUE
+Tlaxcala,29,Urbano,111113,Cenas,25,907127,TRUE
+Tlaxcala,29,Urbano,111124,Otros alimentos cocinados,269,907132,FALSE
+Tlaxcala,29,Urbano,111126,Pollos rostizados,267,907131,FALSE
+Tlaxcala,29,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,907016,FALSE
+Tlaxcala,29,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,907016,FALSE
+Tlaxcala,29,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,907024,FALSE
+Tlaxcala,29,Urbano,181134,Plátano verde y Tabasco,055,907071,FALSE
+Veracruz,30,Urbano,011111,Arroz en grano,001,907442,FALSE
+Veracruz,30,Urbano,011131,Tortillas de maíz,014,907428,FALSE
+Veracruz,30,Urbano,011132,Tortillas de harina de trigo,015,907440,FALSE
+Veracruz,30,Urbano,011133,Pan,008,907431,FALSE
+Veracruz,30,Urbano,011134,Pan de caja,009,907432,FALSE
+Veracruz,30,Urbano,011135,Galletas dulces,004,907437,FALSE
+Veracruz,30,Urbano,011137,Pan dulce a granel,010,907433,FALSE
+Veracruz,30,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,907439,FALSE
+Veracruz,30,Urbano,011192,Tostadas,016,907429,FALSE
+Veracruz,30,Urbano,011221,Bistec de res,018,907451,FALSE
+Veracruz,30,Urbano,011224,Molida de res,018,907451,FALSE
+Veracruz,30,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,907446,FALSE
+Veracruz,30,Urbano,011231,Jamón de puerco,021,907456,FALSE
+Veracruz,30,Urbano,011252,Chorizo de puerco,020,907455,FALSE
+Veracruz,30,Urbano,011411,Leche entera fresca,034,907468,FALSE
+Veracruz,30,Urbano,011433,Crema,030,907475,FALSE
+Veracruz,30,Urbano,011451,Queso fresco,037,907477,FALSE
+Veracruz,30,Urbano,011454,Queso Oaxaca o asadero,039,907479,FALSE
+Veracruz,30,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,907481,FALSE
+Veracruz,30,Urbano,011481,Huevo de gallina,031,907485,FALSE
+Veracruz,30,Urbano,011512,Otros aceites vegetales comestibles,042,907488,FALSE
+Veracruz,30,Urbano,011592,Chicharrón,019,907454,FALSE
+Veracruz,30,Urbano,011611,Aguacate,045,907491,FALSE
+Veracruz,30,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,907501,FALSE
+Veracruz,30,Urbano,011621,Limón,048,907494,FALSE
+Veracruz,30,Urbano,011633,Manzana y perón,049,907495,FALSE
+Veracruz,30,Urbano,011712,Lechuga,071,907513,FALSE
+Veracruz,30,Urbano,011721,Calabaza,060,907506,FALSE
+Veracruz,30,Urbano,011722,Chayote,062,907508,FALSE
+Veracruz,30,Urbano,011725,Chile serrano,065,907510,FALSE
+Veracruz,30,Urbano,011727,Jitomate (tomate rojo),070,907512,FALSE
+Veracruz,30,Urbano,011728,Pepino,075,907516,FALSE
+Veracruz,30,Urbano,011729,Tomate verde,076,907517,FALSE
+Veracruz,30,Urbano,011743,Cebolla,061,907507,FALSE
+Veracruz,30,Urbano,011746,Nopal,072,907514,FALSE
+Veracruz,30,Urbano,011748,Zanahoria,078,907518,FALSE
+Veracruz,30,Urbano,011751,Papa,073,907515,FALSE
+Veracruz,30,Urbano,011761,Frijol en grano,068,907524,FALSE
+Veracruz,30,Urbano,011797,Frijol procesado,069,907529,FALSE
+Veracruz,30,Urbano,011810,Azúcar,082,907536,FALSE
+Veracruz,30,Urbano,011911,Alimentos preparados para consumo inmediato,269,907562,FALSE
+Veracruz,30,Urbano,011942,Cilantro,087,907521,FALSE
+Veracruz,30,Urbano,012100,Jugos de frutas o verduras envasados,095,907533,FALSE
+Veracruz,30,Urbano,012201,Café soluble,096,907538,FALSE
+Veracruz,30,Urbano,012501,Agua natural embotellada,099,907542,FALSE
+Veracruz,30,Urbano,012601,Refrescos sabor cola,100,907543,FALSE
+Veracruz,30,Urbano,012602,Refrescos de otros sabores,100,907543,FALSE
+Veracruz,30,Urbano,111111,Desayunos,25,907557,TRUE
+Veracruz,30,Urbano,111112,Comidas,25,907557,TRUE
+Veracruz,30,Urbano,111113,Cenas,25,907557,TRUE
+Veracruz,30,Urbano,111124,Otros alimentos cocinados,269,907562,FALSE
+Veracruz,30,Urbano,111126,Pollos rostizados,267,907561,FALSE
+Veracruz,30,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,907446,FALSE
+Veracruz,30,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,907446,FALSE
+Veracruz,30,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,907454,FALSE
+Veracruz,30,Urbano,181134,Plátano verde y Tabasco,055,907501,FALSE
+Yucatán,31,Urbano,011111,Arroz en grano,001,907872,FALSE
+Yucatán,31,Urbano,011131,Tortillas de maíz,014,907858,FALSE
+Yucatán,31,Urbano,011132,Tortillas de harina de trigo,015,907870,FALSE
+Yucatán,31,Urbano,011133,Pan,008,907861,FALSE
+Yucatán,31,Urbano,011134,Pan de caja,009,907862,FALSE
+Yucatán,31,Urbano,011135,Galletas dulces,004,907867,FALSE
+Yucatán,31,Urbano,011137,Pan dulce a granel,010,907863,FALSE
+Yucatán,31,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,907869,FALSE
+Yucatán,31,Urbano,011192,Tostadas,016,907859,FALSE
+Yucatán,31,Urbano,011221,Bistec de res,018,907881,FALSE
+Yucatán,31,Urbano,011224,Molida de res,018,907881,FALSE
+Yucatán,31,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,907876,FALSE
+Yucatán,31,Urbano,011231,Jamón de puerco,021,907886,FALSE
+Yucatán,31,Urbano,011252,Chorizo de puerco,020,907885,FALSE
+Yucatán,31,Urbano,011411,Leche entera fresca,034,907898,FALSE
+Yucatán,31,Urbano,011433,Crema,030,907905,FALSE
+Yucatán,31,Urbano,011451,Queso fresco,037,907907,FALSE
+Yucatán,31,Urbano,011454,Queso Oaxaca o asadero,039,907909,FALSE
+Yucatán,31,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,907911,FALSE
+Yucatán,31,Urbano,011481,Huevo de gallina,031,907915,FALSE
+Yucatán,31,Urbano,011512,Otros aceites vegetales comestibles,042,907918,FALSE
+Yucatán,31,Urbano,011592,Chicharrón,019,907884,FALSE
+Yucatán,31,Urbano,011611,Aguacate,045,907921,FALSE
+Yucatán,31,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,907931,FALSE
+Yucatán,31,Urbano,011621,Limón,048,907924,FALSE
+Yucatán,31,Urbano,011633,Manzana y perón,049,907925,FALSE
+Yucatán,31,Urbano,011712,Lechuga,071,907943,FALSE
+Yucatán,31,Urbano,011721,Calabaza,060,907936,FALSE
+Yucatán,31,Urbano,011722,Chayote,062,907938,FALSE
+Yucatán,31,Urbano,011725,Chile serrano,065,907940,FALSE
+Yucatán,31,Urbano,011727,Jitomate (tomate rojo),070,907942,FALSE
+Yucatán,31,Urbano,011728,Pepino,075,907946,FALSE
+Yucatán,31,Urbano,011729,Tomate verde,076,907947,FALSE
+Yucatán,31,Urbano,011743,Cebolla,061,907937,FALSE
+Yucatán,31,Urbano,011746,Nopal,072,907944,FALSE
+Yucatán,31,Urbano,011748,Zanahoria,078,907948,FALSE
+Yucatán,31,Urbano,011751,Papa,073,907945,FALSE
+Yucatán,31,Urbano,011761,Frijol en grano,068,907954,FALSE
+Yucatán,31,Urbano,011797,Frijol procesado,069,907959,FALSE
+Yucatán,31,Urbano,011810,Azúcar,082,907966,FALSE
+Yucatán,31,Urbano,011911,Alimentos preparados para consumo inmediato,269,907992,FALSE
+Yucatán,31,Urbano,011942,Cilantro,087,907951,FALSE
+Yucatán,31,Urbano,012100,Jugos de frutas o verduras envasados,095,907963,FALSE
+Yucatán,31,Urbano,012201,Café soluble,096,907968,FALSE
+Yucatán,31,Urbano,012501,Agua natural embotellada,099,907972,FALSE
+Yucatán,31,Urbano,012601,Refrescos sabor cola,100,907973,FALSE
+Yucatán,31,Urbano,012602,Refrescos de otros sabores,100,907973,FALSE
+Yucatán,31,Urbano,111111,Desayunos,25,907987,TRUE
+Yucatán,31,Urbano,111112,Comidas,25,907987,TRUE
+Yucatán,31,Urbano,111113,Cenas,25,907987,TRUE
+Yucatán,31,Urbano,111124,Otros alimentos cocinados,269,907992,FALSE
+Yucatán,31,Urbano,111126,Pollos rostizados,267,907991,FALSE
+Yucatán,31,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,907876,FALSE
+Yucatán,31,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,907876,FALSE
+Yucatán,31,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,907884,FALSE
+Yucatán,31,Urbano,181134,Plátano verde y Tabasco,055,907931,FALSE
+Zacatecas,32,Urbano,011111,Arroz en grano,001,908302,FALSE
+Zacatecas,32,Urbano,011131,Tortillas de maíz,014,908288,FALSE
+Zacatecas,32,Urbano,011132,Tortillas de harina de trigo,015,908300,FALSE
+Zacatecas,32,Urbano,011133,Pan,008,908291,FALSE
+Zacatecas,32,Urbano,011134,Pan de caja,009,908292,FALSE
+Zacatecas,32,Urbano,011135,Galletas dulces,004,908297,FALSE
+Zacatecas,32,Urbano,011137,Pan dulce a granel,010,908293,FALSE
+Zacatecas,32,Urbano,011150,"Spaghetti, pastas italianas y pastas para sopa",011,908299,FALSE
+Zacatecas,32,Urbano,011192,Tostadas,016,908289,FALSE
+Zacatecas,32,Urbano,011221,Bistec de res,018,908311,FALSE
+Zacatecas,32,Urbano,011224,Molida de res,018,908311,FALSE
+Zacatecas,32,Urbano,01122F,"Pollo entero o en piezas (excepto pierna, muslo y pechuga)",022,908306,FALSE
+Zacatecas,32,Urbano,011231,Jamón de puerco,021,908316,FALSE
+Zacatecas,32,Urbano,011252,Chorizo de puerco,020,908315,FALSE
+Zacatecas,32,Urbano,011411,Leche entera fresca,034,908328,FALSE
+Zacatecas,32,Urbano,011433,Crema,030,908335,FALSE
+Zacatecas,32,Urbano,011451,Queso fresco,037,908337,FALSE
+Zacatecas,32,Urbano,011454,Queso Oaxaca o asadero,039,908339,FALSE
+Zacatecas,32,Urbano,011460,Yogurt y bebidas fermentadas a base de leche,041,908341,FALSE
+Zacatecas,32,Urbano,011481,Huevo de gallina,031,908345,FALSE
+Zacatecas,32,Urbano,011512,Otros aceites vegetales comestibles,042,908348,FALSE
+Zacatecas,32,Urbano,011592,Chicharrón,019,908314,FALSE
+Zacatecas,32,Urbano,011611,Aguacate,045,908351,FALSE
+Zacatecas,32,Urbano,011616,"Otros plátanos: Chiapas, dominico, guineo, manzano, dorado, portalimón y Roatán",055,908361,FALSE
+Zacatecas,32,Urbano,011621,Limón,048,908354,FALSE
+Zacatecas,32,Urbano,011633,Manzana y perón,049,908355,FALSE
+Zacatecas,32,Urbano,011712,Lechuga,071,908373,FALSE
+Zacatecas,32,Urbano,011721,Calabaza,060,908366,FALSE
+Zacatecas,32,Urbano,011722,Chayote,062,908368,FALSE
+Zacatecas,32,Urbano,011725,Chile serrano,065,908370,FALSE
+Zacatecas,32,Urbano,011727,Jitomate (tomate rojo),070,908372,FALSE
+Zacatecas,32,Urbano,011728,Pepino,075,908376,FALSE
+Zacatecas,32,Urbano,011729,Tomate verde,076,908377,FALSE
+Zacatecas,32,Urbano,011743,Cebolla,061,908367,FALSE
+Zacatecas,32,Urbano,011746,Nopal,072,908374,FALSE
+Zacatecas,32,Urbano,011748,Zanahoria,078,908378,FALSE
+Zacatecas,32,Urbano,011751,Papa,073,908375,FALSE
+Zacatecas,32,Urbano,011761,Frijol en grano,068,908384,FALSE
+Zacatecas,32,Urbano,011797,Frijol procesado,069,908389,FALSE
+Zacatecas,32,Urbano,011810,Azúcar,082,908396,FALSE
+Zacatecas,32,Urbano,011911,Alimentos preparados para consumo inmediato,269,908422,FALSE
+Zacatecas,32,Urbano,011942,Cilantro,087,908381,FALSE
+Zacatecas,32,Urbano,012100,Jugos de frutas o verduras envasados,095,908393,FALSE
+Zacatecas,32,Urbano,012201,Café soluble,096,908398,FALSE
+Zacatecas,32,Urbano,012501,Agua natural embotellada,099,908402,FALSE
+Zacatecas,32,Urbano,012601,Refrescos sabor cola,100,908403,FALSE
+Zacatecas,32,Urbano,012602,Refrescos de otros sabores,100,908403,FALSE
+Zacatecas,32,Urbano,111111,Desayunos,25,908417,TRUE
+Zacatecas,32,Urbano,111112,Comidas,25,908417,TRUE
+Zacatecas,32,Urbano,111113,Cenas,25,908417,TRUE
+Zacatecas,32,Urbano,111124,Otros alimentos cocinados,269,908422,FALSE
+Zacatecas,32,Urbano,111126,Pollos rostizados,267,908421,FALSE
+Zacatecas,32,Urbano,181124,"Pierna, muslo o pechuga de pollo con hueso",022,908306,FALSE
+Zacatecas,32,Urbano,181125,"Pierna, muslo o pechuga de pollo sin hueso",022,908306,FALSE
+Zacatecas,32,Urbano,181126,"Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de pollo, pavo y otras aves, etcétera",019,908314,FALSE
+Zacatecas,32,Urbano,181134,Plátano verde y Tabasco,055,908361,FALSE
