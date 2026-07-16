@@ -10,7 +10,7 @@ rm(list = ls()); gc()
 
 pacman:::p_load(tidyverse, dplyr, data.table)
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 #_______________________________________________________________________________
 
@@ -107,26 +107,35 @@ proporciones <- canasta %>%
   ungroup() %>% 
   select(nom_ent, ambito, componente, proporcion)
 
-ggplot(proporciones %>% filter(nom_ent == "Nacional")) +
+g_componentes <- ggplot(proporciones %>% filter(nom_ent == "Nacional")) +
   #circulo
   geom_bar(aes(x = 2, y = proporcion, fill = componente),
-           stat = "identity", color = "white") + 
+           stat = "identity", color = conasami_neutros[["blanco"]]) +
   facet_wrap(~ambito) +
   coord_polar(theta = "y", start = 0) +
   xlim(0.5, 2.5) +
-  theme_conasami() +
   scale_fill_manual(
     values = c(
-      "alimentos_familiar" = "#a57f2c",
-      "vivienda_mensual" = "#98989A",
-      "nanv_familiar" = "#4C4C4C"
+      "alimentos_familiar" = conasami_colores[["guinda"]],
+      "vivienda_mensual"   = conasami_colores[["verde"]],
+      "nanv_familiar"      = conasami_colores[["dorado"]]
     ),
     labels = c(
       "alimentos_familiar" = "Alimentos (familiar)",
       "vivienda_mensual" = "Vivienda (mensual)",
       "nanv_familiar" = "NANV (familiar)"
     )
-  ) 
+  ) +
+  labs(fill = "") +
+  theme_conasami() +
+  theme(
+    panel.grid = element_blank(),
+    axis.line  = element_blank(),
+    axis.text  = element_blank()
+  )
+
+guardar_grafica_conasami(g_componentes, "composicion_componentes_nacional",
+                         tamano = "ancho", dir = "graphs")
 
 
 

@@ -11,14 +11,14 @@
 #   paleta institucional DT 2026.
 #
 # Inputs:  salario_digno.csv (raíz; salida del script 4)
-# Outputs (graphs/maps/, PNG 300 dpi + EPS):
+# Outputs (graphs/maps/, PNG 300 dpi + SVG):
 #   mapa_alimentos_{urbano,rural,combined}
 #   mapa_vivienda_{urbano,rural,combined}
 #   mapa_nanv_{urbano,rural,combined}
 #   mapa_wage_{urbano,rural,combined}
 #
 # Notas: paso 5 del pipeline (1 -> 2 -> 3 -> 4 -> maps); requiere salario_digno.csv.
-#   Sigue el patrón de 000_representatividad.R (tema_mapa() + geom_sf + PNG/EPS). Las
+#   Sigue el patrón de 000_representatividad.R (tema_mapa() + geom_sf + PNG/SVG). Las
 #   filas "Nacional" no tienen geometría y se descartan solas en el join. Los cortes
 #   de cada rubro son fijos (categorías de monto), no se recalculan con los datos.
 #_______________________________________________________________________________
@@ -38,7 +38,7 @@ pacman::p_load(
   rnaturalearthhires
 )
 
-source("scripts/theme_conasami.R")
+source("scripts/theme_conasami_dt2026.R")
 
 dir.create("graphs/maps", showWarnings = FALSE, recursive = TRUE)
 
@@ -64,26 +64,32 @@ sf_rural  <- mexico |> left_join(filter(living_wage, ambito == "Rural"),  by = c
 
 # ── estética común ─────────────────────────────────────────────────────────────
 
-# Rampa de 5 niveles tipo semáforo (verde = montos bajos -> rojo/guinda = montos altos),
-# armonizada con la paleta institucional DT 2026. Punto medio luminoso (amarillo) para
-# distinguir bien las cinco bandas, incluso las vacías retenidas por drop = FALSE.
-rampa <- c("#2E7D5B", "#9CCB6A", "#F4D35E", "#E08A3C", "#B23A48")
+# Rampa de 5 niveles (verde montos bajos -> guinda profundo montos altos), paleta
+# histórica del proyecto. Las cinco bandas se retienen siempre, incluidas las vacías
+# (drop = FALSE), para que la leyenda salga completa aunque un ámbito no use algún nivel.
+rampa <- c("#A7E3A0", "#BFD39D", "#D6A79F", "#A84C5D", "#621132")
 
-# Tema base para mapas: hereda fuente y leyenda de theme_conasami() y elimina los
-# elementos cartesianos (ejes, grid, borde) impropios de un mapa.
+# Tema base para mapas (patrón guía DT 2026 §7.6): theme_void con fuente Noto Sans;
+# no lleva rejilla cartesiana. El título de panel (Urbano/Rural) es un identificador
+# estructural: se conserva restilizado como strip.text (Noto Sans bold, guinda
+# profundo, centrado). La leyenda se reposiciona por panel en panel_mapa().
 tema_mapa <- function() {
-  theme_conasami() +
+  theme_void(base_family = "Noto Sans") +
     theme(
-      axis.line        = element_blank(),
-      axis.ticks       = element_blank(),
-      axis.text        = element_blank(),
-      axis.title       = element_blank(),
-      panel.border     = element_blank(),
-      panel.grid       = element_blank(),
+      text             = element_text(color = conasami_neutros[["tinta"]]),
+      plot.background  = element_rect(fill = "transparent", color = NA),
       panel.background = element_rect(fill = "transparent", color = NA),
-      legend.position  = "right",
-      legend.key.size  = unit(0.4, "cm"),
-      plot.title       = element_text(size = 14, face = "bold", hjust = 0.5)
+      legend.position     = "right",
+      legend.key.height    = unit(0, "cm"),
+      legend.key.width     = unit(0.5, "cm"),
+      legend.key.spacing.y = unit(0, "cm"),
+      legend.title         = element_blank(),
+      legend.text          = element_text(family = "Noto Sans", size = 8,
+                                           color = conasami_neutros[["tinta"]]),
+      plot.title       = element_blank(),
+      # Sin margen exterior: el mapa aprovecha todo el lienzo (queda banda blanca
+      # vertical residual por la proporción ~1.5:1 de México en lienzo cuadrado).
+      plot.margin      = margin(0, 0, 0, 0)
     )
 }
 
@@ -96,20 +102,35 @@ clasificar <- function(x, breaks, labels) {
 }
 
 # Panel de un ámbito para un rubro ya clasificado en la columna `categoria`.
+# La leyenda se construye desde una capa invisible (geom_point) que contiene las
+# cinco bandas: geom_sf deja en blanco la casilla de las bandas sin ninguna entidad
+# (drop = FALSE conserva la etiqueta pero no rellena la llave), así que se apaga su
+# leyenda (show.legend = FALSE) y la capa auxiliar aporta las cinco casillas con su
+# color. El punto va en tamaño 0 dentro del mapa (invisible) y solo alimenta la leyenda.
 panel_mapa <- function(datos_sf, titulo, leyenda = TRUE) {
+  bandas <- data.frame(
+    categoria = factor(levels(datos_sf$categoria),
+                       levels = levels(datos_sf$categoria))
+  )
   ggplot(datos_sf) +
-    geom_sf(aes(fill = categoria), color = "grey40", linewidth = 0.2) +
+    geom_sf(aes(fill = categoria), color = "grey40", linewidth = 0.2,
+            show.legend = FALSE) +
+    geom_point(data = bandas, aes(fill = categoria),
+               x = -102, y = 23, shape = 22, size = 0, stroke = 0,
+               inherit.aes = FALSE) +
     scale_fill_manual(values = rampa, drop = FALSE,
                       na.value = "#F0F0F0", na.translate = FALSE) +
-    coord_sf(datum = NA) +
+    guides(fill = guide_legend(override.aes = list(shape = 22, size = 4,
+                                                   stroke = 0.2, color = "grey40"))) +
+    coord_sf(datum = NA, expand = FALSE) +
     labs(title = titulo, fill = "") +
     tema_mapa() +
     theme(legend.position = if (leyenda) c(0.2, 0.2) else "none")
 }
 
 # Mapa de un rubro: clasifica, arma urbano + rural + combinado y exporta PNG (300
-# dpi) y EPS de cada uno con los nombres de archivo históricos.
-mapa_rubro <- function(col, breaks, labels, archivo, width = 10, height = 5) {
+# dpi) + SVG de cada uno con los nombres de archivo históricos (DT 2026).
+mapa_rubro <- function(col, breaks, labels, archivo) {
   u <- sf_urbano |> mutate(categoria = clasificar(.data[[col]], breaks, labels))
   r <- sf_rural  |> mutate(categoria = clasificar(.data[[col]], breaks, labels))
 
@@ -117,16 +138,13 @@ mapa_rubro <- function(col, breaks, labels, archivo, width = 10, height = 5) {
   p_rural  <- panel_mapa(r, "Rural",  leyenda = FALSE)
   combinado <- p_urbano + p_rural + plot_layout(ncol = 2)
 
-  guardar <- function(plot, sufijo, w, h) {
-    ggsave(file.path("graphs/maps", paste0(archivo, "_", sufijo, ".png")),
-           plot, width = w, height = h, dpi = 300)
-    ggsave(file.path("graphs/maps", paste0(archivo, "_", sufijo, ".eps")),
-           plot, width = w, height = h, device = cairo_ps)
-  }
-
-  guardar(p_urbano,  "urbano",   width / 2, height)
-  guardar(p_rural,   "rural",    width / 2, height)
-  guardar(combinado, "combined", width,     height)
+  guardar_grafica_conasami(p_urbano,  paste0(archivo, "_urbano"),
+                           tamano = "medio", dir = "graphs/maps")
+  guardar_grafica_conasami(p_rural,   paste0(archivo, "_rural"),
+                           tamano = "medio", dir = "graphs/maps")
+  guardar_grafica_conasami(combinado, paste0(archivo, "_combined"),
+                           tamano = "libre", width = 17.5, height = 9,
+                           dir = "graphs/maps")
 
   invisible(combinado)
 }
@@ -144,4 +162,4 @@ rubros <- tribble(
 
 pwalk(rubros, mapa_rubro)
 
-message("maps.R: listo. Mapas por rubro en graphs/maps (urbano, rural y combinado; PNG + EPS).")
+message("maps.R: listo. Mapas por rubro en graphs/maps (urbano, rural y combinado; PNG + SVG).")
