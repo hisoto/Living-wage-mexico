@@ -234,6 +234,9 @@ fwrite(comparacion, "finaldata/alimentos/10.comparacion_indicadores.csv")
 # ── gráficas (DT 2026): Conasami en guinda, INEGI en gris ────────────────────────
 
 colores <- c("CONASAMI" = guinda, "INEGI" = gris)
+# etiquetas de leyenda: la Conasami se muestra en altas y bajas (el valor
+# interno "CONASAMI" se conserva para los CSV que consume el documento)
+etiquetas_fuente <- c("CONASAMI" = "Conasami", "INEGI" = "INEGI")
 
 # panel facetado por dimensión
 g_panel <- comparacion |>
@@ -241,7 +244,7 @@ g_panel <- comparacion |>
   geom_line() +
   geom_point(size = 0.8) +
   facet_wrap(~ dimension) +
-  scale_color_manual(values = colores) +
+  scale_color_manual(values = colores, labels = etiquetas_fuente) +
   labs(color = "") +
   theme_conasami() +
   theme(strip.text = element_blank())
@@ -262,7 +265,7 @@ walk2(names(archivos_ind), archivos_ind, function(dim, archivo) {
     ggplot(aes(x = percentil_nacional, y = pct_hogares * 100, color = fuente)) +
     geom_line() +
     geom_point(size = 0.9) +
-    scale_color_manual(values = colores) +
+    scale_color_manual(values = colores, labels = etiquetas_fuente) +
     labs(color = "") +
     theme_conasami()
   guardar_grafica(g, archivo, tamano = "medio")

@@ -251,13 +251,13 @@
 <text x='118.63' y='181.67' text-anchor='middle' style='font-size: 8.00px;fill: #6B6863; font-family: "Noto Sans"; font-feature-settings: "tnum" 1;' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>50</text>
 <text x='162.39' y='181.67' text-anchor='middle' style='font-size: 8.00px;fill: #6B6863; font-family: "Noto Sans"; font-feature-settings: "tnum" 1;' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>75</text>
 <text x='206.15' y='181.67' text-anchor='middle' style='font-size: 8.00px;fill: #6B6863; font-family: "Noto Sans"; font-feature-settings: "tnum" 1;' textLength='13.73px' lengthAdjust='spacingAndGlyphs'>100</text>
-<rect x='51.53' y='193.55' width='135.95' height='27.24' style='stroke-width: 0.97; stroke: none;' />
-<line x1='63.22' y1='207.17' x2='77.05' y2='207.17' style='stroke-width: 0.97; stroke: #9B2247; stroke-linecap: butt;' />
-<circle cx='70.13' cy='207.17' r='1.28' style='stroke-width: 0.64; stroke: #9B2247; fill: #9B2247;' />
-<line x1='137.48' y1='207.17' x2='151.30' y2='207.17' style='stroke-width: 0.97; stroke: #98989A; stroke-linecap: butt;' />
-<circle cx='144.39' cy='207.17' r='1.28' style='stroke-width: 0.64; stroke: #98989A; fill: #98989A;' />
-<text x='83.76' y='210.39' style='font-size: 9.00px;fill: #161A1D; font-family: "Noto Sans";' textLength='47.02px' lengthAdjust='spacingAndGlyphs'>CONASAMI</text>
-<text x='158.01' y='210.39' style='font-size: 9.00px;fill: #161A1D; font-family: "Noto Sans";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>INEGI</text>
+<rect x='54.12' y='193.55' width='130.78' height='27.24' style='stroke-width: 0.97; stroke: none;' />
+<line x1='65.81' y1='207.17' x2='79.63' y2='207.17' style='stroke-width: 0.97; stroke: #9B2247; stroke-linecap: butt;' />
+<circle cx='72.72' cy='207.17' r='1.28' style='stroke-width: 0.64; stroke: #9B2247; fill: #9B2247;' />
+<line x1='134.89' y1='207.17' x2='148.72' y2='207.17' style='stroke-width: 0.97; stroke: #98989A; stroke-linecap: butt;' />
+<circle cx='141.81' cy='207.17' r='1.28' style='stroke-width: 0.64; stroke: #98989A; fill: #98989A;' />
+<text x='86.34' y='210.39' style='font-size: 9.00px;fill: #161A1D; font-family: "Noto Sans";' textLength='41.84px' lengthAdjust='spacingAndGlyphs'>Conasami</text>
+<text x='155.43' y='210.39' style='font-size: 9.00px;fill: #161A1D; font-family: "Noto Sans";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>INEGI</text>
 </g>
 </g>
 </svg>
