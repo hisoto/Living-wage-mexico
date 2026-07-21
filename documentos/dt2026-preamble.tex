@@ -1,0 +1,82 @@
+% ─────────────────────────────────────────────────────────────────────────────
+% Preámbulo LaTeX — Manual de estilo gráfico y editorial de la Dirección Técnica
+% (DT 2026, v1.0). Aplica el formato del manual a la salida PDF de la versión
+% extendida. Solo formato (tipografía, color, hoja); no toca la redacción.
+% ─────────────────────────────────────────────────────────────────────────────
+
+% ── Paquetes heredados del YAML (no eliminar: los anexos usan landscape) ──────
+\usepackage{microtype}
+\usepackage{etoolbox}
+\usepackage{pdflscape}
+\apptocmd{\maketitle}{\newpage}{}{}
+
+% ── Paleta institucional (Manual §1.2) ───────────────────────────────────────
+\usepackage{xcolor}
+\definecolor{tinta}{HTML}{161A1D}      % texto principal y títulos H1/H2
+\definecolor{textosec}{HTML}{6B6863}   % texto secundario, notas al pie
+\definecolor{gris}{HTML}{98989A}       % gris / marcadores neutros
+\definecolor{regla}{HTML}{D8D3C7}      % reglas finas, bordes de tabla
+\definecolor{reglasuave}{HTML}{ECE8DE} % rejilla, separación de filas
+\definecolor{papel}{HTML}{FBFAF7}      % papel cálido, cajas de cita
+\definecolor{guinda}{HTML}{9B2247}     % guinda institucional (H4)
+\definecolor{guindaprof}{HTML}{611232} % guinda profundo
+\definecolor{verde}{HTML}{1E5B4F}      % verde institucional
+\definecolor{verdeprof}{HTML}{002F2A}  % verde profundo
+\definecolor{dorado}{HTML}{A57F2C}     % dorado (H3)
+\definecolor{arena}{HTML}{E6D194}      % arena
+
+% Color del texto corrido (Normal, Manual §5.1)
+\color{tinta}
+
+% ── Jerarquía de títulos (Manual §4) ─────────────────────────────────────────
+% H1 20 pt tinta · H2 12 pt tinta · H3 11 pt dorado · H4 9 pt guinda. Todos en
+% negrita (toma Noto Sans Bold de mainfont). La negrita la aplican los estilos,
+% no se escribe a mano (Manual §9.4).
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\bfseries\color{tinta}\fontsize{20}{24}\selectfont}
+  {\thesection}{0.6em}{}
+\titleformat{\subsection}
+  {\bfseries\color{tinta}\fontsize{12}{14}\selectfont}
+  {\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\bfseries\color{dorado}\fontsize{11}{14}\selectfont}
+  {\thesubsubsection}{0.6em}{}
+\titleformat{\paragraph}[runin]
+  {\bfseries\color{guinda}\fontsize{9}{12}\selectfont}
+  {\theparagraph}{0.6em}{}
+
+% Espaciado vertical razonable alrededor de los títulos
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{5pt}
+\titlespacing*{\paragraph}{0pt}{10pt}{0.6em}
+
+% ── Notas al pie (Manual §5.3): 8 pt, texto secundario ───────────────────────
+% Se redefine solo el texto de la nota para no teñir el \footnotesize que usan
+% los anexos en landscape.
+\makeatletter
+\renewcommand\@makefntext[1]{%
+  \parindent 1em\noindent
+  \hb@xt@1.8em{\hss\@makefnmark}%
+  {\fontsize{8}{13.8}\selectfont\color{textosec}#1}}
+\makeatother
+
+% ── Tablas: toque de paleta (tipográfico + paleta) ───────────────────────────
+% Reglas de tabla en color regla #D8D3C7 (compatible con booktabs de kable).
+\usepackage{colortbl}
+\arrayrulecolor{regla}
+
+% ── Citas (Manual §1.2): fondo papel cálido + filete izquierdo guinda ────────
+\usepackage{mdframed}
+\renewenvironment{quote}
+  {\begin{mdframed}[
+     backgroundcolor=papel,
+     linecolor=guinda,
+     linewidth=2pt,
+     topline=false, bottomline=false, rightline=false,
+     innerleftmargin=12pt, innerrightmargin=12pt,
+     innertopmargin=8pt, innerbottommargin=8pt,
+     skipabove=8pt, skipbelow=8pt]}
+  {\end{mdframed}}

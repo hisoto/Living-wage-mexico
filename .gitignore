@@ -5,7 +5,14 @@ presentaciones/
 CLAUDE.md
 .claude/ 
 .vscode/
-documentos/
+
+# documentos/: se versionan solo el fuente Quarto, la version Word canonica
+# (revDT3, convertida a Markdown) y el preambulo que necesita el render a PDF.
+# Todo lo demas (docx, pdf, html, _files/, manuales) queda fuera.
+documentos/*
+!documentos/Salario Digno - versión extendida.qmd
+!documentos/El salario digno de México y sus entidades_revDT3.md
+!documentos/dt2026-preamble.tex
 
 # Canasta de vivienda en R (en desarrollo, aún no versionada)
 scripts/2.canasta_vivienda.R
