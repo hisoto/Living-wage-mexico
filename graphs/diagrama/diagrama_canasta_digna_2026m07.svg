@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="17.5cm" height="4.8cm" viewBox="0 0 1750 480" font-family="Noto Sans, sans-serif">
+  <title>Proceso de estimación del Salario Digno — Canasta Digna Conasami</title>
+  <desc>Cuatro etapas: Canasta Alimentaria, Canasta de Vivienda, Canasta NANV y Salario Digno.</desc>
+
+  <!-- ── recursos (identidad DT 2026): sombra + tipografía embebida ────────── -->
+  <defs id="assets">
+    <!-- Tipografía Noto Sans referida por nombre (instalada en equipos CAEL). El marcador
+         siguiente es el punto de inyección de @font-face base64 al exportar el PNG con
+         scripts/000_diagrama_proceso.R, para que el raster sea idéntico en cualquier equipo. -->
+    <!--FONT-FACE-->
+    <filter id="cardShadow" x="-15%" y="-25%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#161A1D" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- ── conectores (chevrons entre etapas) ────────────────────────────────── -->
+  <g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M422 99 L437 112 L422 125" stroke="#A57F2C"/>
+    <path d="M868 99 L883 112 L868 125" stroke="#9B2247"/>
+    <path d="M1314 99 L1329 112 L1314 125" stroke="#611232"/>
+  </g>
+
+  <!-- ══════════════ ETAPA 01 · Canasta Alimentaria (verde) ═══════════════════ -->
+  <g>
+    <rect x="20" y="24" width="372" height="432" rx="20" ry="20" fill="#FFFFFF" stroke="#1E5B4F" stroke-opacity="0.22" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <text x="44" y="78" font-size="40" font-weight="700" fill="#1E5B4F" fill-opacity="0.12" style="font-variant-numeric:tabular-nums">01</text>
+    <circle cx="206" cy="112" r="46" fill="#1E5B4F"/>
+    <!-- icono: plato con cubiertos -->
+    <g stroke="#FFFFFF" fill="none" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="206" cy="112" r="18"/>
+      <circle cx="206" cy="112" r="10" stroke-width="2.4"/>
+      <path d="M176 98 L176 130"/>
+      <path d="M172 96 L172 106 M176 96 L176 106 M180 96 L180 106"/>
+      <path d="M236 96 L236 130"/>
+      <path d="M236 96 Q242 105 236 116"/>
+    </g>
+    <text x="206" y="202" text-anchor="middle" font-size="26" font-weight="700" fill="#1E5B4F">Canasta Alimentaria</text>
+    <line x1="179" y1="216" x2="233" y2="216" stroke="#1E5B4F" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="50" cy="256" r="4.5" fill="#1E5B4F"/>
+    <text x="66" y="262" font-size="19" fill="#161A1D">Identificar un estrato<tspan x="66" dy="28">poblacional de referencia.</tspan></text>
+    <circle cx="50" cy="354" r="4.5" fill="#1E5B4F"/>
+    <text x="66" y="360" font-size="19" fill="#161A1D">Estimar el gasto en una<tspan x="66" dy="28">canasta representativa del</tspan><tspan x="66" dy="28">estrato.</tspan></text>
+  </g>
+
+  <!-- ══════════════ ETAPA 02 · Canasta de Vivienda (dorado) ══════════════════ -->
+  <g>
+    <rect x="466" y="24" width="372" height="432" rx="20" ry="20" fill="#FFFFFF" stroke="#A57F2C" stroke-opacity="0.22" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <text x="490" y="78" font-size="40" font-weight="700" fill="#A57F2C" fill-opacity="0.12" style="font-variant-numeric:tabular-nums">02</text>
+    <circle cx="652" cy="112" r="46" fill="#A57F2C"/>
+    <!-- icono: casa -->
+    <g stroke="#FFFFFF" fill="none" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M624 124 L652 100 L680 124"/>
+      <path d="M632 122 L632 136 L672 136 L672 122"/>
+      <path d="M646 136 L646 125 L658 125 L658 136"/>
+    </g>
+    <text x="652" y="202" text-anchor="middle" font-size="26" font-weight="700" fill="#A57F2C">Canasta de Vivienda</text>
+    <line x1="625" y1="216" x2="679" y2="216" stroke="#A57F2C" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="496" cy="256" r="4.5" fill="#A57F2C"/>
+    <text x="512" y="262" font-size="19" fill="#161A1D">Identificar un percentil<tspan x="512" dy="28">adecuado de la distribución</tspan><tspan x="512" dy="28">del gasto.</tspan></text>
+    <circle cx="496" cy="354" r="4.5" fill="#A57F2C"/>
+    <text x="512" y="360" font-size="19" fill="#161A1D">Estimar el gasto en una<tspan x="512" dy="28">vivienda digna con</tspan><tspan x="512" dy="28">regresión cuantílica.</tspan></text>
+  </g>
+
+  <!-- ══════════════ ETAPA 03 · Canasta NANV (guinda) ═════════════════════════ -->
+  <g>
+    <rect x="912" y="24" width="372" height="432" rx="20" ry="20" fill="#FFFFFF" stroke="#9B2247" stroke-opacity="0.22" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <text x="936" y="78" font-size="40" font-weight="700" fill="#9B2247" fill-opacity="0.12" style="font-variant-numeric:tabular-nums">03</text>
+    <circle cx="1098" cy="112" r="46" fill="#9B2247"/>
+    <!-- icono: trío salud (+) / educación (libro) / transporte (autobús) -->
+    <g>
+      <!-- salud: cruz, arriba al centro -->
+      <rect x="1093.5" y="80" width="9" height="21" rx="2.5" fill="#FFFFFF"/>
+      <rect x="1087" y="86" width="22" height="9" rx="2.5" fill="#FFFFFF"/>
+      <!-- educación: libro abierto, abajo izquierda -->
+      <path d="M1081 116 C1077 113.5 1072 113.5 1069 115 L1069 126 C1072 124.5 1077 124.5 1081 127 C1085 124.5 1090 124.5 1093 126 L1093 115 C1090 113.5 1085 113.5 1081 116 Z" fill="#FFFFFF"/>
+      <path d="M1081 116 L1081 127" stroke="#9B2247" stroke-width="1.4"/>
+      <!-- transporte: autobús, abajo derecha -->
+      <rect x="1104" y="114" width="23" height="12" rx="3" fill="#FFFFFF"/>
+      <rect x="1107" y="116.5" width="5.5" height="4" fill="#9B2247"/>
+      <rect x="1117.5" y="116.5" width="5.5" height="4" fill="#9B2247"/>
+      <circle cx="1110" cy="127" r="2.3" fill="#FFFFFF"/>
+      <circle cx="1121" cy="127" r="2.3" fill="#FFFFFF"/>
+    </g>
+    <text x="1098" y="196" text-anchor="middle" font-size="26" font-weight="700" fill="#9B2247">Canasta NANV</text>
+    <text x="1098" y="220" text-anchor="middle" font-size="14.5" font-style="italic" fill="#6B6863">No Alimentos, No Vivienda</text>
+    <line x1="1071" y1="236" x2="1125" y2="236" stroke="#9B2247" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="942" cy="256" r="4.5" fill="#9B2247"/>
+    <text x="958" y="262" font-size="19" fill="#161A1D">Modelar la relación entre<tspan x="958" dy="28">el gasto en vivienda y el</tspan><tspan x="958" dy="28">gasto corriente.</tspan></text>
+    <circle cx="942" cy="354" r="4.5" fill="#9B2247"/>
+    <text x="958" y="360" font-size="19" fill="#161A1D">Identificar el nivel de gasto<tspan x="958" dy="28">que corresponde a la</tspan><tspan x="958" dy="28">Canasta de Vivienda.</tspan></text>
+  </g>
+
+  <!-- ══════════════ ETAPA 04 · Salario Digno (guinda profundo) ═══════════════ -->
+  <g>
+    <rect x="1358" y="24" width="372" height="432" rx="20" ry="20" fill="#FFFFFF" stroke="#611232" stroke-opacity="0.22" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <text x="1382" y="78" font-size="40" font-weight="700" fill="#611232" fill-opacity="0.12" style="font-variant-numeric:tabular-nums">04</text>
+    <circle cx="1544" cy="112" r="46" fill="#611232"/>
+    <!-- icono: familia (2 adultos + 2 niños), figuras tipo cápsula -->
+    <g fill="#FFFFFF">
+      <circle cx="1526" cy="95" r="6"/>
+      <rect x="1520" y="103" width="12" height="26" rx="6"/>
+      <circle cx="1541" cy="95" r="6"/>
+      <rect x="1535" y="103" width="12" height="26" rx="6"/>
+      <circle cx="1556" cy="103" r="4.5"/>
+      <rect x="1551" y="110" width="10" height="19" rx="5"/>
+      <circle cx="1568" cy="105" r="4"/>
+      <rect x="1563.5" y="112" width="9" height="17" rx="4.5"/>
+    </g>
+    <text x="1544" y="202" text-anchor="middle" font-size="26" font-weight="700" fill="#611232">Salario Digno</text>
+    <line x1="1517" y1="216" x2="1571" y2="216" stroke="#611232" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1388" cy="256" r="4.5" fill="#611232"/>
+    <text x="1404" y="262" font-size="19" fill="#161A1D">Sumar las tres canastas<tspan x="1404" dy="28">para un hogar de cuatro</tspan><tspan x="1404" dy="28">integrantes.</tspan></text>
+    <circle cx="1388" cy="354" r="4.5" fill="#611232"/>
+    <text x="1404" y="360" font-size="19" fill="#161A1D">Dividir entre las personas<tspan x="1404" dy="28">trabajadoras y agregar</tspan><tspan x="1404" dy="28">los impuestos.</tspan></text>
+  </g>
+</svg>
